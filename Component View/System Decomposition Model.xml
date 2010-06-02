@@ -12,6 +12,7 @@
 				<UML:Class name="EARootClass" xmi.id="EAID_11111111_5487_4080_A7F4_41526CB0AA00" isRoot="true" isLeaf="false" isAbstract="false"/>
 				<UML:Package name="System Decomposition Model" xmi.id="EAPK_4228AAB1_3545_41cd_920B_D02BBCADD67F" isRoot="false" isLeaf="false" isAbstract="false" visibility="public">
 					<UML:ModelElement.taggedValue>
+						<UML:TaggedValue tag="documentation" value="&lt;b&gt;Purpose&lt;/b&gt;: Describe how the system is divided into different subsystems or components, and how these are related to form a coherent whole.&#xA;&#xA;&lt;b&gt;Input&lt;/b&gt;: Requirements view&#xA;&#xA;&lt;b&gt;Output&lt;/b&gt;: UML class diagram&#xA;&#xA;The system decomposition model describes how the target system is divided into different subsystems or components, and how these are related to form a coherent whole. This includes how subsystems or components in the target system relate to subsystems or components in other systems. A modularised description of the system facilitates reuse of well-defined components and identifies points of integration with other systems. &#xA;&#xA;Decomposition of the system will usually be applied hierarchically, with the initial diagram showing an overview of the whole system. Further decomposition of subsystems is performed when this is seen as part of the architecture, while decomposition of more fine grained components are typically considered as detailed design and not handled in the AD. In cases where a subsystem is particularly large, complex, or independent on the rest of the system, an alternative is to create a separate, complete AD for the subsystem.&#xA;&#xA;As part of the decomposition model, the components are also related to their tier in the reference architecture. &#xA;&#xA;Decomposition models can be created for all of the tiers in the reference model, but usually at least the business service and user service tiers are described in this model."/>
 						<UML:TaggedValue tag="parent" value="EAPK_CC4909B3_7E3D_4601_BEC7_17357AA786DD"/>
 						<UML:TaggedValue tag="created" value="2010-06-02 15:44:31"/>
 						<UML:TaggedValue tag="modified" value="2010-06-02 15:44:31"/>
@@ -23,7 +24,8 @@
 						<UML:TaggedValue tag="owner" value="BabakF"/>
 						<UML:TaggedValue tag="xmiver" value="Enterprise Architect XMI/UML 1.3"/>
 						<UML:TaggedValue tag="logxml" value="FALSE"/>
-						<UML:TaggedValue tag="packageFlags" value="Recurse=0;VCCFG=uAAL;CheckedOutTo=bfars;CRC=0;"/>
+						<UML:TaggedValue tag="tpos" value="2"/>
+						<UML:TaggedValue tag="packageFlags" value="Recurse=0;VCCFG=uAAL;CRC=0;"/>
 						<UML:TaggedValue tag="batchsave" value="0"/>
 						<UML:TaggedValue tag="batchload" value="0"/>
 						<UML:TaggedValue tag="phase" value="1.0"/>
@@ -31,7 +33,7 @@
 						<UML:TaggedValue tag="author" value="BabakF"/>
 						<UML:TaggedValue tag="complexity" value="1"/>
 						<UML:TaggedValue tag="ea_stype" value="Public"/>
-						<UML:TaggedValue tag="tpos" value="0"/>
+						<UML:TaggedValue tag="tpos" value="2"/>
 						<UML:TaggedValue tag="gentype" value="Java"/>
 					</UML:ModelElement.taggedValue>
 					<UML:Namespace.ownedElement/>
