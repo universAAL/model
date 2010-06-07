@@ -1,0 +1,299 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<XMI xmi.version="1.1" xmlns:UML="omg.org/UML1.3">
+	<XMI.header>
+		<XMI.documentation>
+			<XMI.exporter>Enterprise Architect</XMI.exporter>
+			<XMI.exporterVersion>2.5</XMI.exporterVersion>
+		</XMI.documentation>
+	</XMI.header>
+	<XMI.content>
+		<UML:Model name="EA Model" xmi.id="MX_EAID_A465B947_E25B_42b2_9FAA_F9D33B7597FC">
+			<UML:Namespace.ownedElement>
+				<UML:Class name="EARootClass" xmi.id="EAID_11111111_5487_4080_A7F4_41526CB0AA00" isRoot="true" isLeaf="false" isAbstract="false"/>
+				<UML:Package name="Functionality &amp; data in target system components" xmi.id="EAPK_A465B947_E25B_42b2_9FAA_F9D33B7597FC" isRoot="false" isLeaf="false" isAbstract="false" visibility="public">
+					<UML:ModelElement.taggedValue>
+						<UML:TaggedValue tag="parent" value="EAPK_321189CE_156D_4953_B7C7_F97B79F3DE20"/>
+						<UML:TaggedValue tag="created" value="2010-06-07 14:04:12"/>
+						<UML:TaggedValue tag="modified" value="2010-06-07 14:04:12"/>
+						<UML:TaggedValue tag="iscontrolled" value="TRUE"/>
+						<UML:TaggedValue tag="xmlpath" value="eaF\F9D33B7597FC.xml"/>
+						<UML:TaggedValue tag="version" value="1.0"/>
+						<UML:TaggedValue tag="isprotected" value="FALSE"/>
+						<UML:TaggedValue tag="usedtd" value="FALSE"/>
+						<UML:TaggedValue tag="logxml" value="FALSE"/>
+						<UML:TaggedValue tag="packageFlags" value="VCCFG=uAAL;CRC=0;"/>
+						<UML:TaggedValue tag="phase" value="1.0"/>
+						<UML:TaggedValue tag="status" value="Proposed"/>
+						<UML:TaggedValue tag="author" value="Requirement Taskforce"/>
+						<UML:TaggedValue tag="alias" value="R4.2.3"/>
+						<UML:TaggedValue tag="complexity" value="1"/>
+						<UML:TaggedValue tag="ea_stype" value="Public"/>
+						<UML:TaggedValue tag="tpos" value="0"/>
+						<UML:TaggedValue tag="gentype" value="Java"/>
+					</UML:ModelElement.taggedValue>
+					<UML:Namespace.ownedElement>
+						<UML:Collaboration xmi.id="EAID_A465B947_E25B_42b2_9FAA_F9D33B7597FC_Collaboration" name="Collaborations">
+							<UML:Namespace.ownedElement>
+								<UML:ClassifierRole name="Context reasoning" xmi.id="EAID_1AA0BF72_4EC5_4cdf_B9BA_09602F05A522" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="documentation" value="&lt;b&gt;Description&lt;/b&gt;&#xA;provide a general framework for reasoning about context (estimating the state of some context elements by combining different known information and applying certain methods of aggregation, statistical analysis, and / or logical deduction)&#xA;&lt;b&gt;Measure to check&lt;/b&gt;&#xA;&#xA;&lt;b&gt;Rationale&lt;/b&gt;&#xA;If for certain needed contextual info there is no provider that can report about it (e.g., no sensor to measure if someone is just relaxing or is already asleep), then, special context providers may be needed as to derive such info using aggregations, statistical analysis, and / or logical rules, to name the most common methods. Such context providers are normally called context reasoners or interpreters. Context reasoning is the major use case for playing both of the provider and the consumer roles simultaneously.&#xA;&lt;b&gt;Reference&lt;/b&gt;&#xA;PERSONA_additional&#xA;&lt;b&gt;WP:&lt;/b&gt; 1,2&#xA;&lt;b&gt;Ranking:&lt;/b&gt; 4"/>
+										<UML:TaggedValue tag="isAbstract" value="false"/>
+										<UML:TaggedValue tag="isSpecification" value="false"/>
+										<UML:TaggedValue tag="ea_stype" value="Requirement"/>
+										<UML:TaggedValue tag="ea_ntype" value="0"/>
+										<UML:TaggedValue tag="version" value="1.0"/>
+										<UML:TaggedValue tag="package" value="EAPK_A465B947_E25B_42b2_9FAA_F9D33B7597FC"/>
+										<UML:TaggedValue tag="date_created" value="2010-06-07 14:04:13"/>
+										<UML:TaggedValue tag="date_modified" value="2010-06-07 14:04:13"/>
+										<UML:TaggedValue tag="gentype" value="&lt;none&gt;"/>
+										<UML:TaggedValue tag="tagged" value="0"/>
+										<UML:TaggedValue tag="package_name" value="Functionality &amp; data in target system components"/>
+										<UML:TaggedValue tag="phase" value="1.0"/>
+										<UML:TaggedValue tag="alias" value="R4.2.3.5"/>
+										<UML:TaggedValue tag="author" value="Requirement Taskforce"/>
+										<UML:TaggedValue tag="complexity" value="1"/>
+										<UML:TaggedValue tag="status" value="Proposed"/>
+										<UML:TaggedValue tag="tpos" value="0"/>
+										<UML:TaggedValue tag="keywords" value="WP1 WP2"/>
+										<UML:TaggedValue tag="ea_localid" value="1538"/>
+										<UML:TaggedValue tag="ea_eleType" value="element"/>
+										<UML:TaggedValue tag="difficulty" value="Medium"/>
+										<UML:TaggedValue tag="priority" value="High"/>
+										<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+									</UML:ModelElement.taggedValue>
+								</UML:ClassifierRole>
+								<UML:ClassifierRole name="Initialization mechanisms" xmi.id="EAID_47724B8D_824E_45a8_B18F_CF15E6F33782" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="documentation" value="&lt;b&gt;Description&lt;/b&gt;&#xA;provide mechanisms to reduce the overhead of initializing profiling data&#xA;&lt;b&gt;Measure to check&lt;/b&gt;&#xA;&#xA;&lt;b&gt;Rationale&lt;/b&gt;&#xA;experience shows that profiling data can get very complex very quickly; initializing this data manually is normally a cumbersom task that could lead to problems with use acceptance; different mechanisms can be applied, e.g., using default data based on streotyping methods in combination with machine-learning methods or simple incremental collection / correction of profile data so that each portion of profile data is manually collected / corrected the first it becomes necessary&#xA;&lt;b&gt;Reference&lt;/b&gt;&#xA;PERSONA_additional&#xA;&lt;b&gt;WP:&lt;/b&gt; 1,2,3&#xA;&lt;b&gt;Ranking:&lt;/b&gt; 4"/>
+										<UML:TaggedValue tag="isAbstract" value="false"/>
+										<UML:TaggedValue tag="isSpecification" value="false"/>
+										<UML:TaggedValue tag="ea_stype" value="Requirement"/>
+										<UML:TaggedValue tag="ea_ntype" value="0"/>
+										<UML:TaggedValue tag="version" value="1.0"/>
+										<UML:TaggedValue tag="package" value="EAPK_A465B947_E25B_42b2_9FAA_F9D33B7597FC"/>
+										<UML:TaggedValue tag="date_created" value="2010-06-07 14:04:13"/>
+										<UML:TaggedValue tag="date_modified" value="2010-06-07 14:04:13"/>
+										<UML:TaggedValue tag="gentype" value="&lt;none&gt;"/>
+										<UML:TaggedValue tag="tagged" value="0"/>
+										<UML:TaggedValue tag="package_name" value="Functionality &amp; data in target system components"/>
+										<UML:TaggedValue tag="phase" value="1.0"/>
+										<UML:TaggedValue tag="alias" value="R4.2.3.7"/>
+										<UML:TaggedValue tag="author" value="Requirement Taskforce"/>
+										<UML:TaggedValue tag="complexity" value="1"/>
+										<UML:TaggedValue tag="status" value="Proposed"/>
+										<UML:TaggedValue tag="tpos" value="0"/>
+										<UML:TaggedValue tag="keywords" value="WP1 WP2 WP3"/>
+										<UML:TaggedValue tag="ea_localid" value="1540"/>
+										<UML:TaggedValue tag="ea_eleType" value="element"/>
+										<UML:TaggedValue tag="difficulty" value="Medium"/>
+										<UML:TaggedValue tag="priority" value="High"/>
+										<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+									</UML:ModelElement.taggedValue>
+								</UML:ClassifierRole>
+								<UML:ClassifierRole name="Shared profile data in user context" xmi.id="EAID_5E9FF52E_C7D7_4450_AD16_352B918123FB" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="documentation" value="&lt;b&gt;Description&lt;/b&gt;&#xA;handle shared profile data as part of user context in order to facilitate more powerful reasoning based on both user capabilities / preferences and context data published by context providers&#xA;&lt;b&gt;Measure to check&lt;/b&gt;&#xA;&#xA;&lt;b&gt;Rationale&lt;/b&gt;&#xA;shared profile data, as opposed to application-specific profile data, is an important part of the user context and hence can be used in the course of context reasoning&#xA;&lt;b&gt;Reference&lt;/b&gt;&#xA;PERSONA_additional&#xA;&lt;b&gt;WP:&lt;/b&gt; 1,2&#xA;&lt;b&gt;Ranking:&lt;/b&gt; 3"/>
+										<UML:TaggedValue tag="isAbstract" value="false"/>
+										<UML:TaggedValue tag="isSpecification" value="false"/>
+										<UML:TaggedValue tag="ea_stype" value="Requirement"/>
+										<UML:TaggedValue tag="ea_ntype" value="0"/>
+										<UML:TaggedValue tag="version" value="1.0"/>
+										<UML:TaggedValue tag="package" value="EAPK_A465B947_E25B_42b2_9FAA_F9D33B7597FC"/>
+										<UML:TaggedValue tag="date_created" value="2010-06-07 14:04:13"/>
+										<UML:TaggedValue tag="date_modified" value="2010-06-07 14:04:13"/>
+										<UML:TaggedValue tag="gentype" value="&lt;none&gt;"/>
+										<UML:TaggedValue tag="tagged" value="0"/>
+										<UML:TaggedValue tag="package_name" value="Functionality &amp; data in target system components"/>
+										<UML:TaggedValue tag="phase" value="1.0"/>
+										<UML:TaggedValue tag="alias" value="R4.2.3.6"/>
+										<UML:TaggedValue tag="author" value="Requirement Taskforce"/>
+										<UML:TaggedValue tag="complexity" value="1"/>
+										<UML:TaggedValue tag="status" value="Proposed"/>
+										<UML:TaggedValue tag="tpos" value="0"/>
+										<UML:TaggedValue tag="keywords" value="WP1 WP2"/>
+										<UML:TaggedValue tag="ea_localid" value="1539"/>
+										<UML:TaggedValue tag="ea_eleType" value="element"/>
+										<UML:TaggedValue tag="difficulty" value="Medium"/>
+										<UML:TaggedValue tag="priority" value="Medium"/>
+										<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+									</UML:ModelElement.taggedValue>
+								</UML:ClassifierRole>
+								<UML:ClassifierRole name="Dialoc parametrization" xmi.id="EAID_6F5410F1_7F08_4581_9453_C85F70B50E85" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="documentation" value="&lt;b&gt;Description&lt;/b&gt;&#xA;The UI framework must instruct a selected component from the presentation layer how to present a dialog by passing an appropriate set of adaptation parameters to it { e.g., voice gender and volume level in case of selecting the voice-based presentation)&#xA;&lt;b&gt;Measure to check&lt;/b&gt;&#xA;&#xA;&lt;b&gt;Rationale&lt;/b&gt;&#xA;the share of the presentation layer in adaptation (content-related to be done by applications, device &amp; modality selection to be done by the UI framwork, and &quot;layout&quot;-related to be done be the presentation components)&#xA;&lt;b&gt;Reference&lt;/b&gt;&#xA;Analysis of the realization of the PERSONA use case in its internal report 3.1.2&#xA;&lt;b&gt;WP:&lt;/b&gt; 4,3,2,1&#xA;&lt;b&gt;Ranking:&lt;/b&gt; 4"/>
+										<UML:TaggedValue tag="isAbstract" value="false"/>
+										<UML:TaggedValue tag="isSpecification" value="false"/>
+										<UML:TaggedValue tag="ea_stype" value="Requirement"/>
+										<UML:TaggedValue tag="ea_ntype" value="0"/>
+										<UML:TaggedValue tag="version" value="1.0"/>
+										<UML:TaggedValue tag="package" value="EAPK_A465B947_E25B_42b2_9FAA_F9D33B7597FC"/>
+										<UML:TaggedValue tag="date_created" value="2010-06-07 14:04:13"/>
+										<UML:TaggedValue tag="date_modified" value="2010-06-07 14:04:13"/>
+										<UML:TaggedValue tag="gentype" value="&lt;none&gt;"/>
+										<UML:TaggedValue tag="tagged" value="0"/>
+										<UML:TaggedValue tag="package_name" value="Functionality &amp; data in target system components"/>
+										<UML:TaggedValue tag="phase" value="1.0"/>
+										<UML:TaggedValue tag="alias" value="R4.2.3.8"/>
+										<UML:TaggedValue tag="author" value="Requirement Taskforce"/>
+										<UML:TaggedValue tag="complexity" value="1"/>
+										<UML:TaggedValue tag="status" value="Proposed"/>
+										<UML:TaggedValue tag="tpos" value="0"/>
+										<UML:TaggedValue tag="keywords" value="WP4 WP3 WP2 WP1"/>
+										<UML:TaggedValue tag="ea_localid" value="1541"/>
+										<UML:TaggedValue tag="ea_eleType" value="element"/>
+										<UML:TaggedValue tag="difficulty" value="Medium"/>
+										<UML:TaggedValue tag="priority" value="High"/>
+										<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+									</UML:ModelElement.taggedValue>
+								</UML:ClassifierRole>
+								<UML:ClassifierRole name="Shared context data" xmi.id="EAID_84B70BFC_AA57_4733_9BB3_B6788786E7BA" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="documentation" value="&lt;b&gt;Description&lt;/b&gt;&#xA;A shared understanding of context data, a unique language for the exchange of such data, and a brokering mechanism are needed in order to reduce interdependencies at the development time&#xA;&lt;b&gt;Measure to check&lt;/b&gt;&#xA;&#xA;&lt;b&gt;Rationale&lt;/b&gt;&#xA;facilitate the extensibility of the framework and the free plug-and-play of both context providers and context consumers&#xA;&lt;b&gt;Reference&lt;/b&gt;&#xA;PERSONA_additional&#xA;&lt;b&gt;WP:&lt;/b&gt; 1,2&#xA;&lt;b&gt;Ranking:&lt;/b&gt; 5"/>
+										<UML:TaggedValue tag="isAbstract" value="false"/>
+										<UML:TaggedValue tag="isSpecification" value="false"/>
+										<UML:TaggedValue tag="ea_stype" value="Requirement"/>
+										<UML:TaggedValue tag="ea_ntype" value="0"/>
+										<UML:TaggedValue tag="version" value="1.0"/>
+										<UML:TaggedValue tag="package" value="EAPK_A465B947_E25B_42b2_9FAA_F9D33B7597FC"/>
+										<UML:TaggedValue tag="date_created" value="2010-06-07 14:04:12"/>
+										<UML:TaggedValue tag="date_modified" value="2010-06-07 14:04:12"/>
+										<UML:TaggedValue tag="gentype" value="&lt;none&gt;"/>
+										<UML:TaggedValue tag="tagged" value="0"/>
+										<UML:TaggedValue tag="package_name" value="Functionality &amp; data in target system components"/>
+										<UML:TaggedValue tag="phase" value="1.0"/>
+										<UML:TaggedValue tag="alias" value="R4.2.3.1"/>
+										<UML:TaggedValue tag="author" value="Requirement Taskforce"/>
+										<UML:TaggedValue tag="complexity" value="1"/>
+										<UML:TaggedValue tag="status" value="Proposed"/>
+										<UML:TaggedValue tag="tpos" value="0"/>
+										<UML:TaggedValue tag="keywords" value="WP1 WP2"/>
+										<UML:TaggedValue tag="ea_localid" value="1534"/>
+										<UML:TaggedValue tag="ea_eleType" value="element"/>
+										<UML:TaggedValue tag="difficulty" value="Medium"/>
+										<UML:TaggedValue tag="priority" value="High"/>
+										<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+									</UML:ModelElement.taggedValue>
+								</UML:ClassifierRole>
+								<UML:ClassifierRole name="Push mechanism for context management" xmi.id="EAID_A41B2EE3_4371_478a_814A_BFCFE687673D" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="documentation" value="&lt;b&gt;Description&lt;/b&gt;&#xA;Provide a push (asynchronous subscribe/publish) mechanism for notifying subscribed components about changes in the context as soon as changes interesting for them take place&#xA;&lt;b&gt;Measure to check&lt;/b&gt;&#xA;&#xA;&lt;b&gt;Rationale&lt;/b&gt;&#xA;prompt reactivity to certain changes in context that lead to certain situations of interest belongs to the basic principles of ambient intelligence as the enabling technology for AAL &#xA;&lt;b&gt;Reference&lt;/b&gt;&#xA;PERSONA_additional&#xA;&lt;b&gt;WP:&lt;/b&gt; 1,2&#xA;&lt;b&gt;Ranking:&lt;/b&gt; 5"/>
+										<UML:TaggedValue tag="isAbstract" value="false"/>
+										<UML:TaggedValue tag="isSpecification" value="false"/>
+										<UML:TaggedValue tag="ea_stype" value="Requirement"/>
+										<UML:TaggedValue tag="ea_ntype" value="0"/>
+										<UML:TaggedValue tag="version" value="1.0"/>
+										<UML:TaggedValue tag="package" value="EAPK_A465B947_E25B_42b2_9FAA_F9D33B7597FC"/>
+										<UML:TaggedValue tag="date_created" value="2010-06-07 14:04:13"/>
+										<UML:TaggedValue tag="date_modified" value="2010-06-07 14:04:13"/>
+										<UML:TaggedValue tag="gentype" value="&lt;none&gt;"/>
+										<UML:TaggedValue tag="tagged" value="0"/>
+										<UML:TaggedValue tag="package_name" value="Functionality &amp; data in target system components"/>
+										<UML:TaggedValue tag="phase" value="1.0"/>
+										<UML:TaggedValue tag="alias" value="R4.2.3.2"/>
+										<UML:TaggedValue tag="author" value="Requirement Taskforce"/>
+										<UML:TaggedValue tag="complexity" value="1"/>
+										<UML:TaggedValue tag="status" value="Proposed"/>
+										<UML:TaggedValue tag="tpos" value="0"/>
+										<UML:TaggedValue tag="keywords" value="WP1 WP2"/>
+										<UML:TaggedValue tag="ea_localid" value="1535"/>
+										<UML:TaggedValue tag="ea_eleType" value="element"/>
+										<UML:TaggedValue tag="difficulty" value="Medium"/>
+										<UML:TaggedValue tag="priority" value="High"/>
+										<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+									</UML:ModelElement.taggedValue>
+								</UML:ClassifierRole>
+								<UML:ClassifierRole name="Pull mechanism for context management" xmi.id="EAID_C8334542_645D_4fd2_A8F6_03BA950345E9" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="documentation" value="&lt;b&gt;Description&lt;/b&gt;&#xA;provide a pull (synchronous query) mechanism so that components can query the shared knowledge about context at any given time based on a certain query language&#xA;&lt;b&gt;Measure to check&lt;/b&gt;&#xA;&#xA;&lt;b&gt;Rationale&lt;/b&gt;&#xA;context consumers may need to access the shared knowledge about context only in certain situations, maybe not only to retrieve the most up-to-date but also historical data, maybe not targeting just one info item but a combination of them&#xA;&lt;b&gt;Reference&lt;/b&gt;&#xA;PERSONA_additional&#xA;&lt;b&gt;WP:&lt;/b&gt; 1,2&#xA;&lt;b&gt;Ranking:&lt;/b&gt; 5"/>
+										<UML:TaggedValue tag="isAbstract" value="false"/>
+										<UML:TaggedValue tag="isSpecification" value="false"/>
+										<UML:TaggedValue tag="ea_stype" value="Requirement"/>
+										<UML:TaggedValue tag="ea_ntype" value="0"/>
+										<UML:TaggedValue tag="version" value="1.0"/>
+										<UML:TaggedValue tag="package" value="EAPK_A465B947_E25B_42b2_9FAA_F9D33B7597FC"/>
+										<UML:TaggedValue tag="date_created" value="2010-06-07 14:04:13"/>
+										<UML:TaggedValue tag="date_modified" value="2010-06-07 14:04:13"/>
+										<UML:TaggedValue tag="gentype" value="&lt;none&gt;"/>
+										<UML:TaggedValue tag="tagged" value="0"/>
+										<UML:TaggedValue tag="package_name" value="Functionality &amp; data in target system components"/>
+										<UML:TaggedValue tag="phase" value="1.0"/>
+										<UML:TaggedValue tag="alias" value="R4.2.3.3"/>
+										<UML:TaggedValue tag="author" value="Requirement Taskforce"/>
+										<UML:TaggedValue tag="complexity" value="1"/>
+										<UML:TaggedValue tag="status" value="Proposed"/>
+										<UML:TaggedValue tag="tpos" value="0"/>
+										<UML:TaggedValue tag="keywords" value="WP1 WP2"/>
+										<UML:TaggedValue tag="ea_localid" value="1536"/>
+										<UML:TaggedValue tag="ea_eleType" value="element"/>
+										<UML:TaggedValue tag="difficulty" value="Medium"/>
+										<UML:TaggedValue tag="priority" value="High"/>
+										<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+									</UML:ModelElement.taggedValue>
+								</UML:ClassifierRole>
+								<UML:ClassifierRole name="Availability of context data" xmi.id="EAID_CADA3E93_918C_453b_A54C_6D02504283CF" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="documentation" value="&lt;b&gt;Description&lt;/b&gt;&#xA;guarantee the availability of contextual data independently from the abilities of their original providers to keep a history or answer queries&#xA;&lt;b&gt;Measure to check&lt;/b&gt;&#xA;&#xA;&lt;b&gt;Rationale&lt;/b&gt;&#xA;fill the gap caused by context publishers that provide no query interface and / or cannot maintain the whole history of data provided by them, this way guaranteeing the essential support to reasoners that perform statistical analysis and need context stored over time&#xA;&lt;b&gt;Reference&lt;/b&gt;&#xA;PERSONA_additional&#xA;&lt;b&gt;WP:&lt;/b&gt; 1,2&#xA;&lt;b&gt;Ranking:&lt;/b&gt; 5"/>
+										<UML:TaggedValue tag="isAbstract" value="false"/>
+										<UML:TaggedValue tag="isSpecification" value="false"/>
+										<UML:TaggedValue tag="ea_stype" value="Requirement"/>
+										<UML:TaggedValue tag="ea_ntype" value="0"/>
+										<UML:TaggedValue tag="version" value="1.0"/>
+										<UML:TaggedValue tag="package" value="EAPK_A465B947_E25B_42b2_9FAA_F9D33B7597FC"/>
+										<UML:TaggedValue tag="date_created" value="2010-06-07 14:04:13"/>
+										<UML:TaggedValue tag="date_modified" value="2010-06-07 14:04:13"/>
+										<UML:TaggedValue tag="gentype" value="&lt;none&gt;"/>
+										<UML:TaggedValue tag="tagged" value="0"/>
+										<UML:TaggedValue tag="package_name" value="Functionality &amp; data in target system components"/>
+										<UML:TaggedValue tag="phase" value="1.0"/>
+										<UML:TaggedValue tag="alias" value="R4.2.3.4"/>
+										<UML:TaggedValue tag="author" value="Requirement Taskforce"/>
+										<UML:TaggedValue tag="complexity" value="1"/>
+										<UML:TaggedValue tag="status" value="Proposed"/>
+										<UML:TaggedValue tag="tpos" value="0"/>
+										<UML:TaggedValue tag="keywords" value="WP1 WP2"/>
+										<UML:TaggedValue tag="ea_localid" value="1537"/>
+										<UML:TaggedValue tag="ea_eleType" value="element"/>
+										<UML:TaggedValue tag="difficulty" value="Medium"/>
+										<UML:TaggedValue tag="priority" value="High"/>
+										<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+									</UML:ModelElement.taggedValue>
+								</UML:ClassifierRole>
+								<UML:ClassifierRole name="Context awareness: easy access" xmi.id="EAID_DE995776_76A0_406e_BD20_553CC452D843" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="documentation" value="&lt;b&gt;Description&lt;/b&gt;&#xA;The UI framework must provide applications with facilities to easily access relevant context and personalization parameters that may affect the process of preparing the content&#xA;&lt;b&gt;Measure to check&lt;/b&gt;&#xA;&#xA;&lt;b&gt;Rationale&lt;/b&gt;&#xA;applications may consider such parameters in the process of preparing the content to be presented to the user. E.g., adaptive applications may choose the content language or prioritize (e.g., through context-aware sorting) or emphasize different portions of info differently&#xA;&lt;b&gt;Reference&lt;/b&gt;&#xA;Analysis of the realization of the PERSONA use case in its internal report 3.1.2&#xA;&lt;b&gt;WP:&lt;/b&gt; 4,3,2,1&#xA;&lt;b&gt;Ranking:&lt;/b&gt; 4"/>
+										<UML:TaggedValue tag="isAbstract" value="false"/>
+										<UML:TaggedValue tag="isSpecification" value="false"/>
+										<UML:TaggedValue tag="ea_stype" value="Requirement"/>
+										<UML:TaggedValue tag="ea_ntype" value="0"/>
+										<UML:TaggedValue tag="version" value="1.0"/>
+										<UML:TaggedValue tag="package" value="EAPK_A465B947_E25B_42b2_9FAA_F9D33B7597FC"/>
+										<UML:TaggedValue tag="date_created" value="2010-06-07 14:04:13"/>
+										<UML:TaggedValue tag="date_modified" value="2010-06-07 14:04:13"/>
+										<UML:TaggedValue tag="gentype" value="&lt;none&gt;"/>
+										<UML:TaggedValue tag="tagged" value="0"/>
+										<UML:TaggedValue tag="package_name" value="Functionality &amp; data in target system components"/>
+										<UML:TaggedValue tag="phase" value="1.0"/>
+										<UML:TaggedValue tag="alias" value="R4.2.3.9"/>
+										<UML:TaggedValue tag="author" value="Requirement Taskforce"/>
+										<UML:TaggedValue tag="complexity" value="1"/>
+										<UML:TaggedValue tag="status" value="Proposed"/>
+										<UML:TaggedValue tag="tpos" value="0"/>
+										<UML:TaggedValue tag="keywords" value="WP4 WP3 WP2 WP1"/>
+										<UML:TaggedValue tag="ea_localid" value="1542"/>
+										<UML:TaggedValue tag="ea_eleType" value="element"/>
+										<UML:TaggedValue tag="difficulty" value="Medium"/>
+										<UML:TaggedValue tag="priority" value="High"/>
+										<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+									</UML:ModelElement.taggedValue>
+								</UML:ClassifierRole>
+							</UML:Namespace.ownedElement>
+							<UML:Collaboration.interaction/>
+						</UML:Collaboration>
+					</UML:Namespace.ownedElement>
+				</UML:Package>
+			</UML:Namespace.ownedElement>
+		</UML:Model>
+	</XMI.content>
+	<XMI.difference/>
+	<XMI.extensions xmi.extender="Enterprise Architect 2.5"/>
+</XMI>
