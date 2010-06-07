@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<XMI xmi.version="1.1" xmlns:UML="omg.org/UML1.3">
+	<XMI.header>
+		<XMI.documentation>
+			<XMI.exporter>Enterprise Architect</XMI.exporter>
+			<XMI.exporterVersion>2.5</XMI.exporterVersion>
+		</XMI.documentation>
+	</XMI.header>
+	<XMI.content>
+		<UML:Model name="EA Model" xmi.id="MX_EAID_5E4EC097_FFC9_43b3_81B1_D8499DBBC1C0">
+			<UML:Namespace.ownedElement>
+				<UML:Class name="EARootClass" xmi.id="EAID_11111111_5487_4080_A7F4_41526CB0AA00" isRoot="true" isLeaf="false" isAbstract="false"/>
+				<UML:Package name="Target system configurations" xmi.id="EAPK_5E4EC097_FFC9_43b3_81B1_D8499DBBC1C0" isRoot="false" isLeaf="false" isAbstract="false" visibility="public">
+					<UML:ModelElement.taggedValue>
+						<UML:TaggedValue tag="parent" value="EAPK_321189CE_156D_4953_B7C7_F97B79F3DE20"/>
+						<UML:TaggedValue tag="created" value="2010-06-07 14:04:11"/>
+						<UML:TaggedValue tag="modified" value="2010-06-07 14:04:11"/>
+						<UML:TaggedValue tag="iscontrolled" value="TRUE"/>
+						<UML:TaggedValue tag="xmlpath" value="eaD\D8499DBBC1C0.xml"/>
+						<UML:TaggedValue tag="version" value="1.0"/>
+						<UML:TaggedValue tag="isprotected" value="FALSE"/>
+						<UML:TaggedValue tag="usedtd" value="FALSE"/>
+						<UML:TaggedValue tag="logxml" value="FALSE"/>
+						<UML:TaggedValue tag="packageFlags" value="VCCFG=uAAL;CRC=0;"/>
+						<UML:TaggedValue tag="phase" value="1.0"/>
+						<UML:TaggedValue tag="status" value="Proposed"/>
+						<UML:TaggedValue tag="author" value="Requirement Taskforce"/>
+						<UML:TaggedValue tag="alias" value="R4.2.1"/>
+						<UML:TaggedValue tag="complexity" value="1"/>
+						<UML:TaggedValue tag="ea_stype" value="Public"/>
+						<UML:TaggedValue tag="tpos" value="0"/>
+						<UML:TaggedValue tag="gentype" value="Java"/>
+					</UML:ModelElement.taggedValue>
+					<UML:Namespace.ownedElement>
+						<UML:Collaboration xmi.id="EAID_5E4EC097_FFC9_43b3_81B1_D8499DBBC1C0_Collaboration" name="Collaborations">
+							<UML:Namespace.ownedElement>
+								<UML:ClassifierRole name="Modularity" xmi.id="EAID_50FBF7ED_C7AD_42e5_89F3_A1F0E3A519B3" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="documentation" value="&lt;b&gt;Description&lt;/b&gt;&#xA;Architecture should enforce modularity when defining its components&#xA;&lt;b&gt;Measure to check&lt;/b&gt;&#xA;Architecture follows a modular definition approach&#xA;&lt;b&gt;Rationale&lt;/b&gt;&#xA;AAL systems must be developed modular enough to allow the substitution and improvement of all of its parts, no matter if at the platform or at the application level, just by minimal affections to the operation of the overall system&#xA;&lt;b&gt;Reference&lt;/b&gt;&#xA;PERSONA_additional&#xA;&lt;b&gt;WP:&lt;/b&gt; 1,2&#xA;&lt;b&gt;Ranking:&lt;/b&gt; 5"/>
+										<UML:TaggedValue tag="isAbstract" value="false"/>
+										<UML:TaggedValue tag="isSpecification" value="false"/>
+										<UML:TaggedValue tag="ea_stype" value="Requirement"/>
+										<UML:TaggedValue tag="ea_ntype" value="0"/>
+										<UML:TaggedValue tag="version" value="1.0"/>
+										<UML:TaggedValue tag="package" value="EAPK_5E4EC097_FFC9_43b3_81B1_D8499DBBC1C0"/>
+										<UML:TaggedValue tag="date_created" value="2010-06-07 14:04:12"/>
+										<UML:TaggedValue tag="date_modified" value="2010-06-07 14:04:12"/>
+										<UML:TaggedValue tag="gentype" value="&lt;none&gt;"/>
+										<UML:TaggedValue tag="tagged" value="0"/>
+										<UML:TaggedValue tag="package_name" value="Target system configurations"/>
+										<UML:TaggedValue tag="phase" value="1.0"/>
+										<UML:TaggedValue tag="alias" value="R4.2.1.1"/>
+										<UML:TaggedValue tag="author" value="Requirement Taskforce"/>
+										<UML:TaggedValue tag="complexity" value="1"/>
+										<UML:TaggedValue tag="status" value="Proposed"/>
+										<UML:TaggedValue tag="tpos" value="0"/>
+										<UML:TaggedValue tag="keywords" value="WP1 WP2"/>
+										<UML:TaggedValue tag="ea_localid" value="1529"/>
+										<UML:TaggedValue tag="ea_eleType" value="element"/>
+										<UML:TaggedValue tag="difficulty" value="Medium"/>
+										<UML:TaggedValue tag="priority" value="High"/>
+										<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+									</UML:ModelElement.taggedValue>
+								</UML:ClassifierRole>
+								<UML:ClassifierRole name="Flexibile configuration" xmi.id="EAID_579690E4_AEE4_4811_BBE0_B6B766F7863B" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="documentation" value="&lt;b&gt;Description&lt;/b&gt;&#xA;Keep the mandatory core configuartion small and allow the system to be configured on a per user basis even at the level of components to install&#xA;&lt;b&gt;Measure to check&lt;/b&gt;&#xA;Flexible configuration is possible&#xA;&lt;b&gt;Rationale&lt;/b&gt;&#xA;the bigger the mandatory core of a system, the rigider the system configuration and the more complex the system deployment; adaptability not only at the level of behavior of components but also at the level of the selection of the system building blocks &#xA;&lt;b&gt;Reference&lt;/b&gt;&#xA;PERSONA_additional&#xA;&lt;b&gt;WP:&lt;/b&gt; 1,2&#xA;&lt;b&gt;Ranking:&lt;/b&gt; 5"/>
+										<UML:TaggedValue tag="isAbstract" value="false"/>
+										<UML:TaggedValue tag="isSpecification" value="false"/>
+										<UML:TaggedValue tag="ea_stype" value="Requirement"/>
+										<UML:TaggedValue tag="ea_ntype" value="0"/>
+										<UML:TaggedValue tag="version" value="1.0"/>
+										<UML:TaggedValue tag="package" value="EAPK_5E4EC097_FFC9_43b3_81B1_D8499DBBC1C0"/>
+										<UML:TaggedValue tag="date_created" value="2010-06-07 14:04:12"/>
+										<UML:TaggedValue tag="date_modified" value="2010-06-07 14:04:12"/>
+										<UML:TaggedValue tag="gentype" value="&lt;none&gt;"/>
+										<UML:TaggedValue tag="tagged" value="0"/>
+										<UML:TaggedValue tag="package_name" value="Target system configurations"/>
+										<UML:TaggedValue tag="phase" value="1.0"/>
+										<UML:TaggedValue tag="alias" value="R4.2.1.3"/>
+										<UML:TaggedValue tag="author" value="Requirement Taskforce"/>
+										<UML:TaggedValue tag="complexity" value="1"/>
+										<UML:TaggedValue tag="status" value="Proposed"/>
+										<UML:TaggedValue tag="tpos" value="0"/>
+										<UML:TaggedValue tag="keywords" value="WP1 WP2"/>
+										<UML:TaggedValue tag="ea_localid" value="1531"/>
+										<UML:TaggedValue tag="ea_eleType" value="element"/>
+										<UML:TaggedValue tag="difficulty" value="Medium"/>
+										<UML:TaggedValue tag="priority" value="High"/>
+										<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+									</UML:ModelElement.taggedValue>
+								</UML:ClassifierRole>
+								<UML:ClassifierRole name="Modules container" xmi.id="EAID_CA595841_A098_4fe7_B0B8_18667FA3BE4D" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="documentation" value="&lt;b&gt;Description&lt;/b&gt;&#xA;&#xA;&lt;b&gt;Measure to check&lt;/b&gt;&#xA;Container system to host modules is specified&#xA;&lt;b&gt;Rationale&lt;/b&gt;&#xA;the modularity of AAL systems necessitates that they are based on a (distributed) &quot;container&quot; system that hosts the modules and manages their life cycle&#xA;&lt;b&gt;Reference&lt;/b&gt;&#xA;PERSONA_additional&#xA;&lt;b&gt;WP:&lt;/b&gt; 1,2&#xA;&lt;b&gt;Ranking:&lt;/b&gt; 5"/>
+										<UML:TaggedValue tag="isAbstract" value="false"/>
+										<UML:TaggedValue tag="isSpecification" value="false"/>
+										<UML:TaggedValue tag="ea_stype" value="Requirement"/>
+										<UML:TaggedValue tag="ea_ntype" value="0"/>
+										<UML:TaggedValue tag="version" value="1.0"/>
+										<UML:TaggedValue tag="package" value="EAPK_5E4EC097_FFC9_43b3_81B1_D8499DBBC1C0"/>
+										<UML:TaggedValue tag="date_created" value="2010-06-07 14:04:12"/>
+										<UML:TaggedValue tag="date_modified" value="2010-06-07 14:04:12"/>
+										<UML:TaggedValue tag="gentype" value="&lt;none&gt;"/>
+										<UML:TaggedValue tag="tagged" value="0"/>
+										<UML:TaggedValue tag="package_name" value="Target system configurations"/>
+										<UML:TaggedValue tag="phase" value="1.0"/>
+										<UML:TaggedValue tag="alias" value="R4.2.1.2"/>
+										<UML:TaggedValue tag="author" value="Requirement Taskforce"/>
+										<UML:TaggedValue tag="complexity" value="1"/>
+										<UML:TaggedValue tag="status" value="Proposed"/>
+										<UML:TaggedValue tag="tpos" value="0"/>
+										<UML:TaggedValue tag="keywords" value="WP1 WP2"/>
+										<UML:TaggedValue tag="ea_localid" value="1530"/>
+										<UML:TaggedValue tag="ea_eleType" value="element"/>
+										<UML:TaggedValue tag="difficulty" value="Medium"/>
+										<UML:TaggedValue tag="priority" value="High"/>
+										<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+									</UML:ModelElement.taggedValue>
+								</UML:ClassifierRole>
+								<UML:ClassifierRole name="Composability" xmi.id="EAID_F5872613_8067_4b86_A6D7_CC69E2F11AAF" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="documentation" value="&lt;b&gt;Description&lt;/b&gt;&#xA;It must be a matter of configuration to introduce new value that can be achieved through aggregation over existig values&#xA;&lt;b&gt;Measure to check&lt;/b&gt;&#xA;&#xA;&lt;b&gt;Rationale&lt;/b&gt;&#xA;reduce the development costs by reuse based on modular development principles&#xA;&lt;b&gt;Reference&lt;/b&gt;&#xA;PERSONA_additional&#xA;&lt;b&gt;WP:&lt;/b&gt; 1,2,4&#xA;&lt;b&gt;Ranking:&lt;/b&gt; 4"/>
+										<UML:TaggedValue tag="isAbstract" value="false"/>
+										<UML:TaggedValue tag="isSpecification" value="false"/>
+										<UML:TaggedValue tag="ea_stype" value="Requirement"/>
+										<UML:TaggedValue tag="ea_ntype" value="0"/>
+										<UML:TaggedValue tag="version" value="1.0"/>
+										<UML:TaggedValue tag="package" value="EAPK_5E4EC097_FFC9_43b3_81B1_D8499DBBC1C0"/>
+										<UML:TaggedValue tag="date_created" value="2010-06-07 14:04:12"/>
+										<UML:TaggedValue tag="date_modified" value="2010-06-07 14:04:12"/>
+										<UML:TaggedValue tag="gentype" value="&lt;none&gt;"/>
+										<UML:TaggedValue tag="tagged" value="0"/>
+										<UML:TaggedValue tag="package_name" value="Target system configurations"/>
+										<UML:TaggedValue tag="phase" value="1.0"/>
+										<UML:TaggedValue tag="alias" value="R4.2.1.4"/>
+										<UML:TaggedValue tag="author" value="Requirement Taskforce"/>
+										<UML:TaggedValue tag="complexity" value="1"/>
+										<UML:TaggedValue tag="status" value="Proposed"/>
+										<UML:TaggedValue tag="tpos" value="0"/>
+										<UML:TaggedValue tag="keywords" value="WP1 WP2 WP4"/>
+										<UML:TaggedValue tag="ea_localid" value="1532"/>
+										<UML:TaggedValue tag="ea_eleType" value="element"/>
+										<UML:TaggedValue tag="difficulty" value="Medium"/>
+										<UML:TaggedValue tag="priority" value="High"/>
+										<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+									</UML:ModelElement.taggedValue>
+								</UML:ClassifierRole>
+							</UML:Namespace.ownedElement>
+							<UML:Collaboration.interaction/>
+						</UML:Collaboration>
+					</UML:Namespace.ownedElement>
+				</UML:Package>
+			</UML:Namespace.ownedElement>
+		</UML:Model>
+	</XMI.content>
+	<XMI.difference/>
+	<XMI.extensions xmi.extender="Enterprise Architect 2.5"/>
+</XMI>
