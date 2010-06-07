@@ -1,0 +1,542 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<XMI xmi.version="1.1" xmlns:UML="omg.org/UML1.3">
+	<XMI.header>
+		<XMI.documentation>
+			<XMI.exporter>Enterprise Architect</XMI.exporter>
+			<XMI.exporterVersion>2.5</XMI.exporterVersion>
+		</XMI.documentation>
+	</XMI.header>
+	<XMI.content>
+		<UML:Model name="EA Model" xmi.id="MX_EAID_2C72BE1D_A634_4751_BF78_72CDE54FCB08">
+			<UML:Namespace.ownedElement>
+				<UML:Class name="EARootClass" xmi.id="EAID_11111111_5487_4080_A7F4_41526CB0AA00" isRoot="true" isLeaf="false" isAbstract="false"/>
+				<UML:Package name="Security" xmi.id="EAPK_2C72BE1D_A634_4751_BF78_72CDE54FCB08" isRoot="false" isLeaf="false" isAbstract="false" visibility="public">
+					<UML:ModelElement.taggedValue>
+						<UML:TaggedValue tag="parent" value="EAPK_9B3DD1F9_6EF6_4391_8288_539272860530"/>
+						<UML:TaggedValue tag="created" value="2010-06-07 14:04:02"/>
+						<UML:TaggedValue tag="modified" value="2010-06-07 14:04:02"/>
+						<UML:TaggedValue tag="iscontrolled" value="TRUE"/>
+						<UML:TaggedValue tag="xmlpath" value="ea7\72CDE54FCB08.xml"/>
+						<UML:TaggedValue tag="version" value="1.0"/>
+						<UML:TaggedValue tag="isprotected" value="FALSE"/>
+						<UML:TaggedValue tag="usedtd" value="FALSE"/>
+						<UML:TaggedValue tag="logxml" value="FALSE"/>
+						<UML:TaggedValue tag="packageFlags" value="VCCFG=uAAL;CRC=0;"/>
+						<UML:TaggedValue tag="phase" value="1.0"/>
+						<UML:TaggedValue tag="status" value="Proposed"/>
+						<UML:TaggedValue tag="author" value="Requirement Taskforce"/>
+						<UML:TaggedValue tag="alias" value="R2.2.17"/>
+						<UML:TaggedValue tag="complexity" value="1"/>
+						<UML:TaggedValue tag="ea_stype" value="Public"/>
+						<UML:TaggedValue tag="tpos" value="0"/>
+						<UML:TaggedValue tag="gentype" value="Java"/>
+					</UML:ModelElement.taggedValue>
+					<UML:Namespace.ownedElement>
+						<UML:Collaboration xmi.id="EAID_2C72BE1D_A634_4751_BF78_72CDE54FCB08_Collaboration" name="Collaborations">
+							<UML:Namespace.ownedElement>
+								<UML:ClassifierRole name="Availability" xmi.id="EAID_0981898B_C499_44ea_81E1_7A6E815863E2" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+									<UML:ModelElement.stereotype>
+										<UML:Stereotype name="Functional"/>
+									</UML:ModelElement.stereotype>
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="documentation" value="&lt;b&gt;Description&lt;/b&gt;&#xA;It has to be assured by the architecture that access of authorized persons or subsystems cannot be invalidated by unauthorized persons or subsystems (i.e., denial-of-service).&#xA;&lt;b&gt;Measure to check&lt;/b&gt;&#xA;Authorized persons/subsystems can always access the system even when unauthorized persons/subsystems try to avoid this.&#xA;&lt;b&gt;Rationale&lt;/b&gt;&#xA;Denial-of-service may entail economic damages and significant reduction of user-value.&#xA;&lt;b&gt;Reference&lt;/b&gt;&#xA;GENESYS R2.2.13.1&#xA;&lt;b&gt;WP:&lt;/b&gt; 1,2&#xA;&lt;b&gt;Ranking:&lt;/b&gt; 2,5"/>
+										<UML:TaggedValue tag="isAbstract" value="false"/>
+										<UML:TaggedValue tag="isSpecification" value="false"/>
+										<UML:TaggedValue tag="ea_stype" value="Requirement"/>
+										<UML:TaggedValue tag="ea_ntype" value="0"/>
+										<UML:TaggedValue tag="version" value="1.0"/>
+										<UML:TaggedValue tag="package" value="EAPK_2C72BE1D_A634_4751_BF78_72CDE54FCB08"/>
+										<UML:TaggedValue tag="date_created" value="2010-06-07 14:04:07"/>
+										<UML:TaggedValue tag="date_modified" value="2010-06-07 14:04:07"/>
+										<UML:TaggedValue tag="gentype" value="&lt;none&gt;"/>
+										<UML:TaggedValue tag="tagged" value="0"/>
+										<UML:TaggedValue tag="package_name" value="Security"/>
+										<UML:TaggedValue tag="phase" value="1.0"/>
+										<UML:TaggedValue tag="alias" value="R2.2.17.10"/>
+										<UML:TaggedValue tag="author" value="Requirement Taskforce"/>
+										<UML:TaggedValue tag="complexity" value="1"/>
+										<UML:TaggedValue tag="status" value="Proposed"/>
+										<UML:TaggedValue tag="stereotype" value="Functional"/>
+										<UML:TaggedValue tag="tpos" value="0"/>
+										<UML:TaggedValue tag="keywords" value="WP1 WP2"/>
+										<UML:TaggedValue tag="ea_localid" value="1402"/>
+										<UML:TaggedValue tag="ea_eleType" value="element"/>
+										<UML:TaggedValue tag="difficulty" value="Medium"/>
+										<UML:TaggedValue tag="priority" value="Medium"/>
+										<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+										<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={4DBC8084-13B6-4783-A94A-73C525011178}$XID;$NAM=Stereotypes$NAM;$TYP=element property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=Functional;GUID={C3354BB0-6AE7-4800-B99A-832932003762};@ENDSTEREO;$DES;$CLT={0981898B-C499-44ea-81E1-7A6E815863E2}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
+									</UML:ModelElement.taggedValue>
+								</UML:ClassifierRole>
+								<UML:ClassifierRole name="Anonymous Entities" xmi.id="EAID_0AED8EA8_26D2_4895_82A7_E6C7500D4830" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+									<UML:ModelElement.stereotype>
+										<UML:Stereotype name="Functional"/>
+									</UML:ModelElement.stereotype>
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="documentation" value="&lt;b&gt;Description&lt;/b&gt;&#xA;Differentiate between identifiable entities (e.g., users, modules) that can be authenticated (necessitates the management of their identities and credentials) and anonymous entities that can not be authenticated while not excluding the second group blindly&#xA;&lt;b&gt;Measure to check&lt;/b&gt;&#xA;An anonymous user is available.&#xA;&lt;b&gt;Rationale&lt;/b&gt;&#xA;Different data or services may be accessible by anyone without authentification.&#xA;&lt;b&gt;Reference&lt;/b&gt;&#xA;PERSONA R2.2.17.1&#xA;&lt;b&gt;WP:&lt;/b&gt; 1,2,4&#xA;&lt;b&gt;Ranking:&lt;/b&gt; 4"/>
+										<UML:TaggedValue tag="isAbstract" value="false"/>
+										<UML:TaggedValue tag="isSpecification" value="false"/>
+										<UML:TaggedValue tag="ea_stype" value="Requirement"/>
+										<UML:TaggedValue tag="ea_ntype" value="0"/>
+										<UML:TaggedValue tag="version" value="1.0"/>
+										<UML:TaggedValue tag="package" value="EAPK_2C72BE1D_A634_4751_BF78_72CDE54FCB08"/>
+										<UML:TaggedValue tag="date_created" value="2010-06-07 14:04:07"/>
+										<UML:TaggedValue tag="date_modified" value="2010-06-07 14:04:07"/>
+										<UML:TaggedValue tag="gentype" value="&lt;none&gt;"/>
+										<UML:TaggedValue tag="tagged" value="0"/>
+										<UML:TaggedValue tag="package_name" value="Security"/>
+										<UML:TaggedValue tag="phase" value="1.0"/>
+										<UML:TaggedValue tag="alias" value="R2.2.17.11"/>
+										<UML:TaggedValue tag="author" value="Requirement Taskforce"/>
+										<UML:TaggedValue tag="complexity" value="1"/>
+										<UML:TaggedValue tag="status" value="Proposed"/>
+										<UML:TaggedValue tag="stereotype" value="Functional"/>
+										<UML:TaggedValue tag="tpos" value="0"/>
+										<UML:TaggedValue tag="keywords" value="WP1 WP2 WP4"/>
+										<UML:TaggedValue tag="ea_localid" value="1403"/>
+										<UML:TaggedValue tag="ea_eleType" value="element"/>
+										<UML:TaggedValue tag="difficulty" value="Medium"/>
+										<UML:TaggedValue tag="priority" value="High"/>
+										<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+										<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={16786A97-D124-4676-8C54-1FFDFBA975F5}$XID;$NAM=Stereotypes$NAM;$TYP=element property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=Functional;GUID={C3354BB0-6AE7-4800-B99A-832932003762};@ENDSTEREO;$DES;$CLT={0AED8EA8-26D2-4895-82A7-E6C7500D4830}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
+									</UML:ModelElement.taggedValue>
+								</UML:ClassifierRole>
+								<UML:ClassifierRole name="Data integrity" xmi.id="EAID_1E74421E_2D7F_4203_BD98_7DAD7BA55C6D" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+									<UML:ModelElement.stereotype>
+										<UML:Stereotype name="Functional"/>
+									</UML:ModelElement.stereotype>
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="documentation" value="&lt;b&gt;Description&lt;/b&gt;&#xA;System should support integrity protection of sensitive personal data while it is stored.&#xA;&lt;b&gt;Measure to check&lt;/b&gt;&#xA;Data integrity mechanisms are implemented.&#xA;&lt;b&gt;Rationale&lt;/b&gt;&#xA;Private data is protected from beeing accessed by unauthorized persons or systems.&#xA;&lt;b&gt;Reference&lt;/b&gt;&#xA;MPOWER R2.2.17.7&#xA;&lt;b&gt;WP:&lt;/b&gt; 1,2,4&#xA;&lt;b&gt;Ranking:&lt;/b&gt; 4"/>
+										<UML:TaggedValue tag="isAbstract" value="false"/>
+										<UML:TaggedValue tag="isSpecification" value="false"/>
+										<UML:TaggedValue tag="ea_stype" value="Requirement"/>
+										<UML:TaggedValue tag="ea_ntype" value="0"/>
+										<UML:TaggedValue tag="version" value="1.0"/>
+										<UML:TaggedValue tag="package" value="EAPK_2C72BE1D_A634_4751_BF78_72CDE54FCB08"/>
+										<UML:TaggedValue tag="date_created" value="2010-06-07 14:04:07"/>
+										<UML:TaggedValue tag="date_modified" value="2010-06-07 14:04:07"/>
+										<UML:TaggedValue tag="gentype" value="&lt;none&gt;"/>
+										<UML:TaggedValue tag="tagged" value="0"/>
+										<UML:TaggedValue tag="package_name" value="Security"/>
+										<UML:TaggedValue tag="phase" value="1.0"/>
+										<UML:TaggedValue tag="alias" value="R2.2.17.07"/>
+										<UML:TaggedValue tag="author" value="Requirement Taskforce"/>
+										<UML:TaggedValue tag="complexity" value="1"/>
+										<UML:TaggedValue tag="status" value="Proposed"/>
+										<UML:TaggedValue tag="stereotype" value="Functional"/>
+										<UML:TaggedValue tag="tpos" value="0"/>
+										<UML:TaggedValue tag="keywords" value="WP1 WP2 WP4"/>
+										<UML:TaggedValue tag="ea_localid" value="1399"/>
+										<UML:TaggedValue tag="ea_eleType" value="element"/>
+										<UML:TaggedValue tag="difficulty" value="Medium"/>
+										<UML:TaggedValue tag="priority" value="High"/>
+										<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+										<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={A06B9E11-05F0-4651-8856-1602B3FE20A8}$XID;$NAM=Stereotypes$NAM;$TYP=element property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=Functional;GUID={C3354BB0-6AE7-4800-B99A-832932003762};@ENDSTEREO;$DES;$CLT={1E74421E-2D7F-4203-BD98-7DAD7BA55C6D}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
+									</UML:ModelElement.taggedValue>
+								</UML:ClassifierRole>
+								<UML:ClassifierRole name="Encryted channels" xmi.id="EAID_32698DF9_20C8_449c_8C0D_8909567878C4" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+									<UML:ModelElement.stereotype>
+										<UML:Stereotype name="Functional"/>
+									</UML:ModelElement.stereotype>
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="documentation" value="&lt;b&gt;Description&lt;/b&gt;&#xA;All communication involving sensitive information outside the trusted zones must be integrity and confidentiality protected according to security requirements&#xA;&lt;b&gt;Measure to check&lt;/b&gt;&#xA;Communication channels outside the trusted zones are encrypted.&#xA;&lt;b&gt;Rationale&lt;/b&gt;&#xA;Sensitive information is protected against security threats.&#xA;&lt;b&gt;Reference&lt;/b&gt;&#xA;MPOWER R1.2.1&#xA;&lt;b&gt;WP:&lt;/b&gt; 1,2,4&#xA;&lt;b&gt;Ranking:&lt;/b&gt; 4"/>
+										<UML:TaggedValue tag="isAbstract" value="false"/>
+										<UML:TaggedValue tag="isSpecification" value="false"/>
+										<UML:TaggedValue tag="ea_stype" value="Requirement"/>
+										<UML:TaggedValue tag="ea_ntype" value="0"/>
+										<UML:TaggedValue tag="version" value="1.0"/>
+										<UML:TaggedValue tag="package" value="EAPK_2C72BE1D_A634_4751_BF78_72CDE54FCB08"/>
+										<UML:TaggedValue tag="date_created" value="2010-06-07 14:04:08"/>
+										<UML:TaggedValue tag="date_modified" value="2010-06-07 14:04:08"/>
+										<UML:TaggedValue tag="gentype" value="&lt;none&gt;"/>
+										<UML:TaggedValue tag="tagged" value="0"/>
+										<UML:TaggedValue tag="package_name" value="Security"/>
+										<UML:TaggedValue tag="phase" value="1.0"/>
+										<UML:TaggedValue tag="alias" value="R2.2.17.15"/>
+										<UML:TaggedValue tag="author" value="Requirement Taskforce"/>
+										<UML:TaggedValue tag="complexity" value="1"/>
+										<UML:TaggedValue tag="status" value="Proposed"/>
+										<UML:TaggedValue tag="stereotype" value="Functional"/>
+										<UML:TaggedValue tag="tpos" value="0"/>
+										<UML:TaggedValue tag="keywords" value="WP1 WP2 WP4"/>
+										<UML:TaggedValue tag="ea_localid" value="1407"/>
+										<UML:TaggedValue tag="ea_eleType" value="element"/>
+										<UML:TaggedValue tag="difficulty" value="Medium"/>
+										<UML:TaggedValue tag="priority" value="High"/>
+										<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+										<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={12AFD035-A2F4-4b22-8664-E4791EB95030}$XID;$NAM=Stereotypes$NAM;$TYP=element property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=Functional;GUID={C3354BB0-6AE7-4800-B99A-832932003762};@ENDSTEREO;$DES;$CLT={32698DF9-20C8-449c-8C0D-8909567878C4}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
+									</UML:ModelElement.taggedValue>
+								</UML:ClassifierRole>
+								<UML:ClassifierRole name="Data Freshness Verification" xmi.id="EAID_41DDC171_8E9E_4b8a_ACC2_AD539F112A85" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+									<UML:ModelElement.stereotype>
+										<UML:Stereotype name="Functional"/>
+									</UML:ModelElement.stereotype>
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="documentation" value="&lt;b&gt;Description&lt;/b&gt;&#xA;Data freshness may be controlled to prevent changes of replay attacks.&#xA;&lt;b&gt;Measure to check&lt;/b&gt;&#xA;Replay attacks are detected and blocked&#xA;&lt;b&gt;Rationale&lt;/b&gt;&#xA;The system should be protected against any type of thread concerning security and data protection.&#xA;&lt;b&gt;Reference&lt;/b&gt;&#xA;MPOWER R2.2.14.9&#xA;&lt;b&gt;WP:&lt;/b&gt; 4&#xA;&lt;b&gt;Ranking:&lt;/b&gt; 2"/>
+										<UML:TaggedValue tag="isAbstract" value="false"/>
+										<UML:TaggedValue tag="isSpecification" value="false"/>
+										<UML:TaggedValue tag="ea_stype" value="Requirement"/>
+										<UML:TaggedValue tag="ea_ntype" value="0"/>
+										<UML:TaggedValue tag="version" value="1.0"/>
+										<UML:TaggedValue tag="package" value="EAPK_2C72BE1D_A634_4751_BF78_72CDE54FCB08"/>
+										<UML:TaggedValue tag="date_created" value="2010-06-07 14:04:07"/>
+										<UML:TaggedValue tag="date_modified" value="2010-06-07 14:04:07"/>
+										<UML:TaggedValue tag="gentype" value="&lt;none&gt;"/>
+										<UML:TaggedValue tag="tagged" value="0"/>
+										<UML:TaggedValue tag="package_name" value="Security"/>
+										<UML:TaggedValue tag="phase" value="1.0"/>
+										<UML:TaggedValue tag="alias" value="R2.2.17.04"/>
+										<UML:TaggedValue tag="author" value="Requirement Taskforce"/>
+										<UML:TaggedValue tag="complexity" value="1"/>
+										<UML:TaggedValue tag="status" value="Proposed"/>
+										<UML:TaggedValue tag="stereotype" value="Functional"/>
+										<UML:TaggedValue tag="tpos" value="0"/>
+										<UML:TaggedValue tag="keywords" value="WP4"/>
+										<UML:TaggedValue tag="ea_localid" value="1396"/>
+										<UML:TaggedValue tag="ea_eleType" value="element"/>
+										<UML:TaggedValue tag="difficulty" value="Medium"/>
+										<UML:TaggedValue tag="priority" value="Medium"/>
+										<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+										<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={D5D071EF-449B-4d5f-915D-F63A26A29AD4}$XID;$NAM=Stereotypes$NAM;$TYP=element property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=Functional;GUID={C3354BB0-6AE7-4800-B99A-832932003762};@ENDSTEREO;$DES;$CLT={41DDC171-8E9E-4b8a-ACC2-AD539F112A85}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
+									</UML:ModelElement.taggedValue>
+								</UML:ClassifierRole>
+								<UML:ClassifierRole name="Detection of Unauthorized Manipulation" xmi.id="EAID_448DFB9F_6114_45a9_8086_505F115C5E78" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+									<UML:ModelElement.stereotype>
+										<UML:Stereotype name="Functional"/>
+									</UML:ModelElement.stereotype>
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="documentation" value="&lt;b&gt;Description&lt;/b&gt;&#xA;System should be able to detect unauthorized manipulation of data that is being transmitted.&#xA;&lt;b&gt;Measure to check&lt;/b&gt;&#xA;Data protection mechanism are implemented in the communication processess.&#xA;&lt;b&gt;Rationale&lt;/b&gt;&#xA;The system should be protected against any type of thread concerning security and data protection&#xA;&lt;b&gt;Reference&lt;/b&gt;&#xA;MPOWER R2.2.17.8&#xA;&lt;b&gt;WP:&lt;/b&gt; 1,2,4&#xA;&lt;b&gt;Ranking:&lt;/b&gt; 4"/>
+										<UML:TaggedValue tag="isAbstract" value="false"/>
+										<UML:TaggedValue tag="isSpecification" value="false"/>
+										<UML:TaggedValue tag="ea_stype" value="Requirement"/>
+										<UML:TaggedValue tag="ea_ntype" value="0"/>
+										<UML:TaggedValue tag="version" value="1.0"/>
+										<UML:TaggedValue tag="package" value="EAPK_2C72BE1D_A634_4751_BF78_72CDE54FCB08"/>
+										<UML:TaggedValue tag="date_created" value="2010-06-07 14:04:07"/>
+										<UML:TaggedValue tag="date_modified" value="2010-06-07 14:04:07"/>
+										<UML:TaggedValue tag="gentype" value="&lt;none&gt;"/>
+										<UML:TaggedValue tag="tagged" value="0"/>
+										<UML:TaggedValue tag="package_name" value="Security"/>
+										<UML:TaggedValue tag="phase" value="1.0"/>
+										<UML:TaggedValue tag="alias" value="R2.2.17.08"/>
+										<UML:TaggedValue tag="author" value="Requirement Taskforce"/>
+										<UML:TaggedValue tag="complexity" value="1"/>
+										<UML:TaggedValue tag="status" value="Proposed"/>
+										<UML:TaggedValue tag="stereotype" value="Functional"/>
+										<UML:TaggedValue tag="tpos" value="0"/>
+										<UML:TaggedValue tag="keywords" value="WP1 WP2 WP4"/>
+										<UML:TaggedValue tag="ea_localid" value="1400"/>
+										<UML:TaggedValue tag="ea_eleType" value="element"/>
+										<UML:TaggedValue tag="difficulty" value="Medium"/>
+										<UML:TaggedValue tag="priority" value="High"/>
+										<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+										<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={16B0B161-65DE-4df4-9ADA-567462DFC9B1}$XID;$NAM=Stereotypes$NAM;$TYP=element property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=Functional;GUID={C3354BB0-6AE7-4800-B99A-832932003762};@ENDSTEREO;$DES;$CLT={448DFB9F-6114-45a9-8086-505F115C5E78}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
+									</UML:ModelElement.taggedValue>
+								</UML:ClassifierRole>
+								<UML:ClassifierRole name="Authorization" xmi.id="EAID_4BBA6863_3E3A_4bb2_A75C_1C771738AAB5" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+									<UML:ModelElement.stereotype>
+										<UML:Stereotype name="Functional"/>
+									</UML:ModelElement.stereotype>
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="documentation" value="&lt;b&gt;Description&lt;/b&gt;&#xA;Access to the system may only be granted to users and systems that have the appropriate permission.&#xA;&lt;b&gt;Measure to check&lt;/b&gt;&#xA;Access to services is not granted to users or systems without permission.&#xA;&lt;b&gt;Rationale&lt;/b&gt;&#xA;A service can only be accessed by legitimate users or systems.&#xA;&lt;b&gt;Reference&lt;/b&gt;&#xA;GENESYS R2.2.17.2&#xA;MPOWER R2.2.17.3,&#xA;R2.2.17.4,&#xA;R2.2.17.5&#xA;PERSONA R2.2.17.1&#xA;&lt;b&gt;WP:&lt;/b&gt; 1,2,4&#xA;&lt;b&gt;Ranking:&lt;/b&gt; 5"/>
+										<UML:TaggedValue tag="isAbstract" value="false"/>
+										<UML:TaggedValue tag="isSpecification" value="false"/>
+										<UML:TaggedValue tag="ea_stype" value="Requirement"/>
+										<UML:TaggedValue tag="ea_ntype" value="0"/>
+										<UML:TaggedValue tag="version" value="1.0"/>
+										<UML:TaggedValue tag="package" value="EAPK_2C72BE1D_A634_4751_BF78_72CDE54FCB08"/>
+										<UML:TaggedValue tag="date_created" value="2010-06-07 14:04:07"/>
+										<UML:TaggedValue tag="date_modified" value="2010-06-07 14:04:07"/>
+										<UML:TaggedValue tag="gentype" value="&lt;none&gt;"/>
+										<UML:TaggedValue tag="tagged" value="0"/>
+										<UML:TaggedValue tag="package_name" value="Security"/>
+										<UML:TaggedValue tag="phase" value="1.0"/>
+										<UML:TaggedValue tag="alias" value="R2.2.17.06"/>
+										<UML:TaggedValue tag="author" value="Requirement Taskforce"/>
+										<UML:TaggedValue tag="complexity" value="1"/>
+										<UML:TaggedValue tag="status" value="Proposed"/>
+										<UML:TaggedValue tag="stereotype" value="Functional"/>
+										<UML:TaggedValue tag="tpos" value="0"/>
+										<UML:TaggedValue tag="keywords" value="WP1 WP2 WP4"/>
+										<UML:TaggedValue tag="ea_localid" value="1398"/>
+										<UML:TaggedValue tag="ea_eleType" value="element"/>
+										<UML:TaggedValue tag="difficulty" value="Medium"/>
+										<UML:TaggedValue tag="priority" value="High"/>
+										<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+										<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={89690A1E-8AFF-4484-9194-7AFC0EDF5D21}$XID;$NAM=Stereotypes$NAM;$TYP=element property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=Functional;GUID={C3354BB0-6AE7-4800-B99A-832932003762};@ENDSTEREO;$DES;$CLT={4BBA6863-3E3A-4bb2-A75C-1C771738AAB5}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
+									</UML:ModelElement.taggedValue>
+								</UML:ClassifierRole>
+								<UML:ClassifierRole name="Authentication" xmi.id="EAID_5D78B2A9_4889_4c70_93AD_19E485C84E62" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+									<UML:ModelElement.stereotype>
+										<UML:Stereotype name="Functional"/>
+									</UML:ModelElement.stereotype>
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="documentation" value="&lt;b&gt;Description&lt;/b&gt;&#xA;The architecture has to be able do determine the real identity of systems or users.&#xA;&lt;b&gt;Measure to check&lt;/b&gt;&#xA;The identity of each user in the system is truly known.&#xA;&lt;b&gt;Rationale&lt;/b&gt;&#xA;In order to authorize the access to the system, authentication has to be assured.&#xA;&lt;b&gt;Reference&lt;/b&gt;&#xA;GENESYS R2.2.17.1&#xA;MPOWER R2.2.17.3&#xA;&lt;b&gt;WP:&lt;/b&gt; 1,2,4&#xA;&lt;b&gt;Ranking:&lt;/b&gt; 5"/>
+										<UML:TaggedValue tag="isAbstract" value="false"/>
+										<UML:TaggedValue tag="isSpecification" value="false"/>
+										<UML:TaggedValue tag="ea_stype" value="Requirement"/>
+										<UML:TaggedValue tag="ea_ntype" value="0"/>
+										<UML:TaggedValue tag="version" value="1.0"/>
+										<UML:TaggedValue tag="package" value="EAPK_2C72BE1D_A634_4751_BF78_72CDE54FCB08"/>
+										<UML:TaggedValue tag="date_created" value="2010-06-07 14:04:07"/>
+										<UML:TaggedValue tag="date_modified" value="2010-06-07 14:04:07"/>
+										<UML:TaggedValue tag="gentype" value="&lt;none&gt;"/>
+										<UML:TaggedValue tag="tagged" value="0"/>
+										<UML:TaggedValue tag="package_name" value="Security"/>
+										<UML:TaggedValue tag="phase" value="1.0"/>
+										<UML:TaggedValue tag="alias" value="R2.2.17.05"/>
+										<UML:TaggedValue tag="author" value="Requirement Taskforce"/>
+										<UML:TaggedValue tag="complexity" value="1"/>
+										<UML:TaggedValue tag="status" value="Proposed"/>
+										<UML:TaggedValue tag="stereotype" value="Functional"/>
+										<UML:TaggedValue tag="tpos" value="0"/>
+										<UML:TaggedValue tag="keywords" value="WP1 WP2 WP4"/>
+										<UML:TaggedValue tag="ea_localid" value="1397"/>
+										<UML:TaggedValue tag="ea_eleType" value="element"/>
+										<UML:TaggedValue tag="difficulty" value="Medium"/>
+										<UML:TaggedValue tag="priority" value="High"/>
+										<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+										<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={B09039E7-E0C5-4902-A350-0E2724517BD3}$XID;$NAM=Stereotypes$NAM;$TYP=element property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=Functional;GUID={C3354BB0-6AE7-4800-B99A-832932003762};@ENDSTEREO;$DES;$CLT={5D78B2A9-4889-4c70-93AD-19E485C84E62}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
+									</UML:ModelElement.taggedValue>
+								</UML:ClassifierRole>
+								<UML:ClassifierRole name="Data validation" xmi.id="EAID_6EBA5096_2350_452a_A867_7B9E0071F3B3" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+									<UML:ModelElement.stereotype>
+										<UML:Stereotype name="Functional"/>
+									</UML:ModelElement.stereotype>
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="documentation" value="&lt;b&gt;Description&lt;/b&gt;&#xA;System shall allow data validation at time of data reception to reduce threats represented by malicious content.&#xA;&lt;b&gt;Measure to check&lt;/b&gt;&#xA;No malicious content is introduced into the system&#xA;&lt;b&gt;Rationale&lt;/b&gt;&#xA;The system should be protected against any type of thread concerning security and data protection.&#xA;&lt;b&gt;Reference&lt;/b&gt;&#xA;MPOWER R2.2.14.7&#xA;&lt;b&gt;WP:&lt;/b&gt; 4&#xA;&lt;b&gt;Ranking:&lt;/b&gt; 2"/>
+										<UML:TaggedValue tag="isAbstract" value="false"/>
+										<UML:TaggedValue tag="isSpecification" value="false"/>
+										<UML:TaggedValue tag="ea_stype" value="Requirement"/>
+										<UML:TaggedValue tag="ea_ntype" value="0"/>
+										<UML:TaggedValue tag="version" value="1.0"/>
+										<UML:TaggedValue tag="package" value="EAPK_2C72BE1D_A634_4751_BF78_72CDE54FCB08"/>
+										<UML:TaggedValue tag="date_created" value="2010-06-07 14:04:07"/>
+										<UML:TaggedValue tag="date_modified" value="2010-06-07 14:04:07"/>
+										<UML:TaggedValue tag="gentype" value="&lt;none&gt;"/>
+										<UML:TaggedValue tag="tagged" value="0"/>
+										<UML:TaggedValue tag="package_name" value="Security"/>
+										<UML:TaggedValue tag="phase" value="1.0"/>
+										<UML:TaggedValue tag="alias" value="R2.2.17.03"/>
+										<UML:TaggedValue tag="author" value="Requirement Taskforce"/>
+										<UML:TaggedValue tag="complexity" value="1"/>
+										<UML:TaggedValue tag="status" value="Proposed"/>
+										<UML:TaggedValue tag="stereotype" value="Functional"/>
+										<UML:TaggedValue tag="tpos" value="0"/>
+										<UML:TaggedValue tag="keywords" value="WP4"/>
+										<UML:TaggedValue tag="ea_localid" value="1395"/>
+										<UML:TaggedValue tag="ea_eleType" value="element"/>
+										<UML:TaggedValue tag="difficulty" value="Medium"/>
+										<UML:TaggedValue tag="priority" value="Low"/>
+										<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+										<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={DEF1BD62-4E70-41b4-9EBA-043369E81B1E}$XID;$NAM=Stereotypes$NAM;$TYP=element property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=Functional;GUID={C3354BB0-6AE7-4800-B99A-832932003762};@ENDSTEREO;$DES;$CLT={6EBA5096-2350-452a-A867-7B9E0071F3B3}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
+									</UML:ModelElement.taggedValue>
+								</UML:ClassifierRole>
+								<UML:ClassifierRole name="Node and Module Authorization" xmi.id="EAID_8D86B27E_8B02_4452_A939_5E0BAD1000F4" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+									<UML:ModelElement.stereotype>
+										<UML:Stereotype name="Functional"/>
+									</UML:ModelElement.stereotype>
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="documentation" value="&lt;b&gt;Description&lt;/b&gt;&#xA;Ambient intelligent (AmI) environments formed as open distributed systems must be made trustable by providing for node &amp; module authorization &#xA;&lt;b&gt;Measure to check&lt;/b&gt;&#xA;Nodes and modules are authorized separately.&#xA;&lt;b&gt;Rationale&lt;/b&gt;&#xA;Nodes and modules are identified individually, so a malicious module running on an authorized node cannot pretend to be another module.&#xA;&lt;b&gt;Reference&lt;/b&gt;&#xA;PERSONA R2.2.17.3&#xA;&lt;b&gt;WP:&lt;/b&gt; 1,2,4&#xA;&lt;b&gt;Ranking:&lt;/b&gt; 3,5"/>
+										<UML:TaggedValue tag="isAbstract" value="false"/>
+										<UML:TaggedValue tag="isSpecification" value="false"/>
+										<UML:TaggedValue tag="ea_stype" value="Requirement"/>
+										<UML:TaggedValue tag="ea_ntype" value="0"/>
+										<UML:TaggedValue tag="version" value="1.0"/>
+										<UML:TaggedValue tag="package" value="EAPK_2C72BE1D_A634_4751_BF78_72CDE54FCB08"/>
+										<UML:TaggedValue tag="date_created" value="2010-06-07 14:04:07"/>
+										<UML:TaggedValue tag="date_modified" value="2010-06-07 14:04:07"/>
+										<UML:TaggedValue tag="gentype" value="&lt;none&gt;"/>
+										<UML:TaggedValue tag="tagged" value="0"/>
+										<UML:TaggedValue tag="package_name" value="Security"/>
+										<UML:TaggedValue tag="phase" value="1.0"/>
+										<UML:TaggedValue tag="alias" value="R2.2.17.12"/>
+										<UML:TaggedValue tag="author" value="Requirement Taskforce"/>
+										<UML:TaggedValue tag="complexity" value="1"/>
+										<UML:TaggedValue tag="status" value="Proposed"/>
+										<UML:TaggedValue tag="stereotype" value="Functional"/>
+										<UML:TaggedValue tag="tpos" value="0"/>
+										<UML:TaggedValue tag="keywords" value="WP1 WP2 WP4"/>
+										<UML:TaggedValue tag="ea_localid" value="1404"/>
+										<UML:TaggedValue tag="ea_eleType" value="element"/>
+										<UML:TaggedValue tag="difficulty" value="Medium"/>
+										<UML:TaggedValue tag="priority" value="Medium"/>
+										<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+										<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={62490DF8-DDA3-4775-8453-357CF7CA4D76}$XID;$NAM=Stereotypes$NAM;$TYP=element property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=Functional;GUID={C3354BB0-6AE7-4800-B99A-832932003762};@ENDSTEREO;$DES;$CLT={8D86B27E-8B02-4452-A939-5E0BAD1000F4}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
+									</UML:ModelElement.taggedValue>
+								</UML:ClassifierRole>
+								<UML:ClassifierRole name="Logging of Security Incidents" xmi.id="EAID_987D0871_9579_477f_BC05_88736752F46D" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+									<UML:ModelElement.stereotype>
+										<UML:Stereotype name="Functional"/>
+									</UML:ModelElement.stereotype>
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="documentation" value="&lt;b&gt;Description&lt;/b&gt;&#xA;System should be able to log security incidents, such as failed login attempts or unauthorised access attempts to services in order to discover and trace system abuse.&#xA;&lt;b&gt;Measure to check&lt;/b&gt;&#xA;Security incidents are logged.&#xA;&lt;b&gt;Rationale&lt;/b&gt;&#xA;The system should be protected against any type of thread concerning security and data protection&#xA;&lt;b&gt;Reference&lt;/b&gt;&#xA;MPOWER R2.2.17.9&#xA;&lt;b&gt;WP:&lt;/b&gt; 1,2,4&#xA;&lt;b&gt;Ranking:&lt;/b&gt; 5"/>
+										<UML:TaggedValue tag="isAbstract" value="false"/>
+										<UML:TaggedValue tag="isSpecification" value="false"/>
+										<UML:TaggedValue tag="ea_stype" value="Requirement"/>
+										<UML:TaggedValue tag="ea_ntype" value="0"/>
+										<UML:TaggedValue tag="version" value="1.0"/>
+										<UML:TaggedValue tag="package" value="EAPK_2C72BE1D_A634_4751_BF78_72CDE54FCB08"/>
+										<UML:TaggedValue tag="date_created" value="2010-06-07 14:04:07"/>
+										<UML:TaggedValue tag="date_modified" value="2010-06-07 14:04:07"/>
+										<UML:TaggedValue tag="gentype" value="&lt;none&gt;"/>
+										<UML:TaggedValue tag="tagged" value="0"/>
+										<UML:TaggedValue tag="package_name" value="Security"/>
+										<UML:TaggedValue tag="phase" value="1.0"/>
+										<UML:TaggedValue tag="alias" value="R2.2.17.09"/>
+										<UML:TaggedValue tag="author" value="Requirement Taskforce"/>
+										<UML:TaggedValue tag="complexity" value="1"/>
+										<UML:TaggedValue tag="status" value="Proposed"/>
+										<UML:TaggedValue tag="stereotype" value="Functional"/>
+										<UML:TaggedValue tag="tpos" value="0"/>
+										<UML:TaggedValue tag="keywords" value="WP1 WP2 WP4"/>
+										<UML:TaggedValue tag="ea_localid" value="1401"/>
+										<UML:TaggedValue tag="ea_eleType" value="element"/>
+										<UML:TaggedValue tag="difficulty" value="Medium"/>
+										<UML:TaggedValue tag="priority" value="High"/>
+										<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+										<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={481E5A0A-6159-4d88-9C1D-2CEBE47E74F0}$XID;$NAM=Stereotypes$NAM;$TYP=element property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=Functional;GUID={C3354BB0-6AE7-4800-B99A-832932003762};@ENDSTEREO;$DES;$CLT={987D0871-9579-477f-BC05-88736752F46D}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
+									</UML:ModelElement.taggedValue>
+								</UML:ClassifierRole>
+								<UML:ClassifierRole name="Data protection" xmi.id="EAID_AC381C4F_448F_4e66_9A32_0F014DBC6667" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+									<UML:ModelElement.stereotype>
+										<UML:Stereotype name="Functional"/>
+									</UML:ModelElement.stereotype>
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="documentation" value="&lt;b&gt;Description&lt;/b&gt;&#xA;System shall enable secure data exchange between any customer registered in the system&#xA;&lt;b&gt;Measure to check&lt;/b&gt;&#xA;Data protection mechanism (e.g. ciphering protocols) are implemented in the communication processess &#xA;&lt;b&gt;Rationale&lt;/b&gt;&#xA;The customer does not want to have its private data being accessed by anyone when transmitted&#xA;&lt;b&gt;Reference&lt;/b&gt;&#xA;MPOWER R2.2.12.3, R2.2.17.1,&#xA;R2.2.17.2,&#xA;R2.2.17.6&#xA;PERSONA R2.2.17.2&#xA;&lt;b&gt;WP:&lt;/b&gt; 1,2,4&#xA;&lt;b&gt;Ranking:&lt;/b&gt; 5"/>
+										<UML:TaggedValue tag="isAbstract" value="false"/>
+										<UML:TaggedValue tag="isSpecification" value="false"/>
+										<UML:TaggedValue tag="ea_stype" value="Requirement"/>
+										<UML:TaggedValue tag="ea_ntype" value="0"/>
+										<UML:TaggedValue tag="version" value="1.0"/>
+										<UML:TaggedValue tag="package" value="EAPK_2C72BE1D_A634_4751_BF78_72CDE54FCB08"/>
+										<UML:TaggedValue tag="date_created" value="2010-06-07 14:04:07"/>
+										<UML:TaggedValue tag="date_modified" value="2010-06-07 14:04:07"/>
+										<UML:TaggedValue tag="gentype" value="&lt;none&gt;"/>
+										<UML:TaggedValue tag="tagged" value="0"/>
+										<UML:TaggedValue tag="package_name" value="Security"/>
+										<UML:TaggedValue tag="phase" value="1.0"/>
+										<UML:TaggedValue tag="alias" value="R2.2.17.01"/>
+										<UML:TaggedValue tag="author" value="Requirement Taskforce"/>
+										<UML:TaggedValue tag="complexity" value="1"/>
+										<UML:TaggedValue tag="status" value="Proposed"/>
+										<UML:TaggedValue tag="stereotype" value="Functional"/>
+										<UML:TaggedValue tag="tpos" value="0"/>
+										<UML:TaggedValue tag="keywords" value="WP1 WP2 WP4"/>
+										<UML:TaggedValue tag="ea_localid" value="1393"/>
+										<UML:TaggedValue tag="ea_eleType" value="element"/>
+										<UML:TaggedValue tag="difficulty" value="Medium"/>
+										<UML:TaggedValue tag="priority" value="High"/>
+										<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+										<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={150A88A1-B6AE-4c7c-B158-D90FDCC0F9BA}$XID;$NAM=Stereotypes$NAM;$TYP=element property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=Functional;GUID={C3354BB0-6AE7-4800-B99A-832932003762};@ENDSTEREO;$DES;$CLT={AC381C4F-448F-4e66-9A32-0F014DBC6667}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
+									</UML:ModelElement.taggedValue>
+								</UML:ClassifierRole>
+								<UML:ClassifierRole name="Trusted Zones" xmi.id="EAID_C4A67A27_DA0B_47c7_B31C_C7B0A44689F7" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+									<UML:ModelElement.stereotype>
+										<UML:Stereotype name="Functional"/>
+									</UML:ModelElement.stereotype>
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="documentation" value="&lt;b&gt;Description&lt;/b&gt;&#xA;Trusted zones must be established for the system componets that are processing and storing sensitive data.&#xA;&lt;b&gt;Measure to check&lt;/b&gt;&#xA;The existence of trusted zones.&#xA;&lt;b&gt;Rationale&lt;/b&gt;&#xA;A trusted site is typically a controlled area where servers and communcication lines are protected from unauthorised external access. These areas should be physically access protected.&#xA;&lt;b&gt;Reference&lt;/b&gt;&#xA;MPOWER R1.2.1&#xA;&lt;b&gt;WP:&lt;/b&gt; 1,2,4&#xA;&lt;b&gt;Ranking:&lt;/b&gt; 4"/>
+										<UML:TaggedValue tag="isAbstract" value="false"/>
+										<UML:TaggedValue tag="isSpecification" value="false"/>
+										<UML:TaggedValue tag="ea_stype" value="Requirement"/>
+										<UML:TaggedValue tag="ea_ntype" value="0"/>
+										<UML:TaggedValue tag="version" value="1.0"/>
+										<UML:TaggedValue tag="package" value="EAPK_2C72BE1D_A634_4751_BF78_72CDE54FCB08"/>
+										<UML:TaggedValue tag="date_created" value="2010-06-07 14:04:08"/>
+										<UML:TaggedValue tag="date_modified" value="2010-06-07 14:04:08"/>
+										<UML:TaggedValue tag="gentype" value="&lt;none&gt;"/>
+										<UML:TaggedValue tag="tagged" value="0"/>
+										<UML:TaggedValue tag="package_name" value="Security"/>
+										<UML:TaggedValue tag="phase" value="1.0"/>
+										<UML:TaggedValue tag="alias" value="R2.2.17.14"/>
+										<UML:TaggedValue tag="author" value="Requirement Taskforce"/>
+										<UML:TaggedValue tag="complexity" value="1"/>
+										<UML:TaggedValue tag="status" value="Proposed"/>
+										<UML:TaggedValue tag="stereotype" value="Functional"/>
+										<UML:TaggedValue tag="tpos" value="0"/>
+										<UML:TaggedValue tag="keywords" value="WP1 WP2 WP4"/>
+										<UML:TaggedValue tag="ea_localid" value="1406"/>
+										<UML:TaggedValue tag="ea_eleType" value="element"/>
+										<UML:TaggedValue tag="difficulty" value="Medium"/>
+										<UML:TaggedValue tag="priority" value="High"/>
+										<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+										<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={14F75AF4-6B61-491b-B82D-BD4C8142A35B}$XID;$NAM=Stereotypes$NAM;$TYP=element property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=Functional;GUID={C3354BB0-6AE7-4800-B99A-832932003762};@ENDSTEREO;$DES;$CLT={C4A67A27-DA0B-47c7-B31C-C7B0A44689F7}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
+									</UML:ModelElement.taggedValue>
+								</UML:ClassifierRole>
+								<UML:ClassifierRole name="Non-repudiability" xmi.id="EAID_C5319498_2241_4dc8_8DC5_1FDB645AC222" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+									<UML:ModelElement.stereotype>
+										<UML:Stereotype name="Functional"/>
+									</UML:ModelElement.stereotype>
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="documentation" value="&lt;b&gt;Description&lt;/b&gt;&#xA;Mechanisms for irrefutable proof of who initiated an actions within a system, have to be provided by the architecture.&#xA;&lt;b&gt;Measure to check&lt;/b&gt;&#xA;For each action within the system it is known who initiated this action.&#xA;&lt;b&gt;Rationale&lt;/b&gt;&#xA;Non-repudiability is the basis for accountability and liability.&#xA;&lt;b&gt;Reference&lt;/b&gt;&#xA;GENESYS R2.2.17.3&#xA;MPOWER R2.2.14.10&#xA;&lt;b&gt;WP:&lt;/b&gt; 1,2,4&#xA;&lt;b&gt;Ranking:&lt;/b&gt; 4"/>
+										<UML:TaggedValue tag="isAbstract" value="false"/>
+										<UML:TaggedValue tag="isSpecification" value="false"/>
+										<UML:TaggedValue tag="ea_stype" value="Requirement"/>
+										<UML:TaggedValue tag="ea_ntype" value="0"/>
+										<UML:TaggedValue tag="version" value="1.0"/>
+										<UML:TaggedValue tag="package" value="EAPK_2C72BE1D_A634_4751_BF78_72CDE54FCB08"/>
+										<UML:TaggedValue tag="date_created" value="2010-06-07 14:04:07"/>
+										<UML:TaggedValue tag="date_modified" value="2010-06-07 14:04:07"/>
+										<UML:TaggedValue tag="gentype" value="&lt;none&gt;"/>
+										<UML:TaggedValue tag="tagged" value="0"/>
+										<UML:TaggedValue tag="package_name" value="Security"/>
+										<UML:TaggedValue tag="phase" value="1.0"/>
+										<UML:TaggedValue tag="alias" value="R2.2.17.02"/>
+										<UML:TaggedValue tag="author" value="Requirement Taskforce"/>
+										<UML:TaggedValue tag="complexity" value="1"/>
+										<UML:TaggedValue tag="status" value="Proposed"/>
+										<UML:TaggedValue tag="stereotype" value="Functional"/>
+										<UML:TaggedValue tag="tpos" value="0"/>
+										<UML:TaggedValue tag="keywords" value="WP1 WP2 WP4"/>
+										<UML:TaggedValue tag="ea_localid" value="1394"/>
+										<UML:TaggedValue tag="ea_eleType" value="element"/>
+										<UML:TaggedValue tag="difficulty" value="Medium"/>
+										<UML:TaggedValue tag="priority" value="High"/>
+										<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+										<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={41B1272C-BBA5-4349-8820-B77205A8823C}$XID;$NAM=Stereotypes$NAM;$TYP=element property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=Functional;GUID={C3354BB0-6AE7-4800-B99A-832932003762};@ENDSTEREO;$DES;$CLT={C5319498-2241-4dc8-8DC5-1FDB645AC222}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
+									</UML:ModelElement.taggedValue>
+								</UML:ClassifierRole>
+								<UML:ClassifierRole name="Partly Trusted Modules" xmi.id="EAID_CBBCCF2E_CFEE_4958_80ED_EE6440DCE418" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+									<UML:ModelElement.stereotype>
+										<UML:Stereotype name="Functional"/>
+									</UML:ModelElement.stereotype>
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="documentation" value="&lt;b&gt;Description&lt;/b&gt;&#xA;Provide a control mechanism for module-to-module messaging, especially to hanlde the problem of partly trusted modules.&#xA;&lt;b&gt;Measure to check&lt;/b&gt;&#xA;Untrusted modules do not receive restricted information from trusted modules.&#xA;&lt;b&gt;Rationale&lt;/b&gt;&#xA;Modules which are trusted may not provide restricted information to modules which are not trusted.&#xA;&lt;b&gt;Reference&lt;/b&gt;&#xA;PERSONA R2.2.17.4&#xA;&lt;b&gt;WP:&lt;/b&gt; 1,2,4&#xA;&lt;b&gt;Ranking:&lt;/b&gt; 3"/>
+										<UML:TaggedValue tag="isAbstract" value="false"/>
+										<UML:TaggedValue tag="isSpecification" value="false"/>
+										<UML:TaggedValue tag="ea_stype" value="Requirement"/>
+										<UML:TaggedValue tag="ea_ntype" value="0"/>
+										<UML:TaggedValue tag="version" value="1.0"/>
+										<UML:TaggedValue tag="package" value="EAPK_2C72BE1D_A634_4751_BF78_72CDE54FCB08"/>
+										<UML:TaggedValue tag="date_created" value="2010-06-07 14:04:08"/>
+										<UML:TaggedValue tag="date_modified" value="2010-06-07 14:04:08"/>
+										<UML:TaggedValue tag="gentype" value="&lt;none&gt;"/>
+										<UML:TaggedValue tag="tagged" value="0"/>
+										<UML:TaggedValue tag="package_name" value="Security"/>
+										<UML:TaggedValue tag="phase" value="1.0"/>
+										<UML:TaggedValue tag="alias" value="R2.2.17.13"/>
+										<UML:TaggedValue tag="author" value="Requirement Taskforce"/>
+										<UML:TaggedValue tag="complexity" value="1"/>
+										<UML:TaggedValue tag="status" value="Proposed"/>
+										<UML:TaggedValue tag="stereotype" value="Functional"/>
+										<UML:TaggedValue tag="tpos" value="0"/>
+										<UML:TaggedValue tag="keywords" value="WP1 WP2 WP4"/>
+										<UML:TaggedValue tag="ea_localid" value="1405"/>
+										<UML:TaggedValue tag="ea_eleType" value="element"/>
+										<UML:TaggedValue tag="difficulty" value="Medium"/>
+										<UML:TaggedValue tag="priority" value="Medium"/>
+										<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+										<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={0828350D-724C-4e62-94C5-2668482DD63F}$XID;$NAM=Stereotypes$NAM;$TYP=element property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=Functional;GUID={C3354BB0-6AE7-4800-B99A-832932003762};@ENDSTEREO;$DES;$CLT={CBBCCF2E-CFEE-4958-80ED-EE6440DCE418}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
+									</UML:ModelElement.taggedValue>
+								</UML:ClassifierRole>
+							</UML:Namespace.ownedElement>
+							<UML:Collaboration.interaction/>
+						</UML:Collaboration>
+					</UML:Namespace.ownedElement>
+				</UML:Package>
+			</UML:Namespace.ownedElement>
+		</UML:Model>
+	</XMI.content>
+	<XMI.difference/>
+	<XMI.extensions xmi.extender="Enterprise Architect 2.5"/>
+</XMI>
