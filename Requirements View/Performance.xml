@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<XMI xmi.version="1.1" xmlns:UML="omg.org/UML1.3">
+	<XMI.header>
+		<XMI.documentation>
+			<XMI.exporter>Enterprise Architect</XMI.exporter>
+			<XMI.exporterVersion>2.5</XMI.exporterVersion>
+		</XMI.documentation>
+	</XMI.header>
+	<XMI.content>
+		<UML:Model name="EA Model" xmi.id="MX_EAID_20C0B699_FED1_485b_ADB1_93A03155D6B3">
+			<UML:Namespace.ownedElement>
+				<UML:Class name="EARootClass" xmi.id="EAID_11111111_5487_4080_A7F4_41526CB0AA00" isRoot="true" isLeaf="false" isAbstract="false"/>
+				<UML:Package name="Performance" xmi.id="EAPK_20C0B699_FED1_485b_ADB1_93A03155D6B3" isRoot="false" isLeaf="false" isAbstract="false" visibility="public">
+					<UML:ModelElement.taggedValue>
+						<UML:TaggedValue tag="parent" value="EAPK_9B3DD1F9_6EF6_4391_8288_539272860530"/>
+						<UML:TaggedValue tag="created" value="2010-06-08 14:43:50"/>
+						<UML:TaggedValue tag="modified" value="2010-06-08 14:43:50"/>
+						<UML:TaggedValue tag="iscontrolled" value="TRUE"/>
+						<UML:TaggedValue tag="xmlpath" value="Requirements View\Performance.xml"/>
+						<UML:TaggedValue tag="version" value="1.0"/>
+						<UML:TaggedValue tag="isprotected" value="FALSE"/>
+						<UML:TaggedValue tag="usedtd" value="FALSE"/>
+						<UML:TaggedValue tag="owner" value="Stefano Lenzi"/>
+						<UML:TaggedValue tag="xmiver" value="Enterprise Architect XMI/UML 1.3"/>
+						<UML:TaggedValue tag="logxml" value="FALSE"/>
+						<UML:TaggedValue tag="packageFlags" value="Recurse=0;VCCFG=uAAL;CheckedOutTo=kismet;CRC=0;"/>
+						<UML:TaggedValue tag="batchsave" value="0"/>
+						<UML:TaggedValue tag="batchload" value="0"/>
+						<UML:TaggedValue tag="phase" value="1.0"/>
+						<UML:TaggedValue tag="status" value="Proposed"/>
+						<UML:TaggedValue tag="author" value="Requirement Taskforce"/>
+						<UML:TaggedValue tag="alias" value="R2.2.11"/>
+						<UML:TaggedValue tag="complexity" value="1"/>
+						<UML:TaggedValue tag="ea_stype" value="Public"/>
+						<UML:TaggedValue tag="tpos" value="0"/>
+						<UML:TaggedValue tag="gentype" value="Java"/>
+					</UML:ModelElement.taggedValue>
+					<UML:Namespace.ownedElement>
+						<UML:Collaboration xmi.id="EAID_20C0B699_FED1_485b_ADB1_93A03155D6B3_Collaboration" name="Collaborations">
+							<UML:Namespace.ownedElement>
+								<UML:ClassifierRole name="Guarantees for Computational Resources" xmi.id="EAID_1FE25EE6_0314_47f1_8F30_13B13BCDDDD0" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+									<UML:ModelElement.stereotype>
+										<UML:Stereotype name="Functional"/>
+									</UML:ModelElement.stereotype>
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="documentation" value="&lt;b&gt;Description&lt;/b&gt;&#xA;Guarantees for the availability of computational resources should be supported by the architecture.&#xA;&lt;b&gt;Measure to check&lt;/b&gt;&#xA;For computational resources guarantees for their availability can be given.&#xA;&lt;b&gt;Rationale&lt;/b&gt;&#xA;Only with guranteed lower bounds for the availability of computational resources bounded execution times of functions can be achieved. A bounded execution time in turn is a key issue for robustness.&#xA;&lt;b&gt;Reference&lt;/b&gt;&#xA;GENESYS R2.2.11.2&#xA;&lt;b&gt;WP:&lt;/b&gt; 1,2&#xA;&lt;b&gt;Ranking:&lt;/b&gt; 2"/>
+										<UML:TaggedValue tag="isAbstract" value="false"/>
+										<UML:TaggedValue tag="isSpecification" value="false"/>
+										<UML:TaggedValue tag="ea_stype" value="Requirement"/>
+										<UML:TaggedValue tag="ea_ntype" value="0"/>
+										<UML:TaggedValue tag="version" value="1.0"/>
+										<UML:TaggedValue tag="package" value="EAPK_20C0B699_FED1_485b_ADB1_93A03155D6B3"/>
+										<UML:TaggedValue tag="date_created" value="2010-06-08 14:43:52"/>
+										<UML:TaggedValue tag="date_modified" value="2010-06-08 14:43:52"/>
+										<UML:TaggedValue tag="gentype" value="&lt;none&gt;"/>
+										<UML:TaggedValue tag="tagged" value="0"/>
+										<UML:TaggedValue tag="package_name" value="Performance"/>
+										<UML:TaggedValue tag="phase" value="1.0"/>
+										<UML:TaggedValue tag="alias" value="R2.2.11.2"/>
+										<UML:TaggedValue tag="author" value="Requirement Taskforce"/>
+										<UML:TaggedValue tag="complexity" value="1"/>
+										<UML:TaggedValue tag="status" value="Proposed"/>
+										<UML:TaggedValue tag="stereotype" value="Functional"/>
+										<UML:TaggedValue tag="tpos" value="0"/>
+										<UML:TaggedValue tag="keywords" value="WP1 WP2"/>
+										<UML:TaggedValue tag="ea_localid" value="649"/>
+										<UML:TaggedValue tag="ea_eleType" value="element"/>
+										<UML:TaggedValue tag="difficulty" value="Medium"/>
+										<UML:TaggedValue tag="priority" value="Medium"/>
+										<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+										<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={B18E100D-CC73-42b0-BAD0-DEB9623AC636}$XID;$NAM=Stereotypes$NAM;$TYP=element property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=Functional;GUID={C3354BB0-6AE7-4800-B99A-832932003762};@ENDSTEREO;$DES;$CLT={1FE25EE6-0314-47f1-8F30-13B13BCDDDD0}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
+									</UML:ModelElement.taggedValue>
+								</UML:ClassifierRole>
+								<UML:ClassifierRole name="Real-Time Applications" xmi.id="EAID_553EEC06_9D6F_4c4b_B6D5_C2A06FBE5AB7" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+									<UML:ModelElement.stereotype>
+										<UML:Stereotype name="Functional"/>
+									</UML:ModelElement.stereotype>
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="documentation" value="&lt;b&gt;Description&lt;/b&gt;&#xA;The architecture should support real-time applications (e.g. Activity monitoring).&#xA;&lt;b&gt;Measure to check&lt;/b&gt;&#xA;Real-time scheduling is supported.&#xA;&lt;b&gt;Rationale&lt;/b&gt;&#xA;All data from the sensor must be gathered with real-time or near real-time scheduling.&#xA;&lt;b&gt;Reference&lt;/b&gt;&#xA;PERSONA R2.2.11.2&#xA;&lt;b&gt;WP:&lt;/b&gt; 1,2&#xA;&lt;b&gt;Ranking:&lt;/b&gt; 5"/>
+										<UML:TaggedValue tag="isAbstract" value="false"/>
+										<UML:TaggedValue tag="isSpecification" value="false"/>
+										<UML:TaggedValue tag="ea_stype" value="Requirement"/>
+										<UML:TaggedValue tag="ea_ntype" value="0"/>
+										<UML:TaggedValue tag="version" value="1.0"/>
+										<UML:TaggedValue tag="package" value="EAPK_20C0B699_FED1_485b_ADB1_93A03155D6B3"/>
+										<UML:TaggedValue tag="date_created" value="2010-06-08 14:43:52"/>
+										<UML:TaggedValue tag="date_modified" value="2010-06-08 14:43:52"/>
+										<UML:TaggedValue tag="gentype" value="&lt;none&gt;"/>
+										<UML:TaggedValue tag="tagged" value="0"/>
+										<UML:TaggedValue tag="package_name" value="Performance"/>
+										<UML:TaggedValue tag="phase" value="1.0"/>
+										<UML:TaggedValue tag="alias" value="R2.2.11.4"/>
+										<UML:TaggedValue tag="author" value="Requirement Taskforce"/>
+										<UML:TaggedValue tag="complexity" value="1"/>
+										<UML:TaggedValue tag="status" value="Proposed"/>
+										<UML:TaggedValue tag="stereotype" value="Functional"/>
+										<UML:TaggedValue tag="tpos" value="0"/>
+										<UML:TaggedValue tag="keywords" value="WP1 WP2"/>
+										<UML:TaggedValue tag="ea_localid" value="651"/>
+										<UML:TaggedValue tag="ea_eleType" value="element"/>
+										<UML:TaggedValue tag="difficulty" value="Medium"/>
+										<UML:TaggedValue tag="priority" value="High"/>
+										<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+										<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={31DC1316-2C3E-4b9d-B502-B19946CAACE2}$XID;$NAM=Stereotypes$NAM;$TYP=element property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=Functional;GUID={C3354BB0-6AE7-4800-B99A-832932003762};@ENDSTEREO;$DES;$CLT={553EEC06-9D6F-4c4b-B6D5-C2A06FBE5AB7}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
+									</UML:ModelElement.taggedValue>
+								</UML:ClassifierRole>
+								<UML:ClassifierRole name="Constraint-driven Processing" xmi.id="EAID_BEE8662A_D461_41e5_BE0B_C8E3952E6D36" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+									<UML:ModelElement.stereotype>
+										<UML:Stereotype name="Functional"/>
+									</UML:ModelElement.stereotype>
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="documentation" value="&lt;b&gt;Description&lt;/b&gt;&#xA;The system must be able to monitor time constrains when executing applications and provide alternatives when time-constrains can not be achieved, e.g. routeplaner is able to provide results of different quality at different times.&#xA;&lt;b&gt;Measure to check&lt;/b&gt;&#xA;When a task cannot deliver results within its time interval, an alternative action is triggered.&#xA;&lt;b&gt;Rationale&lt;/b&gt;&#xA;Scenarios like fall, require actions within a defined interval of time (e.g., fall detection). When applications are not able to deliver results in time, an alternative action must be triggered (e.g., an alarm is sent).&#xA;&lt;b&gt;Reference&lt;/b&gt;&#xA;GENESYS R2.2.11.3 PERSONA R2.2.11.3&#xA;&lt;b&gt;WP:&lt;/b&gt; 1,2,4&#xA;&lt;b&gt;Ranking:&lt;/b&gt; 4,5"/>
+										<UML:TaggedValue tag="isAbstract" value="false"/>
+										<UML:TaggedValue tag="isSpecification" value="false"/>
+										<UML:TaggedValue tag="ea_stype" value="Requirement"/>
+										<UML:TaggedValue tag="ea_ntype" value="0"/>
+										<UML:TaggedValue tag="version" value="1.0"/>
+										<UML:TaggedValue tag="package" value="EAPK_20C0B699_FED1_485b_ADB1_93A03155D6B3"/>
+										<UML:TaggedValue tag="date_created" value="2010-06-08 14:43:52"/>
+										<UML:TaggedValue tag="date_modified" value="2010-06-08 14:43:52"/>
+										<UML:TaggedValue tag="gentype" value="&lt;none&gt;"/>
+										<UML:TaggedValue tag="tagged" value="0"/>
+										<UML:TaggedValue tag="package_name" value="Performance"/>
+										<UML:TaggedValue tag="phase" value="1.0"/>
+										<UML:TaggedValue tag="alias" value="R2.2.11.3"/>
+										<UML:TaggedValue tag="author" value="Requirement Taskforce"/>
+										<UML:TaggedValue tag="complexity" value="1"/>
+										<UML:TaggedValue tag="status" value="Proposed"/>
+										<UML:TaggedValue tag="stereotype" value="Functional"/>
+										<UML:TaggedValue tag="tpos" value="0"/>
+										<UML:TaggedValue tag="keywords" value="WP1 WP2 WP4"/>
+										<UML:TaggedValue tag="ea_localid" value="650"/>
+										<UML:TaggedValue tag="ea_eleType" value="element"/>
+										<UML:TaggedValue tag="difficulty" value="Medium"/>
+										<UML:TaggedValue tag="priority" value="High"/>
+										<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+										<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={3E7957FB-3513-48e3-BBF4-3EFF444F2FC6}$XID;$NAM=Stereotypes$NAM;$TYP=element property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=Functional;GUID={C3354BB0-6AE7-4800-B99A-832932003762};@ENDSTEREO;$DES;$CLT={BEE8662A-D461-41e5-BE0B-C8E3952E6D36}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
+									</UML:ModelElement.taggedValue>
+								</UML:ClassifierRole>
+								<UML:ClassifierRole name="Dynamically Scaleable Performance" xmi.id="EAID_FF0F4566_72C7_4493_88C5_10AB2E06E488" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+									<UML:ModelElement.stereotype>
+										<UML:Stereotype name="Functional"/>
+									</UML:ModelElement.stereotype>
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="documentation" value="&lt;b&gt;Description&lt;/b&gt;&#xA;For reduction of power consumption and heat dissipation the architecture shall support hardware resources with scalable performance (e.g., by changing clock frequency).&#xA;&lt;b&gt;Measure to check&lt;/b&gt;&#xA;Performance of a hardware resource, that is not needed within a given time interval, can be scaled down.&#xA;&lt;b&gt;Rationale&lt;/b&gt;&#xA;As not all subsystems are operational at any time, performance of these subsystems can be scaled down to a required minimum.&#xA;&lt;b&gt;Reference&lt;/b&gt;&#xA;GENESYS R2.2.11.1&#xA;&lt;b&gt;WP:&lt;/b&gt; 1,2&#xA;&lt;b&gt;Ranking:&lt;/b&gt; 2"/>
+										<UML:TaggedValue tag="isAbstract" value="false"/>
+										<UML:TaggedValue tag="isSpecification" value="false"/>
+										<UML:TaggedValue tag="ea_stype" value="Requirement"/>
+										<UML:TaggedValue tag="ea_ntype" value="0"/>
+										<UML:TaggedValue tag="version" value="1.0"/>
+										<UML:TaggedValue tag="package" value="EAPK_20C0B699_FED1_485b_ADB1_93A03155D6B3"/>
+										<UML:TaggedValue tag="date_created" value="2010-06-08 14:43:52"/>
+										<UML:TaggedValue tag="date_modified" value="2010-06-08 14:43:52"/>
+										<UML:TaggedValue tag="gentype" value="&lt;none&gt;"/>
+										<UML:TaggedValue tag="tagged" value="0"/>
+										<UML:TaggedValue tag="package_name" value="Performance"/>
+										<UML:TaggedValue tag="phase" value="1.0"/>
+										<UML:TaggedValue tag="alias" value="R2.2.11.1"/>
+										<UML:TaggedValue tag="author" value="Requirement Taskforce"/>
+										<UML:TaggedValue tag="complexity" value="1"/>
+										<UML:TaggedValue tag="status" value="Proposed"/>
+										<UML:TaggedValue tag="stereotype" value="Functional"/>
+										<UML:TaggedValue tag="tpos" value="0"/>
+										<UML:TaggedValue tag="keywords" value="WP1 WP2"/>
+										<UML:TaggedValue tag="ea_localid" value="648"/>
+										<UML:TaggedValue tag="ea_eleType" value="element"/>
+										<UML:TaggedValue tag="difficulty" value="Medium"/>
+										<UML:TaggedValue tag="priority" value="Medium"/>
+										<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+										<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={533FB24F-15C4-4d26-8CFA-8785B94DAEA7}$XID;$NAM=Stereotypes$NAM;$TYP=element property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=Functional;GUID={C3354BB0-6AE7-4800-B99A-832932003762};@ENDSTEREO;$DES;$CLT={FF0F4566-72C7-4493-88C5-10AB2E06E488}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
+									</UML:ModelElement.taggedValue>
+								</UML:ClassifierRole>
+							</UML:Namespace.ownedElement>
+							<UML:Collaboration.interaction/>
+						</UML:Collaboration>
+					</UML:Namespace.ownedElement>
+				</UML:Package>
+			</UML:Namespace.ownedElement>
+		</UML:Model>
+	</XMI.content>
+	<XMI.difference/>
+	<XMI.extensions xmi.extender="Enterprise Architect 2.5"/>
+</XMI>
