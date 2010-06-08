@@ -1,0 +1,415 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<XMI xmi.version="1.1" xmlns:UML="omg.org/UML1.3">
+	<XMI.header>
+		<XMI.documentation>
+			<XMI.exporter>Enterprise Architect</XMI.exporter>
+			<XMI.exporterVersion>2.5</XMI.exporterVersion>
+		</XMI.documentation>
+	</XMI.header>
+	<XMI.content>
+		<UML:Model name="EA Model" xmi.id="MX_EAID_C02875C6_5897_4933_BEBE_FB63E06D8908">
+			<UML:Namespace.ownedElement>
+				<UML:Class name="EARootClass" xmi.id="EAID_11111111_5487_4080_A7F4_41526CB0AA00" isRoot="true" isLeaf="false" isAbstract="false"/>
+				<UML:Package name="Critical situations and emergencies" xmi.id="EAPK_C02875C6_5897_4933_BEBE_FB63E06D8908" isRoot="false" isLeaf="false" isAbstract="false" visibility="public">
+					<UML:ModelElement.taggedValue>
+						<UML:TaggedValue tag="parent" value="EAPK_9B3DD1F9_6EF6_4391_8288_539272860530"/>
+						<UML:TaggedValue tag="created" value="2010-06-08 14:43:51"/>
+						<UML:TaggedValue tag="modified" value="2010-06-08 14:43:51"/>
+						<UML:TaggedValue tag="iscontrolled" value="TRUE"/>
+						<UML:TaggedValue tag="xmlpath" value="Requirements View\Critical situations and emergencies.xml"/>
+						<UML:TaggedValue tag="version" value="1.0"/>
+						<UML:TaggedValue tag="isprotected" value="FALSE"/>
+						<UML:TaggedValue tag="usedtd" value="FALSE"/>
+						<UML:TaggedValue tag="owner" value="Stefano Lenzi"/>
+						<UML:TaggedValue tag="xmiver" value="Enterprise Architect XMI/UML 1.3"/>
+						<UML:TaggedValue tag="logxml" value="FALSE"/>
+						<UML:TaggedValue tag="packageFlags" value="Recurse=0;VCCFG=uAAL;CheckedOutTo=kismet;CRC=0;"/>
+						<UML:TaggedValue tag="batchsave" value="0"/>
+						<UML:TaggedValue tag="batchload" value="0"/>
+						<UML:TaggedValue tag="phase" value="1.0"/>
+						<UML:TaggedValue tag="status" value="Proposed"/>
+						<UML:TaggedValue tag="author" value="Requirement Taskforce"/>
+						<UML:TaggedValue tag="alias" value="R2.1.3"/>
+						<UML:TaggedValue tag="complexity" value="1"/>
+						<UML:TaggedValue tag="ea_stype" value="Public"/>
+						<UML:TaggedValue tag="tpos" value="0"/>
+						<UML:TaggedValue tag="gentype" value="Java"/>
+					</UML:ModelElement.taggedValue>
+					<UML:Namespace.ownedElement>
+						<UML:Collaboration xmi.id="EAID_C02875C6_5897_4933_BEBE_FB63E06D8908_Collaboration" name="Collaborations">
+							<UML:Namespace.ownedElement>
+								<UML:ClassifierRole name="Feedback to user" xmi.id="EAID_14D52E09_A444_4df0_81B3_B79BB4E5106B" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="documentation" value="&lt;b&gt;Description&lt;/b&gt;&#xA;In case of a fall detection the system should inform the AP that the fall is properly reported and the help is on its way.&#xA;&lt;b&gt;Measure to check&lt;/b&gt;&#xA;feedback channel to the user must be provided, appropriate to the situation. To be checked in trials.&#xA;&lt;b&gt;Rationale&lt;/b&gt;&#xA;Feedback to user is important in critical situations&#xA;&lt;b&gt;Reference&lt;/b&gt;&#xA;SOPRANO R2.1.23&#xA;&lt;b&gt;WP:&lt;/b&gt; 4, 2&#xA;&lt;b&gt;Ranking:&lt;/b&gt; 5"/>
+										<UML:TaggedValue tag="isAbstract" value="false"/>
+										<UML:TaggedValue tag="isSpecification" value="false"/>
+										<UML:TaggedValue tag="ea_stype" value="Requirement"/>
+										<UML:TaggedValue tag="ea_ntype" value="0"/>
+										<UML:TaggedValue tag="version" value="1.0"/>
+										<UML:TaggedValue tag="package" value="EAPK_C02875C6_5897_4933_BEBE_FB63E06D8908"/>
+										<UML:TaggedValue tag="date_created" value="2010-06-08 14:43:53"/>
+										<UML:TaggedValue tag="date_modified" value="2010-06-08 14:43:53"/>
+										<UML:TaggedValue tag="gentype" value="&lt;none&gt;"/>
+										<UML:TaggedValue tag="tagged" value="0"/>
+										<UML:TaggedValue tag="package_name" value="Critical situations and emergencies"/>
+										<UML:TaggedValue tag="phase" value="1.0"/>
+										<UML:TaggedValue tag="alias" value="R2.1.3.10"/>
+										<UML:TaggedValue tag="author" value="Requirement Taskforce"/>
+										<UML:TaggedValue tag="complexity" value="1"/>
+										<UML:TaggedValue tag="status" value="Proposed"/>
+										<UML:TaggedValue tag="tpos" value="0"/>
+										<UML:TaggedValue tag="keywords" value="WP4 WP 2"/>
+										<UML:TaggedValue tag="ea_localid" value="691"/>
+										<UML:TaggedValue tag="ea_eleType" value="element"/>
+										<UML:TaggedValue tag="difficulty" value="Medium"/>
+										<UML:TaggedValue tag="priority" value="High"/>
+										<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+									</UML:ModelElement.taggedValue>
+								</UML:ClassifierRole>
+								<UML:ClassifierRole name="Cancel button" xmi.id="EAID_323C3BA4_0314_4801_9388_1EEEBBD0FC36" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="documentation" value="&lt;b&gt;Description&lt;/b&gt;&#xA;A cancelation button must be provided to cancel alarms in case of false positives&#xA;&lt;b&gt;Measure to check&lt;/b&gt;&#xA;easy to use solution must be evaluated in user studies&#xA;&lt;b&gt;Rationale&lt;/b&gt;&#xA;For hesring impaired and/or situations where the system cannot communicate with the user a cencel button is necessary&#xA;&lt;b&gt;Reference&lt;/b&gt;&#xA;PERSONA R2.1.28&#xA;&lt;b&gt;WP:&lt;/b&gt; 4&#xA;&lt;b&gt;Ranking:&lt;/b&gt; 4"/>
+										<UML:TaggedValue tag="isAbstract" value="false"/>
+										<UML:TaggedValue tag="isSpecification" value="false"/>
+										<UML:TaggedValue tag="ea_stype" value="Requirement"/>
+										<UML:TaggedValue tag="ea_ntype" value="0"/>
+										<UML:TaggedValue tag="version" value="1.0"/>
+										<UML:TaggedValue tag="package" value="EAPK_C02875C6_5897_4933_BEBE_FB63E06D8908"/>
+										<UML:TaggedValue tag="date_created" value="2010-06-08 14:43:53"/>
+										<UML:TaggedValue tag="date_modified" value="2010-06-08 14:43:53"/>
+										<UML:TaggedValue tag="gentype" value="&lt;none&gt;"/>
+										<UML:TaggedValue tag="tagged" value="0"/>
+										<UML:TaggedValue tag="package_name" value="Critical situations and emergencies"/>
+										<UML:TaggedValue tag="phase" value="1.0"/>
+										<UML:TaggedValue tag="alias" value="R2.1.3.05"/>
+										<UML:TaggedValue tag="author" value="Requirement Taskforce"/>
+										<UML:TaggedValue tag="complexity" value="1"/>
+										<UML:TaggedValue tag="status" value="Proposed"/>
+										<UML:TaggedValue tag="tpos" value="0"/>
+										<UML:TaggedValue tag="keywords" value="WP4"/>
+										<UML:TaggedValue tag="ea_localid" value="683"/>
+										<UML:TaggedValue tag="ea_eleType" value="element"/>
+										<UML:TaggedValue tag="difficulty" value="Medium"/>
+										<UML:TaggedValue tag="priority" value="High"/>
+										<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+									</UML:ModelElement.taggedValue>
+								</UML:ClassifierRole>
+								<UML:ClassifierRole name="Prevent fall at night" xmi.id="EAID_32CCDBA5_F81F_401f_954A_107766B1F107" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="documentation" value="&lt;b&gt;Description&lt;/b&gt;&#xA;System should provide facilities to prevent a fall during the night (e.g. by lighting the way through the home and avoiding sudden light changes)&#xA;&lt;b&gt;Measure to check&lt;/b&gt;&#xA;to be evaluated in user studies&#xA;&lt;b&gt;Rationale&lt;/b&gt;&#xA;prevention of specific problem in cases of dementia&#xA;&lt;b&gt;Reference&lt;/b&gt;&#xA;SOPRANO R2.1.46; &#xA;OASIS R2.1.22&#xA;&lt;b&gt;WP:&lt;/b&gt; 4&#xA;&lt;b&gt;Ranking:&lt;/b&gt; 5"/>
+										<UML:TaggedValue tag="isAbstract" value="false"/>
+										<UML:TaggedValue tag="isSpecification" value="false"/>
+										<UML:TaggedValue tag="ea_stype" value="Requirement"/>
+										<UML:TaggedValue tag="ea_ntype" value="0"/>
+										<UML:TaggedValue tag="version" value="1.0"/>
+										<UML:TaggedValue tag="package" value="EAPK_C02875C6_5897_4933_BEBE_FB63E06D8908"/>
+										<UML:TaggedValue tag="date_created" value="2010-06-08 14:43:53"/>
+										<UML:TaggedValue tag="date_modified" value="2010-06-08 14:43:53"/>
+										<UML:TaggedValue tag="gentype" value="&lt;none&gt;"/>
+										<UML:TaggedValue tag="tagged" value="0"/>
+										<UML:TaggedValue tag="package_name" value="Critical situations and emergencies"/>
+										<UML:TaggedValue tag="phase" value="1.0"/>
+										<UML:TaggedValue tag="alias" value="R2.1.3.12"/>
+										<UML:TaggedValue tag="author" value="Requirement Taskforce"/>
+										<UML:TaggedValue tag="complexity" value="1"/>
+										<UML:TaggedValue tag="status" value="Proposed"/>
+										<UML:TaggedValue tag="tpos" value="0"/>
+										<UML:TaggedValue tag="keywords" value="WP4"/>
+										<UML:TaggedValue tag="ea_localid" value="693"/>
+										<UML:TaggedValue tag="ea_eleType" value="element"/>
+										<UML:TaggedValue tag="difficulty" value="Medium"/>
+										<UML:TaggedValue tag="priority" value="High"/>
+										<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+									</UML:ModelElement.taggedValue>
+								</UML:ClassifierRole>
+								<UML:ClassifierRole name="warnings and reminders when leaving" xmi.id="EAID_45F7B772_E7FC_4ae7_8D4F_01C8F147EF54" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="documentation" value="&lt;b&gt;Description&lt;/b&gt;&#xA;When the AP leaves the home, the system should warn the AP about running devices and forgotten objects, open windows, devices that put home-safety at risk, i.e wearable sensors, key, turned on and forgotten oven/stove etc.&#xA;&lt;b&gt;Measure to check&lt;/b&gt;&#xA;Person must be able to recognise warning and system or person must be able resolve critical situations before leaving&#xA;&lt;b&gt;Rationale&lt;/b&gt;&#xA;Ensures security and safety when leaving the home. A major problem in the domain consider Dementia and minor forgetfulness&#xA;&lt;b&gt;Reference&lt;/b&gt;&#xA;PERSONA R2.1.9; &#xA;SOPRANO R2.1.8; &#xA;SOPRANO R2.1.58&#xA;&lt;b&gt;WP:&lt;/b&gt; 4,1&#xA;&lt;b&gt;Ranking:&lt;/b&gt; 5"/>
+										<UML:TaggedValue tag="isAbstract" value="false"/>
+										<UML:TaggedValue tag="isSpecification" value="false"/>
+										<UML:TaggedValue tag="ea_stype" value="Requirement"/>
+										<UML:TaggedValue tag="ea_ntype" value="0"/>
+										<UML:TaggedValue tag="version" value="1.0"/>
+										<UML:TaggedValue tag="package" value="EAPK_C02875C6_5897_4933_BEBE_FB63E06D8908"/>
+										<UML:TaggedValue tag="date_created" value="2010-06-08 14:43:52"/>
+										<UML:TaggedValue tag="date_modified" value="2010-06-08 14:43:52"/>
+										<UML:TaggedValue tag="gentype" value="&lt;none&gt;"/>
+										<UML:TaggedValue tag="tagged" value="0"/>
+										<UML:TaggedValue tag="package_name" value="Critical situations and emergencies"/>
+										<UML:TaggedValue tag="phase" value="1.0"/>
+										<UML:TaggedValue tag="alias" value="R2.1.3.01"/>
+										<UML:TaggedValue tag="author" value="Requirement Taskforce"/>
+										<UML:TaggedValue tag="complexity" value="1"/>
+										<UML:TaggedValue tag="status" value="Proposed"/>
+										<UML:TaggedValue tag="tpos" value="0"/>
+										<UML:TaggedValue tag="keywords" value="WP4 WP1"/>
+										<UML:TaggedValue tag="ea_localid" value="679"/>
+										<UML:TaggedValue tag="ea_eleType" value="element"/>
+										<UML:TaggedValue tag="difficulty" value="Medium"/>
+										<UML:TaggedValue tag="priority" value="High"/>
+										<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+									</UML:ModelElement.taggedValue>
+								</UML:ClassifierRole>
+								<UML:ClassifierRole name="Fall" xmi.id="EAID_5FDCA4D5_6D89_4dfc_B5F7_B75E0DA65EE8" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="documentation" value="&lt;b&gt;Description&lt;/b&gt;&#xA;If fall of the user is detected the system should  send an alarm to a responsible person.&#xA;&lt;b&gt;Measure to check&lt;/b&gt;&#xA;Must comply to and compete with domain standards&#xA;&lt;b&gt;Rationale&lt;/b&gt;&#xA;Central problem in AAL domain&#xA;&lt;b&gt;Reference&lt;/b&gt;&#xA;MPOWER: R2.1.2;&#xA;MPOWER R2.1.26; &#xA;SOPRANO R2.1.52; &#xA;SOPRANO R2.1.59; &#xA;OASIS R2.1.22&#xA;&lt;b&gt;WP:&lt;/b&gt; 4, 2&#xA;&lt;b&gt;Ranking:&lt;/b&gt; 5"/>
+										<UML:TaggedValue tag="isAbstract" value="false"/>
+										<UML:TaggedValue tag="isSpecification" value="false"/>
+										<UML:TaggedValue tag="ea_stype" value="Requirement"/>
+										<UML:TaggedValue tag="ea_ntype" value="0"/>
+										<UML:TaggedValue tag="version" value="1.0"/>
+										<UML:TaggedValue tag="package" value="EAPK_C02875C6_5897_4933_BEBE_FB63E06D8908"/>
+										<UML:TaggedValue tag="date_created" value="2010-06-08 14:43:53"/>
+										<UML:TaggedValue tag="date_modified" value="2010-06-08 14:43:53"/>
+										<UML:TaggedValue tag="gentype" value="&lt;none&gt;"/>
+										<UML:TaggedValue tag="tagged" value="0"/>
+										<UML:TaggedValue tag="package_name" value="Critical situations and emergencies"/>
+										<UML:TaggedValue tag="phase" value="1.0"/>
+										<UML:TaggedValue tag="alias" value="R2.1.3.09"/>
+										<UML:TaggedValue tag="author" value="Requirement Taskforce"/>
+										<UML:TaggedValue tag="complexity" value="1"/>
+										<UML:TaggedValue tag="status" value="Proposed"/>
+										<UML:TaggedValue tag="tpos" value="0"/>
+										<UML:TaggedValue tag="keywords" value="WP4 WP 2"/>
+										<UML:TaggedValue tag="ea_localid" value="687"/>
+										<UML:TaggedValue tag="ea_eleType" value="element"/>
+										<UML:TaggedValue tag="difficulty" value="Medium"/>
+										<UML:TaggedValue tag="priority" value="High"/>
+										<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+									</UML:ModelElement.taggedValue>
+								</UML:ClassifierRole>
+								<UML:ClassifierRole name="Raising alarm" xmi.id="EAID_77803CC0_BF75_476f_821E_7FC9401FE295" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="documentation" value="&lt;b&gt;Description&lt;/b&gt;&#xA;The system should be able to raise an alarm call to a responsible party/external application, if the required infrastructure is available.&#xA;&lt;b&gt;Measure to check&lt;/b&gt;&#xA;easy to use solution must be evaluated in user studies&#xA;&lt;b&gt;Rationale&lt;/b&gt;&#xA;Sending an alarm is the natural response to critical situations&#xA;&lt;b&gt;Reference&lt;/b&gt;&#xA;SOPRANO R2.1.16&#xA;&lt;b&gt;WP:&lt;/b&gt; 4,1&#xA;&lt;b&gt;Ranking:&lt;/b&gt; 2"/>
+										<UML:TaggedValue tag="isAbstract" value="false"/>
+										<UML:TaggedValue tag="isSpecification" value="false"/>
+										<UML:TaggedValue tag="ea_stype" value="Requirement"/>
+										<UML:TaggedValue tag="ea_ntype" value="0"/>
+										<UML:TaggedValue tag="version" value="1.0"/>
+										<UML:TaggedValue tag="package" value="EAPK_C02875C6_5897_4933_BEBE_FB63E06D8908"/>
+										<UML:TaggedValue tag="date_created" value="2010-06-08 14:43:53"/>
+										<UML:TaggedValue tag="date_modified" value="2010-06-08 14:43:53"/>
+										<UML:TaggedValue tag="gentype" value="&lt;none&gt;"/>
+										<UML:TaggedValue tag="tagged" value="0"/>
+										<UML:TaggedValue tag="package_name" value="Critical situations and emergencies"/>
+										<UML:TaggedValue tag="phase" value="1.0"/>
+										<UML:TaggedValue tag="alias" value="R2.1.3.07"/>
+										<UML:TaggedValue tag="author" value="Requirement Taskforce"/>
+										<UML:TaggedValue tag="complexity" value="1"/>
+										<UML:TaggedValue tag="status" value="Proposed"/>
+										<UML:TaggedValue tag="tpos" value="0"/>
+										<UML:TaggedValue tag="keywords" value="WP4 WP1"/>
+										<UML:TaggedValue tag="ea_localid" value="685"/>
+										<UML:TaggedValue tag="ea_eleType" value="element"/>
+										<UML:TaggedValue tag="difficulty" value="Medium"/>
+										<UML:TaggedValue tag="priority" value="High"/>
+										<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+									</UML:ModelElement.taggedValue>
+								</UML:ClassifierRole>
+								<UML:ClassifierRole name="Emergency button" xmi.id="EAID_792A43B3_0560_4314_A6B7_AD5E2C44D156" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="documentation" value="&lt;b&gt;Description&lt;/b&gt;&#xA;Emergency button system should be integrated to uAAL&#xA;&lt;b&gt;Measure to check&lt;/b&gt;&#xA;easy to use solution must be evaluated in user studies&#xA;&lt;b&gt;Rationale&lt;/b&gt;&#xA;To start the emergency process if the system doesn't detect the risk situation&#xA;&lt;b&gt;Reference&lt;/b&gt;&#xA;PERSONA R2.1.27&#xA;&lt;b&gt;WP:&lt;/b&gt; 4&#xA;&lt;b&gt;Ranking:&lt;/b&gt; 5"/>
+										<UML:TaggedValue tag="isAbstract" value="false"/>
+										<UML:TaggedValue tag="isSpecification" value="false"/>
+										<UML:TaggedValue tag="ea_stype" value="Requirement"/>
+										<UML:TaggedValue tag="ea_ntype" value="0"/>
+										<UML:TaggedValue tag="version" value="1.0"/>
+										<UML:TaggedValue tag="package" value="EAPK_C02875C6_5897_4933_BEBE_FB63E06D8908"/>
+										<UML:TaggedValue tag="date_created" value="2010-06-08 14:43:53"/>
+										<UML:TaggedValue tag="date_modified" value="2010-06-08 14:43:53"/>
+										<UML:TaggedValue tag="gentype" value="&lt;none&gt;"/>
+										<UML:TaggedValue tag="tagged" value="0"/>
+										<UML:TaggedValue tag="package_name" value="Critical situations and emergencies"/>
+										<UML:TaggedValue tag="phase" value="1.0"/>
+										<UML:TaggedValue tag="alias" value="R2.1.3.06"/>
+										<UML:TaggedValue tag="author" value="Requirement Taskforce"/>
+										<UML:TaggedValue tag="complexity" value="1"/>
+										<UML:TaggedValue tag="status" value="Proposed"/>
+										<UML:TaggedValue tag="tpos" value="0"/>
+										<UML:TaggedValue tag="keywords" value="WP4"/>
+										<UML:TaggedValue tag="ea_localid" value="684"/>
+										<UML:TaggedValue tag="ea_eleType" value="element"/>
+										<UML:TaggedValue tag="difficulty" value="Medium"/>
+										<UML:TaggedValue tag="priority" value="High"/>
+										<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+									</UML:ModelElement.taggedValue>
+								</UML:ClassifierRole>
+								<UML:ClassifierRole name="Data transmission in case of emergencies" xmi.id="EAID_AC0229EF_C50B_4a7f_8ED8_463A4E6306F6" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="documentation" value="&lt;b&gt;Description&lt;/b&gt;&#xA;The system should be able to transmit AP-related and emergency-related information to a responsible party/external applications in case of emergencies&#xA;&lt;b&gt;Measure to check&lt;/b&gt;&#xA;Externals like fire departments, case managers etc. must evaluate ist usefulness&#xA;&lt;b&gt;Rationale&lt;/b&gt;&#xA;Data provides useful information for people dealing with this emergency&#xA;&lt;b&gt;Reference&lt;/b&gt;&#xA;SOPRANO R2.1.17&#xA;&lt;b&gt;WP:&lt;/b&gt; 4,1&#xA;&lt;b&gt;Ranking:&lt;/b&gt; 4"/>
+										<UML:TaggedValue tag="isAbstract" value="false"/>
+										<UML:TaggedValue tag="isSpecification" value="false"/>
+										<UML:TaggedValue tag="ea_stype" value="Requirement"/>
+										<UML:TaggedValue tag="ea_ntype" value="0"/>
+										<UML:TaggedValue tag="version" value="1.0"/>
+										<UML:TaggedValue tag="package" value="EAPK_C02875C6_5897_4933_BEBE_FB63E06D8908"/>
+										<UML:TaggedValue tag="date_created" value="2010-06-08 14:43:53"/>
+										<UML:TaggedValue tag="date_modified" value="2010-06-08 14:43:53"/>
+										<UML:TaggedValue tag="gentype" value="&lt;none&gt;"/>
+										<UML:TaggedValue tag="tagged" value="0"/>
+										<UML:TaggedValue tag="package_name" value="Critical situations and emergencies"/>
+										<UML:TaggedValue tag="phase" value="1.0"/>
+										<UML:TaggedValue tag="alias" value="R2.1.3.08"/>
+										<UML:TaggedValue tag="author" value="Requirement Taskforce"/>
+										<UML:TaggedValue tag="complexity" value="1"/>
+										<UML:TaggedValue tag="status" value="Proposed"/>
+										<UML:TaggedValue tag="tpos" value="0"/>
+										<UML:TaggedValue tag="keywords" value="WP4 WP1"/>
+										<UML:TaggedValue tag="ea_localid" value="686"/>
+										<UML:TaggedValue tag="ea_eleType" value="element"/>
+										<UML:TaggedValue tag="difficulty" value="Medium"/>
+										<UML:TaggedValue tag="priority" value="High"/>
+										<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+									</UML:ModelElement.taggedValue>
+								</UML:ClassifierRole>
+								<UML:ClassifierRole name="Indoor security" xmi.id="EAID_ACE9C22A_4F1C_47f5_BF74_D14D2E8EBE41" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="documentation" value="&lt;b&gt;Description&lt;/b&gt;&#xA;The system should be able to detect critical situations like smoke sensor is triggered and inform relevant parties such as fire department should be notified. &#xA;&lt;b&gt;Measure to check&lt;/b&gt;&#xA;Less occurances or at least less impact of critical situations&#xA;&lt;b&gt;Rationale&lt;/b&gt;&#xA;Security is a major concern in the AAL domain considering problems like increased forgetfulness etc.&#xA;&lt;b&gt;Reference&lt;/b&gt;&#xA;MPOWER R2.1.4;&#xA;MPOWER R2.1.26; &#xA;SOPRANO R2.1.59; MPOWER R2.1.33&#xA;&lt;b&gt;WP:&lt;/b&gt; 4,1 &#xA;&lt;b&gt;Ranking:&lt;/b&gt; 5"/>
+										<UML:TaggedValue tag="isAbstract" value="false"/>
+										<UML:TaggedValue tag="isSpecification" value="false"/>
+										<UML:TaggedValue tag="ea_stype" value="Requirement"/>
+										<UML:TaggedValue tag="ea_ntype" value="0"/>
+										<UML:TaggedValue tag="version" value="1.0"/>
+										<UML:TaggedValue tag="package" value="EAPK_C02875C6_5897_4933_BEBE_FB63E06D8908"/>
+										<UML:TaggedValue tag="date_created" value="2010-06-08 14:43:52"/>
+										<UML:TaggedValue tag="date_modified" value="2010-06-08 14:43:52"/>
+										<UML:TaggedValue tag="gentype" value="&lt;none&gt;"/>
+										<UML:TaggedValue tag="tagged" value="0"/>
+										<UML:TaggedValue tag="package_name" value="Critical situations and emergencies"/>
+										<UML:TaggedValue tag="phase" value="1.0"/>
+										<UML:TaggedValue tag="alias" value="R2.1.3.02"/>
+										<UML:TaggedValue tag="author" value="Requirement Taskforce"/>
+										<UML:TaggedValue tag="complexity" value="1"/>
+										<UML:TaggedValue tag="status" value="Proposed"/>
+										<UML:TaggedValue tag="tpos" value="0"/>
+										<UML:TaggedValue tag="keywords" value="WP4 WP1"/>
+										<UML:TaggedValue tag="ea_localid" value="680"/>
+										<UML:TaggedValue tag="ea_eleType" value="element"/>
+										<UML:TaggedValue tag="difficulty" value="Medium"/>
+										<UML:TaggedValue tag="priority" value="High"/>
+										<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+									</UML:ModelElement.taggedValue>
+								</UML:ClassifierRole>
+								<UML:ClassifierRole name="Pervasive fall detection" xmi.id="EAID_D5B329B7_3987_4e57_B592_26FB77651E2D" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="documentation" value="&lt;b&gt;Description&lt;/b&gt;&#xA;System should ensure that a fall can be detected in every room.&#xA;&lt;b&gt;Measure to check&lt;/b&gt;&#xA;To be evaluated in real environment&#xA;&lt;b&gt;Rationale&lt;/b&gt;&#xA;pervasice detection capabilities are important&#xA;&lt;b&gt;Reference&lt;/b&gt;&#xA;SOPRANO R2.1.54&#xA;&lt;b&gt;WP:&lt;/b&gt; 1,2,4&#xA;&lt;b&gt;Ranking:&lt;/b&gt; 5"/>
+										<UML:TaggedValue tag="isAbstract" value="false"/>
+										<UML:TaggedValue tag="isSpecification" value="false"/>
+										<UML:TaggedValue tag="ea_stype" value="Requirement"/>
+										<UML:TaggedValue tag="ea_ntype" value="0"/>
+										<UML:TaggedValue tag="version" value="1.0"/>
+										<UML:TaggedValue tag="package" value="EAPK_C02875C6_5897_4933_BEBE_FB63E06D8908"/>
+										<UML:TaggedValue tag="date_created" value="2010-06-08 14:43:53"/>
+										<UML:TaggedValue tag="date_modified" value="2010-06-08 14:43:53"/>
+										<UML:TaggedValue tag="gentype" value="&lt;none&gt;"/>
+										<UML:TaggedValue tag="tagged" value="0"/>
+										<UML:TaggedValue tag="package_name" value="Critical situations and emergencies"/>
+										<UML:TaggedValue tag="phase" value="1.0"/>
+										<UML:TaggedValue tag="alias" value="R2.1.3.11"/>
+										<UML:TaggedValue tag="author" value="Requirement Taskforce"/>
+										<UML:TaggedValue tag="complexity" value="1"/>
+										<UML:TaggedValue tag="status" value="Proposed"/>
+										<UML:TaggedValue tag="tpos" value="0"/>
+										<UML:TaggedValue tag="keywords" value="WP1 WP2 WP4"/>
+										<UML:TaggedValue tag="ea_localid" value="692"/>
+										<UML:TaggedValue tag="ea_eleType" value="element"/>
+										<UML:TaggedValue tag="difficulty" value="Medium"/>
+										<UML:TaggedValue tag="priority" value="High"/>
+										<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+									</UML:ModelElement.taggedValue>
+								</UML:ClassifierRole>
+								<UML:ClassifierRole name="Critical health status" xmi.id="EAID_DB68E298_633B_4c16_B23C_A2E4A19A0876" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="documentation" value="&lt;b&gt;Description&lt;/b&gt;&#xA;The system should be able to detect critical changes of the AP’s health status and living habits like breath distortion, abnormal blood pressure, sleeping problems, irregular meals etc. and send a notification to a responsible person&#xA;&lt;b&gt;Measure to check&lt;/b&gt;&#xA;Less occurances or at least less impact of health-related critical situations&#xA;&lt;b&gt;Rationale&lt;/b&gt;&#xA;Each service should collect information from order services in order to built a global system&#xA;&lt;b&gt;Reference&lt;/b&gt;&#xA;PERSONA R2.1.20;&#xA;MPOWER R2.1.26; &#xA;SOPRANO R2.1.56; &#xA;SOPRANO R2.1.59&#xA;&lt;b&gt;WP:&lt;/b&gt; 4, 1&#xA;&lt;b&gt;Ranking:&lt;/b&gt; 5"/>
+										<UML:TaggedValue tag="isAbstract" value="false"/>
+										<UML:TaggedValue tag="isSpecification" value="false"/>
+										<UML:TaggedValue tag="ea_stype" value="Requirement"/>
+										<UML:TaggedValue tag="ea_ntype" value="0"/>
+										<UML:TaggedValue tag="version" value="1.0"/>
+										<UML:TaggedValue tag="package" value="EAPK_C02875C6_5897_4933_BEBE_FB63E06D8908"/>
+										<UML:TaggedValue tag="date_created" value="2010-06-08 14:43:52"/>
+										<UML:TaggedValue tag="date_modified" value="2010-06-08 14:43:53"/>
+										<UML:TaggedValue tag="gentype" value="&lt;none&gt;"/>
+										<UML:TaggedValue tag="tagged" value="0"/>
+										<UML:TaggedValue tag="package_name" value="Critical situations and emergencies"/>
+										<UML:TaggedValue tag="phase" value="1.0"/>
+										<UML:TaggedValue tag="alias" value="R2.1.3.03"/>
+										<UML:TaggedValue tag="author" value="Requirement Taskforce"/>
+										<UML:TaggedValue tag="complexity" value="1"/>
+										<UML:TaggedValue tag="status" value="Proposed"/>
+										<UML:TaggedValue tag="tpos" value="0"/>
+										<UML:TaggedValue tag="keywords" value="WP4 WP 1"/>
+										<UML:TaggedValue tag="ea_localid" value="681"/>
+										<UML:TaggedValue tag="ea_eleType" value="element"/>
+										<UML:TaggedValue tag="difficulty" value="Medium"/>
+										<UML:TaggedValue tag="priority" value="High"/>
+										<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+									</UML:ModelElement.taggedValue>
+								</UML:ClassifierRole>
+								<UML:ClassifierRole name="Health status notifications" xmi.id="EAID_E5C739AE_C85E_4773_8F73_37003821473A" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="documentation" value="&lt;b&gt;Description&lt;/b&gt;&#xA;Notification shall be send to health and care professionals only if data indicate health problems, otherwise an automatic answer may be created that the parameter are okay.&#xA;&lt;b&gt;Measure to check&lt;/b&gt;&#xA;Health professionals receives notification if data out of range. Elderly receives message if data are ok automatically.&#xA;&lt;b&gt;Rationale&lt;/b&gt;&#xA;Health professionals must not be overloaded with information and umber of interactions shall be minimized, however elderly might need feedback and motivation in the meantime.&#xA;&lt;b&gt;Reference&lt;/b&gt;&#xA;PERSONA R2.1.17;&#xA;MPOWER R2.1.26&#xA;&lt;b&gt;WP:&lt;/b&gt; 4,1&#xA;&lt;b&gt;Ranking:&lt;/b&gt; 3"/>
+										<UML:TaggedValue tag="isAbstract" value="false"/>
+										<UML:TaggedValue tag="isSpecification" value="false"/>
+										<UML:TaggedValue tag="ea_stype" value="Requirement"/>
+										<UML:TaggedValue tag="ea_ntype" value="0"/>
+										<UML:TaggedValue tag="version" value="1.0"/>
+										<UML:TaggedValue tag="package" value="EAPK_C02875C6_5897_4933_BEBE_FB63E06D8908"/>
+										<UML:TaggedValue tag="date_created" value="2010-06-08 14:43:53"/>
+										<UML:TaggedValue tag="date_modified" value="2010-06-08 14:43:53"/>
+										<UML:TaggedValue tag="gentype" value="&lt;none&gt;"/>
+										<UML:TaggedValue tag="tagged" value="0"/>
+										<UML:TaggedValue tag="package_name" value="Critical situations and emergencies"/>
+										<UML:TaggedValue tag="phase" value="1.0"/>
+										<UML:TaggedValue tag="alias" value="R2.1.3.04"/>
+										<UML:TaggedValue tag="author" value="Requirement Taskforce"/>
+										<UML:TaggedValue tag="complexity" value="1"/>
+										<UML:TaggedValue tag="status" value="Proposed"/>
+										<UML:TaggedValue tag="tpos" value="0"/>
+										<UML:TaggedValue tag="keywords" value="WP4 WP1"/>
+										<UML:TaggedValue tag="ea_localid" value="682"/>
+										<UML:TaggedValue tag="ea_eleType" value="element"/>
+										<UML:TaggedValue tag="difficulty" value="Medium"/>
+										<UML:TaggedValue tag="priority" value="High"/>
+										<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+									</UML:ModelElement.taggedValue>
+								</UML:ClassifierRole>
+								<UML:ClassifierRole name="Fall outside" xmi.id="EAID_E7776983_B19E_4c0f_AB1E_8AFE62B6F2C3" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="documentation" value="&lt;b&gt;Description&lt;/b&gt;&#xA;System should detect fall outside, at every location where the AP currently is&#xA;&lt;b&gt;Measure to check&lt;/b&gt;&#xA;To be evaluated in real situations in user studies&#xA;&lt;b&gt;Rationale&lt;/b&gt;&#xA;System should detect fall outside, at every location where the AP currently is&#xA;&lt;b&gt;Reference&lt;/b&gt;&#xA;SOPRANO R2.1.54&#xA;&lt;b&gt;WP:&lt;/b&gt; 4&#xA;&lt;b&gt;Ranking:&lt;/b&gt; 4"/>
+										<UML:TaggedValue tag="isAbstract" value="false"/>
+										<UML:TaggedValue tag="isSpecification" value="false"/>
+										<UML:TaggedValue tag="ea_stype" value="Requirement"/>
+										<UML:TaggedValue tag="ea_ntype" value="0"/>
+										<UML:TaggedValue tag="version" value="1.0"/>
+										<UML:TaggedValue tag="package" value="EAPK_C02875C6_5897_4933_BEBE_FB63E06D8908"/>
+										<UML:TaggedValue tag="date_created" value="2010-06-08 14:43:53"/>
+										<UML:TaggedValue tag="date_modified" value="2010-06-08 14:43:53"/>
+										<UML:TaggedValue tag="gentype" value="&lt;none&gt;"/>
+										<UML:TaggedValue tag="tagged" value="0"/>
+										<UML:TaggedValue tag="package_name" value="Critical situations and emergencies"/>
+										<UML:TaggedValue tag="phase" value="1.0"/>
+										<UML:TaggedValue tag="alias" value="R2.1.3.13"/>
+										<UML:TaggedValue tag="author" value="Requirement Taskforce"/>
+										<UML:TaggedValue tag="complexity" value="1"/>
+										<UML:TaggedValue tag="status" value="Proposed"/>
+										<UML:TaggedValue tag="tpos" value="0"/>
+										<UML:TaggedValue tag="keywords" value="WP4"/>
+										<UML:TaggedValue tag="ea_localid" value="694"/>
+										<UML:TaggedValue tag="ea_eleType" value="element"/>
+										<UML:TaggedValue tag="difficulty" value="Medium"/>
+										<UML:TaggedValue tag="priority" value="High"/>
+										<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+									</UML:ModelElement.taggedValue>
+								</UML:ClassifierRole>
+							</UML:Namespace.ownedElement>
+							<UML:Collaboration.interaction/>
+						</UML:Collaboration>
+					</UML:Namespace.ownedElement>
+				</UML:Package>
+			</UML:Namespace.ownedElement>
+		</UML:Model>
+	</XMI.content>
+	<XMI.difference/>
+	<XMI.extensions xmi.extender="Enterprise Architect 2.5"/>
+</XMI>
