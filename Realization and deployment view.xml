@@ -1,0 +1,555 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<XMI xmi.version="1.1" xmlns:UML="omg.org/UML1.3">
+	<XMI.header>
+		<XMI.documentation>
+			<XMI.exporter>Enterprise Architect</XMI.exporter>
+			<XMI.exporterVersion>2.5</XMI.exporterVersion>
+		</XMI.documentation>
+	</XMI.header>
+	<XMI.content>
+		<UML:Model name="EA Model" xmi.id="MX_EAID_49E1EBDE_026B_4846_8004_7D0D2D0EB82E">
+			<UML:Namespace.ownedElement>
+				<UML:Class name="EARootClass" xmi.id="EAID_11111111_5487_4080_A7F4_41526CB0AA00" isRoot="true" isLeaf="false" isAbstract="false"/>
+				<UML:Package name="Realization and deployment view" xmi.id="EAPK_49E1EBDE_026B_4846_8004_7D0D2D0EB82E" isRoot="false" isLeaf="false" isAbstract="false" visibility="public">
+					<UML:ModelElement.taggedValue>
+						<UML:TaggedValue tag="parent" value="EAPK_9B3DD1F9_6EF6_4391_8288_539272860530"/>
+						<UML:TaggedValue tag="created" value="2010-06-08 14:43:51"/>
+						<UML:TaggedValue tag="modified" value="2010-06-08 14:43:51"/>
+						<UML:TaggedValue tag="iscontrolled" value="TRUE"/>
+						<UML:TaggedValue tag="xmlpath" value="Realization and deployment view.xml"/>
+						<UML:TaggedValue tag="version" value="1.0"/>
+						<UML:TaggedValue tag="isprotected" value="FALSE"/>
+						<UML:TaggedValue tag="usedtd" value="FALSE"/>
+						<UML:TaggedValue tag="owner" value="Stefano Lenzi"/>
+						<UML:TaggedValue tag="xmiver" value="Enterprise Architect XMI/UML 1.3"/>
+						<UML:TaggedValue tag="logxml" value="FALSE"/>
+						<UML:TaggedValue tag="packageFlags" value="Recurse=0;VCCFG=uAAL;CheckedOutTo=kismet;CRC=0;"/>
+						<UML:TaggedValue tag="batchsave" value="0"/>
+						<UML:TaggedValue tag="batchload" value="0"/>
+						<UML:TaggedValue tag="phase" value="1.0"/>
+						<UML:TaggedValue tag="status" value="Proposed"/>
+						<UML:TaggedValue tag="author" value="Requirement Taskforce"/>
+						<UML:TaggedValue tag="alias" value="R1.3"/>
+						<UML:TaggedValue tag="complexity" value="1"/>
+						<UML:TaggedValue tag="ea_stype" value="Public"/>
+						<UML:TaggedValue tag="tpos" value="0"/>
+						<UML:TaggedValue tag="gentype" value="Java"/>
+					</UML:ModelElement.taggedValue>
+					<UML:Namespace.ownedElement>
+						<UML:Collaboration xmi.id="EAID_49E1EBDE_026B_4846_8004_7D0D2D0EB82E_Collaboration" name="Collaborations">
+							<UML:Namespace.ownedElement>
+								<UML:ClassifierRole name="Delivery time" xmi.id="EAID_107A7A2F_188B_4c3e_A904_79AC6C188BAF" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="documentation" value="&lt;b&gt;Description&lt;/b&gt;&#xA;It should not take long time between the need is identified till the equipment or product is installed.&#xA;&lt;b&gt;Measure to check&lt;/b&gt;&#xA;&#xA;&lt;b&gt;Rationale&lt;/b&gt;&#xA;Once the user has taken the decision to install a system like this, time of delivery is an important factor for user acceptance&#xA;&lt;b&gt;Reference&lt;/b&gt;&#xA;MPOWER R2.2.4.1&#xA;&lt;b&gt;WP:&lt;/b&gt; 4&#xA;&lt;b&gt;Ranking:&lt;/b&gt; 4"/>
+										<UML:TaggedValue tag="isAbstract" value="false"/>
+										<UML:TaggedValue tag="isSpecification" value="false"/>
+										<UML:TaggedValue tag="ea_stype" value="Requirement"/>
+										<UML:TaggedValue tag="ea_ntype" value="0"/>
+										<UML:TaggedValue tag="version" value="1.0"/>
+										<UML:TaggedValue tag="package" value="EAPK_49E1EBDE_026B_4846_8004_7D0D2D0EB82E"/>
+										<UML:TaggedValue tag="date_created" value="2010-06-08 14:43:54"/>
+										<UML:TaggedValue tag="date_modified" value="2010-06-08 14:43:54"/>
+										<UML:TaggedValue tag="gentype" value="&lt;none&gt;"/>
+										<UML:TaggedValue tag="tagged" value="0"/>
+										<UML:TaggedValue tag="package_name" value="Realization and deployment view"/>
+										<UML:TaggedValue tag="phase" value="1.0"/>
+										<UML:TaggedValue tag="alias" value="R1.3.16"/>
+										<UML:TaggedValue tag="author" value="Requirement Taskforce"/>
+										<UML:TaggedValue tag="complexity" value="1"/>
+										<UML:TaggedValue tag="status" value="Proposed"/>
+										<UML:TaggedValue tag="tpos" value="0"/>
+										<UML:TaggedValue tag="keywords" value="WP4"/>
+										<UML:TaggedValue tag="ea_localid" value="718"/>
+										<UML:TaggedValue tag="ea_eleType" value="element"/>
+										<UML:TaggedValue tag="difficulty" value="Medium"/>
+										<UML:TaggedValue tag="priority" value="High"/>
+										<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+									</UML:ModelElement.taggedValue>
+								</UML:ClassifierRole>
+								<UML:ClassifierRole name="Independent Certification of the Platform" xmi.id="EAID_1B3264D7_870D_41cc_9D7B_2F6B638685AC" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="documentation" value="&lt;b&gt;Description&lt;/b&gt;&#xA;It should be possible to certify the platform, subsystems and applications independently.&#xA;&lt;b&gt;Measure to check&lt;/b&gt;&#xA;The platform interacts with applications only across interfaces, which are defined in the time and value domain. Errors within subsystems can reliably be detected at these interfaces.&#xA;&lt;b&gt;Rationale&lt;/b&gt;&#xA;A once certified platform can be reused for different applications. Subsystems can be reused more cost-efficiently when they are certified individually. Additionally, different levels of criticality are possible (i.e., each subsystem can be certified to an individual criticality level).&#xA;&lt;b&gt;Reference&lt;/b&gt;&#xA;GENESYS R1.3.6&#xA;&lt;b&gt;WP:&lt;/b&gt; 3&#xA;&lt;b&gt;Ranking:&lt;/b&gt; 4,5"/>
+										<UML:TaggedValue tag="isAbstract" value="false"/>
+										<UML:TaggedValue tag="isSpecification" value="false"/>
+										<UML:TaggedValue tag="ea_stype" value="Requirement"/>
+										<UML:TaggedValue tag="ea_ntype" value="0"/>
+										<UML:TaggedValue tag="version" value="1.0"/>
+										<UML:TaggedValue tag="package" value="EAPK_49E1EBDE_026B_4846_8004_7D0D2D0EB82E"/>
+										<UML:TaggedValue tag="date_created" value="2010-06-08 14:43:53"/>
+										<UML:TaggedValue tag="date_modified" value="2010-06-08 14:43:53"/>
+										<UML:TaggedValue tag="gentype" value="&lt;none&gt;"/>
+										<UML:TaggedValue tag="tagged" value="0"/>
+										<UML:TaggedValue tag="package_name" value="Realization and deployment view"/>
+										<UML:TaggedValue tag="phase" value="1.0"/>
+										<UML:TaggedValue tag="alias" value="R1.3.03"/>
+										<UML:TaggedValue tag="author" value="Requirement Taskforce"/>
+										<UML:TaggedValue tag="complexity" value="1"/>
+										<UML:TaggedValue tag="status" value="Proposed"/>
+										<UML:TaggedValue tag="tpos" value="0"/>
+										<UML:TaggedValue tag="keywords" value="WP3"/>
+										<UML:TaggedValue tag="ea_localid" value="705"/>
+										<UML:TaggedValue tag="ea_eleType" value="element"/>
+										<UML:TaggedValue tag="difficulty" value="Medium"/>
+										<UML:TaggedValue tag="priority" value="High"/>
+										<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+									</UML:ModelElement.taggedValue>
+								</UML:ClassifierRole>
+								<UML:ClassifierRole name="Correctness-by-Construction" xmi.id="EAID_280D83FF_A493_4b01_98A3_CA2E9802BAF3" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="documentation" value="&lt;b&gt;Description&lt;/b&gt;&#xA;Probably correct design methods shall be supported by the architecture with which a specification is transformed step by step into a correct design.&#xA;&lt;b&gt;Measure to check&lt;/b&gt;&#xA;The architecture provides predictable design methods that support correctness-by-design.&#xA;&lt;b&gt;Rationale&lt;/b&gt;&#xA;Verification of a system or subsystems is facilitated if correct design methods have been used.&#xA;&lt;b&gt;Reference&lt;/b&gt;&#xA;GENESYS R1.3.15&#xA;&lt;b&gt;WP:&lt;/b&gt; 1,2,3&#xA;&lt;b&gt;Ranking:&lt;/b&gt; 2"/>
+										<UML:TaggedValue tag="isAbstract" value="false"/>
+										<UML:TaggedValue tag="isSpecification" value="false"/>
+										<UML:TaggedValue tag="ea_stype" value="Requirement"/>
+										<UML:TaggedValue tag="ea_ntype" value="0"/>
+										<UML:TaggedValue tag="version" value="1.0"/>
+										<UML:TaggedValue tag="package" value="EAPK_49E1EBDE_026B_4846_8004_7D0D2D0EB82E"/>
+										<UML:TaggedValue tag="date_created" value="2010-06-08 14:43:54"/>
+										<UML:TaggedValue tag="date_modified" value="2010-06-08 14:43:54"/>
+										<UML:TaggedValue tag="gentype" value="&lt;none&gt;"/>
+										<UML:TaggedValue tag="tagged" value="0"/>
+										<UML:TaggedValue tag="package_name" value="Realization and deployment view"/>
+										<UML:TaggedValue tag="phase" value="1.0"/>
+										<UML:TaggedValue tag="alias" value="R1.3.11"/>
+										<UML:TaggedValue tag="author" value="Requirement Taskforce"/>
+										<UML:TaggedValue tag="complexity" value="1"/>
+										<UML:TaggedValue tag="status" value="Proposed"/>
+										<UML:TaggedValue tag="tpos" value="0"/>
+										<UML:TaggedValue tag="keywords" value="WP1 WP2 WP3"/>
+										<UML:TaggedValue tag="ea_localid" value="713"/>
+										<UML:TaggedValue tag="ea_eleType" value="element"/>
+										<UML:TaggedValue tag="difficulty" value="Medium"/>
+										<UML:TaggedValue tag="priority" value="Low"/>
+										<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+									</UML:ModelElement.taggedValue>
+								</UML:ClassifierRole>
+								<UML:ClassifierRole name="Theorem-Proofing Support" xmi.id="EAID_3A45514F_A2A6_4d3a_B756_90E210D8B9C6" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="documentation" value="&lt;b&gt;Description&lt;/b&gt;&#xA;Theorem-proofing techniques shall be supported by the architecture to formally verify properties of the architecture.&#xA;&lt;b&gt;Measure to check&lt;/b&gt;&#xA;&#xA;&lt;b&gt;Rationale&lt;/b&gt;&#xA;In contrast to model-checking methods, with theorem-proofing techniques deductive correctness proofs of properties can be derived.&#xA;&lt;b&gt;Reference&lt;/b&gt;&#xA;GENESYS R1.3.14&#xA;&lt;b&gt;WP:&lt;/b&gt; 1,2,3&#xA;&lt;b&gt;Ranking:&lt;/b&gt; 2"/>
+										<UML:TaggedValue tag="isAbstract" value="false"/>
+										<UML:TaggedValue tag="isSpecification" value="false"/>
+										<UML:TaggedValue tag="ea_stype" value="Requirement"/>
+										<UML:TaggedValue tag="ea_ntype" value="0"/>
+										<UML:TaggedValue tag="version" value="1.0"/>
+										<UML:TaggedValue tag="package" value="EAPK_49E1EBDE_026B_4846_8004_7D0D2D0EB82E"/>
+										<UML:TaggedValue tag="date_created" value="2010-06-08 14:43:54"/>
+										<UML:TaggedValue tag="date_modified" value="2010-06-08 14:43:54"/>
+										<UML:TaggedValue tag="gentype" value="&lt;none&gt;"/>
+										<UML:TaggedValue tag="tagged" value="0"/>
+										<UML:TaggedValue tag="package_name" value="Realization and deployment view"/>
+										<UML:TaggedValue tag="phase" value="1.0"/>
+										<UML:TaggedValue tag="alias" value="R1.3.10"/>
+										<UML:TaggedValue tag="author" value="Requirement Taskforce"/>
+										<UML:TaggedValue tag="complexity" value="1"/>
+										<UML:TaggedValue tag="status" value="Proposed"/>
+										<UML:TaggedValue tag="tpos" value="0"/>
+										<UML:TaggedValue tag="keywords" value="WP1 WP2 WP3"/>
+										<UML:TaggedValue tag="ea_localid" value="712"/>
+										<UML:TaggedValue tag="ea_eleType" value="element"/>
+										<UML:TaggedValue tag="difficulty" value="Medium"/>
+										<UML:TaggedValue tag="priority" value="Low"/>
+										<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+									</UML:ModelElement.taggedValue>
+								</UML:ClassifierRole>
+								<UML:ClassifierRole name="Design for Testability" xmi.id="EAID_4F08FC0F_A2FE_497a_88CC_767AAB225C57" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="documentation" value="&lt;b&gt;Description&lt;/b&gt;&#xA;Testablility shall be supported by the architecture (e.g.,design testing, system-integration testing, manufacturing testing and assembly testing).&#xA;&lt;b&gt;Measure to check&lt;/b&gt;&#xA;&#xA;&lt;b&gt;Rationale&lt;/b&gt;&#xA;When test requirements are already considered by the design decisions, the effort of testing can be reduced.&#xA;&lt;b&gt;Reference&lt;/b&gt;&#xA;GENESYS R1.3.8&#xA;&lt;b&gt;WP:&lt;/b&gt; 3&#xA;&lt;b&gt;Ranking:&lt;/b&gt; 5"/>
+										<UML:TaggedValue tag="isAbstract" value="false"/>
+										<UML:TaggedValue tag="isSpecification" value="false"/>
+										<UML:TaggedValue tag="ea_stype" value="Requirement"/>
+										<UML:TaggedValue tag="ea_ntype" value="0"/>
+										<UML:TaggedValue tag="version" value="1.0"/>
+										<UML:TaggedValue tag="package" value="EAPK_49E1EBDE_026B_4846_8004_7D0D2D0EB82E"/>
+										<UML:TaggedValue tag="date_created" value="2010-06-08 14:43:53"/>
+										<UML:TaggedValue tag="date_modified" value="2010-06-08 14:43:53"/>
+										<UML:TaggedValue tag="gentype" value="&lt;none&gt;"/>
+										<UML:TaggedValue tag="tagged" value="0"/>
+										<UML:TaggedValue tag="package_name" value="Realization and deployment view"/>
+										<UML:TaggedValue tag="phase" value="1.0"/>
+										<UML:TaggedValue tag="alias" value="R1.3.04"/>
+										<UML:TaggedValue tag="author" value="Requirement Taskforce"/>
+										<UML:TaggedValue tag="complexity" value="1"/>
+										<UML:TaggedValue tag="status" value="Proposed"/>
+										<UML:TaggedValue tag="tpos" value="0"/>
+										<UML:TaggedValue tag="keywords" value="WP3"/>
+										<UML:TaggedValue tag="ea_localid" value="706"/>
+										<UML:TaggedValue tag="ea_eleType" value="element"/>
+										<UML:TaggedValue tag="difficulty" value="Medium"/>
+										<UML:TaggedValue tag="priority" value="High"/>
+										<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+									</UML:ModelElement.taggedValue>
+								</UML:ClassifierRole>
+								<UML:ClassifierRole name="Model-Checking Support" xmi.id="EAID_4FCD6631_13EA_4ee7_BC53_8AD5A7F33E94" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="documentation" value="&lt;b&gt;Description&lt;/b&gt;&#xA;To formally verify properties of the architecture model-checking techniques shall be supported.&#xA;&lt;b&gt;Measure to check&lt;/b&gt;&#xA;&#xA;&lt;b&gt;Rationale&lt;/b&gt;&#xA;With model-checking techniques all possible execution paths of a model can be analyzed rather than only one execution path, like it is done by a normal simulation process.&#xA;&lt;b&gt;Reference&lt;/b&gt;&#xA;GENESYS R1.3.13&#xA;&lt;b&gt;WP:&lt;/b&gt; 1,2,3&#xA;&lt;b&gt;Ranking:&lt;/b&gt; 2"/>
+										<UML:TaggedValue tag="isAbstract" value="false"/>
+										<UML:TaggedValue tag="isSpecification" value="false"/>
+										<UML:TaggedValue tag="ea_stype" value="Requirement"/>
+										<UML:TaggedValue tag="ea_ntype" value="0"/>
+										<UML:TaggedValue tag="version" value="1.0"/>
+										<UML:TaggedValue tag="package" value="EAPK_49E1EBDE_026B_4846_8004_7D0D2D0EB82E"/>
+										<UML:TaggedValue tag="date_created" value="2010-06-08 14:43:54"/>
+										<UML:TaggedValue tag="date_modified" value="2010-06-08 14:43:54"/>
+										<UML:TaggedValue tag="gentype" value="&lt;none&gt;"/>
+										<UML:TaggedValue tag="tagged" value="0"/>
+										<UML:TaggedValue tag="package_name" value="Realization and deployment view"/>
+										<UML:TaggedValue tag="phase" value="1.0"/>
+										<UML:TaggedValue tag="alias" value="R1.3.09"/>
+										<UML:TaggedValue tag="author" value="Requirement Taskforce"/>
+										<UML:TaggedValue tag="complexity" value="1"/>
+										<UML:TaggedValue tag="status" value="Proposed"/>
+										<UML:TaggedValue tag="tpos" value="0"/>
+										<UML:TaggedValue tag="keywords" value="WP1 WP2 WP3"/>
+										<UML:TaggedValue tag="ea_localid" value="711"/>
+										<UML:TaggedValue tag="ea_eleType" value="element"/>
+										<UML:TaggedValue tag="difficulty" value="Medium"/>
+										<UML:TaggedValue tag="priority" value="Medium"/>
+										<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+									</UML:ModelElement.taggedValue>
+								</UML:ClassifierRole>
+								<UML:ClassifierRole name="Cross-domain Reusability" xmi.id="EAID_52349CC7_24FC_4585_9CCD_91736555967A" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="documentation" value="&lt;b&gt;Description&lt;/b&gt;&#xA;IP (intellectual property) modules (e.g., data encryption module) shall be usable for different application domains (e.g., for mobile phones).&#xA;&lt;b&gt;Measure to check&lt;/b&gt;&#xA;IP modules use standard interfaces which are common in multiple application domains.&#xA;&lt;b&gt;Rationale&lt;/b&gt;&#xA;Development cost of IP modules can be amortized across different application domains (cg. economy of scale).&#xA;&lt;b&gt;Reference&lt;/b&gt;&#xA;GENESYS  R1.3.2&#xA;&lt;b&gt;WP:&lt;/b&gt; 4&#xA;&lt;b&gt;Ranking:&lt;/b&gt; 4"/>
+										<UML:TaggedValue tag="isAbstract" value="false"/>
+										<UML:TaggedValue tag="isSpecification" value="false"/>
+										<UML:TaggedValue tag="ea_stype" value="Requirement"/>
+										<UML:TaggedValue tag="ea_ntype" value="0"/>
+										<UML:TaggedValue tag="version" value="1.0"/>
+										<UML:TaggedValue tag="package" value="EAPK_49E1EBDE_026B_4846_8004_7D0D2D0EB82E"/>
+										<UML:TaggedValue tag="date_created" value="2010-06-08 14:43:53"/>
+										<UML:TaggedValue tag="date_modified" value="2010-06-08 14:43:53"/>
+										<UML:TaggedValue tag="gentype" value="&lt;none&gt;"/>
+										<UML:TaggedValue tag="tagged" value="0"/>
+										<UML:TaggedValue tag="package_name" value="Realization and deployment view"/>
+										<UML:TaggedValue tag="phase" value="1.0"/>
+										<UML:TaggedValue tag="alias" value="R1.3.01"/>
+										<UML:TaggedValue tag="author" value="Requirement Taskforce"/>
+										<UML:TaggedValue tag="complexity" value="1"/>
+										<UML:TaggedValue tag="status" value="Proposed"/>
+										<UML:TaggedValue tag="tpos" value="0"/>
+										<UML:TaggedValue tag="keywords" value="WP4"/>
+										<UML:TaggedValue tag="ea_localid" value="703"/>
+										<UML:TaggedValue tag="ea_eleType" value="element"/>
+										<UML:TaggedValue tag="difficulty" value="Medium"/>
+										<UML:TaggedValue tag="priority" value="High"/>
+										<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+									</UML:ModelElement.taggedValue>
+								</UML:ClassifierRole>
+								<UML:ClassifierRole name="On-line operation" xmi.id="EAID_83CF8A57_9C91_4a78_87A2_80CD139004FD" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="documentation" value="&lt;b&gt;Description&lt;/b&gt;&#xA;The system should have the possibility to connect to the internet connection&#xA;&lt;b&gt;Measure to check&lt;/b&gt;&#xA;System can access to Internet&#xA;&lt;b&gt;Rationale&lt;/b&gt;&#xA;Internet connection is needed for communication with external parties or remote management of the system&#xA;&lt;b&gt;Reference&lt;/b&gt;&#xA;SOPRANO R1.3.1 &#xA;MPOWER R1.3.1 &#xA;&lt;b&gt;WP:&lt;/b&gt; 1,2&#xA;&lt;b&gt;Ranking:&lt;/b&gt; 5"/>
+										<UML:TaggedValue tag="isAbstract" value="false"/>
+										<UML:TaggedValue tag="isSpecification" value="false"/>
+										<UML:TaggedValue tag="ea_stype" value="Requirement"/>
+										<UML:TaggedValue tag="ea_ntype" value="0"/>
+										<UML:TaggedValue tag="version" value="1.0"/>
+										<UML:TaggedValue tag="package" value="EAPK_49E1EBDE_026B_4846_8004_7D0D2D0EB82E"/>
+										<UML:TaggedValue tag="date_created" value="2010-06-08 14:43:54"/>
+										<UML:TaggedValue tag="date_modified" value="2010-06-08 14:43:54"/>
+										<UML:TaggedValue tag="gentype" value="&lt;none&gt;"/>
+										<UML:TaggedValue tag="tagged" value="0"/>
+										<UML:TaggedValue tag="package_name" value="Realization and deployment view"/>
+										<UML:TaggedValue tag="phase" value="1.0"/>
+										<UML:TaggedValue tag="alias" value="R1.3.12"/>
+										<UML:TaggedValue tag="author" value="Requirement Taskforce"/>
+										<UML:TaggedValue tag="complexity" value="1"/>
+										<UML:TaggedValue tag="status" value="Proposed"/>
+										<UML:TaggedValue tag="tpos" value="0"/>
+										<UML:TaggedValue tag="keywords" value="WP1 WP2"/>
+										<UML:TaggedValue tag="ea_localid" value="714"/>
+										<UML:TaggedValue tag="ea_eleType" value="element"/>
+										<UML:TaggedValue tag="difficulty" value="Medium"/>
+										<UML:TaggedValue tag="priority" value="High"/>
+										<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+									</UML:ModelElement.taggedValue>
+								</UML:ClassifierRole>
+								<UML:ClassifierRole name="Off-line operation" xmi.id="EAID_843CDD7B_8DDA_4cd2_9FA0_3F7E27B082A8" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="documentation" value="&lt;b&gt;Description&lt;/b&gt;&#xA;For running the system internet connection should not be required all the time.&#xA;&lt;b&gt;Measure to check&lt;/b&gt;&#xA;System works with no internet connection&#xA;&lt;b&gt;Rationale&lt;/b&gt;&#xA;The unavailability of internet connection should not make the system inoperative&#xA;&lt;b&gt;Reference&lt;/b&gt;&#xA;Task force workshop&#xA;&lt;b&gt;WP:&lt;/b&gt; 1,2&#xA;&lt;b&gt;Ranking:&lt;/b&gt; 5"/>
+										<UML:TaggedValue tag="isAbstract" value="false"/>
+										<UML:TaggedValue tag="isSpecification" value="false"/>
+										<UML:TaggedValue tag="ea_stype" value="Requirement"/>
+										<UML:TaggedValue tag="ea_ntype" value="0"/>
+										<UML:TaggedValue tag="version" value="1.0"/>
+										<UML:TaggedValue tag="package" value="EAPK_49E1EBDE_026B_4846_8004_7D0D2D0EB82E"/>
+										<UML:TaggedValue tag="date_created" value="2010-06-08 14:43:54"/>
+										<UML:TaggedValue tag="date_modified" value="2010-06-08 14:43:54"/>
+										<UML:TaggedValue tag="gentype" value="&lt;none&gt;"/>
+										<UML:TaggedValue tag="tagged" value="0"/>
+										<UML:TaggedValue tag="package_name" value="Realization and deployment view"/>
+										<UML:TaggedValue tag="phase" value="1.0"/>
+										<UML:TaggedValue tag="alias" value="R1.3.13"/>
+										<UML:TaggedValue tag="author" value="Requirement Taskforce"/>
+										<UML:TaggedValue tag="complexity" value="1"/>
+										<UML:TaggedValue tag="status" value="Proposed"/>
+										<UML:TaggedValue tag="tpos" value="0"/>
+										<UML:TaggedValue tag="keywords" value="WP1 WP2"/>
+										<UML:TaggedValue tag="ea_localid" value="715"/>
+										<UML:TaggedValue tag="ea_eleType" value="element"/>
+										<UML:TaggedValue tag="difficulty" value="Medium"/>
+										<UML:TaggedValue tag="priority" value="High"/>
+										<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+									</UML:ModelElement.taggedValue>
+								</UML:ClassifierRole>
+								<UML:ClassifierRole name="Cost accounting" xmi.id="EAID_9264F921_3C67_4db4_883D_4625E5D5A0BC" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="documentation" value="&lt;b&gt;Description&lt;/b&gt;&#xA;Existence of mechanisms that simplify fair and traceable cost acounting policies.&#xA;&lt;b&gt;Measure to check&lt;/b&gt;&#xA;Mechanisms are provided that support cost accounting.&#xA;&lt;b&gt;Rationale&lt;/b&gt;&#xA;Service providers can offer services (e.g., streaming of movies), which can be paid according to the amount of usage.&#xA;&lt;b&gt;Reference&lt;/b&gt;&#xA;GENESYS R1.2.1&#xA;&lt;b&gt;WP:&lt;/b&gt; 4&#xA;&lt;b&gt;Ranking:&lt;/b&gt; 2,5"/>
+										<UML:TaggedValue tag="isAbstract" value="false"/>
+										<UML:TaggedValue tag="isSpecification" value="false"/>
+										<UML:TaggedValue tag="ea_stype" value="Requirement"/>
+										<UML:TaggedValue tag="ea_ntype" value="0"/>
+										<UML:TaggedValue tag="version" value="1.0"/>
+										<UML:TaggedValue tag="package" value="EAPK_49E1EBDE_026B_4846_8004_7D0D2D0EB82E"/>
+										<UML:TaggedValue tag="date_created" value="2010-06-08 14:43:54"/>
+										<UML:TaggedValue tag="date_modified" value="2010-06-08 14:43:54"/>
+										<UML:TaggedValue tag="gentype" value="&lt;none&gt;"/>
+										<UML:TaggedValue tag="tagged" value="0"/>
+										<UML:TaggedValue tag="package_name" value="Realization and deployment view"/>
+										<UML:TaggedValue tag="phase" value="1.0"/>
+										<UML:TaggedValue tag="alias" value="R1.3.17"/>
+										<UML:TaggedValue tag="author" value="Requirement Taskforce"/>
+										<UML:TaggedValue tag="complexity" value="1"/>
+										<UML:TaggedValue tag="status" value="Proposed"/>
+										<UML:TaggedValue tag="tpos" value="0"/>
+										<UML:TaggedValue tag="keywords" value="WP4"/>
+										<UML:TaggedValue tag="ea_localid" value="719"/>
+										<UML:TaggedValue tag="ea_eleType" value="element"/>
+										<UML:TaggedValue tag="difficulty" value="Medium"/>
+										<UML:TaggedValue tag="priority" value="Medium"/>
+										<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+									</UML:ModelElement.taggedValue>
+								</UML:ClassifierRole>
+								<UML:ClassifierRole name="Early Prototyping" xmi.id="EAID_A79B9CC3_06EB_4901_81D2_BF77AD526A1E" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="documentation" value="&lt;b&gt;Description&lt;/b&gt;&#xA;The architecture shall support prototypes early in the design process for analysis of acceptance of new products.&#xA;&lt;b&gt;Measure to check&lt;/b&gt;&#xA;First prototypes can be developed at the beginning of the design cycle.&#xA;&lt;b&gt;Rationale&lt;/b&gt;&#xA;Design decicions can be validated early in the design process and fundamental errors can be corrected before they become expensive in later design phases.&#xA;&lt;b&gt;Reference&lt;/b&gt;&#xA;GENESYS R1.3.4&#xA;&lt;b&gt;WP:&lt;/b&gt; 3&#xA;&lt;b&gt;Ranking:&lt;/b&gt; 4"/>
+										<UML:TaggedValue tag="isAbstract" value="false"/>
+										<UML:TaggedValue tag="isSpecification" value="false"/>
+										<UML:TaggedValue tag="ea_stype" value="Requirement"/>
+										<UML:TaggedValue tag="ea_ntype" value="0"/>
+										<UML:TaggedValue tag="version" value="1.0"/>
+										<UML:TaggedValue tag="package" value="EAPK_49E1EBDE_026B_4846_8004_7D0D2D0EB82E"/>
+										<UML:TaggedValue tag="date_created" value="2010-06-08 14:43:53"/>
+										<UML:TaggedValue tag="date_modified" value="2010-06-08 14:43:53"/>
+										<UML:TaggedValue tag="gentype" value="&lt;none&gt;"/>
+										<UML:TaggedValue tag="tagged" value="0"/>
+										<UML:TaggedValue tag="package_name" value="Realization and deployment view"/>
+										<UML:TaggedValue tag="phase" value="1.0"/>
+										<UML:TaggedValue tag="alias" value="R1.3.02"/>
+										<UML:TaggedValue tag="author" value="Requirement Taskforce"/>
+										<UML:TaggedValue tag="complexity" value="1"/>
+										<UML:TaggedValue tag="status" value="Proposed"/>
+										<UML:TaggedValue tag="tpos" value="0"/>
+										<UML:TaggedValue tag="keywords" value="WP3"/>
+										<UML:TaggedValue tag="ea_localid" value="704"/>
+										<UML:TaggedValue tag="ea_eleType" value="element"/>
+										<UML:TaggedValue tag="difficulty" value="Medium"/>
+										<UML:TaggedValue tag="priority" value="High"/>
+										<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+									</UML:ModelElement.taggedValue>
+								</UML:ClassifierRole>
+								<UML:ClassifierRole name="Usage training" xmi.id="EAID_BA76BAE2_4719_41dd_9956_36C51A9BE472" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="documentation" value="&lt;b&gt;Description&lt;/b&gt;&#xA;Initial introduction/demo of the system should be provided.&#xA;&lt;b&gt;Measure to check&lt;/b&gt;&#xA;Demo of the system is available&#xA;&lt;b&gt;Rationale&lt;/b&gt;&#xA;Systems like this need an initial training of the users&#xA;&lt;b&gt;Reference&lt;/b&gt;&#xA;MPOWER R2.1.23&#xA;&lt;b&gt;WP:&lt;/b&gt; 4&#xA;&lt;b&gt;Ranking:&lt;/b&gt; 5"/>
+										<UML:TaggedValue tag="isAbstract" value="false"/>
+										<UML:TaggedValue tag="isSpecification" value="false"/>
+										<UML:TaggedValue tag="ea_stype" value="Requirement"/>
+										<UML:TaggedValue tag="ea_ntype" value="0"/>
+										<UML:TaggedValue tag="version" value="1.0"/>
+										<UML:TaggedValue tag="package" value="EAPK_49E1EBDE_026B_4846_8004_7D0D2D0EB82E"/>
+										<UML:TaggedValue tag="date_created" value="2010-06-08 14:43:54"/>
+										<UML:TaggedValue tag="date_modified" value="2010-06-08 14:43:54"/>
+										<UML:TaggedValue tag="gentype" value="&lt;none&gt;"/>
+										<UML:TaggedValue tag="tagged" value="0"/>
+										<UML:TaggedValue tag="package_name" value="Realization and deployment view"/>
+										<UML:TaggedValue tag="phase" value="1.0"/>
+										<UML:TaggedValue tag="alias" value="R1.3.15"/>
+										<UML:TaggedValue tag="author" value="Requirement Taskforce"/>
+										<UML:TaggedValue tag="complexity" value="1"/>
+										<UML:TaggedValue tag="status" value="Proposed"/>
+										<UML:TaggedValue tag="tpos" value="0"/>
+										<UML:TaggedValue tag="keywords" value="WP4"/>
+										<UML:TaggedValue tag="ea_localid" value="717"/>
+										<UML:TaggedValue tag="ea_eleType" value="element"/>
+										<UML:TaggedValue tag="difficulty" value="Medium"/>
+										<UML:TaggedValue tag="priority" value="High"/>
+										<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+									</UML:ModelElement.taggedValue>
+								</UML:ClassifierRole>
+								<UML:ClassifierRole name="Test Reuse" xmi.id="EAID_D400EFDA_53FB_48c0_9B11_33051B29F2B5" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="documentation" value="&lt;b&gt;Description&lt;/b&gt;&#xA;Reusing of tests for subsystems shall be supported by the architecture.&#xA;&lt;b&gt;Measure to check&lt;/b&gt;&#xA;Standard interfaces for tests are available which can be used for other subsystems.&#xA;&lt;b&gt;Rationale&lt;/b&gt;&#xA;Test development time and cost can be reduced if a test can be used for multiple subsystems.&#xA;&lt;b&gt;Reference&lt;/b&gt;&#xA;GENESYS R1.3.10&#xA;&lt;b&gt;WP:&lt;/b&gt; 1,2,3&#xA;&lt;b&gt;Ranking:&lt;/b&gt; 4"/>
+										<UML:TaggedValue tag="isAbstract" value="false"/>
+										<UML:TaggedValue tag="isSpecification" value="false"/>
+										<UML:TaggedValue tag="ea_stype" value="Requirement"/>
+										<UML:TaggedValue tag="ea_ntype" value="0"/>
+										<UML:TaggedValue tag="version" value="1.0"/>
+										<UML:TaggedValue tag="package" value="EAPK_49E1EBDE_026B_4846_8004_7D0D2D0EB82E"/>
+										<UML:TaggedValue tag="date_created" value="2010-06-08 14:43:53"/>
+										<UML:TaggedValue tag="date_modified" value="2010-06-08 14:43:53"/>
+										<UML:TaggedValue tag="gentype" value="&lt;none&gt;"/>
+										<UML:TaggedValue tag="tagged" value="0"/>
+										<UML:TaggedValue tag="package_name" value="Realization and deployment view"/>
+										<UML:TaggedValue tag="phase" value="1.0"/>
+										<UML:TaggedValue tag="alias" value="R1.3.06"/>
+										<UML:TaggedValue tag="author" value="Requirement Taskforce"/>
+										<UML:TaggedValue tag="complexity" value="1"/>
+										<UML:TaggedValue tag="status" value="Proposed"/>
+										<UML:TaggedValue tag="tpos" value="0"/>
+										<UML:TaggedValue tag="keywords" value="WP1 WP2 WP3"/>
+										<UML:TaggedValue tag="ea_localid" value="708"/>
+										<UML:TaggedValue tag="ea_eleType" value="element"/>
+										<UML:TaggedValue tag="difficulty" value="Medium"/>
+										<UML:TaggedValue tag="priority" value="High"/>
+										<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+									</UML:ModelElement.taggedValue>
+								</UML:ClassifierRole>
+								<UML:ClassifierRole name="Security standards" xmi.id="EAID_D67CD739_5F72_4667_8A0C_38985D3D7F05" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="documentation" value="&lt;b&gt;Description&lt;/b&gt;&#xA;Security standards should be used for the implementation and integration of information security aspects &#xA;&lt;b&gt;Measure to check&lt;/b&gt;&#xA;Security follows well-established standards&#xA;&lt;b&gt;Rationale&lt;/b&gt;&#xA;Successful implementation of these standards is to a certain degree dependent on the application platform chosen for development, i.e Sun Java System Application Server. &#xA;&lt;b&gt;Reference&lt;/b&gt;&#xA;MPOWER R1.3.1&#xA;&lt;b&gt;WP:&lt;/b&gt; 1,2&#xA;&lt;b&gt;Ranking:&lt;/b&gt; 5"/>
+										<UML:TaggedValue tag="isAbstract" value="false"/>
+										<UML:TaggedValue tag="isSpecification" value="false"/>
+										<UML:TaggedValue tag="ea_stype" value="Requirement"/>
+										<UML:TaggedValue tag="ea_ntype" value="0"/>
+										<UML:TaggedValue tag="version" value="1.0"/>
+										<UML:TaggedValue tag="package" value="EAPK_49E1EBDE_026B_4846_8004_7D0D2D0EB82E"/>
+										<UML:TaggedValue tag="date_created" value="2010-06-08 14:43:54"/>
+										<UML:TaggedValue tag="date_modified" value="2010-06-08 14:43:54"/>
+										<UML:TaggedValue tag="gentype" value="&lt;none&gt;"/>
+										<UML:TaggedValue tag="tagged" value="0"/>
+										<UML:TaggedValue tag="package_name" value="Realization and deployment view"/>
+										<UML:TaggedValue tag="phase" value="1.0"/>
+										<UML:TaggedValue tag="alias" value="R1.3.14"/>
+										<UML:TaggedValue tag="author" value="Requirement Taskforce"/>
+										<UML:TaggedValue tag="complexity" value="1"/>
+										<UML:TaggedValue tag="status" value="Proposed"/>
+										<UML:TaggedValue tag="tpos" value="0"/>
+										<UML:TaggedValue tag="keywords" value="WP1 WP2"/>
+										<UML:TaggedValue tag="ea_localid" value="716"/>
+										<UML:TaggedValue tag="ea_eleType" value="element"/>
+										<UML:TaggedValue tag="difficulty" value="Medium"/>
+										<UML:TaggedValue tag="priority" value="High"/>
+										<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+									</UML:ModelElement.taggedValue>
+								</UML:ClassifierRole>
+								<UML:ClassifierRole name="Verification Reuse" xmi.id="EAID_E465EBF3_B622_435a_97E6_E7460FC6CABD" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="documentation" value="&lt;b&gt;Description&lt;/b&gt;&#xA;Verification of subsystems should be supported by reused verification patterns and verification environments.&#xA;&lt;b&gt;Measure to check&lt;/b&gt;&#xA;There exists a set of standard verification patterns that can be used for the verification of different subsystems.&#xA;&lt;b&gt;Rationale&lt;/b&gt;&#xA;It is easier to reuse IP modules when verification patterns can be reused.&#xA;&lt;b&gt;Reference&lt;/b&gt;&#xA;GENESYS R1.3.11&#xA;&lt;b&gt;WP:&lt;/b&gt; 1,2,3&#xA;&lt;b&gt;Ranking:&lt;/b&gt; 2"/>
+										<UML:TaggedValue tag="isAbstract" value="false"/>
+										<UML:TaggedValue tag="isSpecification" value="false"/>
+										<UML:TaggedValue tag="ea_stype" value="Requirement"/>
+										<UML:TaggedValue tag="ea_ntype" value="0"/>
+										<UML:TaggedValue tag="version" value="1.0"/>
+										<UML:TaggedValue tag="package" value="EAPK_49E1EBDE_026B_4846_8004_7D0D2D0EB82E"/>
+										<UML:TaggedValue tag="date_created" value="2010-06-08 14:43:53"/>
+										<UML:TaggedValue tag="date_modified" value="2010-06-08 14:43:54"/>
+										<UML:TaggedValue tag="gentype" value="&lt;none&gt;"/>
+										<UML:TaggedValue tag="tagged" value="0"/>
+										<UML:TaggedValue tag="package_name" value="Realization and deployment view"/>
+										<UML:TaggedValue tag="phase" value="1.0"/>
+										<UML:TaggedValue tag="alias" value="R1.3.07"/>
+										<UML:TaggedValue tag="author" value="Requirement Taskforce"/>
+										<UML:TaggedValue tag="complexity" value="1"/>
+										<UML:TaggedValue tag="status" value="Proposed"/>
+										<UML:TaggedValue tag="tpos" value="0"/>
+										<UML:TaggedValue tag="keywords" value="WP1 WP2 WP3"/>
+										<UML:TaggedValue tag="ea_localid" value="709"/>
+										<UML:TaggedValue tag="ea_eleType" value="element"/>
+										<UML:TaggedValue tag="difficulty" value="Medium"/>
+										<UML:TaggedValue tag="priority" value="Medium"/>
+										<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+									</UML:ModelElement.taggedValue>
+								</UML:ClassifierRole>
+								<UML:ClassifierRole name="Formal Methods Qualification" xmi.id="EAID_E91FD3C6_297A_4aed_85F3_D09EA8F62126" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="documentation" value="&lt;b&gt;Description&lt;/b&gt;&#xA;Formal Methods Qualification should be supported by the architecture to apply formal methods.&#xA;&lt;b&gt;Measure to check&lt;/b&gt;&#xA;&#xA;&lt;b&gt;Rationale&lt;/b&gt;&#xA;With formal methods the correctness of specifications, interfaces or properties of subsystems can be formally proved and ambiguous statements can be avoided.&#xA;&lt;b&gt;Reference&lt;/b&gt;&#xA;GENESYS R1.3.12&#xA;&lt;b&gt;WP:&lt;/b&gt; 1,2,3&#xA;&lt;b&gt;Ranking:&lt;/b&gt; 2"/>
+										<UML:TaggedValue tag="isAbstract" value="false"/>
+										<UML:TaggedValue tag="isSpecification" value="false"/>
+										<UML:TaggedValue tag="ea_stype" value="Requirement"/>
+										<UML:TaggedValue tag="ea_ntype" value="0"/>
+										<UML:TaggedValue tag="version" value="1.0"/>
+										<UML:TaggedValue tag="package" value="EAPK_49E1EBDE_026B_4846_8004_7D0D2D0EB82E"/>
+										<UML:TaggedValue tag="date_created" value="2010-06-08 14:43:54"/>
+										<UML:TaggedValue tag="date_modified" value="2010-06-08 14:43:54"/>
+										<UML:TaggedValue tag="gentype" value="&lt;none&gt;"/>
+										<UML:TaggedValue tag="tagged" value="0"/>
+										<UML:TaggedValue tag="package_name" value="Realization and deployment view"/>
+										<UML:TaggedValue tag="phase" value="1.0"/>
+										<UML:TaggedValue tag="alias" value="R1.3.08"/>
+										<UML:TaggedValue tag="author" value="Requirement Taskforce"/>
+										<UML:TaggedValue tag="complexity" value="1"/>
+										<UML:TaggedValue tag="status" value="Proposed"/>
+										<UML:TaggedValue tag="tpos" value="0"/>
+										<UML:TaggedValue tag="keywords" value="WP1 WP2 WP3"/>
+										<UML:TaggedValue tag="ea_localid" value="710"/>
+										<UML:TaggedValue tag="ea_eleType" value="element"/>
+										<UML:TaggedValue tag="difficulty" value="Medium"/>
+										<UML:TaggedValue tag="priority" value="Medium"/>
+										<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+									</UML:ModelElement.taggedValue>
+								</UML:ClassifierRole>
+								<UML:ClassifierRole name="Oportunisitc Product Development" xmi.id="EAID_EBE73A9E_96E9_46df_A918_0B537F29A0CC" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="documentation" value="&lt;b&gt;Description&lt;/b&gt;&#xA; Development of products based on available technology rather than on the user's requirements shall be supported (e.g., bottom-up development).&#xA;&lt;b&gt;Measure to check&lt;/b&gt;&#xA;A product can be developed bottom-up.&#xA;&lt;b&gt;Rationale&lt;/b&gt;&#xA;Many products are developed when new technology is available not because of new user requirements (e.g., moblie phones with cameras or MP3 players).&#xA;&lt;b&gt;Reference&lt;/b&gt;&#xA;GENESYS R1.3.9&#xA;&lt;b&gt;WP:&lt;/b&gt; 2,4&#xA;&lt;b&gt;Ranking:&lt;/b&gt; 5"/>
+										<UML:TaggedValue tag="isAbstract" value="false"/>
+										<UML:TaggedValue tag="isSpecification" value="false"/>
+										<UML:TaggedValue tag="ea_stype" value="Requirement"/>
+										<UML:TaggedValue tag="ea_ntype" value="0"/>
+										<UML:TaggedValue tag="version" value="1.0"/>
+										<UML:TaggedValue tag="package" value="EAPK_49E1EBDE_026B_4846_8004_7D0D2D0EB82E"/>
+										<UML:TaggedValue tag="date_created" value="2010-06-08 14:43:53"/>
+										<UML:TaggedValue tag="date_modified" value="2010-06-08 14:43:53"/>
+										<UML:TaggedValue tag="gentype" value="&lt;none&gt;"/>
+										<UML:TaggedValue tag="tagged" value="0"/>
+										<UML:TaggedValue tag="package_name" value="Realization and deployment view"/>
+										<UML:TaggedValue tag="phase" value="1.0"/>
+										<UML:TaggedValue tag="alias" value="R1.3.05"/>
+										<UML:TaggedValue tag="author" value="Requirement Taskforce"/>
+										<UML:TaggedValue tag="complexity" value="1"/>
+										<UML:TaggedValue tag="status" value="Proposed"/>
+										<UML:TaggedValue tag="tpos" value="0"/>
+										<UML:TaggedValue tag="keywords" value="WP2 WP4"/>
+										<UML:TaggedValue tag="ea_localid" value="707"/>
+										<UML:TaggedValue tag="ea_eleType" value="element"/>
+										<UML:TaggedValue tag="difficulty" value="Medium"/>
+										<UML:TaggedValue tag="priority" value="High"/>
+										<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+									</UML:ModelElement.taggedValue>
+								</UML:ClassifierRole>
+								<UML:ClassifierRole name="Design-for-Verifiability" xmi.id="EAID_F2BE6F3F_BA44_483b_9990_D85AC4EA6270" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="documentation" value="&lt;b&gt;Description&lt;/b&gt;&#xA;Design-for-Verifiability shall be enforced by the architecture.&#xA;&lt;b&gt;Measure to check&lt;/b&gt;&#xA;Verification requirements are part of the architectural model.&#xA;&lt;b&gt;Rationale&lt;/b&gt;&#xA;In an architecture that considers requirements for verifications, effort for verification can be reduced substantially.&#xA;&lt;b&gt;Reference&lt;/b&gt;&#xA;GENESYS R2.2.13.3&#xA;&lt;b&gt;WP:&lt;/b&gt; 1,2,4&#xA;&lt;b&gt;Ranking:&lt;/b&gt; 2,5"/>
+										<UML:TaggedValue tag="isAbstract" value="false"/>
+										<UML:TaggedValue tag="isSpecification" value="false"/>
+										<UML:TaggedValue tag="ea_stype" value="Requirement"/>
+										<UML:TaggedValue tag="ea_ntype" value="0"/>
+										<UML:TaggedValue tag="version" value="1.0"/>
+										<UML:TaggedValue tag="package" value="EAPK_49E1EBDE_026B_4846_8004_7D0D2D0EB82E"/>
+										<UML:TaggedValue tag="date_created" value="2010-06-08 14:43:54"/>
+										<UML:TaggedValue tag="date_modified" value="2010-06-08 14:43:54"/>
+										<UML:TaggedValue tag="gentype" value="&lt;none&gt;"/>
+										<UML:TaggedValue tag="tagged" value="0"/>
+										<UML:TaggedValue tag="package_name" value="Realization and deployment view"/>
+										<UML:TaggedValue tag="phase" value="1.0"/>
+										<UML:TaggedValue tag="alias" value="R1.3.18"/>
+										<UML:TaggedValue tag="author" value="Requirement Taskforce"/>
+										<UML:TaggedValue tag="complexity" value="1"/>
+										<UML:TaggedValue tag="status" value="Proposed"/>
+										<UML:TaggedValue tag="tpos" value="0"/>
+										<UML:TaggedValue tag="keywords" value="WP1 WP2 WP4"/>
+										<UML:TaggedValue tag="ea_localid" value="720"/>
+										<UML:TaggedValue tag="ea_eleType" value="element"/>
+										<UML:TaggedValue tag="difficulty" value="Medium"/>
+										<UML:TaggedValue tag="priority" value="Medium"/>
+										<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+									</UML:ModelElement.taggedValue>
+								</UML:ClassifierRole>
+							</UML:Namespace.ownedElement>
+							<UML:Collaboration.interaction/>
+						</UML:Collaboration>
+					</UML:Namespace.ownedElement>
+				</UML:Package>
+			</UML:Namespace.ownedElement>
+		</UML:Model>
+	</XMI.content>
+	<XMI.difference/>
+	<XMI.extensions xmi.extender="Enterprise Architect 2.5"/>
+</XMI>
