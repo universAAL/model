@@ -34,11 +34,43 @@
 						<UML:TaggedValue tag="tpos" value="0"/>
 						<UML:TaggedValue tag="gentype" value="Java"/>
 					</UML:ModelElement.taggedValue>
-					<UML:Namespace.ownedElement/>
+					<UML:Namespace.ownedElement>
+						<UML:Component name="uStore service" xmi.id="EAID_DC6A044A_D7E6_4695_8444_60373EB21FDE" visibility="public" namespace="EAPK_DC89E3AF_F570_43d4_82C3_71BDE7EA4BC6" isRoot="false" isLeaf="false" isAbstract="false">
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="documentation" value="This is the service that is available from the internet where users can register and download AAL services."/>
+								<UML:TaggedValue tag="isSpecification" value="false"/>
+								<UML:TaggedValue tag="ea_stype" value="Component"/>
+								<UML:TaggedValue tag="ea_ntype" value="0"/>
+								<UML:TaggedValue tag="version" value="1.0"/>
+								<UML:TaggedValue tag="package" value="EAPK_DC89E3AF_F570_43d4_82C3_71BDE7EA4BC6"/>
+								<UML:TaggedValue tag="date_created" value="2010-06-09 13:19:35"/>
+								<UML:TaggedValue tag="date_modified" value="2010-06-09 13:27:00"/>
+								<UML:TaggedValue tag="gentype" value="Java"/>
+								<UML:TaggedValue tag="tagged" value="0"/>
+								<UML:TaggedValue tag="package_name" value="uStore"/>
+								<UML:TaggedValue tag="phase" value="1.0"/>
+								<UML:TaggedValue tag="author" value="BabakF"/>
+								<UML:TaggedValue tag="complexity" value="1"/>
+								<UML:TaggedValue tag="status" value="Proposed"/>
+								<UML:TaggedValue tag="tpos" value="0"/>
+								<UML:TaggedValue tag="ea_localid" value="874"/>
+								<UML:TaggedValue tag="ea_eleType" value="element"/>
+								<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+							</UML:ModelElement.taggedValue>
+						</UML:Component>
+					</UML:Namespace.ownedElement>
 				</UML:Package>
 			</UML:Namespace.ownedElement>
 		</UML:Model>
 	</XMI.content>
 	<XMI.difference/>
-	<XMI.extensions xmi.extender="Enterprise Architect 2.5"/>
+	<XMI.extensions xmi.extender="Enterprise Architect 2.5">
+		<EAModel.scenario>
+			<EAScenario name="00- Overview" type="Basic Path" weight="0,00" description="For Bilbo:&#xA;- Open web page&#xA;- Register as user&#xA;- Change/add preferences&#xA;- Search for services&#xA;- Buy services&#xA;&#xA;For Frodo:&#xA;- Allow connecting to Bilbo as next of kin&#xA;- Allow for deploying Bilbo's services on Frodo's devices&#xA;&#xA;For Gandalf and Saruman:&#xA;- Allow registering as developers&#xA;- Allow registering new service components&#xA;- Allow upgrading his existing service components&#xA;- Allow fetching user feedback&#xA;- Allow adding documentation for service components&#xA;&#xA;For Aragorn and Legalos:&#xA;- Allow registering as service providers&#xA;- Allow communication with developers&#xA;- Allow providing services based on existing service components&#xA;- Allow enrolling Bilbo as user of a service&#xA;- Allow monitoring of service usage&#xA;- Allow fetching user feedback on services&#xA;&#xA;For Denethor:&#xA;- Allow monitoring usage of reimbursable services&#xA;- Allow paying service providers for provided services&#xA;- Allow mapping service providers and users to their internal databases&#xA;- Allow statistical analysis?" subject="EAID_DC6A044A_D7E6_4695_8444_60373EB21FDE" xmi.id="EAID_AB91111B_9070_4f12_822D_B3D18DBACD33">
+				<EAScenarioContent>
+					<path/>
+				</EAScenarioContent>
+			</EAScenario>
+		</EAModel.scenario>
+	</XMI.extensions>
 </XMI>
