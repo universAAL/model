@@ -17,7 +17,7 @@
 						<UML:TaggedValue tag="modified" value="2010-05-20 12:14:58"/>
 						<UML:TaggedValue tag="iscontrolled" value="TRUE"/>
 						<UML:TaggedValue tag="xmlpath" value="Context View\Reference Use Cases.xml"/>
-						<UML:TaggedValue tag="lastloaddate" value="2010-06-16 14:23:22"/>
+						<UML:TaggedValue tag="lastloaddate" value="2010-06-16 14:30:18"/>
 						<UML:TaggedValue tag="lastsavedate" value="2010-05-31 16:03:17"/>
 						<UML:TaggedValue tag="version" value="1.0"/>
 						<UML:TaggedValue tag="isprotected" value="FALSE"/>
@@ -36,7 +36,353 @@
 						<UML:TaggedValue tag="tpos" value="2"/>
 						<UML:TaggedValue tag="gentype" value="Java"/>
 					</UML:ModelElement.taggedValue>
-					<UML:Namespace.ownedElement/>
+					<UML:Namespace.ownedElement>
+						<UML:UseCase name="Remote or local management of platform components (inc. HW) by technician or advanced end user." xmi.id="EAID_1F9409A8_6960_49bc_B633_864FA4FED69A" visibility="public" namespace="EAPK_532DB139_01B2_4b5c_87B5_437D2BEF68B2" isRoot="false" isLeaf="false" isAbstract="false">
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="documentation" value="An authorized person (normally a technician from the Service provider) using a remote tool (like a web based access) or local menus can have access to configure aspects of the platform related aspects installed at the end user environment. Some examples of this use case: management of hardware devices, management of software components installed for each user, management of access rights policies to functionalities and/or data to end users…&#xA;&#xA;Essentially it is equal to RUC#9, however the underlying technology could be different, because the management of data that directly affects AAL Services can be implemented when AAL Services are implemented while platform related aspects are common for every AAL Service installed. The implementation of the two RUC could be different, and also the type of stakeholder involved in each of them is different."/>
+								<UML:TaggedValue tag="isSpecification" value="false"/>
+								<UML:TaggedValue tag="ea_stype" value="UseCase"/>
+								<UML:TaggedValue tag="ea_ntype" value="0"/>
+								<UML:TaggedValue tag="version" value="1.0"/>
+								<UML:TaggedValue tag="package" value="EAPK_532DB139_01B2_4b5c_87B5_437D2BEF68B2"/>
+								<UML:TaggedValue tag="date_created" value="2010-06-16 15:20:38"/>
+								<UML:TaggedValue tag="date_modified" value="2010-06-16 15:20:45"/>
+								<UML:TaggedValue tag="gentype" value="&lt;none&gt;"/>
+								<UML:TaggedValue tag="tagged" value="0"/>
+								<UML:TaggedValue tag="package_name" value="Reference Use Cases"/>
+								<UML:TaggedValue tag="phase" value="1.0"/>
+								<UML:TaggedValue tag="author" value="eandgrg"/>
+								<UML:TaggedValue tag="complexity" value="1"/>
+								<UML:TaggedValue tag="status" value="Proposed"/>
+								<UML:TaggedValue tag="tpos" value="10"/>
+								<UML:TaggedValue tag="ea_localid" value="2744"/>
+								<UML:TaggedValue tag="ea_eleType" value="element"/>
+								<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+							</UML:ModelElement.taggedValue>
+						</UML:UseCase>
+						<UML:UseCase name="End user establishes a multimodal communication session with a remote user." xmi.id="EAID_2D439319_A27A_4ef6_840A_A501067BA729" visibility="public" namespace="EAPK_532DB139_01B2_4b5c_87B5_437D2BEF68B2" isRoot="false" isLeaf="false" isAbstract="false">
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="documentation" value="End user and another remote user establish a communication session using a combination of multimedia (video and/or audio), chat, document sharing and/or other data like vital signs. The word multimodal refers to the simultaneous combination of different communication flows: chat, video, audio, document sharing… The establishment can be done by the remote user or by the local user. Communication session could consist in video and audio, audio, or just chat."/>
+								<UML:TaggedValue tag="isSpecification" value="false"/>
+								<UML:TaggedValue tag="ea_stype" value="UseCase"/>
+								<UML:TaggedValue tag="ea_ntype" value="0"/>
+								<UML:TaggedValue tag="version" value="1.0"/>
+								<UML:TaggedValue tag="package" value="EAPK_532DB139_01B2_4b5c_87B5_437D2BEF68B2"/>
+								<UML:TaggedValue tag="date_created" value="2010-06-16 15:20:05"/>
+								<UML:TaggedValue tag="date_modified" value="2010-06-16 15:20:13"/>
+								<UML:TaggedValue tag="gentype" value="&lt;none&gt;"/>
+								<UML:TaggedValue tag="tagged" value="0"/>
+								<UML:TaggedValue tag="package_name" value="Reference Use Cases"/>
+								<UML:TaggedValue tag="phase" value="1.0"/>
+								<UML:TaggedValue tag="author" value="eandgrg"/>
+								<UML:TaggedValue tag="complexity" value="1"/>
+								<UML:TaggedValue tag="status" value="Proposed"/>
+								<UML:TaggedValue tag="tpos" value="8"/>
+								<UML:TaggedValue tag="ea_localid" value="2742"/>
+								<UML:TaggedValue tag="ea_eleType" value="element"/>
+								<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+							</UML:ModelElement.taggedValue>
+						</UML:UseCase>
+						<UML:UseCase name="Elderly (or any other Assisted person) is guided to perform some actions and/or move in a certain physical space in the scope of a session." xmi.id="EAID_31D5D7D5_D9FD_4624_BF7E_FCAFF7EEF6A7" visibility="public" namespace="EAPK_532DB139_01B2_4b5c_87B5_437D2BEF68B2" isRoot="false" isLeaf="false" isAbstract="false">
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="documentation" value="Elderly are continuously guided in a physical space during a certain time to achieve one or several consecutive goals using the available physical infrastructure: PC, microphones, PDA, loudspeakers, distributed screens, TV, maps…  The main aim of the RUC is to provide the user with support when is out of his natural and usual environment while focusing on the position of the user in the current environment. The system should identify the new environment and guide the user with all information that needs. &#xA;&#xA;Example : &#xA;Trip advisor for trip planning, Travelling partner helping out of home, Transportation assistance, Guide to have breakfast/lunch/dinner"/>
+								<UML:TaggedValue tag="isSpecification" value="false"/>
+								<UML:TaggedValue tag="ea_stype" value="UseCase"/>
+								<UML:TaggedValue tag="ea_ntype" value="0"/>
+								<UML:TaggedValue tag="version" value="1.0"/>
+								<UML:TaggedValue tag="package" value="EAPK_532DB139_01B2_4b5c_87B5_437D2BEF68B2"/>
+								<UML:TaggedValue tag="date_created" value="2010-06-16 14:55:51"/>
+								<UML:TaggedValue tag="date_modified" value="2010-06-16 14:55:57"/>
+								<UML:TaggedValue tag="gentype" value="&lt;none&gt;"/>
+								<UML:TaggedValue tag="tagged" value="0"/>
+								<UML:TaggedValue tag="package_name" value="Reference Use Cases"/>
+								<UML:TaggedValue tag="phase" value="1.0"/>
+								<UML:TaggedValue tag="author" value="eandgrg"/>
+								<UML:TaggedValue tag="complexity" value="1"/>
+								<UML:TaggedValue tag="status" value="Proposed"/>
+								<UML:TaggedValue tag="tpos" value="5"/>
+								<UML:TaggedValue tag="ea_localid" value="2739"/>
+								<UML:TaggedValue tag="ea_eleType" value="element"/>
+								<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+							</UML:ModelElement.taggedValue>
+						</UML:UseCase>
+						<UML:UseCase name="Administrators of the uStore can create and manage different accounting and billing policies" xmi.id="EAID_40535630_6DAD_405c_9606_47AD41EC82CD" visibility="public" namespace="EAPK_532DB139_01B2_4b5c_87B5_437D2BEF68B2" isRoot="false" isLeaf="false" isAbstract="false">
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="documentation" value="uStore must be a system that is able to be managed by a group of administrators who should be able to define policies in order to ensure its viability beyond the boundaries of the project. AAL solutions offered in uStore can be acquired for free by its consumers or by paying a certain amount of money that will depend on the business model of that specific solution. In business models, somehow the management of the uStore must be present as a player that offers some services and should be sustainable."/>
+								<UML:TaggedValue tag="isSpecification" value="false"/>
+								<UML:TaggedValue tag="ea_stype" value="UseCase"/>
+								<UML:TaggedValue tag="ea_ntype" value="0"/>
+								<UML:TaggedValue tag="version" value="1.0"/>
+								<UML:TaggedValue tag="package" value="EAPK_532DB139_01B2_4b5c_87B5_437D2BEF68B2"/>
+								<UML:TaggedValue tag="date_created" value="2010-06-16 15:21:47"/>
+								<UML:TaggedValue tag="date_modified" value="2010-06-16 15:21:54"/>
+								<UML:TaggedValue tag="gentype" value="&lt;none&gt;"/>
+								<UML:TaggedValue tag="tagged" value="0"/>
+								<UML:TaggedValue tag="package_name" value="Reference Use Cases"/>
+								<UML:TaggedValue tag="phase" value="1.0"/>
+								<UML:TaggedValue tag="author" value="eandgrg"/>
+								<UML:TaggedValue tag="complexity" value="1"/>
+								<UML:TaggedValue tag="status" value="Proposed"/>
+								<UML:TaggedValue tag="tpos" value="14"/>
+								<UML:TaggedValue tag="ea_localid" value="2748"/>
+								<UML:TaggedValue tag="ea_eleType" value="element"/>
+								<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+							</UML:ModelElement.taggedValue>
+						</UML:UseCase>
+						<UML:UseCase name="uAAL end users provide feedback about AAL solution through a web based tool offered through the uStore." xmi.id="EAID_5CDED43C_06B5_4bbf_9E56_B5CD234A589C" visibility="public" namespace="EAPK_532DB139_01B2_4b5c_87B5_437D2BEF68B2" isRoot="false" isLeaf="false" isAbstract="false">
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="documentation" value="After acquiring a certain good from the uStore, it is implemented a mechanism to collect the feedback about the effectiveness of the AAL solutions. Effectiveness is not the only parameter evaluated with user feedback, but somehow the idea is to create a live community that continuously discusses about the key aspects of AAL services and how the needs of the assisted person must be covered. Feedback about how well or how bad a certain service offered by a certain provider through uStore can also help to rate the services to make the life easier for the end users to evaluate the choices. Another important contributions from users (end users and service providers, mainly) is that they will help to identify poorly covered aspects as well as to identify the lack of a certain technology thanks to the identification of unsolved needs. This feedback is managed in order to guide the development process of the technological community based on direct and effective feedback from the market."/>
+								<UML:TaggedValue tag="isSpecification" value="false"/>
+								<UML:TaggedValue tag="ea_stype" value="UseCase"/>
+								<UML:TaggedValue tag="ea_ntype" value="0"/>
+								<UML:TaggedValue tag="version" value="1.0"/>
+								<UML:TaggedValue tag="package" value="EAPK_532DB139_01B2_4b5c_87B5_437D2BEF68B2"/>
+								<UML:TaggedValue tag="date_created" value="2010-06-16 15:21:30"/>
+								<UML:TaggedValue tag="date_modified" value="2010-06-16 15:21:36"/>
+								<UML:TaggedValue tag="gentype" value="&lt;none&gt;"/>
+								<UML:TaggedValue tag="tagged" value="0"/>
+								<UML:TaggedValue tag="package_name" value="Reference Use Cases"/>
+								<UML:TaggedValue tag="phase" value="1.0"/>
+								<UML:TaggedValue tag="author" value="eandgrg"/>
+								<UML:TaggedValue tag="complexity" value="1"/>
+								<UML:TaggedValue tag="status" value="Proposed"/>
+								<UML:TaggedValue tag="tpos" value="13"/>
+								<UML:TaggedValue tag="ea_localid" value="2747"/>
+								<UML:TaggedValue tag="ea_eleType" value="element"/>
+								<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+							</UML:ModelElement.taggedValue>
+						</UML:UseCase>
+						<UML:UseCase name="In critical situations the system is able to adapt to the new situation and when conditions are again favorable restore the normal status." xmi.id="EAID_617EE72C_026A_497a_BF30_E986198445EC" visibility="public" namespace="EAPK_532DB139_01B2_4b5c_87B5_437D2BEF68B2" isRoot="false" isLeaf="false" isAbstract="false">
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="documentation" value="In critical situations when systems surrounding a person fail it is important that those systems are able to recover as soon as possible and with the minimum impact for the end user. Mechanisms to ensure self adaptability and restoration of system and services are implemented. If system fails any service should lose information, user must be informed as soon as possible about the situation and when it will be restored and it is important also that privacy in these critical conditions is not decreased. In critical situations when the integrity of the system and of the human being are in risk the system must ensure a robust mechanism to minimize the risk and recover as quick as possible."/>
+								<UML:TaggedValue tag="isSpecification" value="false"/>
+								<UML:TaggedValue tag="ea_stype" value="UseCase"/>
+								<UML:TaggedValue tag="ea_ntype" value="0"/>
+								<UML:TaggedValue tag="version" value="1.0"/>
+								<UML:TaggedValue tag="package" value="EAPK_532DB139_01B2_4b5c_87B5_437D2BEF68B2"/>
+								<UML:TaggedValue tag="date_created" value="2010-06-16 15:22:06"/>
+								<UML:TaggedValue tag="date_modified" value="2010-06-16 15:22:14"/>
+								<UML:TaggedValue tag="gentype" value="&lt;none&gt;"/>
+								<UML:TaggedValue tag="tagged" value="0"/>
+								<UML:TaggedValue tag="package_name" value="Reference Use Cases"/>
+								<UML:TaggedValue tag="phase" value="1.0"/>
+								<UML:TaggedValue tag="author" value="eandgrg"/>
+								<UML:TaggedValue tag="complexity" value="1"/>
+								<UML:TaggedValue tag="status" value="Proposed"/>
+								<UML:TaggedValue tag="tpos" value="15"/>
+								<UML:TaggedValue tag="ea_localid" value="2749"/>
+								<UML:TaggedValue tag="ea_eleType" value="element"/>
+								<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+							</UML:ModelElement.taggedValue>
+						</UML:UseCase>
+						<UML:UseCase name="uAAL Developer uses Development Depot tools to compose, validate, build and deploy a new AAL Technological solution." xmi.id="EAID_6986428A_CD78_4d6f_B0E8_D198AC252536" visibility="public" namespace="EAPK_532DB139_01B2_4b5c_87B5_437D2BEF68B2" isRoot="false" isLeaf="false" isAbstract="false">
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="documentation" value="This reference use case describes how a uAAL developer by using a bundle of professional development tools implemented in universAAL project, is able to acquire libraries, configurations, basic platform services, test cases or just tailor a service out of the resources available at the Development Depot in order to create a technological solution. Development Depot is the central repository of a set of heterogeneous technical components (drivers, platform components, platform services, basic AAL applications…) that can be accessed and managed with the aforementioned tools. The final step of a developer is the deployment of the composed final solution to uStore. This solution is part of the final AAL Service to be deployed together with organizational aspects and the implication of human resources (potentially formal and informal caregivers, managers…)."/>
+								<UML:TaggedValue tag="isSpecification" value="false"/>
+								<UML:TaggedValue tag="ea_stype" value="UseCase"/>
+								<UML:TaggedValue tag="ea_ntype" value="0"/>
+								<UML:TaggedValue tag="version" value="1.0"/>
+								<UML:TaggedValue tag="package" value="EAPK_532DB139_01B2_4b5c_87B5_437D2BEF68B2"/>
+								<UML:TaggedValue tag="date_created" value="2010-06-16 15:20:56"/>
+								<UML:TaggedValue tag="date_modified" value="2010-06-16 15:21:04"/>
+								<UML:TaggedValue tag="gentype" value="&lt;none&gt;"/>
+								<UML:TaggedValue tag="tagged" value="0"/>
+								<UML:TaggedValue tag="package_name" value="Reference Use Cases"/>
+								<UML:TaggedValue tag="phase" value="1.0"/>
+								<UML:TaggedValue tag="author" value="eandgrg"/>
+								<UML:TaggedValue tag="complexity" value="1"/>
+								<UML:TaggedValue tag="status" value="Proposed"/>
+								<UML:TaggedValue tag="tpos" value="11"/>
+								<UML:TaggedValue tag="ea_localid" value="2745"/>
+								<UML:TaggedValue tag="ea_eleType" value="element"/>
+								<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+							</UML:ModelElement.taggedValue>
+						</UML:UseCase>
+						<UML:UseCase name="System automatically offers information to the end user." xmi.id="EAID_6B325EEC_9660_4871_B2B0_4C1639278B7B" visibility="public" namespace="EAPK_532DB139_01B2_4b5c_87B5_437D2BEF68B2" isRoot="false" isLeaf="false" isAbstract="false">
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="documentation" value="This use case offers information in a certain moment to an end user using any available interaction mechanism in the context where the user is. This reference use case is normally triggered by the system as a result of the decision taken by one local or remote software component. The system should be sensible to the context of the user to offer the better interaction mechanism available in that context. Most common example is a reminder, or just gives information about the next food intake, or a medical recommendation (i.e. Go to have a walk! Today is a beautiful spring day!).&#xA;The user may provide or not a confirmation of receipt of the message, so the system could take this information into account for further analysis. In some cases the confirmation of receipt of the message is mandatory (i.e., emergency situations) and when any confirmation is provided it can trigger alerts."/>
+								<UML:TaggedValue tag="isSpecification" value="false"/>
+								<UML:TaggedValue tag="ea_stype" value="UseCase"/>
+								<UML:TaggedValue tag="ea_ntype" value="0"/>
+								<UML:TaggedValue tag="version" value="1.0"/>
+								<UML:TaggedValue tag="package" value="EAPK_532DB139_01B2_4b5c_87B5_437D2BEF68B2"/>
+								<UML:TaggedValue tag="date_created" value="2010-06-16 14:55:30"/>
+								<UML:TaggedValue tag="date_modified" value="2010-06-16 14:55:38"/>
+								<UML:TaggedValue tag="gentype" value="&lt;none&gt;"/>
+								<UML:TaggedValue tag="tagged" value="0"/>
+								<UML:TaggedValue tag="package_name" value="Reference Use Cases"/>
+								<UML:TaggedValue tag="phase" value="1.0"/>
+								<UML:TaggedValue tag="author" value="eandgrg"/>
+								<UML:TaggedValue tag="complexity" value="1"/>
+								<UML:TaggedValue tag="status" value="Proposed"/>
+								<UML:TaggedValue tag="tpos" value="4"/>
+								<UML:TaggedValue tag="ea_localid" value="2738"/>
+								<UML:TaggedValue tag="ea_eleType" value="element"/>
+								<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+							</UML:ModelElement.taggedValue>
+						</UML:UseCase>
+						<UML:UseCase name="Elderly person/relative/career has access to AAL applications options and functionalities based on graphical interaction modality in a form-based (or wizard based) approach." xmi.id="EAID_751BC785_8E01_4533_9F0A_22626BEA0D5A" visibility="public" namespace="EAPK_532DB139_01B2_4b5c_87B5_437D2BEF68B2" isRoot="false" isLeaf="false" isAbstract="false">
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="documentation" value="&lt;td colspan=&quot;48256312&quot; valign=&quot;top&quot; width=&quot;6379309&quot; height=&quot;268&quot; bgcolor=&quot;#feffff&quot; style=&quot;border-left:solid #30f289 1232962px; border-right:solid #fca11e 22137px; border-top:solid #78a41e 15792605px; border-bottom:solid #400a89 1px&quot;&gt;In a certain moment, an end user accesses the software application through graphical user interaction mechanisms in order to introduce information into the system, perform orders or modify existing information related with a certain service or with the bundle of services that the user consumes. It can be also that the user just access the system and consults certain information. The use case is normally triggered by the end user.&#xA;Normally, this use case involves an active participation of the end user through a relatively complex process that involves steps. The user must be in a certain level of concentration to successfully accomplish the complete tasks. &#xA;Technically speaking it could be just a form that is filled step by step by the user and final collected data stored in a local database or just sent to a remote repository. The system continues working considering the new values modified or introduced by the assisted person or the caregivers.&#xA;No specific interaction with any surrounding hardware component is done in this type of Use Cases.&#xA;&#xA;Examples: Add Calendar event, Configure calendar settings, edit weekly menu, and edit nutritional preferences, questionnaires to fill…&lt;/br&gt;&lt;/td&gt;&lt;/tr&gt;"/>
+								<UML:TaggedValue tag="isSpecification" value="false"/>
+								<UML:TaggedValue tag="ea_stype" value="UseCase"/>
+								<UML:TaggedValue tag="ea_ntype" value="0"/>
+								<UML:TaggedValue tag="version" value="1.0"/>
+								<UML:TaggedValue tag="package" value="EAPK_532DB139_01B2_4b5c_87B5_437D2BEF68B2"/>
+								<UML:TaggedValue tag="date_created" value="2010-06-16 14:53:32"/>
+								<UML:TaggedValue tag="date_modified" value="2010-06-16 14:53:50"/>
+								<UML:TaggedValue tag="gentype" value="&lt;none&gt;"/>
+								<UML:TaggedValue tag="tagged" value="0"/>
+								<UML:TaggedValue tag="package_name" value="Reference Use Cases"/>
+								<UML:TaggedValue tag="phase" value="1.0"/>
+								<UML:TaggedValue tag="author" value="eandgrg"/>
+								<UML:TaggedValue tag="complexity" value="1"/>
+								<UML:TaggedValue tag="status" value="Proposed"/>
+								<UML:TaggedValue tag="tpos" value="1"/>
+								<UML:TaggedValue tag="ea_localid" value="2735"/>
+								<UML:TaggedValue tag="ea_eleType" value="element"/>
+								<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+							</UML:ModelElement.taggedValue>
+						</UML:UseCase>
+						<UML:UseCase name="Generation of new knowledge from contextual information for reporting or alerts generation." xmi.id="EAID_85716CD9_7BD4_44f8_BD1B_4B9B7B9E20BC" visibility="public" namespace="EAPK_532DB139_01B2_4b5c_87B5_437D2BEF68B2" isRoot="false" isLeaf="false" isAbstract="false">
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="documentation" value="Analysis of information related to human behavior and/or contextual information executed by a data mining module that analyzes the data according to some predefined rules and produces some conclusions and new knowledge that can be used to alert or reporting. It is possible that the same information is shared and acquired by different components that analyze them and extract different conclusions from different daily life aspects in parallel. The actions taken with this information can be just the generation of new knowledge that is locally or remotely stored, report of information to end user, formal and/or informal caregivers, and generation of urgent alerts to third parties. Sources of information are heterogeneous: ambient distributed sensors, user profile and user preferences, agendas of end users or relatives, explicit actions performed by the user, historical events from sensors or actions performed by the user…&#xA;&#xA;The example behaviors to monitor are: 1) food intake and nutritional habits, 2) activities in the bathroom (how many times, if uses the WC in a normal way…), 3) Sleeping patterns, 4) General safety issues (too many times the system detected that the oven was on for 3 hours, or door not unlocked when the user went outside…), 5) Social relationships (does the user leave home?, does he receive friends?)."/>
+								<UML:TaggedValue tag="isSpecification" value="false"/>
+								<UML:TaggedValue tag="ea_stype" value="UseCase"/>
+								<UML:TaggedValue tag="ea_ntype" value="0"/>
+								<UML:TaggedValue tag="version" value="1.0"/>
+								<UML:TaggedValue tag="package" value="EAPK_532DB139_01B2_4b5c_87B5_437D2BEF68B2"/>
+								<UML:TaggedValue tag="date_created" value="2010-06-16 14:55:04"/>
+								<UML:TaggedValue tag="date_modified" value="2010-06-16 14:55:18"/>
+								<UML:TaggedValue tag="gentype" value="&lt;none&gt;"/>
+								<UML:TaggedValue tag="tagged" value="0"/>
+								<UML:TaggedValue tag="package_name" value="Reference Use Cases"/>
+								<UML:TaggedValue tag="phase" value="1.0"/>
+								<UML:TaggedValue tag="author" value="eandgrg"/>
+								<UML:TaggedValue tag="complexity" value="1"/>
+								<UML:TaggedValue tag="status" value="Proposed"/>
+								<UML:TaggedValue tag="tpos" value="3"/>
+								<UML:TaggedValue tag="ea_localid" value="2737"/>
+								<UML:TaggedValue tag="ea_eleType" value="element"/>
+								<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+							</UML:ModelElement.taggedValue>
+						</UML:UseCase>
+						<UML:UseCase name="End users have an interaction with certain physical devices that creates a certain immediate actions in the system" xmi.id="EAID_9F9CEB7F_B312_4d89_B87C_124B03A07A39" visibility="public" namespace="EAPK_532DB139_01B2_4b5c_87B5_437D2BEF68B2" isRoot="false" isLeaf="false" isAbstract="false">
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="documentation" value="End users (assisted persons, caregivers or any other user in the home environment) may have intentional or unintentional interactions with certain physical devices (actuators, interaction devices, medical devices to measure vital sign, panic button…) and as a consequence of that interaction the system must activate a number of actions that imply to participation of other physical components or the immediate notification to a certain user (locally or remotely). These interactions and consequences can be stored afterwards for statistics and/or track analysis and authoring."/>
+								<UML:TaggedValue tag="isSpecification" value="false"/>
+								<UML:TaggedValue tag="ea_stype" value="UseCase"/>
+								<UML:TaggedValue tag="ea_ntype" value="0"/>
+								<UML:TaggedValue tag="version" value="1.0"/>
+								<UML:TaggedValue tag="package" value="EAPK_532DB139_01B2_4b5c_87B5_437D2BEF68B2"/>
+								<UML:TaggedValue tag="date_created" value="2010-06-16 14:56:11"/>
+								<UML:TaggedValue tag="date_modified" value="2010-06-16 14:56:19"/>
+								<UML:TaggedValue tag="gentype" value="&lt;none&gt;"/>
+								<UML:TaggedValue tag="tagged" value="0"/>
+								<UML:TaggedValue tag="package_name" value="Reference Use Cases"/>
+								<UML:TaggedValue tag="phase" value="1.0"/>
+								<UML:TaggedValue tag="author" value="eandgrg"/>
+								<UML:TaggedValue tag="complexity" value="1"/>
+								<UML:TaggedValue tag="status" value="Proposed"/>
+								<UML:TaggedValue tag="tpos" value="6"/>
+								<UML:TaggedValue tag="ea_localid" value="2740"/>
+								<UML:TaggedValue tag="ea_eleType" value="element"/>
+								<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+							</UML:ModelElement.taggedValue>
+						</UML:UseCase>
+						<UML:UseCase name="Elderly person/relative/career has access to AAL applications options and functionalities based on different interaction modality (graphical, audio-based…) depending on the context, and therefore in different devices." xmi.id="EAID_CE1C07F2_914A_4ba9_8EF9_BF5ABE9CEF3D" visibility="public" namespace="EAPK_532DB139_01B2_4b5c_87B5_437D2BEF68B2" isRoot="false" isLeaf="false" isAbstract="false">
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="documentation" value="The user interface mechanisms can be running in a system at user&amp;rsquo;s home or in a mobile system that users manage when leaving the house. The system is able to adapt to changing conditions so it is possible to offer the same AAL Service using different devices and different interaction mechanisms depending on the context. It includes any mobile application that helps to consume services outside home with the use of a mobile terminal."/>
+								<UML:TaggedValue tag="isSpecification" value="false"/>
+								<UML:TaggedValue tag="ea_stype" value="UseCase"/>
+								<UML:TaggedValue tag="ea_ntype" value="0"/>
+								<UML:TaggedValue tag="version" value="1.0"/>
+								<UML:TaggedValue tag="package" value="EAPK_532DB139_01B2_4b5c_87B5_437D2BEF68B2"/>
+								<UML:TaggedValue tag="date_created" value="2010-06-16 14:54:16"/>
+								<UML:TaggedValue tag="date_modified" value="2010-06-16 14:54:25"/>
+								<UML:TaggedValue tag="gentype" value="&lt;none&gt;"/>
+								<UML:TaggedValue tag="tagged" value="0"/>
+								<UML:TaggedValue tag="package_name" value="Reference Use Cases"/>
+								<UML:TaggedValue tag="phase" value="1.0"/>
+								<UML:TaggedValue tag="author" value="eandgrg"/>
+								<UML:TaggedValue tag="complexity" value="1"/>
+								<UML:TaggedValue tag="status" value="Proposed"/>
+								<UML:TaggedValue tag="tpos" value="2"/>
+								<UML:TaggedValue tag="ea_localid" value="2736"/>
+								<UML:TaggedValue tag="ea_eleType" value="element"/>
+								<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+							</UML:ModelElement.taggedValue>
+						</UML:UseCase>
+						<UML:UseCase name="Remote or local management of AAL Services by Service Provider." xmi.id="EAID_D5B3F15A_8AA8_42b4_B3BE_79B8D2A7E1E9" visibility="public" namespace="EAPK_532DB139_01B2_4b5c_87B5_437D2BEF68B2" isRoot="false" isLeaf="false" isAbstract="false">
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="documentation" value="An authorized person (normally the assisted person, informal and formal caregivers) using a remote tool (like a web based access) or local menus can have access to configure aspects of any AAL Service installed at the end user environment. Some examples of this use case: modify preferences, personalize the system, add/remove nutritional advices, send (health) recommendations, add appointments to the agenda of a certain user…"/>
+								<UML:TaggedValue tag="isSpecification" value="false"/>
+								<UML:TaggedValue tag="ea_stype" value="UseCase"/>
+								<UML:TaggedValue tag="ea_ntype" value="0"/>
+								<UML:TaggedValue tag="version" value="1.0"/>
+								<UML:TaggedValue tag="package" value="EAPK_532DB139_01B2_4b5c_87B5_437D2BEF68B2"/>
+								<UML:TaggedValue tag="date_created" value="2010-06-16 15:20:21"/>
+								<UML:TaggedValue tag="date_modified" value="2010-06-16 15:20:27"/>
+								<UML:TaggedValue tag="gentype" value="&lt;none&gt;"/>
+								<UML:TaggedValue tag="tagged" value="0"/>
+								<UML:TaggedValue tag="package_name" value="Reference Use Cases"/>
+								<UML:TaggedValue tag="phase" value="1.0"/>
+								<UML:TaggedValue tag="author" value="eandgrg"/>
+								<UML:TaggedValue tag="complexity" value="1"/>
+								<UML:TaggedValue tag="status" value="Proposed"/>
+								<UML:TaggedValue tag="tpos" value="9"/>
+								<UML:TaggedValue tag="ea_localid" value="2743"/>
+								<UML:TaggedValue tag="ea_eleType" value="element"/>
+								<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+							</UML:ModelElement.taggedValue>
+						</UML:UseCase>
+						<UML:UseCase name="Skills training (including gaming ) and rehabilitation sessions" xmi.id="EAID_F3930108_E40F_40ec_B2F7_EBCCFB7C0E81" visibility="public" namespace="EAPK_532DB139_01B2_4b5c_87B5_437D2BEF68B2" isRoot="false" isLeaf="false" isAbstract="false">
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="documentation" value="Elderly are trained in a certain skill through a guided by system to perform certain intellectual skills such as memory, capacity to speak, reasoning, or just rehabilitation. These amount of exercises achieved active ageing of older population, user&amp;rsquo;s memory and cognitive stimulation and healthy habits. &#xA;&#xA;Examples: Coaching and training the user's cognitive capabilities, Exercising for overall wellbeing and better quality of life, Coaching and training the user's health, activity and habits"/>
+								<UML:TaggedValue tag="isSpecification" value="false"/>
+								<UML:TaggedValue tag="ea_stype" value="UseCase"/>
+								<UML:TaggedValue tag="ea_ntype" value="0"/>
+								<UML:TaggedValue tag="version" value="1.0"/>
+								<UML:TaggedValue tag="package" value="EAPK_532DB139_01B2_4b5c_87B5_437D2BEF68B2"/>
+								<UML:TaggedValue tag="date_created" value="2010-06-16 15:19:43"/>
+								<UML:TaggedValue tag="date_modified" value="2010-06-16 15:19:52"/>
+								<UML:TaggedValue tag="gentype" value="&lt;none&gt;"/>
+								<UML:TaggedValue tag="tagged" value="0"/>
+								<UML:TaggedValue tag="package_name" value="Reference Use Cases"/>
+								<UML:TaggedValue tag="phase" value="1.0"/>
+								<UML:TaggedValue tag="author" value="eandgrg"/>
+								<UML:TaggedValue tag="complexity" value="1"/>
+								<UML:TaggedValue tag="status" value="Proposed"/>
+								<UML:TaggedValue tag="tpos" value="7"/>
+								<UML:TaggedValue tag="ea_localid" value="2741"/>
+								<UML:TaggedValue tag="ea_eleType" value="element"/>
+								<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+							</UML:ModelElement.taggedValue>
+						</UML:UseCase>
+						<UML:UseCase name="End users and service providers use uStore tools in order to acquire AAL solutions that totally or partially solve their needs." xmi.id="EAID_FDF2C475_BAAE_40ed_B43A_50993394924E" visibility="public" namespace="EAPK_532DB139_01B2_4b5c_87B5_437D2BEF68B2" isRoot="false" isLeaf="false" isAbstract="false">
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="documentation" value="One of the most challenging aspects of universAAL as a project is to create a uStore that is able to be used by Service Providers and also end users in order to acquire AAL solutions and also to establish commercial relationships among Service Providers and Technology Providers (uAAL deployers and uAAL developers). The second one should apply for more complex services offered to a community of users. uStore is the central meeting point for the different stakeholders in the AAL domain."/>
+								<UML:TaggedValue tag="isSpecification" value="false"/>
+								<UML:TaggedValue tag="ea_stype" value="UseCase"/>
+								<UML:TaggedValue tag="ea_ntype" value="0"/>
+								<UML:TaggedValue tag="version" value="1.0"/>
+								<UML:TaggedValue tag="package" value="EAPK_532DB139_01B2_4b5c_87B5_437D2BEF68B2"/>
+								<UML:TaggedValue tag="date_created" value="2010-06-16 15:21:16"/>
+								<UML:TaggedValue tag="date_modified" value="2010-06-16 15:21:21"/>
+								<UML:TaggedValue tag="gentype" value="&lt;none&gt;"/>
+								<UML:TaggedValue tag="tagged" value="0"/>
+								<UML:TaggedValue tag="package_name" value="Reference Use Cases"/>
+								<UML:TaggedValue tag="phase" value="1.0"/>
+								<UML:TaggedValue tag="author" value="eandgrg"/>
+								<UML:TaggedValue tag="complexity" value="1"/>
+								<UML:TaggedValue tag="status" value="Proposed"/>
+								<UML:TaggedValue tag="tpos" value="12"/>
+								<UML:TaggedValue tag="ea_localid" value="2746"/>
+								<UML:TaggedValue tag="ea_eleType" value="element"/>
+								<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+							</UML:ModelElement.taggedValue>
+						</UML:UseCase>
+					</UML:Namespace.ownedElement>
 				</UML:Package>
 			</UML:Namespace.ownedElement>
 		</UML:Model>
