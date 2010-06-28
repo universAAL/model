@@ -12,17 +12,19 @@
 				<UML:Class name="EARootClass" xmi.id="EAID_11111111_5487_4080_A7F4_41526CB0AA00" isRoot="true" isLeaf="false" isAbstract="false"/>
 				<UML:Package name="uStore" xmi.id="EAPK_DC89E3AF_F570_43d4_82C3_71BDE7EA4BC6" isRoot="false" isLeaf="false" isAbstract="false" visibility="public">
 					<UML:ModelElement.taggedValue>
-						<UML:TaggedValue tag="parent" value="EAPK_3EAD0FE3_6000_43d2_9E70_06C88C6BEA24"/>
+						<UML:TaggedValue tag="parent" value="EAPK_B6C6CF48_E9E8_4d65_BB9E_812AD3C89A3D"/>
 						<UML:TaggedValue tag="created" value="2010-06-09 13:17:55"/>
 						<UML:TaggedValue tag="modified" value="2010-06-09 13:17:55"/>
 						<UML:TaggedValue tag="iscontrolled" value="TRUE"/>
 						<UML:TaggedValue tag="xmlpath" value="Sauron\uStore.xml"/>
+						<UML:TaggedValue tag="lastloaddate" value="2010-06-28 13:08:49"/>
+						<UML:TaggedValue tag="lastsavedate" value="2010-06-28 13:08:48"/>
 						<UML:TaggedValue tag="version" value="1.0"/>
 						<UML:TaggedValue tag="isprotected" value="FALSE"/>
 						<UML:TaggedValue tag="usedtd" value="FALSE"/>
-						<UML:TaggedValue tag="owner" value="BabakF"/>
 						<UML:TaggedValue tag="xmiver" value="Enterprise Architect XMI/UML 1.3"/>
 						<UML:TaggedValue tag="logxml" value="FALSE"/>
+						<UML:TaggedValue tag="tpos" value="0"/>
 						<UML:TaggedValue tag="packageFlags" value="Recurse=0;VCCFG=uAAL;CRC=0;"/>
 						<UML:TaggedValue tag="batchsave" value="0"/>
 						<UML:TaggedValue tag="batchload" value="0"/>
@@ -35,29 +37,116 @@
 						<UML:TaggedValue tag="gentype" value="Java"/>
 					</UML:ModelElement.taggedValue>
 					<UML:Namespace.ownedElement>
-						<UML:Component name="uStore service" xmi.id="EAID_DC6A044A_D7E6_4695_8444_60373EB21FDE" visibility="public" namespace="EAPK_DC89E3AF_F570_43d4_82C3_71BDE7EA4BC6" isRoot="false" isLeaf="false" isAbstract="false">
+						<UML:UseCase name="Adding new sevices to uStore" xmi.id="EAID_14EBC2D9_4C46_4b94_8A7C_CE8DCD46379A" visibility="public" namespace="EAPK_DC89E3AF_F570_43d4_82C3_71BDE7EA4BC6" isRoot="false" isLeaf="false" isAbstract="false">
 							<UML:ModelElement.taggedValue>
-								<UML:TaggedValue tag="documentation" value="This is the service that is available from the internet where users can register and download AAL services."/>
 								<UML:TaggedValue tag="isSpecification" value="false"/>
-								<UML:TaggedValue tag="ea_stype" value="Component"/>
+								<UML:TaggedValue tag="ea_stype" value="UseCase"/>
 								<UML:TaggedValue tag="ea_ntype" value="0"/>
 								<UML:TaggedValue tag="version" value="1.0"/>
 								<UML:TaggedValue tag="package" value="EAPK_DC89E3AF_F570_43d4_82C3_71BDE7EA4BC6"/>
-								<UML:TaggedValue tag="date_created" value="2010-06-09 13:19:35"/>
-								<UML:TaggedValue tag="date_modified" value="2010-06-09 13:27:00"/>
-								<UML:TaggedValue tag="gentype" value="Java"/>
+								<UML:TaggedValue tag="date_created" value="2010-06-14 16:10:45"/>
+								<UML:TaggedValue tag="date_modified" value="2010-06-28 13:10:20"/>
+								<UML:TaggedValue tag="gentype" value="&lt;none&gt;"/>
 								<UML:TaggedValue tag="tagged" value="0"/>
 								<UML:TaggedValue tag="package_name" value="uStore"/>
 								<UML:TaggedValue tag="phase" value="1.0"/>
 								<UML:TaggedValue tag="author" value="BabakF"/>
 								<UML:TaggedValue tag="complexity" value="1"/>
 								<UML:TaggedValue tag="status" value="Proposed"/>
-								<UML:TaggedValue tag="tpos" value="0"/>
-								<UML:TaggedValue tag="ea_localid" value="874"/>
+								<UML:TaggedValue tag="tpos" value="10"/>
+								<UML:TaggedValue tag="ea_localid" value="2114"/>
 								<UML:TaggedValue tag="ea_eleType" value="element"/>
 								<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
 							</UML:ModelElement.taggedValue>
-						</UML:Component>
+						</UML:UseCase>
+						<UML:UseCase name="Reimbursement of service costs" xmi.id="EAID_28197095_7AD6_446c_B5CD_F17333C60AC2" visibility="public" namespace="EAPK_DC89E3AF_F570_43d4_82C3_71BDE7EA4BC6" isRoot="false" isLeaf="false" isAbstract="false">
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="isSpecification" value="false"/>
+								<UML:TaggedValue tag="ea_stype" value="UseCase"/>
+								<UML:TaggedValue tag="ea_ntype" value="0"/>
+								<UML:TaggedValue tag="version" value="1.0"/>
+								<UML:TaggedValue tag="package" value="EAPK_DC89E3AF_F570_43d4_82C3_71BDE7EA4BC6"/>
+								<UML:TaggedValue tag="date_created" value="2010-06-15 11:23:39"/>
+								<UML:TaggedValue tag="date_modified" value="2010-06-28 13:10:26"/>
+								<UML:TaggedValue tag="gentype" value="&lt;none&gt;"/>
+								<UML:TaggedValue tag="tagged" value="0"/>
+								<UML:TaggedValue tag="package_name" value="uStore"/>
+								<UML:TaggedValue tag="phase" value="1.0"/>
+								<UML:TaggedValue tag="author" value="BabakF"/>
+								<UML:TaggedValue tag="complexity" value="1"/>
+								<UML:TaggedValue tag="status" value="Proposed"/>
+								<UML:TaggedValue tag="tpos" value="11"/>
+								<UML:TaggedValue tag="ea_localid" value="2115"/>
+								<UML:TaggedValue tag="ea_eleType" value="element"/>
+								<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+							</UML:ModelElement.taggedValue>
+						</UML:UseCase>
+						<UML:UseCase name="Setting up uStore" xmi.id="EAID_7C5C34CF_5BD2_48b3_A61A_BF78C29EB8DD" visibility="public" namespace="EAPK_DC89E3AF_F570_43d4_82C3_71BDE7EA4BC6" isRoot="false" isLeaf="false" isAbstract="false">
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="isSpecification" value="false"/>
+								<UML:TaggedValue tag="ea_stype" value="UseCase"/>
+								<UML:TaggedValue tag="ea_ntype" value="0"/>
+								<UML:TaggedValue tag="version" value="1.0"/>
+								<UML:TaggedValue tag="package" value="EAPK_DC89E3AF_F570_43d4_82C3_71BDE7EA4BC6"/>
+								<UML:TaggedValue tag="date_created" value="2010-06-14 16:04:30"/>
+								<UML:TaggedValue tag="date_modified" value="2010-06-28 13:09:28"/>
+								<UML:TaggedValue tag="gentype" value="&lt;none&gt;"/>
+								<UML:TaggedValue tag="tagged" value="0"/>
+								<UML:TaggedValue tag="package_name" value="uStore"/>
+								<UML:TaggedValue tag="phase" value="1.0"/>
+								<UML:TaggedValue tag="author" value="BabakF"/>
+								<UML:TaggedValue tag="complexity" value="1"/>
+								<UML:TaggedValue tag="status" value="Proposed"/>
+								<UML:TaggedValue tag="tpos" value="2"/>
+								<UML:TaggedValue tag="ea_localid" value="2120"/>
+								<UML:TaggedValue tag="ea_eleType" value="element"/>
+								<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+							</UML:ModelElement.taggedValue>
+						</UML:UseCase>
+						<UML:UseCase name="Changing set of roles for a user" xmi.id="EAID_9D1A22AD_B0D6_4bcf_A7B2_8D142B221CD1" visibility="public" namespace="EAPK_DC89E3AF_F570_43d4_82C3_71BDE7EA4BC6" isRoot="false" isLeaf="false" isAbstract="false">
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="isSpecification" value="false"/>
+								<UML:TaggedValue tag="ea_stype" value="UseCase"/>
+								<UML:TaggedValue tag="ea_ntype" value="0"/>
+								<UML:TaggedValue tag="version" value="1.0"/>
+								<UML:TaggedValue tag="package" value="EAPK_DC89E3AF_F570_43d4_82C3_71BDE7EA4BC6"/>
+								<UML:TaggedValue tag="date_created" value="2010-06-15 12:20:16"/>
+								<UML:TaggedValue tag="date_modified" value="2010-06-28 13:09:55"/>
+								<UML:TaggedValue tag="gentype" value="&lt;none&gt;"/>
+								<UML:TaggedValue tag="tagged" value="0"/>
+								<UML:TaggedValue tag="package_name" value="uStore"/>
+								<UML:TaggedValue tag="phase" value="1.0"/>
+								<UML:TaggedValue tag="author" value="BabakF"/>
+								<UML:TaggedValue tag="complexity" value="1"/>
+								<UML:TaggedValue tag="status" value="Proposed"/>
+								<UML:TaggedValue tag="tpos" value="7"/>
+								<UML:TaggedValue tag="ea_localid" value="2122"/>
+								<UML:TaggedValue tag="ea_eleType" value="element"/>
+								<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+							</UML:ModelElement.taggedValue>
+						</UML:UseCase>
+						<UML:UseCase name="Signing up to uStore" xmi.id="EAID_D483997E_4288_4919_A11D_38D16B327157" visibility="public" namespace="EAPK_DC89E3AF_F570_43d4_82C3_71BDE7EA4BC6" isRoot="false" isLeaf="false" isAbstract="false">
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="isSpecification" value="false"/>
+								<UML:TaggedValue tag="ea_stype" value="UseCase"/>
+								<UML:TaggedValue tag="ea_ntype" value="0"/>
+								<UML:TaggedValue tag="version" value="1.0"/>
+								<UML:TaggedValue tag="package" value="EAPK_DC89E3AF_F570_43d4_82C3_71BDE7EA4BC6"/>
+								<UML:TaggedValue tag="date_created" value="2010-06-14 16:08:14"/>
+								<UML:TaggedValue tag="date_modified" value="2010-06-28 13:09:47"/>
+								<UML:TaggedValue tag="gentype" value="&lt;none&gt;"/>
+								<UML:TaggedValue tag="tagged" value="0"/>
+								<UML:TaggedValue tag="package_name" value="uStore"/>
+								<UML:TaggedValue tag="phase" value="1.0"/>
+								<UML:TaggedValue tag="author" value="BabakF"/>
+								<UML:TaggedValue tag="complexity" value="1"/>
+								<UML:TaggedValue tag="status" value="Proposed"/>
+								<UML:TaggedValue tag="tpos" value="6"/>
+								<UML:TaggedValue tag="ea_localid" value="2124"/>
+								<UML:TaggedValue tag="ea_eleType" value="element"/>
+								<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+							</UML:ModelElement.taggedValue>
+						</UML:UseCase>
 					</UML:Namespace.ownedElement>
 				</UML:Package>
 			</UML:Namespace.ownedElement>
@@ -66,7 +155,27 @@
 	<XMI.difference/>
 	<XMI.extensions xmi.extender="Enterprise Architect 2.5">
 		<EAModel.scenario>
-			<EAScenario name="00- Overview" type="Basic Path" weight="0,00" description="For Bilbo:&#xA;- Open web page&#xA;- Register as user&#xA;- Change/add preferences&#xA;- Search for services&#xA;- Buy services&#xA;&#xA;For Frodo:&#xA;- Allow connecting to Bilbo as next of kin&#xA;- Allow for deploying Bilbo's services on Frodo's devices&#xA;&#xA;For Gandalf and Saruman:&#xA;- Allow registering as developers&#xA;- Allow registering new service components&#xA;- Allow upgrading his existing service components&#xA;- Allow fetching user feedback&#xA;- Allow adding documentation for service components&#xA;&#xA;For Aragorn and Legalos:&#xA;- Allow registering as service providers&#xA;- Allow communication with developers&#xA;- Allow providing services based on existing service components&#xA;- Allow enrolling Bilbo as user of a service&#xA;- Allow monitoring of service usage&#xA;- Allow fetching user feedback on services&#xA;&#xA;For Denethor:&#xA;- Allow monitoring usage of reimbursable services&#xA;- Allow paying service providers for provided services&#xA;- Allow mapping service providers and users to their internal databases&#xA;- Allow statistical analysis?" subject="EAID_DC6A044A_D7E6_4695_8444_60373EB21FDE" xmi.id="EAID_AB91111B_9070_4f12_822D_B3D18DBACD33">
+			<EAScenario name="Adding new sevices to uStore" type="Basic Path" weight="0,00" description="Gandalf registers to uStore&#xA;&#xA;uStore has conformance testing for new applications that are uploaded. Compliance with uAAL&#xA;&#xA;Tools in eclipse need to interface to both depot and ustore&#xA;&#xA;- Gandalf registers as user of uStore, possibly clicks for &quot;I am a developer&quot;&#xA;- Forwarded to developer depot &#xA;&#xA;- One or few depots, while one ustore for each market. Relations between these two needs to be identified.&#xA;- Where are user profiles of Gandalf stored?&#xA;&#xA;- Confirm email is sent to Gandalf.&#xA;- Link to eclipse feature set for uAAL is provided (email or on web page). &#xA;- Link to other more basic methods (in case the developer is not interested in our tools. Note: This step has low priority)&#xA;- Links are provided to 1) eclipse web site (if the developer does not have eclipse installed), and 2) link to uAAL eclipse update site.&#xA;- Install uAAL studio where Gandalf is asked for which features to install + restart.&#xA;- This means a set of features: 1) Dev depot client, 2) uStore client, 3) modelling support, 4) Process support dashboard, 5) a set of wizards for each feature, 6) personalization support, 7) build support.&#xA;- Each feature has a help button to show what each feature is and why it is needed (or not needed)&#xA;- Gandalf checks all features and installs them.&#xA;- Gandalf restarts eclipse.&#xA;- &#xA;&#xA;Open issues: automatic upload from DD to uStore? sending nightly builds upon request? " subject="EAID_14EBC2D9_4C46_4b94_8A7C_CE8DCD46379A" xmi.id="EAID_4091F844_349E_4c11_B6CB_1E900C47F3D3">
+				<EAScenarioContent>
+					<path/>
+				</EAScenarioContent>
+			</EAScenario>
+			<EAScenario name="Reimbursement of service costs" type="Basic Path" weight="0,00" description="&lt;b&gt;Actors&lt;/b&gt;: Denethor, Bilbo, Aragorn&#xA;&#xA;keywords, ideas:&#xA;- Denethor pays Bilbo directly&#xA;- Denethor pays Aragorn&#xA;- Reimbursable services section in uStore?&#xA;&#xA;Questions:&#xA;- How is payment for services done? subscription, per use, pre-paid.&#xA;- How is reimbursement done? &#xA;&lt;ul&gt;&#xA;	&lt;li&gt;No reimbursement: Bilbo gets the bill and pays.&lt;/li&gt;&#xA;	&lt;li&gt;Post-reimbursement: Bilbo gets bill from uStore, manually sends bill to Denethor and gets money back.&lt;/li&gt;&#xA;	&lt;li&gt;Automatic reimbursement: Bilbo is registered as beneficiary of Denethor&lt;/li&gt;&#xA;	&lt;li&gt;Integration with legacy billing systems. Will uStore provide some form of reporting/auditing of service usage that can be exported to a billing system?&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&#xA;&lt;b&gt;Need a decision&lt;/b&gt; on level of reimbursement support.." subject="EAID_28197095_7AD6_446c_B5CD_F17333C60AC2" xmi.id="EAID_4D0D3861_5826_4501_8A07_16F9AF7A758B">
+				<EAScenarioContent>
+					<path/>
+				</EAScenarioContent>
+			</EAScenario>
+			<EAScenario name="Setting up uStore" type="Basic Path" weight="0,00" description="&lt;b&gt;Actors&lt;/b&gt;: Sauron&#xA;&#xA;This scenarios should describe what Sauron does in order to set up a uStore.&#xA;&#xA;- Does he have to download uStore software from a server and install it? &lt;b&gt;Idea&lt;/b&gt;: Why not have uStore software downloaded from DD? The idea is to have a place to be able to download uStore software for Sauron to start.&#xA;- Does he buy a uStore service from a meta-operator, a uStore hotel? &lt;b&gt;Idea&lt;/b&gt;: Developer Depot could provide this service?&#xA;- Does he need to get approval from The Witch king of Angmar?&#xA;- How does he connect to Denethor? Denethor is interesting in tracking service usage in order to know what to reimburse. See reimbursement use case.&#xA;- How does he install the software? What basic infrastructure does he need?&#xA;- How does he connect to Developer Depot?&#xA;- Will uStore have any marketing facilities? Towards Bilbo, Frodo, Gandalf, etc.?" subject="EAID_7C5C34CF_5BD2_48b3_A61A_BF78C29EB8DD" xmi.id="EAID_9302FBF6_AB3B_4a48_8A40_E82F20F04280">
+				<EAScenarioContent>
+					<path/>
+				</EAScenarioContent>
+			</EAScenario>
+			<EAScenario name="Changing set of roles for a user" type="Basic Path" weight="0,00" description="Actor: Any uStore user&#xA;&#xA;- Option for selecting one or more roles such as elderly, next of kin, developer, service provider.&#xA;- Option for changing roles or taking on new roles any time" subject="EAID_9D1A22AD_B0D6_4bcf_A7B2_8D142B221CD1" xmi.id="EAID_DE2D17DC_C347_40d1_91F8_EF57854588EF">
+				<EAScenarioContent>
+					<path/>
+				</EAScenarioContent>
+			</EAScenario>
+			<EAScenario name="Signing up to uStore" type="Basic Path" weight="0,00" description="&lt;b&gt;Actors&lt;/b&gt;: Bilbo (is the elderly), Frodo (is the next of kin), Gandalf (wants to upload code and get user feedback on his code), Aragorn (wants to provide services), Legalos (wants to help Bilbo), Denethor (wants to pay for reimbursable services), The king (wants to monitor)&#xA;&#xA;&lt;u&gt;Open issue&lt;/u&gt;: We have discussed the process of signing up and there are two main alternatives coming up related to the role:&#xA;&#xA;&lt;ol&gt;&#xA;	&lt;li&gt;A user specifies role before registration. &lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;ol&gt;&#xA;&lt;ol&gt;&#xA;	&lt;li&gt;Advantage: possibly simpler implementation of uStore.&lt;/li&gt;&#xA;	&lt;li&gt;Disadvantages: users with multiple roles need to register multiple times.&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;/ol&gt;&#xA;&lt;ol&gt;&#xA;	&lt;li&gt;A user specifies role after registration, in a list where he/she clicks for the roles he/she wants to play&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;ol&gt;&#xA;&lt;ol&gt;&#xA;	&lt;li&gt;Advantages: flexible, users can take on different or multiple roles that can change over time.&lt;/li&gt;&#xA;	&lt;li&gt;Disadvantages: ??&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;/ol&gt;&#xA;&#xA;Refer to use case changing set of roles for a user.&#xA;&#xA;&lt;b&gt;To be added&lt;/b&gt;: We need to specify how each of the roles above can be registered, i.e. how an elderly, a next of kin, a service provider, a programmer can register.&#xA;&#xA;&lt;b&gt;Service provider&lt;/b&gt;: &#xA;Aragorn has heard about uAAL and the new uStore through the local orcs. He contacts Sauron who advises him to register to uStore and indicate he is a major service provider in Shire.&#xA;&#xA;Aragorn goes to the uStore web site and registered. Checks for service provider, with 1000+ working for him. He also registers Shire municipality as the legal entity providing the services.&#xA;&#xA;Aragorn asks Legolas to register as service provider and select &quot;Employee of Shire municipality&quot;." subject="EAID_D483997E_4288_4919_A11D_38D16B327157" xmi.id="EAID_97A74B3F_C2E2_4b32_BB00_B25DE5A92F49">
 				<EAScenarioContent>
 					<path/>
 				</EAScenarioContent>
