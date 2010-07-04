@@ -23,7 +23,7 @@
 						<UML:TaggedValue tag="owner" value="Babak"/>
 						<UML:TaggedValue tag="xmiver" value="Enterprise Architect XMI/UML 1.3"/>
 						<UML:TaggedValue tag="logxml" value="FALSE"/>
-						<UML:TaggedValue tag="packageFlags" value="Recurse=0;VCCFG=uAAL;CheckedOutTo=Babak;CRC=0;"/>
+						<UML:TaggedValue tag="packageFlags" value="Recurse=0;VCCFG=uAAL;CRC=0;"/>
 						<UML:TaggedValue tag="batchsave" value="0"/>
 						<UML:TaggedValue tag="batchload" value="0"/>
 						<UML:TaggedValue tag="phase" value="1.0"/>
@@ -34,11 +34,42 @@
 						<UML:TaggedValue tag="tpos" value="0"/>
 						<UML:TaggedValue tag="gentype" value="Java"/>
 					</UML:ModelElement.taggedValue>
-					<UML:Namespace.ownedElement/>
+					<UML:Namespace.ownedElement>
+						<UML:UseCase name="Overview of Eclipse views and editors" xmi.id="EAID_058254AE_2882_49b0_9817_720496D7A4D2" visibility="public" namespace="EAPK_7B503204_6164_482b_B10C_30130C1DC341" isRoot="false" isLeaf="false" isAbstract="false">
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="isSpecification" value="false"/>
+								<UML:TaggedValue tag="ea_stype" value="UseCase"/>
+								<UML:TaggedValue tag="ea_ntype" value="0"/>
+								<UML:TaggedValue tag="version" value="1.0"/>
+								<UML:TaggedValue tag="package" value="EAPK_7B503204_6164_482b_B10C_30130C1DC341"/>
+								<UML:TaggedValue tag="date_created" value="2010-06-29 10:00:40"/>
+								<UML:TaggedValue tag="date_modified" value="2010-06-29 13:16:16"/>
+								<UML:TaggedValue tag="gentype" value="&lt;none&gt;"/>
+								<UML:TaggedValue tag="tagged" value="0"/>
+								<UML:TaggedValue tag="package_name" value="Tools"/>
+								<UML:TaggedValue tag="phase" value="1.0"/>
+								<UML:TaggedValue tag="author" value="Babak"/>
+								<UML:TaggedValue tag="complexity" value="1"/>
+								<UML:TaggedValue tag="status" value="Proposed"/>
+								<UML:TaggedValue tag="tpos" value="0"/>
+								<UML:TaggedValue tag="ea_localid" value="2443"/>
+								<UML:TaggedValue tag="ea_eleType" value="element"/>
+								<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+							</UML:ModelElement.taggedValue>
+						</UML:UseCase>
+					</UML:Namespace.ownedElement>
 				</UML:Package>
 			</UML:Namespace.ownedElement>
 		</UML:Model>
 	</XMI.content>
 	<XMI.difference/>
-	<XMI.extensions xmi.extender="Enterprise Architect 2.5"/>
+	<XMI.extensions xmi.extender="Enterprise Architect 2.5">
+		<EAModel.scenario>
+			<EAScenario name="Creating new uAAL project in Eclipse" type="Basic Path" weight="0,00" description="- Gandalf starts Eclipse&#xA;- Gandalf sees the message from Bilbo in the Service Request View.&#xA;- Gandalf starts a new universAAL project in Eclipse for creating a new AAL service.&#xA;- The message from Bilbo is added to the requirements engineering view and Bilbo's contact information is registered.&#xA;- Requirements elicitation from Biblo happens as described in separate scenario&#xA;- Based on elicited requirements, Gandalf does a search in the developer depot.&#xA;- A view (called Developer Depot Search) will be used to search for things in universAAL domain model (possibly change the name of the view). The view will have three search panels, one for searching uStore, one for DD and one for google search (gforge, sforge etc.)&#xA;- uAAL services might be developed in other places than DD. In this way the only way to find them is to search uStore.&#xA;- For uStore results, if the project is created in DD, a link will be provided to the project page on DD.&#xA;- Searching DD will result in projects that are under development (i.e. not yet in uStore)&#xA;&#xA;- A view will show the service architecture. (we have a view in uAAL perspective called Service Architecture)&#xA;- Gandalf will create an architecture for the service, where dependencies will be defined, and empty/non-existing services identified&#xA;- In case of tracking app, the architecture consists of a UI, a location service, and a map  service.&#xA;- Gandalf cannot find &#xA;&#xA;&#xA;- Gandalf does a search and finds GPS sensor thing, but he does not find a map thing.&#xA;- A search engine can be used to search DD and uStore for existing&#xA;&#xA;&#xA;kladd:&#xA;&#xA;- A dialogue box where he can check a number of criteria, a wizard&#xA;- A new uAAL perspective is shown in Eclipse with all the information related to the project." subject="EAID_058254AE_2882_49b0_9817_720496D7A4D2" xmi.id="EAID_61A1B3F2_8CD9_4e73_AFFD_CB634994C78B">
+				<EAScenarioContent>
+					<path/>
+				</EAScenarioContent>
+			</EAScenario>
+		</EAModel.scenario>
+	</XMI.extensions>
 </XMI>
