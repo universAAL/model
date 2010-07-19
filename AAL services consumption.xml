@@ -94,6 +94,7 @@
 								<UML:TaggedValue tag="dst_isNavigable" value="true"/>
 								<UML:TaggedValue tag="dst_containment" value="Unspecified"/>
 								<UML:TaggedValue tag="dst_style" value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Navigable;"/>
+								<UML:TaggedValue tag="privatedata5" value="SX=0;SY=0;EX=0;EY=0;EDGE=2;"/>
 								<UML:TaggedValue tag="virtualInheritance" value="0"/>
 							</UML:ModelElement.taggedValue>
 						</UML:Dependency>
@@ -116,7 +117,6 @@
 								<UML:TaggedValue tag="ea_targetType" value="UseCase"/>
 								<UML:TaggedValue tag="ea_sourceID" value="2539"/>
 								<UML:TaggedValue tag="ea_targetID" value="2514"/>
-								<UML:TaggedValue tag="privatedata5" value="SX=0;SY=0;EX=0;EY=0;EDGE=4;"/>
 								<UML:TaggedValue tag="virtualInheritance" value="0"/>
 							</UML:ModelElement.taggedValue>
 							<UML:Association.connection>
@@ -309,7 +309,7 @@
 								<UML:TaggedValue tag="ea_targetType" value="Actor"/>
 								<UML:TaggedValue tag="ea_sourceID" value="2514"/>
 								<UML:TaggedValue tag="ea_targetID" value="2656"/>
-								<UML:TaggedValue tag="privatedata5" value="EDGE=3;"/>
+								<UML:TaggedValue tag="privatedata5" value="SX=0;SY=0;EX=0;EY=0;EDGE=4;"/>
 								<UML:TaggedValue tag="virtualInheritance" value="0"/>
 							</UML:ModelElement.taggedValue>
 							<UML:Association.connection>
@@ -347,7 +347,6 @@
 								<UML:TaggedValue tag="ea_targetType" value="UseCase"/>
 								<UML:TaggedValue tag="ea_sourceID" value="2540"/>
 								<UML:TaggedValue tag="ea_targetID" value="2514"/>
-								<UML:TaggedValue tag="privatedata5" value="SX=0;SY=0;EX=0;EY=0;EDGE=1;"/>
 								<UML:TaggedValue tag="virtualInheritance" value="0"/>
 							</UML:ModelElement.taggedValue>
 							<UML:Association.connection>
@@ -385,6 +384,7 @@
 								<UML:TaggedValue tag="ea_targetType" value="UseCase"/>
 								<UML:TaggedValue tag="ea_sourceID" value="2514"/>
 								<UML:TaggedValue tag="ea_targetID" value="2515"/>
+								<UML:TaggedValue tag="privatedata5" value="SX=0;SY=0;EX=0;EY=0;EDGE=1;"/>
 								<UML:TaggedValue tag="virtualInheritance" value="0"/>
 							</UML:ModelElement.taggedValue>
 							<UML:Association.connection>
@@ -404,6 +404,43 @@
 								</UML:AssociationEnd>
 							</UML:Association.connection>
 						</UML:Association>
+						<UML:Dependency client="EAID_16CEADBA_3EA5_4331_9EDA_3DBCE39E8B19" supplier="EAID_C2FC602B_7F20_43ff_B6A6_EF8B55435DF5" xmi.id="EAID_FA6A2CBC_C515_43e5_99CC_CDC5A61BA40B" visibility="public">
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="style" value="3"/>
+								<UML:TaggedValue tag="ea_type" value="Realisation"/>
+								<UML:TaggedValue tag="direction" value="Source -&gt; Destination"/>
+								<UML:TaggedValue tag="linemode" value="3"/>
+								<UML:TaggedValue tag="linecolor" value="-1"/>
+								<UML:TaggedValue tag="linewidth" value="0"/>
+								<UML:TaggedValue tag="seqno" value="0"/>
+								<UML:TaggedValue tag="headStyle" value="0"/>
+								<UML:TaggedValue tag="lineStyle" value="0"/>
+								<UML:TaggedValue tag="ea_localid" value="1729"/>
+								<UML:TaggedValue tag="ea_sourceName" value="Order and purchase"/>
+								<UML:TaggedValue tag="ea_targetName" value="Service purchasing models"/>
+								<UML:TaggedValue tag="ea_sourceType" value="UseCase"/>
+								<UML:TaggedValue tag="ea_targetType" value="Requirement"/>
+								<UML:TaggedValue tag="ea_sourceID" value="2514"/>
+								<UML:TaggedValue tag="ea_targetID" value="2855"/>
+								<UML:TaggedValue tag="src_visibility" value="Public"/>
+								<UML:TaggedValue tag="src_aggregation" value="0"/>
+								<UML:TaggedValue tag="src_isOrdered" value="false"/>
+								<UML:TaggedValue tag="src_targetScope" value="instance"/>
+								<UML:TaggedValue tag="src_changeable" value="none"/>
+								<UML:TaggedValue tag="src_isNavigable" value="false"/>
+								<UML:TaggedValue tag="src_containment" value="Unspecified"/>
+								<UML:TaggedValue tag="src_style" value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Non-Navigable;"/>
+								<UML:TaggedValue tag="dst_visibility" value="Public"/>
+								<UML:TaggedValue tag="dst_aggregation" value="0"/>
+								<UML:TaggedValue tag="dst_isOrdered" value="false"/>
+								<UML:TaggedValue tag="dst_targetScope" value="instance"/>
+								<UML:TaggedValue tag="dst_changeable" value="none"/>
+								<UML:TaggedValue tag="dst_isNavigable" value="true"/>
+								<UML:TaggedValue tag="dst_containment" value="Unspecified"/>
+								<UML:TaggedValue tag="dst_style" value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Navigable;"/>
+								<UML:TaggedValue tag="virtualInheritance" value="0"/>
+							</UML:ModelElement.taggedValue>
+						</UML:Dependency>
 						<UML:UseCase name="Shopping bag" xmi.id="EAID_49B9EA38_1072_4982_8D3F_DFC55F360387" visibility="public" namespace="EAPK_0914E724_E17F_4aa7_A39A_573CC22831FB" isRoot="false" isLeaf="false" isAbstract="false">
 							<UML:ModelElement.taggedValue>
 								<UML:TaggedValue tag="documentation" value="Registered User can save services that he would like to order in shopping bag, logout and login later and to perform any changes to the list or to order "/>
@@ -445,6 +482,7 @@
 								<UML:TaggedValue tag="ea_targetType" value="Actor"/>
 								<UML:TaggedValue tag="ea_sourceID" value="2515"/>
 								<UML:TaggedValue tag="ea_targetID" value="2656"/>
+								<UML:TaggedValue tag="privatedata5" value="SX=0;SY=0;EX=0;EY=0;EDGE=3;"/>
 								<UML:TaggedValue tag="virtualInheritance" value="0"/>
 							</UML:ModelElement.taggedValue>
 							<UML:Association.connection>
@@ -498,6 +536,7 @@
 								<UML:TaggedValue tag="dst_isNavigable" value="true"/>
 								<UML:TaggedValue tag="dst_containment" value="Unspecified"/>
 								<UML:TaggedValue tag="dst_style" value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Navigable;"/>
+								<UML:TaggedValue tag="privatedata5" value="SX=0;SY=0;EX=0;EY=0;EDGE=2;"/>
 								<UML:TaggedValue tag="virtualInheritance" value="0"/>
 							</UML:ModelElement.taggedValue>
 						</UML:Dependency>
@@ -519,6 +558,7 @@
 								<UML:TaggedValue tag="ea_targetType" value="Component"/>
 								<UML:TaggedValue tag="ea_sourceID" value="2515"/>
 								<UML:TaggedValue tag="ea_targetID" value="2561"/>
+								<UML:TaggedValue tag="privatedata5" value="SX=0;SY=0;EX=0;EY=0;EDGE=3;"/>
 								<UML:TaggedValue tag="virtualInheritance" value="0"/>
 							</UML:ModelElement.taggedValue>
 							<UML:Association.connection>
@@ -579,6 +619,7 @@
 								<UML:TaggedValue tag="ea_targetType" value="UseCase"/>
 								<UML:TaggedValue tag="ea_sourceID" value="2516"/>
 								<UML:TaggedValue tag="ea_targetID" value="2521"/>
+								<UML:TaggedValue tag="privatedata5" value="SX=0;SY=0;EX=0;EY=0;EDGE=3;"/>
 								<UML:TaggedValue tag="virtualInheritance" value="0"/>
 							</UML:ModelElement.taggedValue>
 							<UML:Association.connection>
@@ -616,6 +657,7 @@
 								<UML:TaggedValue tag="ea_targetType" value="Component"/>
 								<UML:TaggedValue tag="ea_sourceID" value="2516"/>
 								<UML:TaggedValue tag="ea_targetID" value="2561"/>
+								<UML:TaggedValue tag="privatedata5" value="SX=0;SY=0;EX=0;EY=0;EDGE=2;"/>
 								<UML:TaggedValue tag="virtualInheritance" value="0"/>
 							</UML:ModelElement.taggedValue>
 							<UML:Association.connection>
@@ -669,6 +711,7 @@
 								<UML:TaggedValue tag="dst_isNavigable" value="true"/>
 								<UML:TaggedValue tag="dst_containment" value="Unspecified"/>
 								<UML:TaggedValue tag="dst_style" value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Navigable;"/>
+								<UML:TaggedValue tag="privatedata5" value="SX=0;SY=0;EX=0;EY=0;EDGE=2;"/>
 								<UML:TaggedValue tag="virtualInheritance" value="0"/>
 							</UML:ModelElement.taggedValue>
 						</UML:Dependency>
@@ -690,6 +733,7 @@
 								<UML:TaggedValue tag="ea_targetType" value="Actor"/>
 								<UML:TaggedValue tag="ea_sourceID" value="2516"/>
 								<UML:TaggedValue tag="ea_targetID" value="2656"/>
+								<UML:TaggedValue tag="privatedata5" value="SX=0;SY=0;EX=0;EY=0;EDGE=1;"/>
 								<UML:TaggedValue tag="virtualInheritance" value="0"/>
 							</UML:ModelElement.taggedValue>
 							<UML:Association.connection>
@@ -727,6 +771,7 @@
 								<UML:TaggedValue tag="ea_targetType" value="Actor"/>
 								<UML:TaggedValue tag="ea_sourceID" value="2516"/>
 								<UML:TaggedValue tag="ea_targetID" value="2598"/>
+								<UML:TaggedValue tag="privatedata5" value="SX=0;SY=0;EX=0;EY=0;EDGE=4;"/>
 								<UML:TaggedValue tag="virtualInheritance" value="0"/>
 							</UML:ModelElement.taggedValue>
 							<UML:Association.connection>
@@ -787,6 +832,7 @@
 								<UML:TaggedValue tag="ea_targetType" value="Actor"/>
 								<UML:TaggedValue tag="ea_sourceID" value="2517"/>
 								<UML:TaggedValue tag="ea_targetID" value="2656"/>
+								<UML:TaggedValue tag="privatedata5" value="SX=0;SY=0;EX=0;EY=0;EDGE=4;"/>
 								<UML:TaggedValue tag="virtualInheritance" value="0"/>
 							</UML:ModelElement.taggedValue>
 							<UML:Association.connection>
@@ -840,6 +886,7 @@
 								<UML:TaggedValue tag="dst_isNavigable" value="true"/>
 								<UML:TaggedValue tag="dst_containment" value="Unspecified"/>
 								<UML:TaggedValue tag="dst_style" value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Navigable;"/>
+								<UML:TaggedValue tag="privatedata5" value="SX=0;SY=0;EX=0;EY=0;EDGE=1;"/>
 								<UML:TaggedValue tag="virtualInheritance" value="0"/>
 							</UML:ModelElement.taggedValue>
 						</UML:Dependency>
@@ -861,6 +908,7 @@
 								<UML:TaggedValue tag="ea_targetType" value="Actor"/>
 								<UML:TaggedValue tag="ea_sourceID" value="2517"/>
 								<UML:TaggedValue tag="ea_targetID" value="2598"/>
+								<UML:TaggedValue tag="privatedata5" value="SX=0;SY=0;EX=0;EY=0;EDGE=4;"/>
 								<UML:TaggedValue tag="virtualInheritance" value="0"/>
 							</UML:ModelElement.taggedValue>
 							<UML:Association.connection>
@@ -914,6 +962,7 @@
 								<UML:TaggedValue tag="dst_isNavigable" value="true"/>
 								<UML:TaggedValue tag="dst_containment" value="Unspecified"/>
 								<UML:TaggedValue tag="dst_style" value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Navigable;"/>
+								<UML:TaggedValue tag="privatedata5" value="SX=0;SY=0;EX=0;EY=0;EDGE=2;"/>
 								<UML:TaggedValue tag="virtualInheritance" value="0"/>
 							</UML:ModelElement.taggedValue>
 						</UML:Dependency>
@@ -935,6 +984,7 @@
 								<UML:TaggedValue tag="ea_targetType" value="Component"/>
 								<UML:TaggedValue tag="ea_sourceID" value="2517"/>
 								<UML:TaggedValue tag="ea_targetID" value="2561"/>
+								<UML:TaggedValue tag="privatedata5" value="SX=0;SY=0;EX=0;EY=0;EDGE=2;"/>
 								<UML:TaggedValue tag="virtualInheritance" value="0"/>
 							</UML:ModelElement.taggedValue>
 							<UML:Association.connection>
@@ -1011,7 +1061,7 @@
 				<UML:TaggedValue tag="diagram_guid" value="EAID_6BC81256_F148_4e08_96E7_1222571E1938"/>
 			</UML:ModelElement.taggedValue>
 		</UML:DiagramElement>
-		<UML:DiagramElement geometry="Left=160;Top=99;Right=265;Bottom=169;" subject="EAID_16CEADBA_3EA5_4331_9EDA_3DBCE39E8B19" seqno="2" style="NSL=0;BCol=-1;BFol=-1;LCol=-1;LWth=-1;fontsz=0;bold=0;italic=0;ul=0;charset=0;pitch=0;DUID=70DB0C82;">
+		<UML:DiagramElement geometry="Left=139;Top=237;Right=244;Bottom=307;" subject="EAID_16CEADBA_3EA5_4331_9EDA_3DBCE39E8B19" seqno="8" style="NSL=0;BCol=-1;BFol=-1;LCol=-1;LWth=-1;fontsz=0;bold=0;italic=0;ul=0;charset=0;pitch=0;DUID=70DB0C82;">
 			<UML:ModelElement.taggedValue>
 				<UML:TaggedValue tag="diagram_guid" value="EAID_E1C2EC01_F23F_43b4_A05F_FC8CE27990C3"/>
 			</UML:ModelElement.taggedValue>
@@ -1025,6 +1075,12 @@
 		<UML:DiagramElement geometry="EDGE=1;$LLB=;LLT=;LMT=;LMB=;LRT=;LRB=;IRHS=;ILHS=;" subject="EAID_5CCC6077_7F7F_40ef_8DB7_C846FF862C76" style="Mode=3;EOID=50DAC9C9;SOID=EB781208;Color=-1;LWidth=0;">
 			<UML:ModelElement.taggedValue>
 				<UML:TaggedValue tag="diagram_guid" value="EAID_6BC81256_F148_4e08_96E7_1222571E1938"/>
+				<UML:TaggedValue tag="hidden" value="0"/>
+			</UML:ModelElement.taggedValue>
+		</UML:DiagramElement>
+		<UML:DiagramElement geometry="EDGE=2;$LLB=;LLT=;LMT=;LMB=;LRT=;LRB=;IRHS=;ILHS=;" subject="EAID_5CCC6077_7F7F_40ef_8DB7_C846FF862C76" style="Mode=3;EOID=15F2AC1F;SOID=70DB0C82;Color=-1;LWidth=0;">
+			<UML:ModelElement.taggedValue>
+				<UML:TaggedValue tag="diagram_guid" value="EAID_E1C2EC01_F23F_43b4_A05F_FC8CE27990C3"/>
 				<UML:TaggedValue tag="hidden" value="0"/>
 			</UML:ModelElement.taggedValue>
 		</UML:DiagramElement>
@@ -1064,6 +1120,12 @@
 				<UML:TaggedValue tag="hidden" value="0"/>
 			</UML:ModelElement.taggedValue>
 		</UML:DiagramElement>
+		<UML:DiagramElement geometry="SX=0;SY=0;EX=0;EY=0;EDGE=1;$LLB=;LLT=;LMT=;LMB=;LRT=;LRB=;IRHS=;ILHS=;" subject="EAID_FA6A2CBC_C515_43e5_99CC_CDC5A61BA40B" style="Mode=3;EOID=CA8ABA39;SOID=70DB0C82;Color=-1;LWidth=0;">
+			<UML:ModelElement.taggedValue>
+				<UML:TaggedValue tag="diagram_guid" value="EAID_E1C2EC01_F23F_43b4_A05F_FC8CE27990C3"/>
+				<UML:TaggedValue tag="hidden" value="0"/>
+			</UML:ModelElement.taggedValue>
+		</UML:DiagramElement>
 		<UML:DiagramElement geometry="SX=0;SY=0;EX=0;EY=0;EDGE=4;$LLB=;LLT=;LMT=;LMB=;LRT=;LRB=;IRHS=;ILHS=;" subject="EAID_5CC870A3_CB26_405c_90B5_D63656F47801" style="Mode=3;EOID=70DB0C82;SOID=B39AAA00;Color=-1;LWidth=0;">
 			<UML:ModelElement.taggedValue>
 				<UML:TaggedValue tag="diagram_guid" value="EAID_E1C2EC01_F23F_43b4_A05F_FC8CE27990C3"/>
@@ -1073,6 +1135,12 @@
 		<UML:DiagramElement geometry="EDGE=1;$LLB=;LLT=;LMT=;LMB=;LRT=;LRB=;IRHS=;ILHS=;" subject="EAID_5CCC6077_7F7F_40ef_8DB7_C846FF862C76" style="Mode=3;EOID=50DAC9C9;SOID=EB781208;Color=-1;LWidth=0;">
 			<UML:ModelElement.taggedValue>
 				<UML:TaggedValue tag="diagram_guid" value="EAID_6BC81256_F148_4e08_96E7_1222571E1938"/>
+				<UML:TaggedValue tag="hidden" value="0"/>
+			</UML:ModelElement.taggedValue>
+		</UML:DiagramElement>
+		<UML:DiagramElement geometry="EDGE=2;$LLB=;LLT=;LMT=;LMB=;LRT=;LRB=;IRHS=;ILHS=;" subject="EAID_5CCC6077_7F7F_40ef_8DB7_C846FF862C76" style="Mode=3;EOID=15F2AC1F;SOID=70DB0C82;Color=-1;LWidth=0;">
+			<UML:ModelElement.taggedValue>
+				<UML:TaggedValue tag="diagram_guid" value="EAID_E1C2EC01_F23F_43b4_A05F_FC8CE27990C3"/>
 				<UML:TaggedValue tag="hidden" value="0"/>
 			</UML:ModelElement.taggedValue>
 		</UML:DiagramElement>
@@ -1107,6 +1175,12 @@
 			</UML:ModelElement.taggedValue>
 		</UML:DiagramElement>
 		<UML:DiagramElement geometry="SX=0;SY=0;EX=0;EY=0;EDGE=1;$LLB=;LLT=;LMT=;LMB=;LRT=;LRB=;IRHS=;ILHS=;" subject="EAID_C3E4BB29_B059_415c_B28C_73E759BE63EC" style="Mode=3;EOID=70DB0C82;SOID=67D46CD2;Color=-1;LWidth=0;">
+			<UML:ModelElement.taggedValue>
+				<UML:TaggedValue tag="diagram_guid" value="EAID_E1C2EC01_F23F_43b4_A05F_FC8CE27990C3"/>
+				<UML:TaggedValue tag="hidden" value="0"/>
+			</UML:ModelElement.taggedValue>
+		</UML:DiagramElement>
+		<UML:DiagramElement geometry="SX=0;SY=0;EX=0;EY=0;EDGE=1;$LLB=;LLT=;LMT=;LMB=;LRT=;LRB=;IRHS=;ILHS=;" subject="EAID_FA6A2CBC_C515_43e5_99CC_CDC5A61BA40B" style="Mode=3;EOID=CA8ABA39;SOID=70DB0C82;Color=-1;LWidth=0;">
 			<UML:ModelElement.taggedValue>
 				<UML:TaggedValue tag="diagram_guid" value="EAID_E1C2EC01_F23F_43b4_A05F_FC8CE27990C3"/>
 				<UML:TaggedValue tag="hidden" value="0"/>
@@ -1123,6 +1197,7 @@
 		<EAStub xmi.id="EAID_3DD3F0F9_7DD7_4df3_A06E_10FE5BF9EABE" name="Signing contract" UMLType="UseCase"/>
 		<EAStub xmi.id="EAID_DE4C03FE_0C0D_417a_8B46_3C0203B56DA2" name="End user" UMLType="Actor"/>
 		<EAStub xmi.id="EAID_DDA98A54_17C1_43ba_8F65_C50C63510121" name="Purchase request" UMLType="UseCase"/>
+		<EAStub xmi.id="EAID_C2FC602B_7F20_43ff_B6A6_EF8B55435DF5" name="Service purchasing models" UMLType="Requirement"/>
 		<EAStub xmi.id="EAID_5208763E_9089_470d_BCF2_7AFF635A1B36" name="Pro-active" UMLType="UseCase"/>
 		<EAStub xmi.id="EAID_76811886_546E_4ba1_A7E7_A544EDC97714" name="Search ability" UMLType="Requirement"/>
 		<EAStub xmi.id="EAID_80D57FB8_F728_4aa6_BBDA_5F98874D5114" name="Any user" UMLType="Actor"/>
