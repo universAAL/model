@@ -37,14 +37,14 @@
 					<UML:Namespace.ownedElement>
 						<UML:UseCase name="Ordering human resources" xmi.id="EAID_489B50DD_1D04_451c_AFDC_BE5E1CBE3D82" visibility="public" namespace="EAPK_4AC5B51B_9A0D_46f4_AA00_14E5E2994072" isRoot="false" isLeaf="false" isAbstract="false">
 							<UML:ModelElement.taggedValue>
-								<UML:TaggedValue tag="documentation" value="End user can order human resources from uStore"/>
+								<UML:TaggedValue tag="documentation" value="End user can order human resources (for installation of the system or for any other help at home) as part of service from uStore.&#xA;Such service may contain human agreement signing. The end user will be requested to sign the agreement and the agreement will be forwarder to the service provider. The service provider signs it too. The signed agreement by both sides can be downloaded by both sides."/>
 								<UML:TaggedValue tag="isSpecification" value="false"/>
 								<UML:TaggedValue tag="ea_stype" value="UseCase"/>
 								<UML:TaggedValue tag="ea_ntype" value="0"/>
 								<UML:TaggedValue tag="version" value="1.0"/>
 								<UML:TaggedValue tag="package" value="EAPK_4AC5B51B_9A0D_46f4_AA00_14E5E2994072"/>
 								<UML:TaggedValue tag="date_created" value="2010-07-18 15:25:45"/>
-								<UML:TaggedValue tag="date_modified" value="2010-07-18 16:20:31"/>
+								<UML:TaggedValue tag="date_modified" value="2010-07-19 11:54:53"/>
 								<UML:TaggedValue tag="gentype" value="&lt;none&gt;"/>
 								<UML:TaggedValue tag="tagged" value="0"/>
 								<UML:TaggedValue tag="package_name" value="Ordering human resources "/>
@@ -76,7 +76,6 @@
 								<UML:TaggedValue tag="ea_targetType" value="UseCase"/>
 								<UML:TaggedValue tag="ea_sourceID" value="2920"/>
 								<UML:TaggedValue tag="ea_targetID" value="3136"/>
-								<UML:TaggedValue tag="privatedata5" value="SX=0;SY=0;EX=0;EY=0;EDGE=1;"/>
 								<UML:TaggedValue tag="virtualInheritance" value="0"/>
 							</UML:ModelElement.taggedValue>
 							<UML:Association.connection>
@@ -96,6 +95,80 @@
 								</UML:AssociationEnd>
 							</UML:Association.connection>
 						</UML:Association>
+						<UML:Dependency client="EAID_489B50DD_1D04_451c_AFDC_BE5E1CBE3D82" supplier="EAID_D1DA0757_FC68_4e2b_9E96_F476CF97061B" xmi.id="EAID_1DFCD0D4_C249_44b1_B286_DFD9AE9719BB" visibility="public">
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="style" value="3"/>
+								<UML:TaggedValue tag="ea_type" value="Realisation"/>
+								<UML:TaggedValue tag="direction" value="Source -&gt; Destination"/>
+								<UML:TaggedValue tag="linemode" value="3"/>
+								<UML:TaggedValue tag="linecolor" value="-1"/>
+								<UML:TaggedValue tag="linewidth" value="0"/>
+								<UML:TaggedValue tag="seqno" value="0"/>
+								<UML:TaggedValue tag="headStyle" value="0"/>
+								<UML:TaggedValue tag="lineStyle" value="0"/>
+								<UML:TaggedValue tag="ea_localid" value="1804"/>
+								<UML:TaggedValue tag="ea_sourceName" value="Ordering human resources"/>
+								<UML:TaggedValue tag="ea_targetName" value="Ordering human resources"/>
+								<UML:TaggedValue tag="ea_sourceType" value="UseCase"/>
+								<UML:TaggedValue tag="ea_targetType" value="Requirement"/>
+								<UML:TaggedValue tag="ea_sourceID" value="3136"/>
+								<UML:TaggedValue tag="ea_targetID" value="3108"/>
+								<UML:TaggedValue tag="src_visibility" value="Public"/>
+								<UML:TaggedValue tag="src_aggregation" value="0"/>
+								<UML:TaggedValue tag="src_isOrdered" value="false"/>
+								<UML:TaggedValue tag="src_targetScope" value="instance"/>
+								<UML:TaggedValue tag="src_changeable" value="none"/>
+								<UML:TaggedValue tag="src_isNavigable" value="false"/>
+								<UML:TaggedValue tag="src_containment" value="Unspecified"/>
+								<UML:TaggedValue tag="src_style" value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Non-Navigable;"/>
+								<UML:TaggedValue tag="dst_visibility" value="Public"/>
+								<UML:TaggedValue tag="dst_aggregation" value="0"/>
+								<UML:TaggedValue tag="dst_isOrdered" value="false"/>
+								<UML:TaggedValue tag="dst_targetScope" value="instance"/>
+								<UML:TaggedValue tag="dst_changeable" value="none"/>
+								<UML:TaggedValue tag="dst_isNavigable" value="true"/>
+								<UML:TaggedValue tag="dst_containment" value="Unspecified"/>
+								<UML:TaggedValue tag="dst_style" value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Navigable;"/>
+								<UML:TaggedValue tag="virtualInheritance" value="0"/>
+							</UML:ModelElement.taggedValue>
+						</UML:Dependency>
+						<UML:Dependency client="EAID_489B50DD_1D04_451c_AFDC_BE5E1CBE3D82" supplier="EAID_426F9FE2_6FD5_40c3_B882_389D049A18BD" xmi.id="EAID_37DF18C1_C3C6_48f2_AFE0_CF8949061B40" visibility="public">
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="style" value="3"/>
+								<UML:TaggedValue tag="ea_type" value="Realisation"/>
+								<UML:TaggedValue tag="direction" value="Source -&gt; Destination"/>
+								<UML:TaggedValue tag="linemode" value="3"/>
+								<UML:TaggedValue tag="linecolor" value="-1"/>
+								<UML:TaggedValue tag="linewidth" value="0"/>
+								<UML:TaggedValue tag="seqno" value="0"/>
+								<UML:TaggedValue tag="headStyle" value="0"/>
+								<UML:TaggedValue tag="lineStyle" value="0"/>
+								<UML:TaggedValue tag="ea_localid" value="1809"/>
+								<UML:TaggedValue tag="ea_sourceName" value="Ordering human resources"/>
+								<UML:TaggedValue tag="ea_targetName" value="Signing human agreement"/>
+								<UML:TaggedValue tag="ea_sourceType" value="UseCase"/>
+								<UML:TaggedValue tag="ea_targetType" value="Requirement"/>
+								<UML:TaggedValue tag="ea_sourceID" value="3136"/>
+								<UML:TaggedValue tag="ea_targetID" value="3107"/>
+								<UML:TaggedValue tag="src_visibility" value="Public"/>
+								<UML:TaggedValue tag="src_aggregation" value="0"/>
+								<UML:TaggedValue tag="src_isOrdered" value="false"/>
+								<UML:TaggedValue tag="src_targetScope" value="instance"/>
+								<UML:TaggedValue tag="src_changeable" value="none"/>
+								<UML:TaggedValue tag="src_isNavigable" value="false"/>
+								<UML:TaggedValue tag="src_containment" value="Unspecified"/>
+								<UML:TaggedValue tag="src_style" value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Non-Navigable;"/>
+								<UML:TaggedValue tag="dst_visibility" value="Public"/>
+								<UML:TaggedValue tag="dst_aggregation" value="0"/>
+								<UML:TaggedValue tag="dst_isOrdered" value="false"/>
+								<UML:TaggedValue tag="dst_targetScope" value="instance"/>
+								<UML:TaggedValue tag="dst_changeable" value="none"/>
+								<UML:TaggedValue tag="dst_isNavigable" value="true"/>
+								<UML:TaggedValue tag="dst_containment" value="Unspecified"/>
+								<UML:TaggedValue tag="dst_style" value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Navigable;"/>
+								<UML:TaggedValue tag="virtualInheritance" value="0"/>
+							</UML:ModelElement.taggedValue>
+						</UML:Dependency>
 						<UML:Association xmi.id="EAID_D711453A_5546_4598_A54B_E9E1BD66E7ED" visibility="public" isRoot="false" isLeaf="false" isAbstract="false">
 							<UML:ModelElement.taggedValue>
 								<UML:TaggedValue tag="style" value="3"/>
@@ -114,7 +187,6 @@
 								<UML:TaggedValue tag="ea_targetType" value="Component"/>
 								<UML:TaggedValue tag="ea_sourceID" value="3136"/>
 								<UML:TaggedValue tag="ea_targetID" value="2067"/>
-								<UML:TaggedValue tag="privatedata5" value="SX=0;SY=0;EX=0;EY=0;EDGE=1;"/>
 								<UML:TaggedValue tag="virtualInheritance" value="0"/>
 							</UML:ModelElement.taggedValue>
 							<UML:Association.connection>
@@ -134,16 +206,53 @@
 								</UML:AssociationEnd>
 							</UML:Association.connection>
 						</UML:Association>
-						<UML:UseCase name="Ordering extra resources" xmi.id="EAID_A3FA1B24_D82E_48c3_93CD_4E332F41EEAF" visibility="public" namespace="EAPK_4AC5B51B_9A0D_46f4_AA00_14E5E2994072" isRoot="false" isLeaf="false" isAbstract="false">
+						<UML:Dependency client="EAID_489B50DD_1D04_451c_AFDC_BE5E1CBE3D82" supplier="EAID_1FB7D377_9DFC_4db9_ACCF_CA238AEB98DD" xmi.id="EAID_F633FAAA_FEBD_418c_BC35_D1A3F14CA741" visibility="public">
 							<UML:ModelElement.taggedValue>
-								<UML:TaggedValue tag="documentation" value="After an end user purchases a service and it in its meta information includes external resources like human resources, the service provider is notified about the purchase to arrange the arriving of these external resources to the end user. The service provider can add web links to uStore where the arriving may be tracked."/>
+								<UML:TaggedValue tag="style" value="3"/>
+								<UML:TaggedValue tag="ea_type" value="Realisation"/>
+								<UML:TaggedValue tag="direction" value="Source -&gt; Destination"/>
+								<UML:TaggedValue tag="linemode" value="3"/>
+								<UML:TaggedValue tag="linecolor" value="-1"/>
+								<UML:TaggedValue tag="linewidth" value="0"/>
+								<UML:TaggedValue tag="seqno" value="0"/>
+								<UML:TaggedValue tag="headStyle" value="0"/>
+								<UML:TaggedValue tag="lineStyle" value="0"/>
+								<UML:TaggedValue tag="ea_localid" value="1805"/>
+								<UML:TaggedValue tag="ea_sourceName" value="Ordering human resources"/>
+								<UML:TaggedValue tag="ea_targetName" value="Collaboration with local companies for human resources"/>
+								<UML:TaggedValue tag="ea_sourceType" value="UseCase"/>
+								<UML:TaggedValue tag="ea_targetType" value="Requirement"/>
+								<UML:TaggedValue tag="ea_sourceID" value="3136"/>
+								<UML:TaggedValue tag="ea_targetID" value="3106"/>
+								<UML:TaggedValue tag="src_visibility" value="Public"/>
+								<UML:TaggedValue tag="src_aggregation" value="0"/>
+								<UML:TaggedValue tag="src_isOrdered" value="false"/>
+								<UML:TaggedValue tag="src_targetScope" value="instance"/>
+								<UML:TaggedValue tag="src_changeable" value="none"/>
+								<UML:TaggedValue tag="src_isNavigable" value="false"/>
+								<UML:TaggedValue tag="src_containment" value="Unspecified"/>
+								<UML:TaggedValue tag="src_style" value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Non-Navigable;"/>
+								<UML:TaggedValue tag="dst_visibility" value="Public"/>
+								<UML:TaggedValue tag="dst_aggregation" value="0"/>
+								<UML:TaggedValue tag="dst_isOrdered" value="false"/>
+								<UML:TaggedValue tag="dst_targetScope" value="instance"/>
+								<UML:TaggedValue tag="dst_changeable" value="none"/>
+								<UML:TaggedValue tag="dst_isNavigable" value="true"/>
+								<UML:TaggedValue tag="dst_containment" value="Unspecified"/>
+								<UML:TaggedValue tag="dst_style" value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Navigable;"/>
+								<UML:TaggedValue tag="virtualInheritance" value="0"/>
+							</UML:ModelElement.taggedValue>
+						</UML:Dependency>
+						<UML:UseCase name="Deciding on arrival time" xmi.id="EAID_A3FA1B24_D82E_48c3_93CD_4E332F41EEAF" visibility="public" namespace="EAPK_4AC5B51B_9A0D_46f4_AA00_14E5E2994072" isRoot="false" isLeaf="false" isAbstract="false">
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="documentation" value="After an end user purchases a service and it includes human resources, the service provider is notified about the purchase to arrange the arriving of the agent/nurse/technician to the end user. &#xA;The service provider can add web links to uStore where the arriving time may be tracked and optionally notified to the end user.&#xA;In some cases end user can propose other times or agree/reject to proposed time."/>
 								<UML:TaggedValue tag="isSpecification" value="false"/>
 								<UML:TaggedValue tag="ea_stype" value="UseCase"/>
 								<UML:TaggedValue tag="ea_ntype" value="0"/>
 								<UML:TaggedValue tag="version" value="1.0"/>
 								<UML:TaggedValue tag="package" value="EAPK_4AC5B51B_9A0D_46f4_AA00_14E5E2994072"/>
 								<UML:TaggedValue tag="date_created" value="2010-07-18 15:26:08"/>
-								<UML:TaggedValue tag="date_modified" value="2010-07-18 16:20:54"/>
+								<UML:TaggedValue tag="date_modified" value="2010-07-19 11:58:56"/>
 								<UML:TaggedValue tag="gentype" value="&lt;none&gt;"/>
 								<UML:TaggedValue tag="tagged" value="0"/>
 								<UML:TaggedValue tag="package_name" value="Ordering human resources "/>
@@ -169,13 +278,12 @@
 								<UML:TaggedValue tag="headStyle" value="0"/>
 								<UML:TaggedValue tag="lineStyle" value="0"/>
 								<UML:TaggedValue tag="ea_localid" value="1688"/>
-								<UML:TaggedValue tag="ea_sourceName" value="Ordering extra resources"/>
+								<UML:TaggedValue tag="ea_sourceName" value="Deciding on arrival time"/>
 								<UML:TaggedValue tag="ea_targetName" value="Service delivery and maintenance provider"/>
 								<UML:TaggedValue tag="ea_sourceType" value="UseCase"/>
 								<UML:TaggedValue tag="ea_targetType" value="Actor"/>
 								<UML:TaggedValue tag="ea_sourceID" value="3137"/>
 								<UML:TaggedValue tag="ea_targetID" value="2874"/>
-								<UML:TaggedValue tag="privatedata5" value="SX=0;SY=0;EX=0;EY=0;EDGE=3;"/>
 								<UML:TaggedValue tag="virtualInheritance" value="0"/>
 							</UML:ModelElement.taggedValue>
 							<UML:Association.connection>
@@ -195,6 +303,43 @@
 								</UML:AssociationEnd>
 							</UML:Association.connection>
 						</UML:Association>
+						<UML:Dependency client="EAID_A3FA1B24_D82E_48c3_93CD_4E332F41EEAF" supplier="EAID_1FB7D377_9DFC_4db9_ACCF_CA238AEB98DD" xmi.id="EAID_0EB7919A_3F98_4030_9EA6_D5A0A1410385" visibility="public">
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="style" value="3"/>
+								<UML:TaggedValue tag="ea_type" value="Realisation"/>
+								<UML:TaggedValue tag="direction" value="Source -&gt; Destination"/>
+								<UML:TaggedValue tag="linemode" value="3"/>
+								<UML:TaggedValue tag="linecolor" value="-1"/>
+								<UML:TaggedValue tag="linewidth" value="0"/>
+								<UML:TaggedValue tag="seqno" value="0"/>
+								<UML:TaggedValue tag="headStyle" value="0"/>
+								<UML:TaggedValue tag="lineStyle" value="0"/>
+								<UML:TaggedValue tag="ea_localid" value="1806"/>
+								<UML:TaggedValue tag="ea_sourceName" value="Deciding on arrival time"/>
+								<UML:TaggedValue tag="ea_targetName" value="Collaboration with local companies for human resources"/>
+								<UML:TaggedValue tag="ea_sourceType" value="UseCase"/>
+								<UML:TaggedValue tag="ea_targetType" value="Requirement"/>
+								<UML:TaggedValue tag="ea_sourceID" value="3137"/>
+								<UML:TaggedValue tag="ea_targetID" value="3106"/>
+								<UML:TaggedValue tag="src_visibility" value="Public"/>
+								<UML:TaggedValue tag="src_aggregation" value="0"/>
+								<UML:TaggedValue tag="src_isOrdered" value="false"/>
+								<UML:TaggedValue tag="src_targetScope" value="instance"/>
+								<UML:TaggedValue tag="src_changeable" value="none"/>
+								<UML:TaggedValue tag="src_isNavigable" value="false"/>
+								<UML:TaggedValue tag="src_containment" value="Unspecified"/>
+								<UML:TaggedValue tag="src_style" value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Non-Navigable;"/>
+								<UML:TaggedValue tag="dst_visibility" value="Public"/>
+								<UML:TaggedValue tag="dst_aggregation" value="0"/>
+								<UML:TaggedValue tag="dst_isOrdered" value="false"/>
+								<UML:TaggedValue tag="dst_targetScope" value="instance"/>
+								<UML:TaggedValue tag="dst_changeable" value="none"/>
+								<UML:TaggedValue tag="dst_isNavigable" value="true"/>
+								<UML:TaggedValue tag="dst_containment" value="Unspecified"/>
+								<UML:TaggedValue tag="dst_style" value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Navigable;"/>
+								<UML:TaggedValue tag="virtualInheritance" value="0"/>
+							</UML:ModelElement.taggedValue>
+						</UML:Dependency>
 						<UML:Association xmi.id="EAID_16D6C762_9C14_4b88_98D5_6BFDDA3A8458" visibility="public" isRoot="false" isLeaf="false" isAbstract="false">
 							<UML:ModelElement.taggedValue>
 								<UML:TaggedValue tag="style" value="3"/>
@@ -207,13 +352,12 @@
 								<UML:TaggedValue tag="headStyle" value="0"/>
 								<UML:TaggedValue tag="lineStyle" value="0"/>
 								<UML:TaggedValue tag="ea_localid" value="1686"/>
-								<UML:TaggedValue tag="ea_sourceName" value="Ordering extra resources"/>
+								<UML:TaggedValue tag="ea_sourceName" value="Deciding on arrival time"/>
 								<UML:TaggedValue tag="ea_targetName" value="End user"/>
 								<UML:TaggedValue tag="ea_sourceType" value="UseCase"/>
 								<UML:TaggedValue tag="ea_targetType" value="Actor"/>
 								<UML:TaggedValue tag="ea_sourceID" value="3137"/>
 								<UML:TaggedValue tag="ea_targetID" value="2920"/>
-								<UML:TaggedValue tag="privatedata5" value="SX=0;SY=0;EX=0;EY=0;EDGE=3;"/>
 								<UML:TaggedValue tag="virtualInheritance" value="0"/>
 							</UML:ModelElement.taggedValue>
 							<UML:Association.connection>
@@ -233,6 +377,43 @@
 								</UML:AssociationEnd>
 							</UML:Association.connection>
 						</UML:Association>
+						<UML:Dependency client="EAID_A3FA1B24_D82E_48c3_93CD_4E332F41EEAF" supplier="EAID_D1DA0757_FC68_4e2b_9E96_F476CF97061B" xmi.id="EAID_586B1D8D_08D1_4b5f_94D7_C91B51B7645B" visibility="public">
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="style" value="3"/>
+								<UML:TaggedValue tag="ea_type" value="Realisation"/>
+								<UML:TaggedValue tag="direction" value="Source -&gt; Destination"/>
+								<UML:TaggedValue tag="linemode" value="3"/>
+								<UML:TaggedValue tag="linecolor" value="-1"/>
+								<UML:TaggedValue tag="linewidth" value="0"/>
+								<UML:TaggedValue tag="seqno" value="0"/>
+								<UML:TaggedValue tag="headStyle" value="0"/>
+								<UML:TaggedValue tag="lineStyle" value="0"/>
+								<UML:TaggedValue tag="ea_localid" value="1807"/>
+								<UML:TaggedValue tag="ea_sourceName" value="Deciding on arrival time"/>
+								<UML:TaggedValue tag="ea_targetName" value="Ordering human resources"/>
+								<UML:TaggedValue tag="ea_sourceType" value="UseCase"/>
+								<UML:TaggedValue tag="ea_targetType" value="Requirement"/>
+								<UML:TaggedValue tag="ea_sourceID" value="3137"/>
+								<UML:TaggedValue tag="ea_targetID" value="3108"/>
+								<UML:TaggedValue tag="src_visibility" value="Public"/>
+								<UML:TaggedValue tag="src_aggregation" value="0"/>
+								<UML:TaggedValue tag="src_isOrdered" value="false"/>
+								<UML:TaggedValue tag="src_targetScope" value="instance"/>
+								<UML:TaggedValue tag="src_changeable" value="none"/>
+								<UML:TaggedValue tag="src_isNavigable" value="false"/>
+								<UML:TaggedValue tag="src_containment" value="Unspecified"/>
+								<UML:TaggedValue tag="src_style" value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Non-Navigable;"/>
+								<UML:TaggedValue tag="dst_visibility" value="Public"/>
+								<UML:TaggedValue tag="dst_aggregation" value="0"/>
+								<UML:TaggedValue tag="dst_isOrdered" value="false"/>
+								<UML:TaggedValue tag="dst_targetScope" value="instance"/>
+								<UML:TaggedValue tag="dst_changeable" value="none"/>
+								<UML:TaggedValue tag="dst_isNavigable" value="true"/>
+								<UML:TaggedValue tag="dst_containment" value="Unspecified"/>
+								<UML:TaggedValue tag="dst_style" value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Navigable;"/>
+								<UML:TaggedValue tag="virtualInheritance" value="0"/>
+							</UML:ModelElement.taggedValue>
+						</UML:Dependency>
 						<UML:Association xmi.id="EAID_97823B30_BE86_4d2d_A373_6238B3B4D886" visibility="public" isRoot="false" isLeaf="false" isAbstract="false">
 							<UML:ModelElement.taggedValue>
 								<UML:TaggedValue tag="style" value="3"/>
@@ -245,13 +426,12 @@
 								<UML:TaggedValue tag="headStyle" value="0"/>
 								<UML:TaggedValue tag="lineStyle" value="0"/>
 								<UML:TaggedValue tag="ea_localid" value="1683"/>
-								<UML:TaggedValue tag="ea_sourceName" value="Ordering extra resources"/>
+								<UML:TaggedValue tag="ea_sourceName" value="Deciding on arrival time"/>
 								<UML:TaggedValue tag="ea_targetName" value="uStore"/>
 								<UML:TaggedValue tag="ea_sourceType" value="UseCase"/>
 								<UML:TaggedValue tag="ea_targetType" value="Component"/>
 								<UML:TaggedValue tag="ea_sourceID" value="3137"/>
 								<UML:TaggedValue tag="ea_targetID" value="2067"/>
-								<UML:TaggedValue tag="privatedata5" value="SX=0;SY=0;EX=0;EY=0;EDGE=1;"/>
 								<UML:TaggedValue tag="virtualInheritance" value="0"/>
 							</UML:ModelElement.taggedValue>
 							<UML:Association.connection>
@@ -283,13 +463,12 @@
 								<UML:TaggedValue tag="headStyle" value="0"/>
 								<UML:TaggedValue tag="lineStyle" value="0"/>
 								<UML:TaggedValue tag="ea_localid" value="1687"/>
-								<UML:TaggedValue tag="ea_sourceName" value="Ordering extra resources"/>
+								<UML:TaggedValue tag="ea_sourceName" value="Deciding on arrival time"/>
 								<UML:TaggedValue tag="ea_targetName" value="Homcare service provider"/>
 								<UML:TaggedValue tag="ea_sourceType" value="UseCase"/>
 								<UML:TaggedValue tag="ea_targetType" value="Actor"/>
 								<UML:TaggedValue tag="ea_sourceID" value="3137"/>
 								<UML:TaggedValue tag="ea_targetID" value="2877"/>
-								<UML:TaggedValue tag="privatedata5" value="SX=0;SY=0;EX=0;EY=0;EDGE=3;"/>
 								<UML:TaggedValue tag="virtualInheritance" value="0"/>
 							</UML:ModelElement.taggedValue>
 							<UML:Association.connection>
@@ -318,35 +497,46 @@
 				<UML:TaggedValue tag="version" value="1.0"/>
 				<UML:TaggedValue tag="author" value="annabu"/>
 				<UML:TaggedValue tag="created_date" value="2010-07-14 12:36:04"/>
-				<UML:TaggedValue tag="modified_date" value="2010-07-18 16:21:36"/>
+				<UML:TaggedValue tag="modified_date" value="2010-07-19 12:56:07"/>
 				<UML:TaggedValue tag="package" value="EAPK_4AC5B51B_9A0D_46f4_AA00_14E5E2994072"/>
 				<UML:TaggedValue tag="type" value="Logical"/>
 				<UML:TaggedValue tag="swimlanes" value="locked=false;orientation=0;width=0;inbar=false;names=false;color=0;bold=false;fcol=0;;cls=0;"/>
 				<UML:TaggedValue tag="matrixitems" value="locked=false;matrixactive=false;swimlanesactive=true;width=1;"/>
 				<UML:TaggedValue tag="ea_localid" value="110"/>
-				<UML:TaggedValue tag="EAStyle" value="ShowPrivate=1;ShowProtected=1;ShowPublic=1;HideRelationships=0;Locked=0;Border=1;HighlightForeign=1;PackageContents=1;SequenceNotes=0;ScalePrintImage=0;PPgs.cx=1;PPgs.cy=1;DocSize.cx=776;DocSize.cy=1118;ShowDetails=0;Orientation=P;Zoom=100;ShowTags=0;OpParams=1;VisibleAttributeDetail=0;ShowOpRetType=1;ShowIcons=1;CollabNums=0;HideProps=0;ShowReqs=0;ShowCons=0;PaperSize=9;HideParents=0;UseAlias=0;HideAtts=0;HideOps=0;HideStereo=0;HideElemStereo=0;ShowTests=0;ShowMaint=0;ConnectorNotation=UML 2.1;ExplicitNavigability=0;AdvancedElementProps=1;AdvancedFeatureProps=1;AdvancedConnectorProps=1;ShowNotes=0;SuppressBrackets=0;SuppConnectorLabels=0;PrintPageHeadFoot=0;ShowAsList=0;"/>
+				<UML:TaggedValue tag="EAStyle" value="ShowPrivate=1;ShowProtected=1;ShowPublic=1;HideRelationships=0;Locked=0;Border=1;HighlightForeign=1;PackageContents=1;SequenceNotes=0;ScalePrintImage=0;PPgs.cx=2;PPgs.cy=1;DocSize.cx=776;DocSize.cy=1118;ShowDetails=0;Orientation=P;Zoom=100;ShowTags=0;OpParams=1;VisibleAttributeDetail=0;ShowOpRetType=1;ShowIcons=1;CollabNums=0;HideProps=0;ShowReqs=0;ShowCons=0;PaperSize=9;HideParents=0;UseAlias=0;HideAtts=0;HideOps=0;HideStereo=0;HideElemStereo=0;ShowTests=0;ShowMaint=0;ConnectorNotation=UML 2.1;ExplicitNavigability=0;AdvancedElementProps=1;AdvancedFeatureProps=1;AdvancedConnectorProps=1;ShowNotes=0;SuppressBrackets=0;SuppConnectorLabels=0;PrintPageHeadFoot=0;ShowAsList=0;"/>
 				<UML:TaggedValue tag="styleex" value="ExcludeRTF=0;DocAll=0;HideQuals=0;AttPkg=1;ShowTests=0;ShowMaint=0;SuppressFOC=1;MatrixActive=0;SwimlanesActive=1;MatrixLineWidth=1;MatrixLocked=0;TConnectorNotation=UML 2.1;TExplicitNavigability=0;AdvancedElementProps=1;AdvancedFeatureProps=1;AdvancedConnectorProps=1;ProfileData=;MDGDgm=;STBLDgm=;ShowNotes=0;VisibleAttributeDetail=0;ShowOpRetType=1;SuppressBrackets=0;SuppConnectorLabels=0;PrintPageHeadFoot=0;ShowAsList=0;"/>
 			</UML:ModelElement.taggedValue>
 			<UML:Diagram.element>
-				<UML:DiagramElement geometry="Left=95;Top=402;Right=140;Bottom=492;" subject="EAID_30688304_BAC8_4bff_884C_DE36994637CA" seqno="1" style="NSL=0;BCol=-1;BFol=-1;LCol=-1;LWth=-1;fontsz=0;bold=0;italic=0;ul=0;charset=0;pitch=0;DUID=08119EDD;"/>
-				<UML:DiagramElement geometry="Left=229;Top=414;Right=274;Bottom=504;" subject="EAID_886CF67C_8A37_425f_9310_7A7F9B5C468F" seqno="2" style="NSL=0;BCol=-1;BFol=-1;LCol=-1;LWth=-1;fontsz=0;bold=0;italic=0;ul=0;charset=0;pitch=0;DUID=92F30DB4;"/>
-				<UML:DiagramElement geometry="Left=414;Top=460;Right=459;Bottom=550;" subject="EAID_DE4C03FE_0C0D_417a_8B46_3C0203B56DA2" seqno="3" style="NSL=0;BCol=-1;BFol=-1;LCol=-1;LWth=-1;fontsz=0;bold=0;italic=0;ul=0;charset=0;pitch=0;DUID=00ABDE15;"/>
-				<UML:DiagramElement geometry="Left=327;Top=138;Right=443;Bottom=216;" subject="EAID_9DE3B28C_56EC_40e0_A110_2ECE463A9AE4" seqno="4" style="NSL=0;BCol=-1;BFol=-1;LCol=-1;LWth=-1;fontsz=0;bold=0;italic=0;ul=0;charset=0;pitch=0;DUID=5F01242E;"/>
-				<UML:DiagramElement geometry="Left=450;Top=259;Right=555;Bottom=329;" subject="EAID_489B50DD_1D04_451c_AFDC_BE5E1CBE3D82" seqno="5" style="DUID=F259147C;NSL=0;BCol=-1;BFol=-1;LCol=-1;LWth=-1;fontsz=0;bold=0;italic=0;ul=0;charset=0;pitch=0;"/>
-				<UML:DiagramElement geometry="Left=249;Top=264;Right=354;Bottom=334;" subject="EAID_A3FA1B24_D82E_48c3_93CD_4E332F41EEAF" seqno="6" style="DUID=B78D082B;NSL=0;BCol=-1;BFol=-1;LCol=-1;LWth=-1;fontsz=0;bold=0;italic=0;ul=0;charset=0;pitch=0;"/>
+				<UML:DiagramElement geometry="Left=706;Top=258;Right=866;Bottom=288;" subject="EAID_426F9FE2_6FD5_40c3_B882_389D049A18BD" seqno="1" style="DUID=26167E6B;NSL=0;BCol=-1;BFol=-1;LCol=-1;LWth=-1;fontsz=0;bold=0;italic=0;ul=0;charset=0;pitch=0;"/>
+				<UML:DiagramElement geometry="Left=598;Top=416;Right=758;Bottom=446;" subject="EAID_D1DA0757_FC68_4e2b_9E96_F476CF97061B" seqno="2" style="DUID=4363A743;NSL=0;BCol=-1;BFol=-1;LCol=-1;LWth=-1;fontsz=0;bold=0;italic=0;ul=0;charset=0;pitch=0;"/>
+				<UML:DiagramElement geometry="Left=489;Top=612;Right=649;Bottom=658;" subject="EAID_1FB7D377_9DFC_4db9_ACCF_CA238AEB98DD" seqno="3" style="DUID=A381D2A6;NSL=0;BCol=-1;BFol=-1;LCol=-1;LWth=-1;fontsz=0;bold=0;italic=0;ul=0;charset=0;pitch=0;"/>
+				<UML:DiagramElement geometry="Left=95;Top=402;Right=140;Bottom=492;" subject="EAID_30688304_BAC8_4bff_884C_DE36994637CA" seqno="4" style="NSL=0;BCol=-1;BFol=-1;LCol=-1;LWth=-1;fontsz=0;bold=0;italic=0;ul=0;charset=0;pitch=0;DUID=08119EDD;"/>
+				<UML:DiagramElement geometry="Left=229;Top=414;Right=274;Bottom=504;" subject="EAID_886CF67C_8A37_425f_9310_7A7F9B5C468F" seqno="5" style="NSL=0;BCol=-1;BFol=-1;LCol=-1;LWth=-1;fontsz=0;bold=0;italic=0;ul=0;charset=0;pitch=0;DUID=92F30DB4;"/>
+				<UML:DiagramElement geometry="Left=414;Top=460;Right=459;Bottom=550;" subject="EAID_DE4C03FE_0C0D_417a_8B46_3C0203B56DA2" seqno="6" style="NSL=0;BCol=-1;BFol=-1;LCol=-1;LWth=-1;fontsz=0;bold=0;italic=0;ul=0;charset=0;pitch=0;DUID=00ABDE15;"/>
+				<UML:DiagramElement geometry="Left=327;Top=138;Right=443;Bottom=216;" subject="EAID_9DE3B28C_56EC_40e0_A110_2ECE463A9AE4" seqno="7" style="NSL=0;BCol=-1;BFol=-1;LCol=-1;LWth=-1;fontsz=0;bold=0;italic=0;ul=0;charset=0;pitch=0;DUID=5F01242E;"/>
+				<UML:DiagramElement geometry="Left=450;Top=259;Right=555;Bottom=329;" subject="EAID_489B50DD_1D04_451c_AFDC_BE5E1CBE3D82" seqno="8" style="DUID=F259147C;NSL=0;BCol=-1;BFol=-1;LCol=-1;LWth=-1;fontsz=0;bold=0;italic=0;ul=0;charset=0;pitch=0;"/>
+				<UML:DiagramElement geometry="Left=248;Top=264;Right=353;Bottom=334;" subject="EAID_A3FA1B24_D82E_48c3_93CD_4E332F41EEAF" seqno="9" style="DUID=B78D082B;NSL=0;BCol=-1;BFol=-1;LCol=-1;LWth=-1;fontsz=0;bold=0;italic=0;ul=0;charset=0;pitch=0;"/>
 				<UML:DiagramElement geometry="SX=0;SY=0;EX=0;EY=0;EDGE=3;$LLB=;LLT=;LMT=;LMB=;LRT=;LRB=;IRHS=;ILHS=;Path=;" subject="EAID_0A592375_FE98_4edf_8053_0CFE4B9F6AB2" style="Mode=3;EOID=08119EDD;SOID=B78D082B;Color=-1;LWidth=0;Hidden=0;"/>
 				<UML:DiagramElement geometry="SX=0;SY=0;EX=0;EY=0;EDGE=3;$LLB=;LLT=;LMT=;LMB=;LRT=;LRB=;IRHS=;ILHS=;Path=;" subject="EAID_B8EAE624_E592_46e5_9D16_1B1CB32E5C30" style="Mode=3;EOID=92F30DB4;SOID=B78D082B;Color=-1;LWidth=0;Hidden=0;"/>
 				<UML:DiagramElement geometry="SX=0;SY=0;EX=0;EY=0;EDGE=3;$LLB=;LLT=;LMT=;LMB=;LRT=;LRB=;IRHS=;ILHS=;Path=;" subject="EAID_16D6C762_9C14_4b88_98D5_6BFDDA3A8458" style="Mode=3;EOID=00ABDE15;SOID=B78D082B;Color=-1;LWidth=0;Hidden=0;"/>
 				<UML:DiagramElement geometry="SX=0;SY=0;EX=0;EY=0;EDGE=1;$LLB=;LLT=;LMT=;LMB=;LRT=;LRB=;IRHS=;ILHS=;Path=;" subject="EAID_16835A7B_D65A_4f1b_9043_B79E98934B6F" style="Mode=3;EOID=F259147C;SOID=00ABDE15;Color=-1;LWidth=0;Hidden=0;"/>
 				<UML:DiagramElement geometry="SX=0;SY=0;EX=0;EY=0;EDGE=1;$LLB=;LLT=;LMT=;LMB=;LRT=;LRB=;IRHS=;ILHS=;Path=;" subject="EAID_D711453A_5546_4598_A54B_E9E1BD66E7ED" style="Mode=3;EOID=5F01242E;SOID=F259147C;Color=-1;LWidth=0;Hidden=0;"/>
 				<UML:DiagramElement geometry="SX=0;SY=0;EX=0;EY=0;EDGE=1;$LLB=;LLT=;LMT=;LMB=;LRT=;LRB=;IRHS=;ILHS=;Path=;" subject="EAID_97823B30_BE86_4d2d_A373_6238B3B4D886" style="Mode=3;EOID=5F01242E;SOID=B78D082B;Color=-1;LWidth=0;Hidden=0;"/>
+				<UML:DiagramElement geometry="SX=0;SY=0;EX=0;EY=0;EDGE=2;$LLB=;LLT=;LMT=;LMB=;LRT=;LRB=;IRHS=;ILHS=;Path=;" subject="EAID_37DF18C1_C3C6_48f2_AFE0_CF8949061B40" style="Mode=3;EOID=26167E6B;SOID=F259147C;Color=-1;LWidth=0;Hidden=0;"/>
+				<UML:DiagramElement geometry="SX=0;SY=0;EX=0;EY=0;EDGE=2;$LLB=;LLT=;LMT=;LMB=;LRT=;LRB=;IRHS=;ILHS=;Path=;" subject="EAID_586B1D8D_08D1_4b5f_94D7_C91B51B7645B" style="Mode=3;EOID=4363A743;SOID=B78D082B;Color=-1;LWidth=0;Hidden=0;"/>
+				<UML:DiagramElement geometry="SX=0;SY=0;EX=0;EY=0;EDGE=3;$LLB=;LLT=;LMT=;LMB=;LRT=;LRB=;IRHS=;ILHS=;Path=;" subject="EAID_0EB7919A_3F98_4030_9EA6_D5A0A1410385" style="Mode=3;EOID=A381D2A6;SOID=B78D082B;Color=-1;LWidth=0;Hidden=0;"/>
+				<UML:DiagramElement geometry="SX=0;SY=0;EX=0;EY=0;EDGE=3;$LLB=;LLT=;LMT=;LMB=;LRT=;LRB=;IRHS=;ILHS=;Path=;" subject="EAID_F633FAAA_FEBD_418c_BC35_D1A3F14CA741" style="Mode=3;EOID=A381D2A6;SOID=F259147C;Color=-1;LWidth=0;Hidden=0;"/>
+				<UML:DiagramElement geometry="SX=0;SY=0;EX=0;EY=0;EDGE=3;$LLB=;LLT=;LMT=;LMB=;LRT=;LRB=;IRHS=;ILHS=;Path=;" subject="EAID_1DFCD0D4_C249_44b1_B286_DFD9AE9719BB" style="Mode=3;EOID=4363A743;SOID=F259147C;Color=-1;LWidth=0;Hidden=0;"/>
 			</UML:Diagram.element>
 		</UML:Diagram>
 	</XMI.content>
 	<XMI.difference/>
 	<XMI.extensions xmi.extender="Enterprise Architect 2.5">
 		<EAStub xmi.id="EAID_DE4C03FE_0C0D_417a_8B46_3C0203B56DA2" name="End user" UMLType="Actor"/>
+		<EAStub xmi.id="EAID_D1DA0757_FC68_4e2b_9E96_F476CF97061B" name="Ordering human resources" UMLType="Requirement"/>
+		<EAStub xmi.id="EAID_426F9FE2_6FD5_40c3_B882_389D049A18BD" name="Signing human agreement" UMLType="Requirement"/>
 		<EAStub xmi.id="EAID_9DE3B28C_56EC_40e0_A110_2ECE463A9AE4" name="uStore" UMLType="Component"/>
+		<EAStub xmi.id="EAID_1FB7D377_9DFC_4db9_ACCF_CA238AEB98DD" name="Collaboration with local companies for human resources" UMLType="Requirement"/>
 		<EAStub xmi.id="EAID_30688304_BAC8_4bff_884C_DE36994637CA" name="Service delivery and maintenance provider" UMLType="Actor"/>
 		<EAStub xmi.id="EAID_886CF67C_8A37_425f_9310_7A7F9B5C468F" name="Homcare service provider" UMLType="Actor"/>
 	</XMI.extensions>
