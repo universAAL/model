@@ -10,7 +10,7 @@
 		<UML:Model name="EA Model" xmi.id="MX_EAID_A6C5442B_5443_4938_9A6C_7EC2C0B93F0F">
 			<UML:Namespace.ownedElement>
 				<UML:Class name="EARootClass" xmi.id="EAID_11111111_5487_4080_A7F4_41526CB0AA00" isRoot="true" isLeaf="false" isAbstract="false"/>
-				<UML:Package name="Security" xmi.id="EAPK_A6C5442B_5443_4938_9A6C_7EC2C0B93F0F" isRoot="false" isLeaf="false" isAbstract="false" visibility="public">
+				<UML:Package name="15. Security" xmi.id="EAPK_A6C5442B_5443_4938_9A6C_7EC2C0B93F0F" isRoot="false" isLeaf="false" isAbstract="false" visibility="public">
 					<UML:ModelElement.taggedValue>
 						<UML:TaggedValue tag="parent" value="EAPK_45F3D84A_E70E_40b6_B44B_B73B467C7FF4"/>
 						<UML:TaggedValue tag="created" value="2010-07-14 12:39:56"/>
@@ -39,7 +39,7 @@
 					<UML:Namespace.ownedElement>
 						<UML:Collaboration xmi.id="EAID_A6C5442B_5443_4938_9A6C_7EC2C0B93F0F_Collaboration" name="Collaborations">
 							<UML:Namespace.ownedElement>
-								<UML:ClassifierRole name="Data access" xmi.id="EAID_131AE18B_7462_4e93_B940_AA1C21942E17" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+								<UML:ClassifierRole name="15.1 Data access" xmi.id="EAID_131AE18B_7462_4e93_B940_AA1C21942E17" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
 									<UML:ModelElement.stereotype>
 										<UML:Stereotype name="Functional"/>
 									</UML:ModelElement.stereotype>
@@ -52,10 +52,10 @@
 										<UML:TaggedValue tag="version" value="1.0"/>
 										<UML:TaggedValue tag="package" value="EAPK_A6C5442B_5443_4938_9A6C_7EC2C0B93F0F"/>
 										<UML:TaggedValue tag="date_created" value="2010-07-18 13:40:24"/>
-										<UML:TaggedValue tag="date_modified" value="2010-07-27 09:33:25"/>
+										<UML:TaggedValue tag="date_modified" value="2010-07-27 16:33:39"/>
 										<UML:TaggedValue tag="gentype" value="&lt;none&gt;"/>
 										<UML:TaggedValue tag="tagged" value="0"/>
-										<UML:TaggedValue tag="package_name" value="Security"/>
+										<UML:TaggedValue tag="package_name" value="15. Security"/>
 										<UML:TaggedValue tag="phase" value="1.0"/>
 										<UML:TaggedValue tag="author" value="annabu"/>
 										<UML:TaggedValue tag="complexity" value="1"/>
@@ -70,7 +70,7 @@
 										<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={4F438134-62B0-4252-8153-5978185C8F8D}$XID;$NAM=Stereotypes$NAM;$TYP=element property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=Functional;GUID={C3354BB0-6AE7-4800-B99A-832932003762};@ENDSTEREO;$DES;$CLT={131AE18B-7462-4e93-B940-AA1C21942E17}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
 									</UML:ModelElement.taggedValue>
 								</UML:ClassifierRole>
-								<UML:ClassifierRole name="Security mechanism" xmi.id="EAID_BD442F82_C6FA_49aa_98EC_704DF171AF82" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+								<UML:ClassifierRole name="15.2 Security mechanism" xmi.id="EAID_BD442F82_C6FA_49aa_98EC_704DF171AF82" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
 									<UML:ModelElement.stereotype>
 										<UML:Stereotype name="Functional"/>
 									</UML:ModelElement.stereotype>
@@ -83,10 +83,10 @@
 										<UML:TaggedValue tag="version" value="1.0"/>
 										<UML:TaggedValue tag="package" value="EAPK_A6C5442B_5443_4938_9A6C_7EC2C0B93F0F"/>
 										<UML:TaggedValue tag="date_created" value="2010-07-18 13:40:09"/>
-										<UML:TaggedValue tag="date_modified" value="2010-07-27 09:31:02"/>
+										<UML:TaggedValue tag="date_modified" value="2010-07-27 16:33:44"/>
 										<UML:TaggedValue tag="gentype" value="&lt;none&gt;"/>
 										<UML:TaggedValue tag="tagged" value="0"/>
-										<UML:TaggedValue tag="package_name" value="Security"/>
+										<UML:TaggedValue tag="package_name" value="15. Security"/>
 										<UML:TaggedValue tag="phase" value="1.0"/>
 										<UML:TaggedValue tag="author" value="annabu"/>
 										<UML:TaggedValue tag="complexity" value="1"/>
@@ -117,7 +117,7 @@
 								<UML:TaggedValue tag="lineStyle" value="0"/>
 								<UML:TaggedValue tag="ea_localid" value="2023"/>
 								<UML:TaggedValue tag="ea_sourceName" value="Non-authorized person"/>
-								<UML:TaggedValue tag="ea_targetName" value="Data access"/>
+								<UML:TaggedValue tag="ea_targetName" value="15.1 Data access"/>
 								<UML:TaggedValue tag="ea_sourceType" value="UseCase"/>
 								<UML:TaggedValue tag="ea_targetType" value="Requirement"/>
 								<UML:TaggedValue tag="ea_sourceID" value="3152"/>
@@ -138,7 +138,6 @@
 								<UML:TaggedValue tag="dst_isNavigable" value="true"/>
 								<UML:TaggedValue tag="dst_containment" value="Unspecified"/>
 								<UML:TaggedValue tag="dst_style" value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Navigable;"/>
-								<UML:TaggedValue tag="privatedata5" value="SX=0;SY=0;EX=0;EY=0;EDGE=3;"/>
 								<UML:TaggedValue tag="virtualInheritance" value="0"/>
 							</UML:ModelElement.taggedValue>
 						</UML:Dependency>
@@ -155,7 +154,7 @@
 								<UML:TaggedValue tag="lineStyle" value="0"/>
 								<UML:TaggedValue tag="ea_localid" value="2025"/>
 								<UML:TaggedValue tag="ea_sourceName" value="Access to private data"/>
-								<UML:TaggedValue tag="ea_targetName" value="Data access"/>
+								<UML:TaggedValue tag="ea_targetName" value="15.1 Data access"/>
 								<UML:TaggedValue tag="ea_sourceType" value="UseCase"/>
 								<UML:TaggedValue tag="ea_targetType" value="Requirement"/>
 								<UML:TaggedValue tag="ea_sourceID" value="3338"/>
@@ -176,7 +175,6 @@
 								<UML:TaggedValue tag="dst_isNavigable" value="true"/>
 								<UML:TaggedValue tag="dst_containment" value="Unspecified"/>
 								<UML:TaggedValue tag="dst_style" value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Navigable;"/>
-								<UML:TaggedValue tag="privatedata5" value="SX=0;SY=0;EX=0;EY=0;EDGE=3;"/>
 								<UML:TaggedValue tag="virtualInheritance" value="0"/>
 							</UML:ModelElement.taggedValue>
 						</UML:Dependency>
@@ -193,7 +191,7 @@
 								<UML:TaggedValue tag="lineStyle" value="0"/>
 								<UML:TaggedValue tag="ea_localid" value="2029"/>
 								<UML:TaggedValue tag="ea_sourceName" value="Secure session"/>
-								<UML:TaggedValue tag="ea_targetName" value="Security mechanism"/>
+								<UML:TaggedValue tag="ea_targetName" value="15.2 Security mechanism"/>
 								<UML:TaggedValue tag="ea_sourceType" value="UseCase"/>
 								<UML:TaggedValue tag="ea_targetType" value="Requirement"/>
 								<UML:TaggedValue tag="ea_sourceID" value="3151"/>
@@ -214,7 +212,6 @@
 								<UML:TaggedValue tag="dst_isNavigable" value="true"/>
 								<UML:TaggedValue tag="dst_containment" value="Unspecified"/>
 								<UML:TaggedValue tag="dst_style" value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Navigable;"/>
-								<UML:TaggedValue tag="privatedata5" value="SX=0;SY=0;EX=0;EY=0;EDGE=3;"/>
 								<UML:TaggedValue tag="virtualInheritance" value="0"/>
 							</UML:ModelElement.taggedValue>
 						</UML:Dependency>
@@ -231,7 +228,7 @@
 								<UML:TaggedValue tag="lineStyle" value="0"/>
 								<UML:TaggedValue tag="ea_localid" value="2024"/>
 								<UML:TaggedValue tag="ea_sourceName" value="Detecting attacks on the system"/>
-								<UML:TaggedValue tag="ea_targetName" value="Security mechanism"/>
+								<UML:TaggedValue tag="ea_targetName" value="15.2 Security mechanism"/>
 								<UML:TaggedValue tag="ea_sourceType" value="UseCase"/>
 								<UML:TaggedValue tag="ea_targetType" value="Requirement"/>
 								<UML:TaggedValue tag="ea_sourceID" value="3150"/>
@@ -252,7 +249,6 @@
 								<UML:TaggedValue tag="dst_isNavigable" value="true"/>
 								<UML:TaggedValue tag="dst_containment" value="Unspecified"/>
 								<UML:TaggedValue tag="dst_style" value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Navigable;"/>
-								<UML:TaggedValue tag="privatedata5" value="SX=0;SY=0;EX=0;EY=0;EDGE=2;"/>
 								<UML:TaggedValue tag="virtualInheritance" value="0"/>
 							</UML:ModelElement.taggedValue>
 						</UML:Dependency>
@@ -269,7 +265,7 @@
 								<UML:TaggedValue tag="lineStyle" value="0"/>
 								<UML:TaggedValue tag="ea_localid" value="2030"/>
 								<UML:TaggedValue tag="ea_sourceName" value="Encrypted password"/>
-								<UML:TaggedValue tag="ea_targetName" value="Security mechanism"/>
+								<UML:TaggedValue tag="ea_targetName" value="15.2 Security mechanism"/>
 								<UML:TaggedValue tag="ea_sourceType" value="UseCase"/>
 								<UML:TaggedValue tag="ea_targetType" value="Requirement"/>
 								<UML:TaggedValue tag="ea_sourceID" value="3336"/>
@@ -290,7 +286,6 @@
 								<UML:TaggedValue tag="dst_isNavigable" value="true"/>
 								<UML:TaggedValue tag="dst_containment" value="Unspecified"/>
 								<UML:TaggedValue tag="dst_style" value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Navigable;"/>
-								<UML:TaggedValue tag="privatedata5" value="SX=0;SY=0;EX=0;EY=0;EDGE=3;"/>
 								<UML:TaggedValue tag="virtualInheritance" value="0"/>
 							</UML:ModelElement.taggedValue>
 						</UML:Dependency>
@@ -307,7 +302,7 @@
 								<UML:TaggedValue tag="lineStyle" value="0"/>
 								<UML:TaggedValue tag="ea_localid" value="2031"/>
 								<UML:TaggedValue tag="ea_sourceName" value="Secure protocols for payments"/>
-								<UML:TaggedValue tag="ea_targetName" value="Security mechanism"/>
+								<UML:TaggedValue tag="ea_targetName" value="15.2 Security mechanism"/>
 								<UML:TaggedValue tag="ea_sourceType" value="UseCase"/>
 								<UML:TaggedValue tag="ea_targetType" value="Requirement"/>
 								<UML:TaggedValue tag="ea_sourceID" value="3337"/>
@@ -328,7 +323,6 @@
 								<UML:TaggedValue tag="dst_isNavigable" value="true"/>
 								<UML:TaggedValue tag="dst_containment" value="Unspecified"/>
 								<UML:TaggedValue tag="dst_style" value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Navigable;"/>
-								<UML:TaggedValue tag="privatedata5" value="SX=0;SY=0;EX=0;EY=0;EDGE=3;"/>
 								<UML:TaggedValue tag="virtualInheritance" value="0"/>
 							</UML:ModelElement.taggedValue>
 						</UML:Dependency>
