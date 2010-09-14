@@ -10,14 +10,14 @@
 		<UML:Model name="EA Model" xmi.id="MX_EAID_46E24BC3_6960_496e_93DE_394EEA3389B0">
 			<UML:Namespace.ownedElement>
 				<UML:Class name="EARootClass" xmi.id="EAID_11111111_5487_4080_A7F4_41526CB0AA00" isRoot="true" isLeaf="false" isAbstract="false"/>
-				<UML:Package name="Service providers or developers will upload AAL services" xmi.id="EAPK_46E24BC3_6960_496e_93DE_394EEA3389B0" isRoot="false" isLeaf="false" isAbstract="false" visibility="public">
+				<UML:Package name="1. Service providers will offer AAL services" xmi.id="EAPK_46E24BC3_6960_496e_93DE_394EEA3389B0" isRoot="false" isLeaf="false" isAbstract="false" visibility="public">
 					<UML:ModelElement.taggedValue>
 						<UML:TaggedValue tag="parent" value="EAPK_6E63D826_13D0_4eed_9E40_2C1434E6D989"/>
 						<UML:TaggedValue tag="created" value="2010-07-14 12:31:51"/>
 						<UML:TaggedValue tag="modified" value="2010-07-14 12:31:51"/>
 						<UML:TaggedValue tag="iscontrolled" value="TRUE"/>
 						<UML:TaggedValue tag="xmlpath" value="Service providers or developers will upload AAL services.xml"/>
-						<UML:TaggedValue tag="lastloaddate" value="2010-09-12 09:03:32"/>
+						<UML:TaggedValue tag="lastloaddate" value="2010-09-13 13:05:01"/>
 						<UML:TaggedValue tag="lastsavedate" value="2010-07-16 09:43:50"/>
 						<UML:TaggedValue tag="version" value="1.0"/>
 						<UML:TaggedValue tag="isprotected" value="FALSE"/>
@@ -39,23 +39,23 @@
 					<UML:Namespace.ownedElement>
 						<UML:UseCase name="Service upload" xmi.id="EAID_21E89A11_00AA_4d92_824F_69B2776EF446" visibility="public" namespace="EAPK_46E24BC3_6960_496e_93DE_394EEA3389B0" isRoot="false" isLeaf="false" isAbstract="false">
 							<UML:ModelElement.taggedValue>
-								<UML:TaggedValue tag="documentation" value="Using web interface or ide plugin, authenticated developer or service provider uploads a previously prepared file to the Ustore, and then the system checks the file for correctness using built-in tools. According to the metadata of the service, and the properties of the service provider or the developer (they may be declared as trusted), the successfully checked service is published, or sent to an administrator for approval."/>
+								<UML:TaggedValue tag="documentation" value="Using web interface or ide plugin, authenticated service provider uploads a previously prepared file to the uStore, and then the system checks the file for correctness using built-in tools. According to the metadata of the service, and the properties of the service provider (he may be declared as trusted), the successfully checked service is published, or sent to an administrator for approval."/>
 								<UML:TaggedValue tag="isSpecification" value="false"/>
 								<UML:TaggedValue tag="ea_stype" value="UseCase"/>
 								<UML:TaggedValue tag="ea_ntype" value="0"/>
 								<UML:TaggedValue tag="version" value="1.0"/>
 								<UML:TaggedValue tag="package" value="EAPK_46E24BC3_6960_496e_93DE_394EEA3389B0"/>
 								<UML:TaggedValue tag="date_created" value="2010-07-16 10:53:10"/>
-								<UML:TaggedValue tag="date_modified" value="2010-07-16 10:53:16"/>
+								<UML:TaggedValue tag="date_modified" value="2010-09-14 14:21:17"/>
 								<UML:TaggedValue tag="gentype" value="&lt;none&gt;"/>
 								<UML:TaggedValue tag="tagged" value="0"/>
-								<UML:TaggedValue tag="package_name" value="Service providers or developers will upload AAL services"/>
+								<UML:TaggedValue tag="package_name" value="1. Service providers will offer AAL services"/>
 								<UML:TaggedValue tag="phase" value="1.0"/>
 								<UML:TaggedValue tag="author" value="ibakalov"/>
 								<UML:TaggedValue tag="complexity" value="1"/>
 								<UML:TaggedValue tag="status" value="Proposed"/>
 								<UML:TaggedValue tag="tpos" value="0"/>
-								<UML:TaggedValue tag="ea_localid" value="3363"/>
+								<UML:TaggedValue tag="ea_localid" value="5051"/>
 								<UML:TaggedValue tag="ea_eleType" value="element"/>
 								<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
 							</UML:ModelElement.taggedValue>
@@ -71,13 +71,13 @@
 								<UML:TaggedValue tag="seqno" value="0"/>
 								<UML:TaggedValue tag="headStyle" value="0"/>
 								<UML:TaggedValue tag="lineStyle" value="0"/>
-								<UML:TaggedValue tag="ea_localid" value="1417"/>
+								<UML:TaggedValue tag="ea_localid" value="3303"/>
 								<UML:TaggedValue tag="ea_sourceName" value="Recent uploads"/>
 								<UML:TaggedValue tag="ea_targetName" value="Service upload"/>
 								<UML:TaggedValue tag="ea_sourceType" value="UseCase"/>
 								<UML:TaggedValue tag="ea_targetType" value="UseCase"/>
-								<UML:TaggedValue tag="ea_sourceID" value="3370"/>
-								<UML:TaggedValue tag="ea_targetID" value="3363"/>
+								<UML:TaggedValue tag="ea_sourceID" value="5058"/>
+								<UML:TaggedValue tag="ea_targetID" value="5051"/>
 								<UML:TaggedValue tag="virtualInheritance" value="0"/>
 							</UML:ModelElement.taggedValue>
 							<UML:Association.connection>
@@ -108,13 +108,13 @@
 								<UML:TaggedValue tag="seqno" value="0"/>
 								<UML:TaggedValue tag="headStyle" value="0"/>
 								<UML:TaggedValue tag="lineStyle" value="0"/>
-								<UML:TaggedValue tag="ea_localid" value="1416"/>
+								<UML:TaggedValue tag="ea_localid" value="3302"/>
 								<UML:TaggedValue tag="ea_sourceName" value="Software not from developers depot"/>
 								<UML:TaggedValue tag="ea_targetName" value="Service upload"/>
 								<UML:TaggedValue tag="ea_sourceType" value="UseCase"/>
 								<UML:TaggedValue tag="ea_targetType" value="UseCase"/>
-								<UML:TaggedValue tag="ea_sourceID" value="3368"/>
-								<UML:TaggedValue tag="ea_targetID" value="3363"/>
+								<UML:TaggedValue tag="ea_sourceID" value="5056"/>
+								<UML:TaggedValue tag="ea_targetID" value="5051"/>
 								<UML:TaggedValue tag="src_visibility" value="Public"/>
 								<UML:TaggedValue tag="src_aggregation" value="0"/>
 								<UML:TaggedValue tag="src_isOrdered" value="false"/>
@@ -134,6 +134,43 @@
 								<UML:TaggedValue tag="virtualInheritance" value="0"/>
 							</UML:ModelElement.taggedValue>
 						</UML:Generalization>
+						<UML:Dependency client="EAID_46146EF9_5C66_4877_B752_10F30A2B96B1" supplier="EAID_21E89A11_00AA_4d92_824F_69B2776EF446" xmi.id="EAID_73138F4C_8A61_4389_B250_B9C5B9436F6A" visibility="public">
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="style" value="3"/>
+								<UML:TaggedValue tag="ea_type" value="Realisation"/>
+								<UML:TaggedValue tag="direction" value="Source -&gt; Destination"/>
+								<UML:TaggedValue tag="linemode" value="3"/>
+								<UML:TaggedValue tag="linecolor" value="-1"/>
+								<UML:TaggedValue tag="linewidth" value="0"/>
+								<UML:TaggedValue tag="seqno" value="0"/>
+								<UML:TaggedValue tag="headStyle" value="0"/>
+								<UML:TaggedValue tag="lineStyle" value="0"/>
+								<UML:TaggedValue tag="ea_localid" value="3679"/>
+								<UML:TaggedValue tag="ea_sourceName" value="Service uploader uploads AAL service to uStore"/>
+								<UML:TaggedValue tag="ea_targetName" value="Service upload"/>
+								<UML:TaggedValue tag="ea_sourceType" value="UseCase"/>
+								<UML:TaggedValue tag="ea_targetType" value="UseCase"/>
+								<UML:TaggedValue tag="ea_sourceID" value="5628"/>
+								<UML:TaggedValue tag="ea_targetID" value="5051"/>
+								<UML:TaggedValue tag="src_visibility" value="Public"/>
+								<UML:TaggedValue tag="src_aggregation" value="0"/>
+								<UML:TaggedValue tag="src_isOrdered" value="false"/>
+								<UML:TaggedValue tag="src_targetScope" value="instance"/>
+								<UML:TaggedValue tag="src_changeable" value="none"/>
+								<UML:TaggedValue tag="src_isNavigable" value="false"/>
+								<UML:TaggedValue tag="src_containment" value="Unspecified"/>
+								<UML:TaggedValue tag="src_style" value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Non-Navigable;"/>
+								<UML:TaggedValue tag="dst_visibility" value="Public"/>
+								<UML:TaggedValue tag="dst_aggregation" value="0"/>
+								<UML:TaggedValue tag="dst_isOrdered" value="false"/>
+								<UML:TaggedValue tag="dst_targetScope" value="instance"/>
+								<UML:TaggedValue tag="dst_changeable" value="none"/>
+								<UML:TaggedValue tag="dst_isNavigable" value="true"/>
+								<UML:TaggedValue tag="dst_containment" value="Unspecified"/>
+								<UML:TaggedValue tag="dst_style" value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Navigable;"/>
+								<UML:TaggedValue tag="virtualInheritance" value="0"/>
+							</UML:ModelElement.taggedValue>
+						</UML:Dependency>
 						<UML:Generalization subtype="EAID_81303A32_9838_4806_9D8C_711E247D5039" supertype="EAID_21E89A11_00AA_4d92_824F_69B2776EF446" xmi.id="EAID_746E0CB1_46FF_400c_BF92_D00EEBC2C806" visibility="public">
 							<UML:ModelElement.taggedValue>
 								<UML:TaggedValue tag="style" value="3"/>
@@ -145,13 +182,13 @@
 								<UML:TaggedValue tag="seqno" value="0"/>
 								<UML:TaggedValue tag="headStyle" value="0"/>
 								<UML:TaggedValue tag="lineStyle" value="0"/>
-								<UML:TaggedValue tag="ea_localid" value="1415"/>
+								<UML:TaggedValue tag="ea_localid" value="3301"/>
 								<UML:TaggedValue tag="ea_sourceName" value="Software from eclipse plug in"/>
 								<UML:TaggedValue tag="ea_targetName" value="Service upload"/>
 								<UML:TaggedValue tag="ea_sourceType" value="UseCase"/>
 								<UML:TaggedValue tag="ea_targetType" value="UseCase"/>
-								<UML:TaggedValue tag="ea_sourceID" value="3365"/>
-								<UML:TaggedValue tag="ea_targetID" value="3363"/>
+								<UML:TaggedValue tag="ea_sourceID" value="5053"/>
+								<UML:TaggedValue tag="ea_targetID" value="5051"/>
 								<UML:TaggedValue tag="src_visibility" value="Public"/>
 								<UML:TaggedValue tag="src_aggregation" value="0"/>
 								<UML:TaggedValue tag="src_isOrdered" value="false"/>
@@ -171,6 +208,43 @@
 								<UML:TaggedValue tag="virtualInheritance" value="0"/>
 							</UML:ModelElement.taggedValue>
 						</UML:Generalization>
+						<UML:Dependency client="EAID_1A091682_B8DD_4507_8BA0_3E357185599C" supplier="EAID_21E89A11_00AA_4d92_824F_69B2776EF446" xmi.id="EAID_99303359_66EE_4286_AB65_B7C11C933B9D" visibility="public">
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="style" value="3"/>
+								<UML:TaggedValue tag="ea_type" value="Realisation"/>
+								<UML:TaggedValue tag="direction" value="Source -&gt; Destination"/>
+								<UML:TaggedValue tag="linemode" value="3"/>
+								<UML:TaggedValue tag="linecolor" value="-1"/>
+								<UML:TaggedValue tag="linewidth" value="0"/>
+								<UML:TaggedValue tag="seqno" value="0"/>
+								<UML:TaggedValue tag="headStyle" value="0"/>
+								<UML:TaggedValue tag="lineStyle" value="0"/>
+								<UML:TaggedValue tag="ea_localid" value="3803"/>
+								<UML:TaggedValue tag="ea_sourceName" value="Service Uploader surfs uStore"/>
+								<UML:TaggedValue tag="ea_targetName" value="Service upload"/>
+								<UML:TaggedValue tag="ea_sourceType" value="UseCase"/>
+								<UML:TaggedValue tag="ea_targetType" value="UseCase"/>
+								<UML:TaggedValue tag="ea_sourceID" value="5622"/>
+								<UML:TaggedValue tag="ea_targetID" value="5051"/>
+								<UML:TaggedValue tag="src_visibility" value="Public"/>
+								<UML:TaggedValue tag="src_aggregation" value="0"/>
+								<UML:TaggedValue tag="src_isOrdered" value="false"/>
+								<UML:TaggedValue tag="src_targetScope" value="instance"/>
+								<UML:TaggedValue tag="src_changeable" value="none"/>
+								<UML:TaggedValue tag="src_isNavigable" value="false"/>
+								<UML:TaggedValue tag="src_containment" value="Unspecified"/>
+								<UML:TaggedValue tag="src_style" value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Non-Navigable;"/>
+								<UML:TaggedValue tag="dst_visibility" value="Public"/>
+								<UML:TaggedValue tag="dst_aggregation" value="0"/>
+								<UML:TaggedValue tag="dst_isOrdered" value="false"/>
+								<UML:TaggedValue tag="dst_targetScope" value="instance"/>
+								<UML:TaggedValue tag="dst_changeable" value="none"/>
+								<UML:TaggedValue tag="dst_isNavigable" value="true"/>
+								<UML:TaggedValue tag="dst_containment" value="Unspecified"/>
+								<UML:TaggedValue tag="dst_style" value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Navigable;"/>
+								<UML:TaggedValue tag="virtualInheritance" value="0"/>
+							</UML:ModelElement.taggedValue>
+						</UML:Dependency>
 						<UML:Generalization subtype="EAID_9B3EBF59_675B_43d8_A3BF_F6AB35F97ED0" supertype="EAID_21E89A11_00AA_4d92_824F_69B2776EF446" xmi.id="EAID_A0095507_988D_41d5_BDC8_48FF1AD519BB" visibility="public">
 							<UML:ModelElement.taggedValue>
 								<UML:TaggedValue tag="style" value="3"/>
@@ -182,13 +256,13 @@
 								<UML:TaggedValue tag="seqno" value="0"/>
 								<UML:TaggedValue tag="headStyle" value="0"/>
 								<UML:TaggedValue tag="lineStyle" value="0"/>
-								<UML:TaggedValue tag="ea_localid" value="1414"/>
+								<UML:TaggedValue tag="ea_localid" value="3300"/>
 								<UML:TaggedValue tag="ea_sourceName" value="Update Service upload"/>
 								<UML:TaggedValue tag="ea_targetName" value="Service upload"/>
 								<UML:TaggedValue tag="ea_sourceType" value="UseCase"/>
 								<UML:TaggedValue tag="ea_targetType" value="UseCase"/>
-								<UML:TaggedValue tag="ea_sourceID" value="3367"/>
-								<UML:TaggedValue tag="ea_targetID" value="3363"/>
+								<UML:TaggedValue tag="ea_sourceID" value="5055"/>
+								<UML:TaggedValue tag="ea_targetID" value="5051"/>
 								<UML:TaggedValue tag="src_visibility" value="Public"/>
 								<UML:TaggedValue tag="src_aggregation" value="0"/>
 								<UML:TaggedValue tag="src_isOrdered" value="false"/>
@@ -219,13 +293,13 @@
 								<UML:TaggedValue tag="seqno" value="0"/>
 								<UML:TaggedValue tag="headStyle" value="0"/>
 								<UML:TaggedValue tag="lineStyle" value="0"/>
-								<UML:TaggedValue tag="ea_localid" value="1413"/>
+								<UML:TaggedValue tag="ea_localid" value="3299"/>
 								<UML:TaggedValue tag="ea_sourceName" value="Preparing a service for Upload"/>
 								<UML:TaggedValue tag="ea_targetName" value="Service upload"/>
 								<UML:TaggedValue tag="ea_sourceType" value="UseCase"/>
 								<UML:TaggedValue tag="ea_targetType" value="UseCase"/>
-								<UML:TaggedValue tag="ea_sourceID" value="3366"/>
-								<UML:TaggedValue tag="ea_targetID" value="3363"/>
+								<UML:TaggedValue tag="ea_sourceID" value="5054"/>
+								<UML:TaggedValue tag="ea_targetID" value="5051"/>
 								<UML:TaggedValue tag="virtualInheritance" value="0"/>
 							</UML:ModelElement.taggedValue>
 							<UML:Association.connection>
@@ -245,70 +319,25 @@
 								</UML:AssociationEnd>
 							</UML:Association.connection>
 						</UML:Association>
-						<UML:Association xmi.id="EAID_FB4A67BA_6F12_44ee_B5BE_4AA2265E6D5A" visibility="public" isRoot="false" isLeaf="false" isAbstract="false">
-							<UML:ModelElement.stereotype>
-								<UML:Stereotype name="include"/>
-							</UML:ModelElement.stereotype>
-							<UML:ModelElement.taggedValue>
-								<UML:TaggedValue tag="style" value="3"/>
-								<UML:TaggedValue tag="ea_type" value="UseCase"/>
-								<UML:TaggedValue tag="direction" value="Source -&gt; Destination"/>
-								<UML:TaggedValue tag="linemode" value="3"/>
-								<UML:TaggedValue tag="linecolor" value="-1"/>
-								<UML:TaggedValue tag="linewidth" value="0"/>
-								<UML:TaggedValue tag="seqno" value="0"/>
-								<UML:TaggedValue tag="subtype" value="Includes"/>
-								<UML:TaggedValue tag="stereotype" value="include"/>
-								<UML:TaggedValue tag="headStyle" value="0"/>
-								<UML:TaggedValue tag="lineStyle" value="0"/>
-								<UML:TaggedValue tag="conditional" value=" &#xA;쳃nclude�"/>
-								<UML:TaggedValue tag="ea_localid" value="1716"/>
-								<UML:TaggedValue tag="ea_sourceName" value="Service providers or developers upload AAL service to uStore"/>
-								<UML:TaggedValue tag="ea_targetName" value="Service upload"/>
-								<UML:TaggedValue tag="ea_sourceType" value="UseCase"/>
-								<UML:TaggedValue tag="ea_targetType" value="UseCase"/>
-								<UML:TaggedValue tag="ea_sourceID" value="3647"/>
-								<UML:TaggedValue tag="ea_targetID" value="3363"/>
-								<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={6F8563F7-CD6A-4f25-A1EB-C350858109E4}$XID;$NAM=Stereotypes$NAM;$TYP=connector property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=include;GUID={E6D554EE-2AD3-430d-8C20-64D20831C73C};@ENDSTEREO;$DES;$CLT={FB4A67BA-6F12-44ee-B5BE-4AA2265E6D5A}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
-								<UML:TaggedValue tag="virtualInheritance" value="0"/>
-								<UML:TaggedValue tag="mb" value=" &#xA;쳃nclude�"/>
-							</UML:ModelElement.taggedValue>
-							<UML:Association.connection>
-								<UML:AssociationEnd visibility="public" aggregation="none" isOrdered="false" targetScope="instance" changeable="none" isNavigable="false" type="EAID_46146EF9_5C66_4877_B752_10F30A2B96B1">
-									<UML:ModelElement.taggedValue>
-										<UML:TaggedValue tag="containment" value="Unspecified"/>
-										<UML:TaggedValue tag="sourcestyle" value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Non-Navigable;"/>
-										<UML:TaggedValue tag="ea_end" value="source"/>
-									</UML:ModelElement.taggedValue>
-								</UML:AssociationEnd>
-								<UML:AssociationEnd visibility="public" aggregation="none" isOrdered="false" targetScope="instance" changeable="none" isNavigable="true" type="EAID_21E89A11_00AA_4d92_824F_69B2776EF446">
-									<UML:ModelElement.taggedValue>
-										<UML:TaggedValue tag="containment" value="Unspecified"/>
-										<UML:TaggedValue tag="deststyle" value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Navigable;"/>
-										<UML:TaggedValue tag="ea_end" value="target"/>
-									</UML:ModelElement.taggedValue>
-								</UML:AssociationEnd>
-							</UML:Association.connection>
-						</UML:Association>
 						<UML:UseCase name="Service combining" xmi.id="EAID_2327C254_DA00_4ca4_AF26_5C175F7F4A03" visibility="public" namespace="EAPK_46E24BC3_6960_496e_93DE_394EEA3389B0" isRoot="false" isLeaf="false" isAbstract="false">
 							<UML:ModelElement.taggedValue>
-								<UML:TaggedValue tag="documentation" value="Service providers or developers may combine existing services into more complex solutions, which will be available as services as well, provided that they are not breaking any licenses."/>
+								<UML:TaggedValue tag="documentation" value="Service providers may combine existing services into more complex solutions, which will be available as services as well, provided that they are not breaking any licenses."/>
 								<UML:TaggedValue tag="isSpecification" value="false"/>
 								<UML:TaggedValue tag="ea_stype" value="UseCase"/>
 								<UML:TaggedValue tag="ea_ntype" value="0"/>
 								<UML:TaggedValue tag="version" value="1.0"/>
 								<UML:TaggedValue tag="package" value="EAPK_46E24BC3_6960_496e_93DE_394EEA3389B0"/>
 								<UML:TaggedValue tag="date_created" value="2010-07-16 10:46:14"/>
-								<UML:TaggedValue tag="date_modified" value="2010-07-16 10:46:23"/>
+								<UML:TaggedValue tag="date_modified" value="2010-09-14 14:20:11"/>
 								<UML:TaggedValue tag="gentype" value="&lt;none&gt;"/>
 								<UML:TaggedValue tag="tagged" value="0"/>
-								<UML:TaggedValue tag="package_name" value="Service providers or developers will upload AAL services"/>
+								<UML:TaggedValue tag="package_name" value="1. Service providers will offer AAL services"/>
 								<UML:TaggedValue tag="phase" value="1.0"/>
 								<UML:TaggedValue tag="author" value="ibakalov"/>
 								<UML:TaggedValue tag="complexity" value="1"/>
 								<UML:TaggedValue tag="status" value="Proposed"/>
 								<UML:TaggedValue tag="tpos" value="0"/>
-								<UML:TaggedValue tag="ea_localid" value="3364"/>
+								<UML:TaggedValue tag="ea_localid" value="5052"/>
 								<UML:TaggedValue tag="ea_eleType" value="element"/>
 								<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
 							</UML:ModelElement.taggedValue>
@@ -324,13 +353,13 @@
 								<UML:TaggedValue tag="seqno" value="0"/>
 								<UML:TaggedValue tag="headStyle" value="0"/>
 								<UML:TaggedValue tag="lineStyle" value="0"/>
-								<UML:TaggedValue tag="ea_localid" value="1412"/>
+								<UML:TaggedValue tag="ea_localid" value="3297"/>
 								<UML:TaggedValue tag="ea_sourceName" value="Service combining"/>
 								<UML:TaggedValue tag="ea_targetName" value="Legacy service provider"/>
 								<UML:TaggedValue tag="ea_sourceType" value="UseCase"/>
 								<UML:TaggedValue tag="ea_targetType" value="Actor"/>
-								<UML:TaggedValue tag="ea_sourceID" value="3364"/>
-								<UML:TaggedValue tag="ea_targetID" value="2374"/>
+								<UML:TaggedValue tag="ea_sourceID" value="5052"/>
+								<UML:TaggedValue tag="ea_targetID" value="3707"/>
 								<UML:TaggedValue tag="virtualInheritance" value="0"/>
 							</UML:ModelElement.taggedValue>
 							<UML:Association.connection>
@@ -350,6 +379,43 @@
 								</UML:AssociationEnd>
 							</UML:Association.connection>
 						</UML:Association>
+						<UML:Dependency client="EAID_46146EF9_5C66_4877_B752_10F30A2B96B1" supplier="EAID_2327C254_DA00_4ca4_AF26_5C175F7F4A03" xmi.id="EAID_D2675649_09E2_4985_A255_525718076EA8" visibility="public">
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="style" value="3"/>
+								<UML:TaggedValue tag="ea_type" value="Realisation"/>
+								<UML:TaggedValue tag="direction" value="Source -&gt; Destination"/>
+								<UML:TaggedValue tag="linemode" value="3"/>
+								<UML:TaggedValue tag="linecolor" value="-1"/>
+								<UML:TaggedValue tag="linewidth" value="0"/>
+								<UML:TaggedValue tag="seqno" value="0"/>
+								<UML:TaggedValue tag="headStyle" value="0"/>
+								<UML:TaggedValue tag="lineStyle" value="0"/>
+								<UML:TaggedValue tag="ea_localid" value="3668"/>
+								<UML:TaggedValue tag="ea_sourceName" value="Service uploader uploads AAL service to uStore"/>
+								<UML:TaggedValue tag="ea_targetName" value="Service combining"/>
+								<UML:TaggedValue tag="ea_sourceType" value="UseCase"/>
+								<UML:TaggedValue tag="ea_targetType" value="UseCase"/>
+								<UML:TaggedValue tag="ea_sourceID" value="5628"/>
+								<UML:TaggedValue tag="ea_targetID" value="5052"/>
+								<UML:TaggedValue tag="src_visibility" value="Public"/>
+								<UML:TaggedValue tag="src_aggregation" value="0"/>
+								<UML:TaggedValue tag="src_isOrdered" value="false"/>
+								<UML:TaggedValue tag="src_targetScope" value="instance"/>
+								<UML:TaggedValue tag="src_changeable" value="none"/>
+								<UML:TaggedValue tag="src_isNavigable" value="false"/>
+								<UML:TaggedValue tag="src_containment" value="Unspecified"/>
+								<UML:TaggedValue tag="src_style" value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Non-Navigable;"/>
+								<UML:TaggedValue tag="dst_visibility" value="Public"/>
+								<UML:TaggedValue tag="dst_aggregation" value="0"/>
+								<UML:TaggedValue tag="dst_isOrdered" value="false"/>
+								<UML:TaggedValue tag="dst_targetScope" value="instance"/>
+								<UML:TaggedValue tag="dst_changeable" value="none"/>
+								<UML:TaggedValue tag="dst_isNavigable" value="true"/>
+								<UML:TaggedValue tag="dst_containment" value="Unspecified"/>
+								<UML:TaggedValue tag="dst_style" value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Navigable;"/>
+								<UML:TaggedValue tag="virtualInheritance" value="0"/>
+							</UML:ModelElement.taggedValue>
+						</UML:Dependency>
 						<UML:Association xmi.id="EAID_FC5227B1_C5C8_4ef5_82EC_6F86DAF1EC58" visibility="public" isRoot="false" isLeaf="false" isAbstract="false">
 							<UML:ModelElement.taggedValue>
 								<UML:TaggedValue tag="style" value="3"/>
@@ -361,13 +427,13 @@
 								<UML:TaggedValue tag="seqno" value="0"/>
 								<UML:TaggedValue tag="headStyle" value="0"/>
 								<UML:TaggedValue tag="lineStyle" value="0"/>
-								<UML:TaggedValue tag="ea_localid" value="1411"/>
+								<UML:TaggedValue tag="ea_localid" value="3296"/>
 								<UML:TaggedValue tag="ea_sourceName" value="Service combining"/>
 								<UML:TaggedValue tag="ea_targetName" value="Developer"/>
 								<UML:TaggedValue tag="ea_sourceType" value="UseCase"/>
 								<UML:TaggedValue tag="ea_targetType" value="Actor"/>
-								<UML:TaggedValue tag="ea_sourceID" value="3364"/>
-								<UML:TaggedValue tag="ea_targetID" value="2323"/>
+								<UML:TaggedValue tag="ea_sourceID" value="5052"/>
+								<UML:TaggedValue tag="ea_targetID" value="3656"/>
 								<UML:TaggedValue tag="virtualInheritance" value="0"/>
 							</UML:ModelElement.taggedValue>
 							<UML:Association.connection>
@@ -389,23 +455,23 @@
 						</UML:Association>
 						<UML:UseCase name="Software from eclipse plug in" xmi.id="EAID_81303A32_9838_4806_9D8C_711E247D5039" visibility="public" namespace="EAPK_46E24BC3_6960_496e_93DE_394EEA3389B0" isRoot="false" isLeaf="false" isAbstract="false">
 							<UML:ModelElement.taggedValue>
-								<UML:TaggedValue tag="documentation" value="Developer can upload software directly from eclipse plug-in of develop depot"/>
+								<UML:TaggedValue tag="documentation" value="Developer (playing the role of service provider) can upload software directly from eclipse plug-in of develop depot"/>
 								<UML:TaggedValue tag="isSpecification" value="false"/>
 								<UML:TaggedValue tag="ea_stype" value="UseCase"/>
 								<UML:TaggedValue tag="ea_ntype" value="0"/>
 								<UML:TaggedValue tag="version" value="1.0"/>
 								<UML:TaggedValue tag="package" value="EAPK_46E24BC3_6960_496e_93DE_394EEA3389B0"/>
 								<UML:TaggedValue tag="date_created" value="2010-07-16 10:44:53"/>
-								<UML:TaggedValue tag="date_modified" value="2010-07-16 10:45:05"/>
+								<UML:TaggedValue tag="date_modified" value="2010-09-14 14:21:42"/>
 								<UML:TaggedValue tag="gentype" value="&lt;none&gt;"/>
 								<UML:TaggedValue tag="tagged" value="0"/>
-								<UML:TaggedValue tag="package_name" value="Service providers or developers will upload AAL services"/>
+								<UML:TaggedValue tag="package_name" value="1. Service providers will offer AAL services"/>
 								<UML:TaggedValue tag="phase" value="1.0"/>
 								<UML:TaggedValue tag="author" value="ibakalov"/>
 								<UML:TaggedValue tag="complexity" value="1"/>
 								<UML:TaggedValue tag="status" value="Proposed"/>
 								<UML:TaggedValue tag="tpos" value="0"/>
-								<UML:TaggedValue tag="ea_localid" value="3365"/>
+								<UML:TaggedValue tag="ea_localid" value="5053"/>
 								<UML:TaggedValue tag="ea_eleType" value="element"/>
 								<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
 							</UML:ModelElement.taggedValue>
@@ -421,13 +487,13 @@
 								<UML:TaggedValue tag="seqno" value="0"/>
 								<UML:TaggedValue tag="headStyle" value="0"/>
 								<UML:TaggedValue tag="lineStyle" value="0"/>
-								<UML:TaggedValue tag="ea_localid" value="1410"/>
+								<UML:TaggedValue tag="ea_localid" value="3295"/>
 								<UML:TaggedValue tag="ea_sourceName" value="Software from eclipse plug in"/>
 								<UML:TaggedValue tag="ea_targetName" value="Developer"/>
 								<UML:TaggedValue tag="ea_sourceType" value="UseCase"/>
 								<UML:TaggedValue tag="ea_targetType" value="Actor"/>
-								<UML:TaggedValue tag="ea_sourceID" value="3365"/>
-								<UML:TaggedValue tag="ea_targetID" value="2323"/>
+								<UML:TaggedValue tag="ea_sourceID" value="5053"/>
+								<UML:TaggedValue tag="ea_targetID" value="3656"/>
 								<UML:TaggedValue tag="virtualInheritance" value="0"/>
 							</UML:ModelElement.taggedValue>
 							<UML:Association.connection>
@@ -447,74 +513,103 @@
 								</UML:AssociationEnd>
 							</UML:Association.connection>
 						</UML:Association>
-						<UML:Association xmi.id="EAID_BEB7CB2C_2835_4348_8E11_8DEBEF8AA782" visibility="public" isRoot="false" isLeaf="false" isAbstract="false">
-							<UML:ModelElement.stereotype>
-								<UML:Stereotype name="include"/>
-							</UML:ModelElement.stereotype>
+						<UML:Dependency client="EAID_46146EF9_5C66_4877_B752_10F30A2B96B1" supplier="EAID_81303A32_9838_4806_9D8C_711E247D5039" xmi.id="EAID_A413944C_E3B5_4b2e_A0E9_F14D416C847C" visibility="public">
 							<UML:ModelElement.taggedValue>
 								<UML:TaggedValue tag="style" value="3"/>
-								<UML:TaggedValue tag="ea_type" value="UseCase"/>
+								<UML:TaggedValue tag="ea_type" value="Realisation"/>
 								<UML:TaggedValue tag="direction" value="Source -&gt; Destination"/>
 								<UML:TaggedValue tag="linemode" value="3"/>
 								<UML:TaggedValue tag="linecolor" value="-1"/>
 								<UML:TaggedValue tag="linewidth" value="0"/>
 								<UML:TaggedValue tag="seqno" value="0"/>
-								<UML:TaggedValue tag="subtype" value="Includes"/>
-								<UML:TaggedValue tag="stereotype" value="include"/>
 								<UML:TaggedValue tag="headStyle" value="0"/>
 								<UML:TaggedValue tag="lineStyle" value="0"/>
-								<UML:TaggedValue tag="conditional" value=" &#xA;쳃nclude�"/>
-								<UML:TaggedValue tag="ea_localid" value="1717"/>
-								<UML:TaggedValue tag="ea_sourceName" value="Service providers or developers upload AAL service to uStore"/>
+								<UML:TaggedValue tag="ea_localid" value="3673"/>
+								<UML:TaggedValue tag="ea_sourceName" value="Service uploader uploads AAL service to uStore"/>
 								<UML:TaggedValue tag="ea_targetName" value="Software from eclipse plug in"/>
 								<UML:TaggedValue tag="ea_sourceType" value="UseCase"/>
 								<UML:TaggedValue tag="ea_targetType" value="UseCase"/>
-								<UML:TaggedValue tag="ea_sourceID" value="3647"/>
-								<UML:TaggedValue tag="ea_targetID" value="3365"/>
-								<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={A9E2F35A-EF74-4ba5-9D55-55B91316E96C}$XID;$NAM=Stereotypes$NAM;$TYP=connector property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=include;@ENDSTEREO;$DES;$CLT={BEB7CB2C-2835-4348-8E11-8DEBEF8AA782}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
+								<UML:TaggedValue tag="ea_sourceID" value="5628"/>
+								<UML:TaggedValue tag="ea_targetID" value="5053"/>
+								<UML:TaggedValue tag="src_visibility" value="Public"/>
+								<UML:TaggedValue tag="src_aggregation" value="0"/>
+								<UML:TaggedValue tag="src_isOrdered" value="false"/>
+								<UML:TaggedValue tag="src_targetScope" value="instance"/>
+								<UML:TaggedValue tag="src_changeable" value="none"/>
+								<UML:TaggedValue tag="src_isNavigable" value="false"/>
+								<UML:TaggedValue tag="src_containment" value="Unspecified"/>
+								<UML:TaggedValue tag="src_style" value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Non-Navigable;"/>
+								<UML:TaggedValue tag="dst_visibility" value="Public"/>
+								<UML:TaggedValue tag="dst_aggregation" value="0"/>
+								<UML:TaggedValue tag="dst_isOrdered" value="false"/>
+								<UML:TaggedValue tag="dst_targetScope" value="instance"/>
+								<UML:TaggedValue tag="dst_changeable" value="none"/>
+								<UML:TaggedValue tag="dst_isNavigable" value="true"/>
+								<UML:TaggedValue tag="dst_containment" value="Unspecified"/>
+								<UML:TaggedValue tag="dst_style" value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Navigable;"/>
 								<UML:TaggedValue tag="virtualInheritance" value="0"/>
-								<UML:TaggedValue tag="mb" value=" &#xA;쳃nclude�"/>
 							</UML:ModelElement.taggedValue>
-							<UML:Association.connection>
-								<UML:AssociationEnd visibility="public" aggregation="none" isOrdered="false" targetScope="instance" changeable="none" isNavigable="false" type="EAID_46146EF9_5C66_4877_B752_10F30A2B96B1">
-									<UML:ModelElement.taggedValue>
-										<UML:TaggedValue tag="containment" value="Unspecified"/>
-										<UML:TaggedValue tag="sourcestyle" value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Non-Navigable;"/>
-										<UML:TaggedValue tag="ea_end" value="source"/>
-									</UML:ModelElement.taggedValue>
-								</UML:AssociationEnd>
-								<UML:AssociationEnd visibility="public" aggregation="none" isOrdered="false" targetScope="instance" changeable="none" isNavigable="true" type="EAID_81303A32_9838_4806_9D8C_711E247D5039">
-									<UML:ModelElement.taggedValue>
-										<UML:TaggedValue tag="containment" value="Unspecified"/>
-										<UML:TaggedValue tag="deststyle" value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Navigable;"/>
-										<UML:TaggedValue tag="ea_end" value="target"/>
-									</UML:ModelElement.taggedValue>
-								</UML:AssociationEnd>
-							</UML:Association.connection>
-						</UML:Association>
+						</UML:Dependency>
 						<UML:UseCase name="Preparing a service for Upload" xmi.id="EAID_91446FE8_CB5B_48f2_933C_4E13BE3B81E2" visibility="public" namespace="EAPK_46E24BC3_6960_496e_93DE_394EEA3389B0" isRoot="false" isLeaf="false" isAbstract="false">
 							<UML:ModelElement.taggedValue>
-								<UML:TaggedValue tag="documentation" value="Using tools or ide plugins, or any other means, the service provider or the developer creates a package file, which contains all of the required service metadata - names, descriptions, pictures, icons, categories, licenses, description of provided hardware and software components, courses, tutorials, pricing information."/>
+								<UML:TaggedValue tag="documentation" value="Using tools or ide plugins, or any other means, the service provider defines all the required service metadata - names, descriptions, pictures, icons, categories, licenses, description of provided hardware and software components, courses, tutorials, pricing information, permissions to other users (can be service providers, developers or individual permission)"/>
 								<UML:TaggedValue tag="isSpecification" value="false"/>
 								<UML:TaggedValue tag="ea_stype" value="UseCase"/>
 								<UML:TaggedValue tag="ea_ntype" value="0"/>
 								<UML:TaggedValue tag="version" value="1.0"/>
 								<UML:TaggedValue tag="package" value="EAPK_46E24BC3_6960_496e_93DE_394EEA3389B0"/>
 								<UML:TaggedValue tag="date_created" value="2010-07-16 10:55:35"/>
-								<UML:TaggedValue tag="date_modified" value="2010-07-16 10:55:43"/>
+								<UML:TaggedValue tag="date_modified" value="2010-09-14 14:52:56"/>
 								<UML:TaggedValue tag="gentype" value="&lt;none&gt;"/>
 								<UML:TaggedValue tag="tagged" value="0"/>
-								<UML:TaggedValue tag="package_name" value="Service providers or developers will upload AAL services"/>
+								<UML:TaggedValue tag="package_name" value="1. Service providers will offer AAL services"/>
 								<UML:TaggedValue tag="phase" value="1.0"/>
 								<UML:TaggedValue tag="author" value="ibakalov"/>
 								<UML:TaggedValue tag="complexity" value="1"/>
 								<UML:TaggedValue tag="status" value="Proposed"/>
 								<UML:TaggedValue tag="tpos" value="0"/>
-								<UML:TaggedValue tag="ea_localid" value="3366"/>
+								<UML:TaggedValue tag="ea_localid" value="5054"/>
 								<UML:TaggedValue tag="ea_eleType" value="element"/>
 								<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
 							</UML:ModelElement.taggedValue>
 						</UML:UseCase>
+						<UML:Dependency client="EAID_46146EF9_5C66_4877_B752_10F30A2B96B1" supplier="EAID_91446FE8_CB5B_48f2_933C_4E13BE3B81E2" xmi.id="EAID_3A50F9F9_F4ED_46e4_85BC_03102151AA4F" visibility="public">
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="style" value="3"/>
+								<UML:TaggedValue tag="ea_type" value="Realisation"/>
+								<UML:TaggedValue tag="direction" value="Source -&gt; Destination"/>
+								<UML:TaggedValue tag="linemode" value="3"/>
+								<UML:TaggedValue tag="linecolor" value="-1"/>
+								<UML:TaggedValue tag="linewidth" value="0"/>
+								<UML:TaggedValue tag="seqno" value="0"/>
+								<UML:TaggedValue tag="headStyle" value="0"/>
+								<UML:TaggedValue tag="lineStyle" value="0"/>
+								<UML:TaggedValue tag="ea_localid" value="3685"/>
+								<UML:TaggedValue tag="ea_sourceName" value="Service uploader uploads AAL service to uStore"/>
+								<UML:TaggedValue tag="ea_targetName" value="Preparing a service for Upload"/>
+								<UML:TaggedValue tag="ea_sourceType" value="UseCase"/>
+								<UML:TaggedValue tag="ea_targetType" value="UseCase"/>
+								<UML:TaggedValue tag="ea_sourceID" value="5628"/>
+								<UML:TaggedValue tag="ea_targetID" value="5054"/>
+								<UML:TaggedValue tag="src_visibility" value="Public"/>
+								<UML:TaggedValue tag="src_aggregation" value="0"/>
+								<UML:TaggedValue tag="src_isOrdered" value="false"/>
+								<UML:TaggedValue tag="src_targetScope" value="instance"/>
+								<UML:TaggedValue tag="src_changeable" value="none"/>
+								<UML:TaggedValue tag="src_isNavigable" value="false"/>
+								<UML:TaggedValue tag="src_containment" value="Unspecified"/>
+								<UML:TaggedValue tag="src_style" value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Non-Navigable;"/>
+								<UML:TaggedValue tag="dst_visibility" value="Public"/>
+								<UML:TaggedValue tag="dst_aggregation" value="0"/>
+								<UML:TaggedValue tag="dst_isOrdered" value="false"/>
+								<UML:TaggedValue tag="dst_targetScope" value="instance"/>
+								<UML:TaggedValue tag="dst_changeable" value="none"/>
+								<UML:TaggedValue tag="dst_isNavigable" value="true"/>
+								<UML:TaggedValue tag="dst_containment" value="Unspecified"/>
+								<UML:TaggedValue tag="dst_style" value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Navigable;"/>
+								<UML:TaggedValue tag="virtualInheritance" value="0"/>
+							</UML:ModelElement.taggedValue>
+						</UML:Dependency>
 						<UML:Association xmi.id="EAID_5C8FB365_2BC7_42a2_8950_300556327EE8" visibility="public" isRoot="false" isLeaf="false" isAbstract="false">
 							<UML:ModelElement.taggedValue>
 								<UML:TaggedValue tag="style" value="3"/>
@@ -526,13 +621,13 @@
 								<UML:TaggedValue tag="seqno" value="0"/>
 								<UML:TaggedValue tag="headStyle" value="0"/>
 								<UML:TaggedValue tag="lineStyle" value="0"/>
-								<UML:TaggedValue tag="ea_localid" value="1409"/>
+								<UML:TaggedValue tag="ea_localid" value="3293"/>
 								<UML:TaggedValue tag="ea_sourceName" value="Preparing a service for Upload"/>
 								<UML:TaggedValue tag="ea_targetName" value="Legacy service provider"/>
 								<UML:TaggedValue tag="ea_sourceType" value="UseCase"/>
 								<UML:TaggedValue tag="ea_targetType" value="Actor"/>
-								<UML:TaggedValue tag="ea_sourceID" value="3366"/>
-								<UML:TaggedValue tag="ea_targetID" value="2374"/>
+								<UML:TaggedValue tag="ea_sourceID" value="5054"/>
+								<UML:TaggedValue tag="ea_targetID" value="3707"/>
 								<UML:TaggedValue tag="virtualInheritance" value="0"/>
 							</UML:ModelElement.taggedValue>
 							<UML:Association.connection>
@@ -552,51 +647,6 @@
 								</UML:AssociationEnd>
 							</UML:Association.connection>
 						</UML:Association>
-						<UML:Association xmi.id="EAID_A55C2CCA_8B0B_44f8_B163_BDC23EBE0843" visibility="public" isRoot="false" isLeaf="false" isAbstract="false">
-							<UML:ModelElement.stereotype>
-								<UML:Stereotype name="include"/>
-							</UML:ModelElement.stereotype>
-							<UML:ModelElement.taggedValue>
-								<UML:TaggedValue tag="style" value="3"/>
-								<UML:TaggedValue tag="ea_type" value="UseCase"/>
-								<UML:TaggedValue tag="direction" value="Source -&gt; Destination"/>
-								<UML:TaggedValue tag="linemode" value="3"/>
-								<UML:TaggedValue tag="linecolor" value="-1"/>
-								<UML:TaggedValue tag="linewidth" value="0"/>
-								<UML:TaggedValue tag="seqno" value="0"/>
-								<UML:TaggedValue tag="subtype" value="Includes"/>
-								<UML:TaggedValue tag="stereotype" value="include"/>
-								<UML:TaggedValue tag="headStyle" value="0"/>
-								<UML:TaggedValue tag="lineStyle" value="0"/>
-								<UML:TaggedValue tag="conditional" value=" &#xA;쳃nclude�"/>
-								<UML:TaggedValue tag="ea_localid" value="1718"/>
-								<UML:TaggedValue tag="ea_sourceName" value="Service providers or developers upload AAL service to uStore"/>
-								<UML:TaggedValue tag="ea_targetName" value="Preparing a service for Upload"/>
-								<UML:TaggedValue tag="ea_sourceType" value="UseCase"/>
-								<UML:TaggedValue tag="ea_targetType" value="UseCase"/>
-								<UML:TaggedValue tag="ea_sourceID" value="3647"/>
-								<UML:TaggedValue tag="ea_targetID" value="3366"/>
-								<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={EB499C29-881A-49bc-B8A9-DF1C9FFAB7CD}$XID;$NAM=Stereotypes$NAM;$TYP=connector property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=include;@ENDSTEREO;$DES;$CLT={A55C2CCA-8B0B-44f8-B163-BDC23EBE0843}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
-								<UML:TaggedValue tag="virtualInheritance" value="0"/>
-								<UML:TaggedValue tag="mb" value=" &#xA;쳃nclude�"/>
-							</UML:ModelElement.taggedValue>
-							<UML:Association.connection>
-								<UML:AssociationEnd visibility="public" aggregation="none" isOrdered="false" targetScope="instance" changeable="none" isNavigable="false" type="EAID_46146EF9_5C66_4877_B752_10F30A2B96B1">
-									<UML:ModelElement.taggedValue>
-										<UML:TaggedValue tag="containment" value="Unspecified"/>
-										<UML:TaggedValue tag="sourcestyle" value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Non-Navigable;"/>
-										<UML:TaggedValue tag="ea_end" value="source"/>
-									</UML:ModelElement.taggedValue>
-								</UML:AssociationEnd>
-								<UML:AssociationEnd visibility="public" aggregation="none" isOrdered="false" targetScope="instance" changeable="none" isNavigable="true" type="EAID_91446FE8_CB5B_48f2_933C_4E13BE3B81E2">
-									<UML:ModelElement.taggedValue>
-										<UML:TaggedValue tag="containment" value="Unspecified"/>
-										<UML:TaggedValue tag="deststyle" value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Navigable;"/>
-										<UML:TaggedValue tag="ea_end" value="target"/>
-									</UML:ModelElement.taggedValue>
-								</UML:AssociationEnd>
-							</UML:Association.connection>
-						</UML:Association>
 						<UML:Association xmi.id="EAID_F779E96C_46DE_46e2_822E_AEF7D913AD92" visibility="public" isRoot="false" isLeaf="false" isAbstract="false">
 							<UML:ModelElement.taggedValue>
 								<UML:TaggedValue tag="style" value="3"/>
@@ -608,13 +658,13 @@
 								<UML:TaggedValue tag="seqno" value="0"/>
 								<UML:TaggedValue tag="headStyle" value="0"/>
 								<UML:TaggedValue tag="lineStyle" value="0"/>
-								<UML:TaggedValue tag="ea_localid" value="1408"/>
+								<UML:TaggedValue tag="ea_localid" value="3291"/>
 								<UML:TaggedValue tag="ea_sourceName" value="Preparing a service for Upload"/>
 								<UML:TaggedValue tag="ea_targetName" value="Developer"/>
 								<UML:TaggedValue tag="ea_sourceType" value="UseCase"/>
 								<UML:TaggedValue tag="ea_targetType" value="Actor"/>
-								<UML:TaggedValue tag="ea_sourceID" value="3366"/>
-								<UML:TaggedValue tag="ea_targetID" value="2323"/>
+								<UML:TaggedValue tag="ea_sourceID" value="5054"/>
+								<UML:TaggedValue tag="ea_targetID" value="3656"/>
 								<UML:TaggedValue tag="virtualInheritance" value="0"/>
 							</UML:ModelElement.taggedValue>
 							<UML:Association.connection>
@@ -636,23 +686,23 @@
 						</UML:Association>
 						<UML:UseCase name="Update Service upload" xmi.id="EAID_9B3EBF59_675B_43d8_A3BF_F6AB35F97ED0" visibility="public" namespace="EAPK_46E24BC3_6960_496e_93DE_394EEA3389B0" isRoot="false" isLeaf="false" isAbstract="false">
 							<UML:ModelElement.taggedValue>
-								<UML:TaggedValue tag="documentation" value="Using web interface or ide plugin, authenticated developer or service provider uploads new version of file prepared in the &quot;Preparing service for upload&quot; use case to the Ustore for existing service. The system checks it accoding to &quot;Service upload&quot; use-case and saves it as new version of this service."/>
+								<UML:TaggedValue tag="documentation" value="Using web interface or ide plugin, authenticated service provider uploads new version of file prepared in the &quot;Preparing service for upload&quot; use case to the Ustore for existing service. The system checks it accoding to &quot;Service upload&quot; use-case and saves it as new version of this service."/>
 								<UML:TaggedValue tag="isSpecification" value="false"/>
 								<UML:TaggedValue tag="ea_stype" value="UseCase"/>
 								<UML:TaggedValue tag="ea_ntype" value="0"/>
 								<UML:TaggedValue tag="version" value="1.0"/>
 								<UML:TaggedValue tag="package" value="EAPK_46E24BC3_6960_496e_93DE_394EEA3389B0"/>
 								<UML:TaggedValue tag="date_created" value="2010-07-16 10:57:36"/>
-								<UML:TaggedValue tag="date_modified" value="2010-07-16 10:57:47"/>
+								<UML:TaggedValue tag="date_modified" value="2010-09-14 14:22:12"/>
 								<UML:TaggedValue tag="gentype" value="&lt;none&gt;"/>
 								<UML:TaggedValue tag="tagged" value="0"/>
-								<UML:TaggedValue tag="package_name" value="Service providers or developers will upload AAL services"/>
+								<UML:TaggedValue tag="package_name" value="1. Service providers will offer AAL services"/>
 								<UML:TaggedValue tag="phase" value="1.0"/>
 								<UML:TaggedValue tag="author" value="ibakalov"/>
 								<UML:TaggedValue tag="complexity" value="1"/>
 								<UML:TaggedValue tag="status" value="Proposed"/>
 								<UML:TaggedValue tag="tpos" value="0"/>
-								<UML:TaggedValue tag="ea_localid" value="3367"/>
+								<UML:TaggedValue tag="ea_localid" value="5055"/>
 								<UML:TaggedValue tag="ea_eleType" value="element"/>
 								<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
 							</UML:ModelElement.taggedValue>
@@ -668,13 +718,13 @@
 								<UML:TaggedValue tag="seqno" value="0"/>
 								<UML:TaggedValue tag="headStyle" value="0"/>
 								<UML:TaggedValue tag="lineStyle" value="0"/>
-								<UML:TaggedValue tag="ea_localid" value="1407"/>
+								<UML:TaggedValue tag="ea_localid" value="3290"/>
 								<UML:TaggedValue tag="ea_sourceName" value="Update Service upload"/>
 								<UML:TaggedValue tag="ea_targetName" value="Legacy service provider"/>
 								<UML:TaggedValue tag="ea_sourceType" value="UseCase"/>
 								<UML:TaggedValue tag="ea_targetType" value="Actor"/>
-								<UML:TaggedValue tag="ea_sourceID" value="3367"/>
-								<UML:TaggedValue tag="ea_targetID" value="2374"/>
+								<UML:TaggedValue tag="ea_sourceID" value="5055"/>
+								<UML:TaggedValue tag="ea_targetID" value="3707"/>
 								<UML:TaggedValue tag="virtualInheritance" value="0"/>
 							</UML:ModelElement.taggedValue>
 							<UML:Association.connection>
@@ -705,13 +755,13 @@
 								<UML:TaggedValue tag="seqno" value="0"/>
 								<UML:TaggedValue tag="headStyle" value="0"/>
 								<UML:TaggedValue tag="lineStyle" value="0"/>
-								<UML:TaggedValue tag="ea_localid" value="1406"/>
+								<UML:TaggedValue tag="ea_localid" value="3289"/>
 								<UML:TaggedValue tag="ea_sourceName" value="Update Service upload"/>
 								<UML:TaggedValue tag="ea_targetName" value="Developer"/>
 								<UML:TaggedValue tag="ea_sourceType" value="UseCase"/>
 								<UML:TaggedValue tag="ea_targetType" value="Actor"/>
-								<UML:TaggedValue tag="ea_sourceID" value="3367"/>
-								<UML:TaggedValue tag="ea_targetID" value="2323"/>
+								<UML:TaggedValue tag="ea_sourceID" value="5055"/>
+								<UML:TaggedValue tag="ea_targetID" value="3656"/>
 								<UML:TaggedValue tag="virtualInheritance" value="0"/>
 							</UML:ModelElement.taggedValue>
 							<UML:Association.connection>
@@ -731,25 +781,62 @@
 								</UML:AssociationEnd>
 							</UML:Association.connection>
 						</UML:Association>
+						<UML:Dependency client="EAID_1A091682_B8DD_4507_8BA0_3E357185599C" supplier="EAID_9B3EBF59_675B_43d8_A3BF_F6AB35F97ED0" xmi.id="EAID_BE175A17_E12C_4422_A749_B6F7279C1180" visibility="public">
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="style" value="3"/>
+								<UML:TaggedValue tag="ea_type" value="Realisation"/>
+								<UML:TaggedValue tag="direction" value="Source -&gt; Destination"/>
+								<UML:TaggedValue tag="linemode" value="3"/>
+								<UML:TaggedValue tag="linecolor" value="-1"/>
+								<UML:TaggedValue tag="linewidth" value="0"/>
+								<UML:TaggedValue tag="seqno" value="0"/>
+								<UML:TaggedValue tag="headStyle" value="0"/>
+								<UML:TaggedValue tag="lineStyle" value="0"/>
+								<UML:TaggedValue tag="ea_localid" value="3797"/>
+								<UML:TaggedValue tag="ea_sourceName" value="Service Uploader surfs uStore"/>
+								<UML:TaggedValue tag="ea_targetName" value="Update Service upload"/>
+								<UML:TaggedValue tag="ea_sourceType" value="UseCase"/>
+								<UML:TaggedValue tag="ea_targetType" value="UseCase"/>
+								<UML:TaggedValue tag="ea_sourceID" value="5622"/>
+								<UML:TaggedValue tag="ea_targetID" value="5055"/>
+								<UML:TaggedValue tag="src_visibility" value="Public"/>
+								<UML:TaggedValue tag="src_aggregation" value="0"/>
+								<UML:TaggedValue tag="src_isOrdered" value="false"/>
+								<UML:TaggedValue tag="src_targetScope" value="instance"/>
+								<UML:TaggedValue tag="src_changeable" value="none"/>
+								<UML:TaggedValue tag="src_isNavigable" value="false"/>
+								<UML:TaggedValue tag="src_containment" value="Unspecified"/>
+								<UML:TaggedValue tag="src_style" value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Non-Navigable;"/>
+								<UML:TaggedValue tag="dst_visibility" value="Public"/>
+								<UML:TaggedValue tag="dst_aggregation" value="0"/>
+								<UML:TaggedValue tag="dst_isOrdered" value="false"/>
+								<UML:TaggedValue tag="dst_targetScope" value="instance"/>
+								<UML:TaggedValue tag="dst_changeable" value="none"/>
+								<UML:TaggedValue tag="dst_isNavigable" value="true"/>
+								<UML:TaggedValue tag="dst_containment" value="Unspecified"/>
+								<UML:TaggedValue tag="dst_style" value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Navigable;"/>
+								<UML:TaggedValue tag="virtualInheritance" value="0"/>
+							</UML:ModelElement.taggedValue>
+						</UML:Dependency>
 						<UML:UseCase name="Software not from developers depot" xmi.id="EAID_A8D2B7C7_034F_4c0a_80C6_0DD983A0D668" visibility="public" namespace="EAPK_46E24BC3_6960_496e_93DE_394EEA3389B0" isRoot="false" isLeaf="false" isAbstract="false">
 							<UML:ModelElement.taggedValue>
-								<UML:TaggedValue tag="documentation" value="Developer or Service Provider can upload software that was not developed on develop depot"/>
+								<UML:TaggedValue tag="documentation" value="Service Provider can upload software that was not developed on develop depot"/>
 								<UML:TaggedValue tag="isSpecification" value="false"/>
 								<UML:TaggedValue tag="ea_stype" value="UseCase"/>
 								<UML:TaggedValue tag="ea_ntype" value="0"/>
 								<UML:TaggedValue tag="version" value="1.0"/>
 								<UML:TaggedValue tag="package" value="EAPK_46E24BC3_6960_496e_93DE_394EEA3389B0"/>
 								<UML:TaggedValue tag="date_created" value="2010-07-16 10:45:34"/>
-								<UML:TaggedValue tag="date_modified" value="2010-09-12 09:04:54"/>
+								<UML:TaggedValue tag="date_modified" value="2010-09-14 14:21:54"/>
 								<UML:TaggedValue tag="gentype" value="&lt;none&gt;"/>
 								<UML:TaggedValue tag="tagged" value="0"/>
-								<UML:TaggedValue tag="package_name" value="Service providers or developers will upload AAL services"/>
+								<UML:TaggedValue tag="package_name" value="1. Service providers will offer AAL services"/>
 								<UML:TaggedValue tag="phase" value="1.0"/>
 								<UML:TaggedValue tag="author" value="ibakalov"/>
 								<UML:TaggedValue tag="complexity" value="1"/>
 								<UML:TaggedValue tag="status" value="Proposed"/>
 								<UML:TaggedValue tag="tpos" value="0"/>
-								<UML:TaggedValue tag="ea_localid" value="3368"/>
+								<UML:TaggedValue tag="ea_localid" value="5056"/>
 								<UML:TaggedValue tag="ea_eleType" value="element"/>
 								<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
 							</UML:ModelElement.taggedValue>
@@ -765,13 +852,13 @@
 								<UML:TaggedValue tag="seqno" value="0"/>
 								<UML:TaggedValue tag="headStyle" value="0"/>
 								<UML:TaggedValue tag="lineStyle" value="0"/>
-								<UML:TaggedValue tag="ea_localid" value="1405"/>
+								<UML:TaggedValue tag="ea_localid" value="3288"/>
 								<UML:TaggedValue tag="ea_sourceName" value="Software not from developers depot"/>
 								<UML:TaggedValue tag="ea_targetName" value="Developer"/>
 								<UML:TaggedValue tag="ea_sourceType" value="UseCase"/>
 								<UML:TaggedValue tag="ea_targetType" value="Actor"/>
-								<UML:TaggedValue tag="ea_sourceID" value="3368"/>
-								<UML:TaggedValue tag="ea_targetID" value="2323"/>
+								<UML:TaggedValue tag="ea_sourceID" value="5056"/>
+								<UML:TaggedValue tag="ea_targetID" value="3656"/>
 								<UML:TaggedValue tag="virtualInheritance" value="0"/>
 							</UML:ModelElement.taggedValue>
 							<UML:Association.connection>
@@ -791,51 +878,6 @@
 								</UML:AssociationEnd>
 							</UML:Association.connection>
 						</UML:Association>
-						<UML:Association xmi.id="EAID_5FF87F79_2AE5_49d6_8ABA_7515603ECAA6" visibility="public" isRoot="false" isLeaf="false" isAbstract="false">
-							<UML:ModelElement.stereotype>
-								<UML:Stereotype name="include"/>
-							</UML:ModelElement.stereotype>
-							<UML:ModelElement.taggedValue>
-								<UML:TaggedValue tag="style" value="3"/>
-								<UML:TaggedValue tag="ea_type" value="UseCase"/>
-								<UML:TaggedValue tag="direction" value="Source -&gt; Destination"/>
-								<UML:TaggedValue tag="linemode" value="3"/>
-								<UML:TaggedValue tag="linecolor" value="-1"/>
-								<UML:TaggedValue tag="linewidth" value="0"/>
-								<UML:TaggedValue tag="seqno" value="0"/>
-								<UML:TaggedValue tag="subtype" value="Includes"/>
-								<UML:TaggedValue tag="stereotype" value="include"/>
-								<UML:TaggedValue tag="headStyle" value="0"/>
-								<UML:TaggedValue tag="lineStyle" value="0"/>
-								<UML:TaggedValue tag="conditional" value=" &#xA;쳃nclude�"/>
-								<UML:TaggedValue tag="ea_localid" value="1720"/>
-								<UML:TaggedValue tag="ea_sourceName" value="Service providers or developers upload AAL service to uStore"/>
-								<UML:TaggedValue tag="ea_targetName" value="Software not from developers depot"/>
-								<UML:TaggedValue tag="ea_sourceType" value="UseCase"/>
-								<UML:TaggedValue tag="ea_targetType" value="UseCase"/>
-								<UML:TaggedValue tag="ea_sourceID" value="3647"/>
-								<UML:TaggedValue tag="ea_targetID" value="3368"/>
-								<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={5574BB73-8218-4276-9000-7C9CA5C61ED3}$XID;$NAM=Stereotypes$NAM;$TYP=connector property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=include;@ENDSTEREO;$DES;$CLT={5FF87F79-2AE5-49d6-8ABA-7515603ECAA6}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
-								<UML:TaggedValue tag="virtualInheritance" value="0"/>
-								<UML:TaggedValue tag="mb" value=" &#xA;쳃nclude�"/>
-							</UML:ModelElement.taggedValue>
-							<UML:Association.connection>
-								<UML:AssociationEnd visibility="public" aggregation="none" isOrdered="false" targetScope="instance" changeable="none" isNavigable="false" type="EAID_46146EF9_5C66_4877_B752_10F30A2B96B1">
-									<UML:ModelElement.taggedValue>
-										<UML:TaggedValue tag="containment" value="Unspecified"/>
-										<UML:TaggedValue tag="sourcestyle" value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Non-Navigable;"/>
-										<UML:TaggedValue tag="ea_end" value="source"/>
-									</UML:ModelElement.taggedValue>
-								</UML:AssociationEnd>
-								<UML:AssociationEnd visibility="public" aggregation="none" isOrdered="false" targetScope="instance" changeable="none" isNavigable="true" type="EAID_A8D2B7C7_034F_4c0a_80C6_0DD983A0D668">
-									<UML:ModelElement.taggedValue>
-										<UML:TaggedValue tag="containment" value="Unspecified"/>
-										<UML:TaggedValue tag="deststyle" value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Navigable;"/>
-										<UML:TaggedValue tag="ea_end" value="target"/>
-									</UML:ModelElement.taggedValue>
-								</UML:AssociationEnd>
-							</UML:Association.connection>
-						</UML:Association>
 						<UML:Association xmi.id="EAID_6C8CE2AF_8BDD_47df_9745_78682A41D83D" visibility="public" isRoot="false" isLeaf="false" isAbstract="false">
 							<UML:ModelElement.taggedValue>
 								<UML:TaggedValue tag="style" value="3"/>
@@ -847,13 +889,13 @@
 								<UML:TaggedValue tag="seqno" value="0"/>
 								<UML:TaggedValue tag="headStyle" value="0"/>
 								<UML:TaggedValue tag="lineStyle" value="0"/>
-								<UML:TaggedValue tag="ea_localid" value="1404"/>
+								<UML:TaggedValue tag="ea_localid" value="3286"/>
 								<UML:TaggedValue tag="ea_sourceName" value="Software not from developers depot"/>
 								<UML:TaggedValue tag="ea_targetName" value="Legacy service provider"/>
 								<UML:TaggedValue tag="ea_sourceType" value="UseCase"/>
 								<UML:TaggedValue tag="ea_targetType" value="Actor"/>
-								<UML:TaggedValue tag="ea_sourceID" value="3368"/>
-								<UML:TaggedValue tag="ea_targetID" value="2374"/>
+								<UML:TaggedValue tag="ea_sourceID" value="5056"/>
+								<UML:TaggedValue tag="ea_targetID" value="3707"/>
 								<UML:TaggedValue tag="virtualInheritance" value="0"/>
 							</UML:ModelElement.taggedValue>
 							<UML:Association.connection>
@@ -873,25 +915,62 @@
 								</UML:AssociationEnd>
 							</UML:Association.connection>
 						</UML:Association>
+						<UML:Dependency client="EAID_46146EF9_5C66_4877_B752_10F30A2B96B1" supplier="EAID_A8D2B7C7_034F_4c0a_80C6_0DD983A0D668" xmi.id="EAID_D22FB9B5_13F0_48ac_8D13_13794CCA64D5" visibility="public">
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="style" value="3"/>
+								<UML:TaggedValue tag="ea_type" value="Realisation"/>
+								<UML:TaggedValue tag="direction" value="Source -&gt; Destination"/>
+								<UML:TaggedValue tag="linemode" value="3"/>
+								<UML:TaggedValue tag="linecolor" value="-1"/>
+								<UML:TaggedValue tag="linewidth" value="0"/>
+								<UML:TaggedValue tag="seqno" value="0"/>
+								<UML:TaggedValue tag="headStyle" value="0"/>
+								<UML:TaggedValue tag="lineStyle" value="0"/>
+								<UML:TaggedValue tag="ea_localid" value="3669"/>
+								<UML:TaggedValue tag="ea_sourceName" value="Service uploader uploads AAL service to uStore"/>
+								<UML:TaggedValue tag="ea_targetName" value="Software not from developers depot"/>
+								<UML:TaggedValue tag="ea_sourceType" value="UseCase"/>
+								<UML:TaggedValue tag="ea_targetType" value="UseCase"/>
+								<UML:TaggedValue tag="ea_sourceID" value="5628"/>
+								<UML:TaggedValue tag="ea_targetID" value="5056"/>
+								<UML:TaggedValue tag="src_visibility" value="Public"/>
+								<UML:TaggedValue tag="src_aggregation" value="0"/>
+								<UML:TaggedValue tag="src_isOrdered" value="false"/>
+								<UML:TaggedValue tag="src_targetScope" value="instance"/>
+								<UML:TaggedValue tag="src_changeable" value="none"/>
+								<UML:TaggedValue tag="src_isNavigable" value="false"/>
+								<UML:TaggedValue tag="src_containment" value="Unspecified"/>
+								<UML:TaggedValue tag="src_style" value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Non-Navigable;"/>
+								<UML:TaggedValue tag="dst_visibility" value="Public"/>
+								<UML:TaggedValue tag="dst_aggregation" value="0"/>
+								<UML:TaggedValue tag="dst_isOrdered" value="false"/>
+								<UML:TaggedValue tag="dst_targetScope" value="instance"/>
+								<UML:TaggedValue tag="dst_changeable" value="none"/>
+								<UML:TaggedValue tag="dst_isNavigable" value="true"/>
+								<UML:TaggedValue tag="dst_containment" value="Unspecified"/>
+								<UML:TaggedValue tag="dst_style" value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Navigable;"/>
+								<UML:TaggedValue tag="virtualInheritance" value="0"/>
+							</UML:ModelElement.taggedValue>
+						</UML:Dependency>
 						<UML:UseCase name="Uploading courses" xmi.id="EAID_CA914CAD_238F_41de_899C_E46731119179" visibility="public" namespace="EAPK_46E24BC3_6960_496e_93DE_394EEA3389B0" isRoot="false" isLeaf="false" isAbstract="false">
 							<UML:ModelElement.taggedValue>
-								<UML:TaggedValue tag="documentation" value="Any user can upload training courses to uStore and associate them with existing services"/>
+								<UML:TaggedValue tag="documentation" value="Service provider can upload training courses to uStore and associate them with existing services"/>
 								<UML:TaggedValue tag="isSpecification" value="false"/>
 								<UML:TaggedValue tag="ea_stype" value="UseCase"/>
 								<UML:TaggedValue tag="ea_ntype" value="0"/>
 								<UML:TaggedValue tag="version" value="1.0"/>
 								<UML:TaggedValue tag="package" value="EAPK_46E24BC3_6960_496e_93DE_394EEA3389B0"/>
 								<UML:TaggedValue tag="date_created" value="2010-07-16 10:52:21"/>
-								<UML:TaggedValue tag="date_modified" value="2010-07-16 10:52:29"/>
+								<UML:TaggedValue tag="date_modified" value="2010-09-14 14:22:24"/>
 								<UML:TaggedValue tag="gentype" value="&lt;none&gt;"/>
 								<UML:TaggedValue tag="tagged" value="0"/>
-								<UML:TaggedValue tag="package_name" value="Service providers or developers will upload AAL services"/>
+								<UML:TaggedValue tag="package_name" value="1. Service providers will offer AAL services"/>
 								<UML:TaggedValue tag="phase" value="1.0"/>
 								<UML:TaggedValue tag="author" value="ibakalov"/>
 								<UML:TaggedValue tag="complexity" value="1"/>
 								<UML:TaggedValue tag="status" value="Proposed"/>
 								<UML:TaggedValue tag="tpos" value="0"/>
-								<UML:TaggedValue tag="ea_localid" value="3369"/>
+								<UML:TaggedValue tag="ea_localid" value="5057"/>
 								<UML:TaggedValue tag="ea_eleType" value="element"/>
 								<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
 							</UML:ModelElement.taggedValue>
@@ -907,13 +986,13 @@
 								<UML:TaggedValue tag="seqno" value="0"/>
 								<UML:TaggedValue tag="headStyle" value="0"/>
 								<UML:TaggedValue tag="lineStyle" value="0"/>
-								<UML:TaggedValue tag="ea_localid" value="1403"/>
+								<UML:TaggedValue tag="ea_localid" value="3285"/>
 								<UML:TaggedValue tag="ea_sourceName" value="Uploading courses"/>
 								<UML:TaggedValue tag="ea_targetName" value="Any user"/>
 								<UML:TaggedValue tag="ea_sourceType" value="UseCase"/>
 								<UML:TaggedValue tag="ea_targetType" value="Actor"/>
-								<UML:TaggedValue tag="ea_sourceID" value="3369"/>
-								<UML:TaggedValue tag="ea_targetID" value="2301"/>
+								<UML:TaggedValue tag="ea_sourceID" value="5057"/>
+								<UML:TaggedValue tag="ea_targetID" value="3634"/>
 								<UML:TaggedValue tag="virtualInheritance" value="0"/>
 							</UML:ModelElement.taggedValue>
 							<UML:Association.connection>
@@ -933,74 +1012,66 @@
 								</UML:AssociationEnd>
 							</UML:Association.connection>
 						</UML:Association>
+						<UML:Dependency client="EAID_46146EF9_5C66_4877_B752_10F30A2B96B1" supplier="EAID_CA914CAD_238F_41de_899C_E46731119179" xmi.id="EAID_F21BBE22_9026_4334_A397_D67126E4803F" visibility="public">
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="style" value="3"/>
+								<UML:TaggedValue tag="ea_type" value="Realisation"/>
+								<UML:TaggedValue tag="direction" value="Source -&gt; Destination"/>
+								<UML:TaggedValue tag="linemode" value="3"/>
+								<UML:TaggedValue tag="linecolor" value="-1"/>
+								<UML:TaggedValue tag="linewidth" value="0"/>
+								<UML:TaggedValue tag="seqno" value="0"/>
+								<UML:TaggedValue tag="headStyle" value="0"/>
+								<UML:TaggedValue tag="lineStyle" value="0"/>
+								<UML:TaggedValue tag="ea_localid" value="3664"/>
+								<UML:TaggedValue tag="ea_sourceName" value="Service uploader uploads AAL service to uStore"/>
+								<UML:TaggedValue tag="ea_targetName" value="Uploading courses"/>
+								<UML:TaggedValue tag="ea_sourceType" value="UseCase"/>
+								<UML:TaggedValue tag="ea_targetType" value="UseCase"/>
+								<UML:TaggedValue tag="ea_sourceID" value="5628"/>
+								<UML:TaggedValue tag="ea_targetID" value="5057"/>
+								<UML:TaggedValue tag="src_visibility" value="Public"/>
+								<UML:TaggedValue tag="src_aggregation" value="0"/>
+								<UML:TaggedValue tag="src_isOrdered" value="false"/>
+								<UML:TaggedValue tag="src_targetScope" value="instance"/>
+								<UML:TaggedValue tag="src_changeable" value="none"/>
+								<UML:TaggedValue tag="src_isNavigable" value="false"/>
+								<UML:TaggedValue tag="src_containment" value="Unspecified"/>
+								<UML:TaggedValue tag="src_style" value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Non-Navigable;"/>
+								<UML:TaggedValue tag="dst_visibility" value="Public"/>
+								<UML:TaggedValue tag="dst_aggregation" value="0"/>
+								<UML:TaggedValue tag="dst_isOrdered" value="false"/>
+								<UML:TaggedValue tag="dst_targetScope" value="instance"/>
+								<UML:TaggedValue tag="dst_changeable" value="none"/>
+								<UML:TaggedValue tag="dst_isNavigable" value="true"/>
+								<UML:TaggedValue tag="dst_containment" value="Unspecified"/>
+								<UML:TaggedValue tag="dst_style" value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Navigable;"/>
+								<UML:TaggedValue tag="virtualInheritance" value="0"/>
+							</UML:ModelElement.taggedValue>
+						</UML:Dependency>
 						<UML:UseCase name="Recent uploads" xmi.id="EAID_F52FB859_3619_415e_B453_149A04C45D9C" visibility="public" namespace="EAPK_46E24BC3_6960_496e_93DE_394EEA3389B0" isRoot="false" isLeaf="false" isAbstract="false">
 							<UML:ModelElement.taggedValue>
-								<UML:TaggedValue tag="documentation" value="Developer can see all his recent uploads of software to the server"/>
+								<UML:TaggedValue tag="documentation" value="Service provider can see all his recent uploads of software to the server"/>
 								<UML:TaggedValue tag="isSpecification" value="false"/>
 								<UML:TaggedValue tag="ea_stype" value="UseCase"/>
 								<UML:TaggedValue tag="ea_ntype" value="0"/>
 								<UML:TaggedValue tag="version" value="1.0"/>
 								<UML:TaggedValue tag="package" value="EAPK_46E24BC3_6960_496e_93DE_394EEA3389B0"/>
 								<UML:TaggedValue tag="date_created" value="2010-07-16 10:46:53"/>
-								<UML:TaggedValue tag="date_modified" value="2010-07-16 10:47:03"/>
+								<UML:TaggedValue tag="date_modified" value="2010-09-14 14:19:10"/>
 								<UML:TaggedValue tag="gentype" value="&lt;none&gt;"/>
 								<UML:TaggedValue tag="tagged" value="0"/>
-								<UML:TaggedValue tag="package_name" value="Service providers or developers will upload AAL services"/>
+								<UML:TaggedValue tag="package_name" value="1. Service providers will offer AAL services"/>
 								<UML:TaggedValue tag="phase" value="1.0"/>
 								<UML:TaggedValue tag="author" value="ibakalov"/>
 								<UML:TaggedValue tag="complexity" value="1"/>
 								<UML:TaggedValue tag="status" value="Proposed"/>
 								<UML:TaggedValue tag="tpos" value="0"/>
-								<UML:TaggedValue tag="ea_localid" value="3370"/>
+								<UML:TaggedValue tag="ea_localid" value="5058"/>
 								<UML:TaggedValue tag="ea_eleType" value="element"/>
 								<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
 							</UML:ModelElement.taggedValue>
 						</UML:UseCase>
-						<UML:Association xmi.id="EAID_4DBB8056_7567_4982_B134_2BFF33B926D5" visibility="public" isRoot="false" isLeaf="false" isAbstract="false">
-							<UML:ModelElement.stereotype>
-								<UML:Stereotype name="include"/>
-							</UML:ModelElement.stereotype>
-							<UML:ModelElement.taggedValue>
-								<UML:TaggedValue tag="style" value="3"/>
-								<UML:TaggedValue tag="ea_type" value="UseCase"/>
-								<UML:TaggedValue tag="direction" value="Source -&gt; Destination"/>
-								<UML:TaggedValue tag="linemode" value="3"/>
-								<UML:TaggedValue tag="linecolor" value="-1"/>
-								<UML:TaggedValue tag="linewidth" value="0"/>
-								<UML:TaggedValue tag="seqno" value="0"/>
-								<UML:TaggedValue tag="subtype" value="Includes"/>
-								<UML:TaggedValue tag="stereotype" value="include"/>
-								<UML:TaggedValue tag="headStyle" value="0"/>
-								<UML:TaggedValue tag="lineStyle" value="0"/>
-								<UML:TaggedValue tag="conditional" value=" &#xA;쳃nclude�"/>
-								<UML:TaggedValue tag="ea_localid" value="1719"/>
-								<UML:TaggedValue tag="ea_sourceName" value="Service providers or developers upload AAL service to uStore"/>
-								<UML:TaggedValue tag="ea_targetName" value="Recent uploads"/>
-								<UML:TaggedValue tag="ea_sourceType" value="UseCase"/>
-								<UML:TaggedValue tag="ea_targetType" value="UseCase"/>
-								<UML:TaggedValue tag="ea_sourceID" value="3647"/>
-								<UML:TaggedValue tag="ea_targetID" value="3370"/>
-								<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={DE8BCB86-E604-4c98-ACC4-7A8B1C4A3C5A}$XID;$NAM=Stereotypes$NAM;$TYP=connector property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=include;@ENDSTEREO;$DES;$CLT={4DBB8056-7567-4982-B134-2BFF33B926D5}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
-								<UML:TaggedValue tag="virtualInheritance" value="0"/>
-								<UML:TaggedValue tag="mb" value=" &#xA;쳃nclude�"/>
-							</UML:ModelElement.taggedValue>
-							<UML:Association.connection>
-								<UML:AssociationEnd visibility="public" aggregation="none" isOrdered="false" targetScope="instance" changeable="none" isNavigable="false" type="EAID_46146EF9_5C66_4877_B752_10F30A2B96B1">
-									<UML:ModelElement.taggedValue>
-										<UML:TaggedValue tag="containment" value="Unspecified"/>
-										<UML:TaggedValue tag="sourcestyle" value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Non-Navigable;"/>
-										<UML:TaggedValue tag="ea_end" value="source"/>
-									</UML:ModelElement.taggedValue>
-								</UML:AssociationEnd>
-								<UML:AssociationEnd visibility="public" aggregation="none" isOrdered="false" targetScope="instance" changeable="none" isNavigable="true" type="EAID_F52FB859_3619_415e_B453_149A04C45D9C">
-									<UML:ModelElement.taggedValue>
-										<UML:TaggedValue tag="containment" value="Unspecified"/>
-										<UML:TaggedValue tag="deststyle" value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Navigable;"/>
-										<UML:TaggedValue tag="ea_end" value="target"/>
-									</UML:ModelElement.taggedValue>
-								</UML:AssociationEnd>
-							</UML:Association.connection>
-						</UML:Association>
 						<UML:Association xmi.id="EAID_75AF30D5_7877_4533_BE54_71989464E656" visibility="public" isRoot="false" isLeaf="false" isAbstract="false">
 							<UML:ModelElement.taggedValue>
 								<UML:TaggedValue tag="style" value="3"/>
@@ -1012,13 +1083,13 @@
 								<UML:TaggedValue tag="seqno" value="0"/>
 								<UML:TaggedValue tag="headStyle" value="0"/>
 								<UML:TaggedValue tag="lineStyle" value="0"/>
-								<UML:TaggedValue tag="ea_localid" value="1402"/>
+								<UML:TaggedValue tag="ea_localid" value="3283"/>
 								<UML:TaggedValue tag="ea_sourceName" value="Recent uploads"/>
 								<UML:TaggedValue tag="ea_targetName" value="Legacy service provider"/>
 								<UML:TaggedValue tag="ea_sourceType" value="UseCase"/>
 								<UML:TaggedValue tag="ea_targetType" value="Actor"/>
-								<UML:TaggedValue tag="ea_sourceID" value="3370"/>
-								<UML:TaggedValue tag="ea_targetID" value="2374"/>
+								<UML:TaggedValue tag="ea_sourceID" value="5058"/>
+								<UML:TaggedValue tag="ea_targetID" value="3707"/>
 								<UML:TaggedValue tag="virtualInheritance" value="0"/>
 							</UML:ModelElement.taggedValue>
 							<UML:Association.connection>
@@ -1049,13 +1120,13 @@
 								<UML:TaggedValue tag="seqno" value="0"/>
 								<UML:TaggedValue tag="headStyle" value="0"/>
 								<UML:TaggedValue tag="lineStyle" value="0"/>
-								<UML:TaggedValue tag="ea_localid" value="1401"/>
+								<UML:TaggedValue tag="ea_localid" value="3282"/>
 								<UML:TaggedValue tag="ea_sourceName" value="Recent uploads"/>
 								<UML:TaggedValue tag="ea_targetName" value="Developer"/>
 								<UML:TaggedValue tag="ea_sourceType" value="UseCase"/>
 								<UML:TaggedValue tag="ea_targetType" value="Actor"/>
-								<UML:TaggedValue tag="ea_sourceID" value="3370"/>
-								<UML:TaggedValue tag="ea_targetID" value="2323"/>
+								<UML:TaggedValue tag="ea_sourceID" value="5058"/>
+								<UML:TaggedValue tag="ea_targetID" value="3656"/>
 								<UML:TaggedValue tag="virtualInheritance" value="0"/>
 							</UML:ModelElement.taggedValue>
 							<UML:Association.connection>
@@ -1075,6 +1146,43 @@
 								</UML:AssociationEnd>
 							</UML:Association.connection>
 						</UML:Association>
+						<UML:Dependency client="EAID_46146EF9_5C66_4877_B752_10F30A2B96B1" supplier="EAID_F52FB859_3619_415e_B453_149A04C45D9C" xmi.id="EAID_A2B59B4C_9F86_4a6d_B3EF_78CE74DD0264" visibility="public">
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="style" value="3"/>
+								<UML:TaggedValue tag="ea_type" value="Realisation"/>
+								<UML:TaggedValue tag="direction" value="Source -&gt; Destination"/>
+								<UML:TaggedValue tag="linemode" value="3"/>
+								<UML:TaggedValue tag="linecolor" value="-1"/>
+								<UML:TaggedValue tag="linewidth" value="0"/>
+								<UML:TaggedValue tag="seqno" value="0"/>
+								<UML:TaggedValue tag="headStyle" value="0"/>
+								<UML:TaggedValue tag="lineStyle" value="0"/>
+								<UML:TaggedValue tag="ea_localid" value="3674"/>
+								<UML:TaggedValue tag="ea_sourceName" value="Service uploader uploads AAL service to uStore"/>
+								<UML:TaggedValue tag="ea_targetName" value="Recent uploads"/>
+								<UML:TaggedValue tag="ea_sourceType" value="UseCase"/>
+								<UML:TaggedValue tag="ea_targetType" value="UseCase"/>
+								<UML:TaggedValue tag="ea_sourceID" value="5628"/>
+								<UML:TaggedValue tag="ea_targetID" value="5058"/>
+								<UML:TaggedValue tag="src_visibility" value="Public"/>
+								<UML:TaggedValue tag="src_aggregation" value="0"/>
+								<UML:TaggedValue tag="src_isOrdered" value="false"/>
+								<UML:TaggedValue tag="src_targetScope" value="instance"/>
+								<UML:TaggedValue tag="src_changeable" value="none"/>
+								<UML:TaggedValue tag="src_isNavigable" value="false"/>
+								<UML:TaggedValue tag="src_containment" value="Unspecified"/>
+								<UML:TaggedValue tag="src_style" value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Non-Navigable;"/>
+								<UML:TaggedValue tag="dst_visibility" value="Public"/>
+								<UML:TaggedValue tag="dst_aggregation" value="0"/>
+								<UML:TaggedValue tag="dst_isOrdered" value="false"/>
+								<UML:TaggedValue tag="dst_targetScope" value="instance"/>
+								<UML:TaggedValue tag="dst_changeable" value="none"/>
+								<UML:TaggedValue tag="dst_isNavigable" value="true"/>
+								<UML:TaggedValue tag="dst_containment" value="Unspecified"/>
+								<UML:TaggedValue tag="dst_style" value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Navigable;"/>
+								<UML:TaggedValue tag="virtualInheritance" value="0"/>
+							</UML:ModelElement.taggedValue>
+						</UML:Dependency>
 					</UML:Namespace.ownedElement>
 				</UML:Package>
 			</UML:Namespace.ownedElement>
@@ -1089,7 +1197,7 @@
 				<UML:TaggedValue tag="type" value="Logical"/>
 				<UML:TaggedValue tag="swimlanes" value="locked=false;orientation=0;width=0;inbar=false;names=false;color=0;bold=false;fcol=0;;cls=0;"/>
 				<UML:TaggedValue tag="matrixitems" value="locked=false;matrixactive=false;swimlanesactive=true;width=1;"/>
-				<UML:TaggedValue tag="ea_localid" value="135"/>
+				<UML:TaggedValue tag="ea_localid" value="285"/>
 				<UML:TaggedValue tag="EAStyle" value="ShowPrivate=1;ShowProtected=1;ShowPublic=1;HideRelationships=0;Locked=0;Border=1;HighlightForeign=1;PackageContents=1;SequenceNotes=0;ScalePrintImage=0;PPgs.cx=2;PPgs.cy=1;DocSize.cx=776;DocSize.cy=1118;ShowDetails=0;Orientation=P;Zoom=100;ShowTags=0;OpParams=1;VisibleAttributeDetail=0;ShowOpRetType=1;ShowIcons=1;CollabNums=0;HideProps=0;ShowReqs=0;ShowCons=0;PaperSize=9;HideParents=0;UseAlias=0;HideAtts=0;HideOps=0;HideStereo=0;HideElemStereo=0;ShowTests=0;ShowMaint=0;ConnectorNotation=UML 2.1;ExplicitNavigability=0;AdvancedElementProps=1;AdvancedFeatureProps=1;AdvancedConnectorProps=1;ShowNotes=0;SuppressBrackets=0;SuppConnectorLabels=0;PrintPageHeadFoot=0;ShowAsList=0;"/>
 				<UML:TaggedValue tag="styleex" value="ExcludeRTF=0;DocAll=0;HideQuals=0;AttPkg=1;ShowTests=0;ShowMaint=0;SuppressFOC=1;MatrixActive=0;SwimlanesActive=1;MatrixLineWidth=1;MatrixLocked=0;TConnectorNotation=UML 2.1;TExplicitNavigability=0;AdvancedElementProps=1;AdvancedFeatureProps=1;AdvancedConnectorProps=1;ProfileData=;MDGDgm=;STBLDgm=;ShowNotes=0;VisibleAttributeDetail=0;ShowOpRetType=1;SuppressBrackets=0;SuppConnectorLabels=0;PrintPageHeadFoot=0;ShowAsList=0;"/>
 			</UML:ModelElement.taggedValue>
@@ -1105,31 +1213,32 @@
 				<UML:DiagramElement geometry="Left=205;Top=617;Right=310;Bottom=687;" subject="EAID_2327C254_DA00_4ca4_AF26_5C175F7F4A03" seqno="9" style="DUID=0FA62E76;NSL=0;BCol=-1;BFol=-1;LCol=-1;LWth=-1;fontsz=0;bold=0;italic=0;ul=0;charset=0;pitch=0;"/>
 				<UML:DiagramElement geometry="Left=328;Top=147;Right=433;Bottom=217;" subject="EAID_A8D2B7C7_034F_4c0a_80C6_0DD983A0D668" seqno="10" style="DUID=EBCC8493;NSL=0;BCol=-1;BFol=-1;LCol=-1;LWth=-1;fontsz=0;bold=0;italic=0;ul=0;charset=0;pitch=0;"/>
 				<UML:DiagramElement geometry="Left=217;Top=69;Right=322;Bottom=139;" subject="EAID_81303A32_9838_4806_9D8C_711E247D5039" seqno="11" style="DUID=1400A52B;NSL=0;BCol=-1;BFol=-1;LCol=-1;LWth=-1;fontsz=0;bold=0;italic=0;ul=0;charset=0;pitch=0;"/>
-				<UML:DiagramElement geometry="SX=0;SY=0;EX=0;EY=0;EDGE=4;$LLB=;LLT=;LMT=;LMB=;LRT=;LRB=;IRHS=;ILHS=;Path=;" subject="EAID_5C8FB365_2BC7_42a2_8950_300556327EE8" style="Mode=3;EOID=2B02C942;SOID=2F674C2C;Color=-1;LWidth=0;Hidden=0;"/>
-				<UML:DiagramElement geometry="EDGE=1;$LLB=;LLT=;LMT=;LMB=;LRT=;LRB=;IRHS=;ILHS=;Path=;" subject="EAID_8681E28B_5618_4da4_B019_850B2C9BAEBD" style="Mode=3;EOID=14990F63;SOID=2B02C942;Color=-1;LWidth=0;Hidden=0;"/>
-				<UML:DiagramElement geometry="SX=0;SY=0;EX=0;EY=0;EDGE=1;$LLB=;LLT=;LMT=;LMB=;LRT=;LRB=;IRHS=;ILHS=;Path=;" subject="EAID_7BDCF4F4_2B54_4843_A301_BC1834443DE0" style="Mode=3;EOID=D28DC217;SOID=FB44A2A8;Color=-1;LWidth=0;Hidden=0;"/>
 				<UML:DiagramElement geometry="SX=0;SY=0;EX=0;EY=0;EDGE=4;$LLB=;LLT=;LMT=;LMB=;LRT=;LRB=;IRHS=;ILHS=;Path=;" subject="EAID_75AF30D5_7877_4533_BE54_71989464E656" style="Mode=3;EOID=2B02C942;SOID=FB44A2A8;Color=-1;LWidth=0;Hidden=0;"/>
-				<UML:DiagramElement geometry="SX=0;SY=0;EX=0;EY=0;EDGE=3;$LLB=;LLT=;LMT=;LMB=;LRT=;LRB=;IRHS=;ILHS=;Path=;" subject="EAID_E2DE7B7C_B16A_480c_B263_2AEDF27C43B5" style="Mode=3;EOID=14990F63;SOID=D3FC8E5E;Color=-1;LWidth=0;Hidden=0;"/>
-				<UML:DiagramElement geometry="SX=0;SY=0;EX=0;EY=0;EDGE=3;$LLB=;LLT=;LMT=;LMB=;LRT=;LRB=;IRHS=;ILHS=;Path=;" subject="EAID_6C8CE2AF_8BDD_47df_9745_78682A41D83D" style="Mode=3;EOID=2B02C942;SOID=EBCC8493;Color=-1;LWidth=0;Hidden=0;"/>
-				<UML:DiagramElement geometry="SX=0;SY=0;EX=0;EY=0;EDGE=4;$LLB=;LLT=;LMT=;LMB=;LRT=;LRB=;IRHS=;ILHS=;Path=;" subject="EAID_5F7937E7_72DC_44b0_9ADB_370402BF0218" style="Mode=3;EOID=D28DC217;SOID=EBCC8493;Color=-1;LWidth=0;Hidden=0;"/>
-				<UML:DiagramElement geometry="SX=0;SY=0;EX=0;EY=0;EDGE=1;$LLB=;LLT=;LMT=;LMB=;LRT=;LRB=;IRHS=;ILHS=;Path=;" subject="EAID_9B3BA6E5_A84B_488d_929D_4901D792D1D5" style="Mode=3;EOID=D28DC217;SOID=5D9BE71C;Color=-1;LWidth=0;Hidden=0;"/>
-				<UML:DiagramElement geometry="EDGE=4;$LLB=;LLT=;LMT=;LMB=;LRT=;LRB=;IRHS=;ILHS=;Path=;" subject="EAID_AD83A20F_5F78_496a_B0F7_1D14ECCB9A66" style="Mode=3;EOID=14990F63;SOID=D28DC217;Color=-1;LWidth=0;Hidden=0;"/>
+				<UML:DiagramElement geometry="SX=0;SY=0;EX=0;EY=0;EDGE=1;$LLB=;LLT=;LMT=;LMB=;LRT=;LRB=;IRHS=;ILHS=;Path=;" subject="EAID_3F78F28D_42D2_4684_AADF_F0D68881DB61" style="Mode=3;EOID=2B02C942;SOID=5D9BE71C;Color=-1;LWidth=0;Hidden=0;"/>
+				<UML:DiagramElement geometry="SX=0;SY=0;EX=0;EY=0;EDGE=1;$LLB=;LLT=;LMT=;LMB=;LRT=;LRB=;IRHS=;ILHS=;Path=;" subject="EAID_A0095507_988D_41d5_BDC8_48FF1AD519BB" style="Mode=3;EOID=617B6DB1;SOID=5D9BE71C;Color=-1;LWidth=0;Hidden=0;"/>
 				<UML:DiagramElement geometry="SX=0;SY=0;EX=0;EY=0;EDGE=4;$LLB=;LLT=;LMT=;LMB=;LRT=;LRB=;IRHS=;ILHS=;Path=;" subject="EAID_F779E96C_46DE_46e2_822E_AEF7D913AD92" style="Mode=3;EOID=D28DC217;SOID=2F674C2C;Color=-1;LWidth=0;Hidden=0;"/>
+				<UML:DiagramElement geometry="SX=0;SY=0;EX=0;EY=0;EDGE=4;$LLB=;LLT=;LMT=;LMB=;LRT=;LRB=;IRHS=;ILHS=;Path=;" subject="EAID_5C8FB365_2BC7_42a2_8950_300556327EE8" style="Mode=3;EOID=2B02C942;SOID=2F674C2C;Color=-1;LWidth=0;Hidden=0;"/>
+				<UML:DiagramElement geometry="SX=0;SY=0;EX=0;EY=0;EDGE=1;$LLB=;LLT=;LMT=;LMB=;LRT=;LRB=;IRHS=;ILHS=;Path=;" subject="EAID_C065E922_28E0_4015_B223_B5CAF6B637AC" style="Mode=3;EOID=617B6DB1;SOID=2F674C2C;Color=-1;LWidth=0;Hidden=0;"/>
+				<UML:DiagramElement geometry="SX=0;SY=0;EX=0;EY=0;EDGE=3;$LLB=;LLT=;LMT=;LMB=;LRT=;LRB=;IRHS=;ILHS=;Path=;" subject="EAID_E2DE7B7C_B16A_480c_B263_2AEDF27C43B5" style="Mode=3;EOID=14990F63;SOID=D3FC8E5E;Color=-1;LWidth=0;Hidden=0;"/>
+				<UML:DiagramElement geometry="EDGE=1;$LLB=;LLT=;LMT=;LMB=;LRT=;LRB=;IRHS=;ILHS=;Path=;" subject="EAID_8681E28B_5618_4da4_B019_850B2C9BAEBD" style="Mode=3;EOID=14990F63;SOID=2B02C942;Color=-1;LWidth=0;Hidden=0;"/>
+				<UML:DiagramElement geometry="SX=0;SY=0;EX=0;EY=0;EDGE=1;$LLB=;LLT=;LMT=;LMB=;LRT=;LRB=;IRHS=;ILHS=;Path=;" subject="EAID_9B3BA6E5_A84B_488d_929D_4901D792D1D5" style="Mode=3;EOID=D28DC217;SOID=5D9BE71C;Color=-1;LWidth=0;Hidden=0;"/>
+				<UML:DiagramElement geometry="SX=0;SY=0;EX=0;EY=0;EDGE=1;$LLB=;LLT=;LMT=;LMB=;LRT=;LRB=;IRHS=;ILHS=;Path=;" subject="EAID_7BDCF4F4_2B54_4843_A301_BC1834443DE0" style="Mode=3;EOID=D28DC217;SOID=FB44A2A8;Color=-1;LWidth=0;Hidden=0;"/>
+				<UML:DiagramElement geometry="SX=0;SY=0;EX=0;EY=0;EDGE=3;$LLB=;LLT=;LMT=;LMB=;LRT=;LRB=;IRHS=;ILHS=;Path=;" subject="EAID_746E0CB1_46FF_400c_BF92_D00EEBC2C806" style="Mode=3;EOID=617B6DB1;SOID=1400A52B;Color=-1;LWidth=0;Hidden=0;"/>
 				<UML:DiagramElement geometry="SX=0;SY=0;EX=0;EY=0;EDGE=1;$LLB=;LLT=;LMT=;LMB=;LRT=;LRB=;IRHS=;ILHS=;Path=;" subject="EAID_4094A17A_CD97_4c5e_8882_8B6C7E50C4E8" style="Mode=3;EOID=617B6DB1;SOID=FB44A2A8;Color=-1;LWidth=0;Hidden=0;"/>
-				<UML:DiagramElement geometry="SX=0;SY=0;EX=0;EY=0;EDGE=3;$LLB=;LLT=;LMT=;LMB=;LRT=;LRB=;IRHS=;ILHS=;Path=;" subject="EAID_5F87BCE1_89BF_4ff9_A648_BED73FFFFF39" style="Mode=3;EOID=D28DC217;SOID=1400A52B;Color=-1;LWidth=0;Hidden=0;"/>
 				<UML:DiagramElement geometry="SX=0;SY=0;EX=0;EY=0;EDGE=1;$LLB=;LLT=;LMT=;LMB=;LRT=;LRB=;IRHS=;ILHS=;Path=;" subject="EAID_FC5227B1_C5C8_4ef5_82EC_6F86DAF1EC58" style="Mode=3;EOID=D28DC217;SOID=0FA62E76;Color=-1;LWidth=0;Hidden=0;"/>
 				<UML:DiagramElement geometry="SX=0;SY=0;EX=0;EY=0;EDGE=1;$LLB=;LLT=;LMT=;LMB=;LRT=;LRB=;IRHS=;ILHS=;Path=;" subject="EAID_B5ABBFE7_E87B_4ced_B923_FBD6964E4AFF" style="Mode=3;EOID=2B02C942;SOID=0FA62E76;Color=-1;LWidth=0;Hidden=0;"/>
-				<UML:DiagramElement geometry="SX=0;SY=0;EX=0;EY=0;EDGE=1;$LLB=;LLT=;LMT=;LMB=;LRT=;LRB=;IRHS=;ILHS=;Path=;" subject="EAID_C065E922_28E0_4015_B223_B5CAF6B637AC" style="Mode=3;EOID=617B6DB1;SOID=2F674C2C;Color=-1;LWidth=0;Hidden=0;"/>
-				<UML:DiagramElement geometry="SX=0;SY=0;EX=0;EY=0;EDGE=1;$LLB=;LLT=;LMT=;LMB=;LRT=;LRB=;IRHS=;ILHS=;Path=;" subject="EAID_A0095507_988D_41d5_BDC8_48FF1AD519BB" style="Mode=3;EOID=617B6DB1;SOID=5D9BE71C;Color=-1;LWidth=0;Hidden=0;"/>
-				<UML:DiagramElement geometry="SX=0;SY=0;EX=0;EY=0;EDGE=3;$LLB=;LLT=;LMT=;LMB=;LRT=;LRB=;IRHS=;ILHS=;Path=;" subject="EAID_746E0CB1_46FF_400c_BF92_D00EEBC2C806" style="Mode=3;EOID=617B6DB1;SOID=1400A52B;Color=-1;LWidth=0;Hidden=0;"/>
+				<UML:DiagramElement geometry="SX=0;SY=0;EX=0;EY=0;EDGE=3;$LLB=;LLT=;LMT=;LMB=;LRT=;LRB=;IRHS=;ILHS=;Path=;" subject="EAID_6C8CE2AF_8BDD_47df_9745_78682A41D83D" style="Mode=3;EOID=2B02C942;SOID=EBCC8493;Color=-1;LWidth=0;Hidden=0;"/>
+				<UML:DiagramElement geometry="SX=0;SY=0;EX=0;EY=0;EDGE=4;$LLB=;LLT=;LMT=;LMB=;LRT=;LRB=;IRHS=;ILHS=;Path=;" subject="EAID_5F7937E7_72DC_44b0_9ADB_370402BF0218" style="Mode=3;EOID=D28DC217;SOID=EBCC8493;Color=-1;LWidth=0;Hidden=0;"/>
 				<UML:DiagramElement geometry="SX=0;SY=0;EX=0;EY=0;EDGE=3;$LLB=;LLT=;LMT=;LMB=;LRT=;LRB=;IRHS=;ILHS=;Path=;" subject="EAID_63A4B5EE_5328_445d_BDE8_0CF36AFF2309" style="Mode=3;EOID=617B6DB1;SOID=EBCC8493;Color=-1;LWidth=0;Hidden=0;"/>
-				<UML:DiagramElement geometry="SX=0;SY=0;EX=0;EY=0;EDGE=1;$LLB=;LLT=;LMT=;LMB=;LRT=;LRB=;IRHS=;ILHS=;Path=;" subject="EAID_3F78F28D_42D2_4684_AADF_F0D68881DB61" style="Mode=3;EOID=2B02C942;SOID=5D9BE71C;Color=-1;LWidth=0;Hidden=0;"/>
+				<UML:DiagramElement geometry="SX=0;SY=0;EX=0;EY=0;EDGE=3;$LLB=;LLT=;LMT=;LMB=;LRT=;LRB=;IRHS=;ILHS=;Path=;" subject="EAID_5F87BCE1_89BF_4ff9_A648_BED73FFFFF39" style="Mode=3;EOID=D28DC217;SOID=1400A52B;Color=-1;LWidth=0;Hidden=0;"/>
+				<UML:DiagramElement geometry="EDGE=4;$LLB=;LLT=;LMT=;LMB=;LRT=;LRB=;IRHS=;ILHS=;Path=;" subject="EAID_AD83A20F_5F78_496a_B0F7_1D14ECCB9A66" style="Mode=3;EOID=14990F63;SOID=D28DC217;Color=-1;LWidth=0;Hidden=0;"/>
 			</UML:Diagram.element>
 		</UML:Diagram>
 	</XMI.content>
 	<XMI.difference/>
 	<XMI.extensions xmi.extender="Enterprise Architect 2.5">
-		<EAStub xmi.id="EAID_46146EF9_5C66_4877_B752_10F30A2B96B1" name="Service providers or developers upload AAL service to uStore" UMLType="UseCase"/>
+		<EAStub xmi.id="EAID_46146EF9_5C66_4877_B752_10F30A2B96B1" name="Service uploader uploads AAL service to uStore" UMLType="UseCase"/>
+		<EAStub xmi.id="EAID_1A091682_B8DD_4507_8BA0_3E357185599C" name="Service Uploader surfs uStore" UMLType="UseCase"/>
 		<EAStub xmi.id="EAID_E270D416_A17A_4339_AA4D_0919C0A71EEE" name="Legacy service provider" UMLType="Actor"/>
 		<EAStub xmi.id="EAID_D7A24324_4223_4aa1_A4E1_1E56B3B09A3B" name="Developer" UMLType="Actor"/>
 		<EAStub xmi.id="EAID_80D57FB8_F728_4aa6_BBDA_5F98874D5114" name="Any user" UMLType="Actor"/>
