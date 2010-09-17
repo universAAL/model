@@ -67,7 +67,7 @@
 								<UML:TaggedValue tag="version" value="1.0"/>
 								<UML:TaggedValue tag="package" value="EAPK_CBBE2911_23EF_4520_B5E5_213BBF16147E"/>
 								<UML:TaggedValue tag="date_created" value="2010-09-14 12:17:02"/>
-								<UML:TaggedValue tag="date_modified" value="2010-09-17 10:39:17"/>
+								<UML:TaggedValue tag="date_modified" value="2010-09-17 15:12:40"/>
 								<UML:TaggedValue tag="gentype" value="&lt;none&gt;"/>
 								<UML:TaggedValue tag="tagged" value="0"/>
 								<UML:TaggedValue tag="package_name" value="uStore scenarios (Ivo)"/>
@@ -80,6 +80,7 @@
 								<UML:TaggedValue tag="ea_eleType" value="element"/>
 								<UML:TaggedValue tag="diagram" value="EAID_1512E5F0_BBB1_455f_BBFE_61FCEFE9BB38"/>
 								<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=3;"/>
+								<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={F0C7F5CD-C084-4555-9075-D2FD152453A7}$XID;$NAM=Element$NAM;$TYP=reference$TYP;$VIS=Public$VIS;$CLT={321FFA1F-0E30-4674-B86F-40575D8A5219}$CLT;$SUP={F88E0B2E-AAB9-4ae9-92E8-4FA4361BFD83}$SUP;$ENDXREF;$XREFPROP=$XID={F45CDB14-B6AE-40d9-9E26-CCD157A7D26F}$XID;$NAM=Element$NAM;$TYP=reference$TYP;$VIS=Public$VIS;$CLT={321FFA1F-0E30-4674-B86F-40575D8A5219}$CLT;$SUP={C88D7358-DEC4-43c0-BF84-2636B11F7A15}$SUP;$ENDXREF;$XREFPROP=$XID={A0E19D00-6638-49c1-9F89-1C17B2FF62BC}$XID;$NAM=Element$NAM;$TYP=reference$TYP;$VIS=Public$VIS;$CLT={321FFA1F-0E30-4674-B86F-40575D8A5219}$CLT;$SUP={26BB57B7-4AD3-44ca-B0AB-A846FDAA4166}$SUP;$ENDXREF;$XREFPROP=$XID={6D3DE5AC-43B0-435a-8DD2-32FD8E4DEB44}$XID;$NAM=Element$NAM;$TYP=reference$TYP;$VIS=Public$VIS;$CLT={321FFA1F-0E30-4674-B86F-40575D8A5219}$CLT;$SUP={1ABF4B62-C9B9-4914-B348-885B8EBF47A3}$SUP;$ENDXREF;$XREFPROP=$XID={C614E99E-05BF-48b5-A8E8-77337CA94E2B}$XID;$NAM=Element$NAM;$TYP=reference$TYP;$VIS=Public$VIS;$CLT={321FFA1F-0E30-4674-B86F-40575D8A5219}$CLT;$SUP={F8744250-8013-4ff9-BEBD-5B0FD5F5D440}$SUP;$ENDXREF;$XREFPROP=$XID={441A0A3D-503D-4dee-9174-CCB9C7DA6A6E}$XID;$NAM=Element$NAM;$TYP=reference$TYP;$VIS=Public$VIS;$CLT={321FFA1F-0E30-4674-B86F-40575D8A5219}$CLT;$SUP={BD023907-F926-4484-9F5A-A4620FA5B5C3}$SUP;$ENDXREF;$XREFPROP=$XID={001B5A36-7C97-4ae8-903E-536F846B1A8C}$XID;$NAM=Element$NAM;$TYP=reference$TYP;$VIS=Public$VIS;$CLT={321FFA1F-0E30-4674-B86F-40575D8A5219}$CLT;$SUP={8128AA97-9174-4029-9AE3-EEBE33702151}$SUP;$ENDXREF;$XREFPROP=$XID={F01C6A07-9B4C-4c3e-889A-686B0F9AA7AD}$XID;$NAM=Element$NAM;$TYP=reference$TYP;$VIS=Public$VIS;$CLT={321FFA1F-0E30-4674-B86F-40575D8A5219}$CLT;$SUP={0862F4F6-D039-4205-9166-54C18A2DD696}$SUP;$ENDXREF;"/>
 							</UML:ModelElement.taggedValue>
 						</UML:Class>
 						<UML:Class name="4. Developer offers his latest version of osgi package from develop depot" xmi.id="EAID_4B89F5AF_1B2E_4a4d_B336_33D1A42FBB7D" visibility="public" namespace="EAPK_CBBE2911_23EF_4520_B5E5_213BBF16147E" isRoot="false" isLeaf="false" isAbstract="false">
@@ -216,6 +217,21 @@
 					</path>
 				</EAScenarioContent>
 			</EAScenario>
+			<EAScenario name="Basic Path" type="Basic Path" weight="1,00" subject="EAID_321FFA1F_0E30_4674_B86F_40575D8A5219" xmi.id="EAID_77C74AEC_A251_4b35_B155_44B8E65C2A24">
+				<EAScenarioContent>
+					<path>
+						<step name="An Administrator installs the software needed for running the uStore server, and changes the password for the built-in account if he wishes to." guid="{821C8718-3166-4480-841F-5215B7D83B39}" level="1" uses="Built in Administrator account" result="" state="" trigger="1" link=""/>
+						<step name="The Administrator sets up an e-mail account from which the automatic mail will be sent." guid="{BDB98796-125F-4253-B7F9-4B2C24E8B622}" level="2" uses="Built in Administrator account" result="" state="" trigger="1" link=""/>
+						<step name="The Administrator specifies other properties of the server - country and local information, certificates, etc." guid="{ABAF2185-B1C5-42bf-8274-A91ABE7FCAA9}" level="3" uses="Secure session, Secure protocols for payments, Different countries" result="" state="" trigger="1" link=""/>
+						<step name="The Administrator specifies whether the new server is a part of a cluster or not." guid="{265E0690-DFC6-4235-A5AC-9719AEFC837F}" level="4" uses="14.2 Scalability and loading" result="" state="" trigger="1" link=""/>
+						<step name="If the new server is a part of a cluster, then the Administrator provides details about the other servers in the cluster. An administrator account for any of them is sufficient. The cluster information may be obtained automatically after providing an administrator account for some of the other servers in the cluster." guid="{ABA5B558-D5D1-465f-AD5C-73C0330986DE}" level="5" uses="14.2 Scalability and loading" result="" state="" trigger="1" link="">
+							<extension level="5a" guid="{BD784E0C-DC82-4747-A4EE-FFEA54FF34AE}" join="{19AA0F03-560E-4f9a-A3E3-B91828785D6D}"/>
+						</step>
+						<step name="The Administrator specifies if the uStore will cooperate with other servers on the internet, and provides their type and details." guid="{19AA0F03-560E-4f9a-A3E3-B91828785D6D}" level="6" uses="Other web shop" result="" state="" trigger="1" link=""/>
+					</path>
+				</EAScenarioContent>
+			</EAScenario>
+			<EAScenario name="If the new server is not part of a cluster" type="Alternate" weight="0,00" subject="EAID_321FFA1F_0E30_4674_B86F_40575D8A5219" xmi.id="EAID_BD784E0C_DC82_4747_A4EE_FFEA54FF34AE"/>
 			<EAScenario name="Administrators do not approve the update" type="Alternate" weight="1,00" subject="EAID_4B89F5AF_1B2E_4a4d_B336_33D1A42FBB7D" xmi.id="EAID_AA425557_69F1_423b_9AFB_702DA8410458">
 				<EAScenarioContent>
 					<path>
