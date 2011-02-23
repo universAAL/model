@@ -81,7 +81,7 @@
 								<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
 							</UML:ModelElement.taggedValue>
 						</UML:UseCase>
-						<UML:UseCase name="Manage User Profile" xmi.id="EAID_276ECCCC_7A18_40ed_AB9B_434DD15FA8CB" visibility="public" namespace="EAPK_78311596_6CC1_4a61_8439_3A76B07B1A08" isRoot="false" isLeaf="false" isAbstract="false">
+						<UML:UseCase name="Edit User Profile" xmi.id="EAID_276ECCCC_7A18_40ed_AB9B_434DD15FA8CB" visibility="public" namespace="EAPK_78311596_6CC1_4a61_8439_3A76B07B1A08" isRoot="false" isLeaf="false" isAbstract="false">
 							<UML:ModelElement.taggedValue>
 								<UML:TaggedValue tag="isSpecification" value="false"/>
 								<UML:TaggedValue tag="ea_stype" value="UseCase"/>
@@ -89,7 +89,7 @@
 								<UML:TaggedValue tag="version" value="1.0"/>
 								<UML:TaggedValue tag="package" value="EAPK_78311596_6CC1_4a61_8439_3A76B07B1A08"/>
 								<UML:TaggedValue tag="date_created" value="2011-02-23 16:46:36"/>
-								<UML:TaggedValue tag="date_modified" value="2011-02-23 16:47:02"/>
+								<UML:TaggedValue tag="date_modified" value="2011-02-23 19:01:59"/>
 								<UML:TaggedValue tag="gentype" value="&lt;none&gt;"/>
 								<UML:TaggedValue tag="tagged" value="0"/>
 								<UML:TaggedValue tag="package_name" value="Use Cases for Nutritional Advisor"/>
@@ -103,6 +103,43 @@
 								<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
 							</UML:ModelElement.taggedValue>
 						</UML:UseCase>
+						<UML:Association xmi.id="EAID_93B84F2B_116A_4504_9AB7_A8E9DDCA8975" visibility="public" isRoot="false" isLeaf="false" isAbstract="false">
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="style" value="3"/>
+								<UML:TaggedValue tag="ea_type" value="Association"/>
+								<UML:TaggedValue tag="direction" value="Unspecified"/>
+								<UML:TaggedValue tag="linemode" value="3"/>
+								<UML:TaggedValue tag="linecolor" value="-1"/>
+								<UML:TaggedValue tag="linewidth" value="0"/>
+								<UML:TaggedValue tag="seqno" value="0"/>
+								<UML:TaggedValue tag="headStyle" value="0"/>
+								<UML:TaggedValue tag="lineStyle" value="0"/>
+								<UML:TaggedValue tag="ea_localid" value="5666"/>
+								<UML:TaggedValue tag="ea_sourceName" value="Nutritional expert"/>
+								<UML:TaggedValue tag="ea_targetName" value="Edit User Profile"/>
+								<UML:TaggedValue tag="ea_sourceType" value="Actor"/>
+								<UML:TaggedValue tag="ea_targetType" value="UseCase"/>
+								<UML:TaggedValue tag="ea_sourceID" value="7006"/>
+								<UML:TaggedValue tag="ea_targetID" value="8372"/>
+								<UML:TaggedValue tag="virtualInheritance" value="0"/>
+							</UML:ModelElement.taggedValue>
+							<UML:Association.connection>
+								<UML:AssociationEnd visibility="public" aggregation="none" isOrdered="false" targetScope="instance" changeable="none" isNavigable="true" type="EAID_4CAC1FA2_DA29_43f1_BC34_153A8685C77B">
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="containment" value="Unspecified"/>
+										<UML:TaggedValue tag="sourcestyle" value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Unspecified;"/>
+										<UML:TaggedValue tag="ea_end" value="source"/>
+									</UML:ModelElement.taggedValue>
+								</UML:AssociationEnd>
+								<UML:AssociationEnd visibility="public" aggregation="none" isOrdered="false" targetScope="instance" changeable="none" isNavigable="true" type="EAID_276ECCCC_7A18_40ed_AB9B_434DD15FA8CB">
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="containment" value="Unspecified"/>
+										<UML:TaggedValue tag="deststyle" value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Unspecified;"/>
+										<UML:TaggedValue tag="ea_end" value="target"/>
+									</UML:ModelElement.taggedValue>
+								</UML:AssociationEnd>
+							</UML:Association.connection>
+						</UML:Association>
 						<UML:Collaboration xmi.id="EAID_78311596_6CC1_4a61_8439_3A76B07B1A08_Collaboration" name="Collaborations">
 							<UML:Namespace.ownedElement>
 								<UML:ClassifierRole xmi.id="EAID_52B4B45C_451F_4507_BAF0_AC9DFFC6BD17" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
@@ -200,7 +237,7 @@
 								<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
 							</UML:ModelElement.taggedValue>
 						</UML:UseCase>
-						<UML:UseCase name="Manage User Preferences" xmi.id="EAID_A9E62707_6039_44a6_82C0_B5FFEE56646E" visibility="public" namespace="EAPK_78311596_6CC1_4a61_8439_3A76B07B1A08" isRoot="false" isLeaf="false" isAbstract="false">
+						<UML:UseCase name="Edit User Preferences" xmi.id="EAID_A9E62707_6039_44a6_82C0_B5FFEE56646E" visibility="public" namespace="EAPK_78311596_6CC1_4a61_8439_3A76B07B1A08" isRoot="false" isLeaf="false" isAbstract="false">
 							<UML:ModelElement.taggedValue>
 								<UML:TaggedValue tag="isSpecification" value="false"/>
 								<UML:TaggedValue tag="ea_stype" value="UseCase"/>
@@ -208,7 +245,7 @@
 								<UML:TaggedValue tag="version" value="1.0"/>
 								<UML:TaggedValue tag="package" value="EAPK_78311596_6CC1_4a61_8439_3A76B07B1A08"/>
 								<UML:TaggedValue tag="date_created" value="2011-02-23 17:23:33"/>
-								<UML:TaggedValue tag="date_modified" value="2011-02-23 17:23:45"/>
+								<UML:TaggedValue tag="date_modified" value="2011-02-23 19:02:41"/>
 								<UML:TaggedValue tag="gentype" value="&lt;none&gt;"/>
 								<UML:TaggedValue tag="tagged" value="0"/>
 								<UML:TaggedValue tag="package_name" value="Use Cases for Nutritional Advisor"/>
@@ -222,7 +259,44 @@
 								<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
 							</UML:ModelElement.taggedValue>
 						</UML:UseCase>
-						<UML:UseCase name="Manage Nutritional Rules" xmi.id="EAID_CF0EFA6E_55DC_441f_AF42_5AD0E8CE6CD8" visibility="public" namespace="EAPK_78311596_6CC1_4a61_8439_3A76B07B1A08" isRoot="false" isLeaf="false" isAbstract="false">
+						<UML:Association xmi.id="EAID_4FF37B23_7B0A_4d3e_A6EC_BD0050541E91" visibility="public" isRoot="false" isLeaf="false" isAbstract="false">
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="style" value="3"/>
+								<UML:TaggedValue tag="ea_type" value="Association"/>
+								<UML:TaggedValue tag="direction" value="Unspecified"/>
+								<UML:TaggedValue tag="linemode" value="3"/>
+								<UML:TaggedValue tag="linecolor" value="-1"/>
+								<UML:TaggedValue tag="linewidth" value="0"/>
+								<UML:TaggedValue tag="seqno" value="0"/>
+								<UML:TaggedValue tag="headStyle" value="0"/>
+								<UML:TaggedValue tag="lineStyle" value="0"/>
+								<UML:TaggedValue tag="ea_localid" value="5669"/>
+								<UML:TaggedValue tag="ea_sourceName" value="Assisted person"/>
+								<UML:TaggedValue tag="ea_targetName" value="Edit User Preferences"/>
+								<UML:TaggedValue tag="ea_sourceType" value="Actor"/>
+								<UML:TaggedValue tag="ea_targetType" value="UseCase"/>
+								<UML:TaggedValue tag="ea_sourceID" value="7019"/>
+								<UML:TaggedValue tag="ea_targetID" value="8375"/>
+								<UML:TaggedValue tag="virtualInheritance" value="0"/>
+							</UML:ModelElement.taggedValue>
+							<UML:Association.connection>
+								<UML:AssociationEnd visibility="public" aggregation="none" isOrdered="false" targetScope="instance" changeable="none" isNavigable="true" type="EAID_DD636FE1_24B5_438a_89F6_712B1D289E49">
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="containment" value="Unspecified"/>
+										<UML:TaggedValue tag="sourcestyle" value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Unspecified;"/>
+										<UML:TaggedValue tag="ea_end" value="source"/>
+									</UML:ModelElement.taggedValue>
+								</UML:AssociationEnd>
+								<UML:AssociationEnd visibility="public" aggregation="none" isOrdered="false" targetScope="instance" changeable="none" isNavigable="true" type="EAID_A9E62707_6039_44a6_82C0_B5FFEE56646E">
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="containment" value="Unspecified"/>
+										<UML:TaggedValue tag="deststyle" value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Unspecified;"/>
+										<UML:TaggedValue tag="ea_end" value="target"/>
+									</UML:ModelElement.taggedValue>
+								</UML:AssociationEnd>
+							</UML:Association.connection>
+						</UML:Association>
+						<UML:UseCase name="Edit Nutritional Rules" xmi.id="EAID_CF0EFA6E_55DC_441f_AF42_5AD0E8CE6CD8" visibility="public" namespace="EAPK_78311596_6CC1_4a61_8439_3A76B07B1A08" isRoot="false" isLeaf="false" isAbstract="false">
 							<UML:ModelElement.taggedValue>
 								<UML:TaggedValue tag="isSpecification" value="false"/>
 								<UML:TaggedValue tag="ea_stype" value="UseCase"/>
@@ -230,7 +304,7 @@
 								<UML:TaggedValue tag="version" value="1.0"/>
 								<UML:TaggedValue tag="package" value="EAPK_78311596_6CC1_4a61_8439_3A76B07B1A08"/>
 								<UML:TaggedValue tag="date_created" value="2011-02-23 18:35:00"/>
-								<UML:TaggedValue tag="date_modified" value="2011-02-23 18:35:11"/>
+								<UML:TaggedValue tag="date_modified" value="2011-02-23 19:03:34"/>
 								<UML:TaggedValue tag="gentype" value="&lt;none&gt;"/>
 								<UML:TaggedValue tag="tagged" value="0"/>
 								<UML:TaggedValue tag="package_name" value="Use Cases for Nutritional Advisor"/>
@@ -244,7 +318,7 @@
 								<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
 							</UML:ModelElement.taggedValue>
 						</UML:UseCase>
-						<UML:UseCase name="Generate menus" xmi.id="EAID_E607441B_309A_4b00_B513_F2B846344AC5" visibility="public" namespace="EAPK_78311596_6CC1_4a61_8439_3A76B07B1A08" isRoot="false" isLeaf="false" isAbstract="false">
+						<UML:UseCase name="Manage menus" xmi.id="EAID_E607441B_309A_4b00_B513_F2B846344AC5" visibility="public" namespace="EAPK_78311596_6CC1_4a61_8439_3A76B07B1A08" isRoot="false" isLeaf="false" isAbstract="false">
 							<UML:ModelElement.taggedValue>
 								<UML:TaggedValue tag="isSpecification" value="false"/>
 								<UML:TaggedValue tag="ea_stype" value="UseCase"/>
@@ -252,7 +326,7 @@
 								<UML:TaggedValue tag="version" value="1.0"/>
 								<UML:TaggedValue tag="package" value="EAPK_78311596_6CC1_4a61_8439_3A76B07B1A08"/>
 								<UML:TaggedValue tag="date_created" value="2011-02-23 18:32:42"/>
-								<UML:TaggedValue tag="date_modified" value="2011-02-23 18:32:51"/>
+								<UML:TaggedValue tag="date_modified" value="2011-02-23 19:01:18"/>
 								<UML:TaggedValue tag="gentype" value="&lt;none&gt;"/>
 								<UML:TaggedValue tag="tagged" value="0"/>
 								<UML:TaggedValue tag="package_name" value="Use Cases for Nutritional Advisor"/>
@@ -266,7 +340,44 @@
 								<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
 							</UML:ModelElement.taggedValue>
 						</UML:UseCase>
-						<UML:UseCase name="Manage Nutritional Profile" xmi.id="EAID_E9384E54_98E9_4c22_BB43_F486F68B4AA1" visibility="public" namespace="EAPK_78311596_6CC1_4a61_8439_3A76B07B1A08" isRoot="false" isLeaf="false" isAbstract="false">
+						<UML:Association xmi.id="EAID_C613FB38_9544_41f4_AA13_9DB478CAD09D" visibility="public" isRoot="false" isLeaf="false" isAbstract="false">
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="style" value="3"/>
+								<UML:TaggedValue tag="ea_type" value="Association"/>
+								<UML:TaggedValue tag="direction" value="Unspecified"/>
+								<UML:TaggedValue tag="linemode" value="3"/>
+								<UML:TaggedValue tag="linecolor" value="-1"/>
+								<UML:TaggedValue tag="linewidth" value="0"/>
+								<UML:TaggedValue tag="seqno" value="0"/>
+								<UML:TaggedValue tag="headStyle" value="0"/>
+								<UML:TaggedValue tag="lineStyle" value="0"/>
+								<UML:TaggedValue tag="ea_localid" value="5668"/>
+								<UML:TaggedValue tag="ea_sourceName" value="Nutritional expert"/>
+								<UML:TaggedValue tag="ea_targetName" value="Manage menus"/>
+								<UML:TaggedValue tag="ea_sourceType" value="Actor"/>
+								<UML:TaggedValue tag="ea_targetType" value="UseCase"/>
+								<UML:TaggedValue tag="ea_sourceID" value="7006"/>
+								<UML:TaggedValue tag="ea_targetID" value="8377"/>
+								<UML:TaggedValue tag="virtualInheritance" value="0"/>
+							</UML:ModelElement.taggedValue>
+							<UML:Association.connection>
+								<UML:AssociationEnd visibility="public" aggregation="none" isOrdered="false" targetScope="instance" changeable="none" isNavigable="true" type="EAID_4CAC1FA2_DA29_43f1_BC34_153A8685C77B">
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="containment" value="Unspecified"/>
+										<UML:TaggedValue tag="sourcestyle" value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Unspecified;"/>
+										<UML:TaggedValue tag="ea_end" value="source"/>
+									</UML:ModelElement.taggedValue>
+								</UML:AssociationEnd>
+								<UML:AssociationEnd visibility="public" aggregation="none" isOrdered="false" targetScope="instance" changeable="none" isNavigable="true" type="EAID_E607441B_309A_4b00_B513_F2B846344AC5">
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="containment" value="Unspecified"/>
+										<UML:TaggedValue tag="deststyle" value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Unspecified;"/>
+										<UML:TaggedValue tag="ea_end" value="target"/>
+									</UML:ModelElement.taggedValue>
+								</UML:AssociationEnd>
+							</UML:Association.connection>
+						</UML:Association>
+						<UML:UseCase name="Edit Nutritional Profile" xmi.id="EAID_E9384E54_98E9_4c22_BB43_F486F68B4AA1" visibility="public" namespace="EAPK_78311596_6CC1_4a61_8439_3A76B07B1A08" isRoot="false" isLeaf="false" isAbstract="false">
 							<UML:ModelElement.taggedValue>
 								<UML:TaggedValue tag="isSpecification" value="false"/>
 								<UML:TaggedValue tag="ea_stype" value="UseCase"/>
@@ -274,7 +385,7 @@
 								<UML:TaggedValue tag="version" value="1.0"/>
 								<UML:TaggedValue tag="package" value="EAPK_78311596_6CC1_4a61_8439_3A76B07B1A08"/>
 								<UML:TaggedValue tag="date_created" value="2011-02-23 16:45:31"/>
-								<UML:TaggedValue tag="date_modified" value="2011-02-23 16:45:48"/>
+								<UML:TaggedValue tag="date_modified" value="2011-02-23 19:02:31"/>
 								<UML:TaggedValue tag="gentype" value="&lt;none&gt;"/>
 								<UML:TaggedValue tag="tagged" value="0"/>
 								<UML:TaggedValue tag="package_name" value="Use Cases for Nutritional Advisor"/>
@@ -288,6 +399,43 @@
 								<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
 							</UML:ModelElement.taggedValue>
 						</UML:UseCase>
+						<UML:Association xmi.id="EAID_5A17F2ED_435B_419c_822C_1D99DD9EBC0F" visibility="public" isRoot="false" isLeaf="false" isAbstract="false">
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="style" value="3"/>
+								<UML:TaggedValue tag="ea_type" value="Association"/>
+								<UML:TaggedValue tag="direction" value="Unspecified"/>
+								<UML:TaggedValue tag="linemode" value="3"/>
+								<UML:TaggedValue tag="linecolor" value="-1"/>
+								<UML:TaggedValue tag="linewidth" value="0"/>
+								<UML:TaggedValue tag="seqno" value="0"/>
+								<UML:TaggedValue tag="headStyle" value="0"/>
+								<UML:TaggedValue tag="lineStyle" value="0"/>
+								<UML:TaggedValue tag="ea_localid" value="5667"/>
+								<UML:TaggedValue tag="ea_sourceName" value="Nutritional expert"/>
+								<UML:TaggedValue tag="ea_targetName" value="Edit Nutritional Profile"/>
+								<UML:TaggedValue tag="ea_sourceType" value="Actor"/>
+								<UML:TaggedValue tag="ea_targetType" value="UseCase"/>
+								<UML:TaggedValue tag="ea_sourceID" value="7006"/>
+								<UML:TaggedValue tag="ea_targetID" value="8378"/>
+								<UML:TaggedValue tag="virtualInheritance" value="0"/>
+							</UML:ModelElement.taggedValue>
+							<UML:Association.connection>
+								<UML:AssociationEnd visibility="public" aggregation="none" isOrdered="false" targetScope="instance" changeable="none" isNavigable="true" type="EAID_4CAC1FA2_DA29_43f1_BC34_153A8685C77B">
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="containment" value="Unspecified"/>
+										<UML:TaggedValue tag="sourcestyle" value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Unspecified;"/>
+										<UML:TaggedValue tag="ea_end" value="source"/>
+									</UML:ModelElement.taggedValue>
+								</UML:AssociationEnd>
+								<UML:AssociationEnd visibility="public" aggregation="none" isOrdered="false" targetScope="instance" changeable="none" isNavigable="true" type="EAID_E9384E54_98E9_4c22_BB43_F486F68B4AA1">
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="containment" value="Unspecified"/>
+										<UML:TaggedValue tag="deststyle" value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Unspecified;"/>
+										<UML:TaggedValue tag="ea_end" value="target"/>
+									</UML:ModelElement.taggedValue>
+								</UML:AssociationEnd>
+							</UML:Association.connection>
+						</UML:Association>
 					</UML:Namespace.ownedElement>
 				</UML:Package>
 			</UML:Namespace.ownedElement>
@@ -297,31 +445,38 @@
 				<UML:TaggedValue tag="version" value="1.0"/>
 				<UML:TaggedValue tag="author" value="geibsan"/>
 				<UML:TaggedValue tag="created_date" value="2011-02-23 15:18:31"/>
-				<UML:TaggedValue tag="modified_date" value="2011-02-23 18:53:11"/>
+				<UML:TaggedValue tag="modified_date" value="2011-02-23 19:04:30"/>
 				<UML:TaggedValue tag="package" value="EAPK_78311596_6CC1_4a61_8439_3A76B07B1A08"/>
 				<UML:TaggedValue tag="type" value="Use Case"/>
 				<UML:TaggedValue tag="swimlanes" value="locked=false;orientation=0;width=0;inbar=false;names=false;color=0;bold=false;fcol=0;;cls=0;"/>
 				<UML:TaggedValue tag="matrixitems" value="locked=false;matrixactive=false;swimlanesactive=true;width=1;"/>
 				<UML:TaggedValue tag="ea_localid" value="493"/>
-				<UML:TaggedValue tag="EAStyle" value="ShowPrivate=1;ShowProtected=1;ShowPublic=1;HideRelationships=0;Locked=0;Border=1;HighlightForeign=1;PackageContents=1;SequenceNotes=0;ScalePrintImage=0;PPgs.cx=1;PPgs.cy=1;DocSize.cx=795;DocSize.cy=1134;ShowDetails=0;Orientation=P;Zoom=100;ShowTags=0;OpParams=1;VisibleAttributeDetail=0;ShowOpRetType=1;ShowIcons=1;CollabNums=0;HideProps=0;ShowReqs=0;ShowCons=0;PaperSize=9;HideParents=0;UseAlias=0;HideAtts=0;HideOps=0;HideStereo=0;HideElemStereo=0;ShowTests=0;ShowMaint=0;ConnectorNotation=UML 2.1;ExplicitNavigability=0;AdvancedElementProps=1;AdvancedFeatureProps=1;AdvancedConnectorProps=1;ShowNotes=0;SuppressBrackets=0;SuppConnectorLabels=0;PrintPageHeadFoot=0;ShowAsList=0;"/>
+				<UML:TaggedValue tag="EAStyle" value="ShowPrivate=1;ShowProtected=1;ShowPublic=1;HideRelationships=0;Locked=0;Border=1;HighlightForeign=1;PackageContents=1;SequenceNotes=0;ScalePrintImage=0;PPgs.cx=2;PPgs.cy=1;DocSize.cx=795;DocSize.cy=1134;ShowDetails=0;Orientation=P;Zoom=100;ShowTags=0;OpParams=1;VisibleAttributeDetail=0;ShowOpRetType=1;ShowIcons=1;CollabNums=0;HideProps=0;ShowReqs=0;ShowCons=0;PaperSize=9;HideParents=0;UseAlias=0;HideAtts=0;HideOps=0;HideStereo=0;HideElemStereo=0;ShowTests=0;ShowMaint=0;ConnectorNotation=UML 2.1;ExplicitNavigability=0;AdvancedElementProps=1;AdvancedFeatureProps=1;AdvancedConnectorProps=1;ShowNotes=0;SuppressBrackets=0;SuppConnectorLabels=0;PrintPageHeadFoot=0;ShowAsList=0;"/>
 				<UML:TaggedValue tag="styleex" value="ExcludeRTF=0;DocAll=0;HideQuals=0;AttPkg=1;ShowTests=0;ShowMaint=0;SuppressFOC=1;MatrixActive=0;SwimlanesActive=1;MatrixLineWidth=1;MatrixLocked=0;TConnectorNotation=UML 2.1;TExplicitNavigability=0;AdvancedElementProps=1;AdvancedFeatureProps=1;AdvancedConnectorProps=1;ProfileData=;MDGDgm=;STBLDgm=;ShowNotes=0;VisibleAttributeDetail=0;ShowOpRetType=1;SuppressBrackets=0;SuppConnectorLabels=0;PrintPageHeadFoot=0;ShowAsList=0;"/>
 			</UML:ModelElement.taggedValue>
 			<UML:Diagram.element>
-				<UML:DiagramElement geometry="Left=418;Top=706;Right=523;Bottom=776;" subject="EAID_230D6DC7_4FEC_4331_8AA6_94D62AD8154E" seqno="1" style="DUID=77DDA59A;"/>
-				<UML:DiagramElement geometry="Left=416;Top=630;Right=521;Bottom=700;" subject="EAID_CF0EFA6E_55DC_441f_AF42_5AD0E8CE6CD8" seqno="2" style="DUID=4F711711;"/>
-				<UML:DiagramElement geometry="Left=415;Top=552;Right=520;Bottom=622;" subject="EAID_0084B257_32C6_44cd_8CB2_5111D70F1695" seqno="3" style="DUID=41BC54DB;"/>
-				<UML:DiagramElement geometry="Left=411;Top=477;Right=516;Bottom=547;" subject="EAID_9840D54F_9664_44db_B8DE_7484EE462315" seqno="4" style="DUID=08D72236;"/>
-				<UML:DiagramElement geometry="Left=396;Top=359;Right=487;Bottom=420;" subject="EAID_E607441B_309A_4b00_B513_F2B846344AC5" seqno="5" style="DUID=EC7B31CB;"/>
-				<UML:DiagramElement geometry="Left=407;Top=230;Right=492;Bottom=287;" subject="EAID_A9E62707_6039_44a6_82C0_B5FFEE56646E" seqno="6" style="DUID=C1AF0407;"/>
-				<UML:DiagramElement geometry="Left=404;Top=163;Right=494;Bottom=223;" subject="EAID_E9384E54_98E9_4c22_BB43_F486F68B4AA1" seqno="7" style="DUID=F4BB63EC;NSL=0;BCol=-1;BFol=-1;LCol=-1;LWth=-1;fontsz=0;bold=0;italic=0;ul=0;charset=0;pitch=0;"/>
-				<UML:DiagramElement geometry="Left=406;Top=100;Right=493;Bottom=158;" subject="EAID_276ECCCC_7A18_40ed_AB9B_434DD15FA8CB" seqno="8" style="DUID=6F6A2253;"/>
-				<UML:DiagramElement geometry="Left=407;Top=292;Right=492;Bottom=349;" subject="EAID_9CBE137F_E510_4dd2_B175_0B21045A4C65" seqno="9" style="DUID=4E03EA40;"/>
-				<UML:DiagramElement geometry="Left=683;Top=292;Right=728;Bottom=382;" subject="EAID_DD636FE1_24B5_438a_89F6_712B1D289E49" seqno="10" style="NSL=0;BCol=-1;BFol=-1;LCol=-1;LWth=-1;fontsz=0;bold=0;italic=0;ul=0;charset=0;pitch=0;DUID=02ECE752;"/>
+				<UML:DiagramElement geometry="Left=406;Top=704;Right=511;Bottom=774;" subject="EAID_230D6DC7_4FEC_4331_8AA6_94D62AD8154E" seqno="1" style="DUID=77DDA59A;"/>
+				<UML:DiagramElement geometry="Left=393;Top=233;Right=498;Bottom=303;" subject="EAID_CF0EFA6E_55DC_441f_AF42_5AD0E8CE6CD8" seqno="2" style="DUID=4F711711;"/>
+				<UML:DiagramElement geometry="Left=401;Top=555;Right=506;Bottom=625;" subject="EAID_0084B257_32C6_44cd_8CB2_5111D70F1695" seqno="3" style="DUID=41BC54DB;"/>
+				<UML:DiagramElement geometry="Left=406;Top=475;Right=511;Bottom=545;" subject="EAID_9840D54F_9664_44db_B8DE_7484EE462315" seqno="4" style="DUID=08D72236;"/>
+				<UML:DiagramElement geometry="Left=391;Top=357;Right=482;Bottom=418;" subject="EAID_E607441B_309A_4b00_B513_F2B846344AC5" seqno="5" style="DUID=EC7B31CB;"/>
+				<UML:DiagramElement geometry="Left=398;Top=417;Right=483;Bottom=474;" subject="EAID_A9E62707_6039_44a6_82C0_B5FFEE56646E" seqno="6" style="DUID=C1AF0407;"/>
+				<UML:DiagramElement geometry="Left=399;Top=161;Right=489;Bottom=221;" subject="EAID_E9384E54_98E9_4c22_BB43_F486F68B4AA1" seqno="7" style="DUID=F4BB63EC;NSL=0;BCol=-1;BFol=-1;LCol=-1;LWth=-1;fontsz=0;bold=0;italic=0;ul=0;charset=0;pitch=0;"/>
+				<UML:DiagramElement geometry="Left=401;Top=98;Right=488;Bottom=156;" subject="EAID_276ECCCC_7A18_40ed_AB9B_434DD15FA8CB" seqno="8" style="DUID=6F6A2253;"/>
+				<UML:DiagramElement geometry="Left=398;Top=294;Right=483;Bottom=351;" subject="EAID_9CBE137F_E510_4dd2_B175_0B21045A4C65" seqno="9" style="DUID=4E03EA40;"/>
+				<UML:DiagramElement geometry="Left=767;Top=432;Right=812;Bottom=522;" subject="EAID_DD636FE1_24B5_438a_89F6_712B1D289E49" seqno="10" style="NSL=0;BCol=-1;BFol=-1;LCol=-1;LWth=-1;fontsz=0;bold=0;italic=0;ul=0;charset=0;pitch=0;DUID=02ECE752;"/>
 				<UML:DiagramElement geometry="Left=84;Top=267;Right=129;Bottom=357;" subject="EAID_4CAC1FA2_DA29_43f1_BC34_153A8685C77B" seqno="11" style="NSL=0;BCol=-1;BFol=-1;LCol=-1;LWth=-1;fontsz=0;bold=0;italic=0;ul=0;charset=0;pitch=0;DUID=589AEBC0;"/>
-				<UML:DiagramElement geometry="Left=292;Top=76;Right=616;Bottom=779;" subject="EAID_E66CA185_5158_4dde_8E34_0750E148485D" seqno="12" style="DUID=5C85AA38;"/>
+				<UML:DiagramElement geometry="Left=287;Top=74;Right=611;Bottom=777;" subject="EAID_E66CA185_5158_4dde_8E34_0750E148485D" seqno="12" style="DUID=5C85AA38;"/>
+				<UML:DiagramElement geometry="SX=0;SY=0;EX=0;EY=0;EDGE=2;$LLB=;LLT=;LMT=;LMB=;LRT=;LRB=;IRHS=;ILHS=;Path=;" subject="EAID_C613FB38_9544_41f4_AA13_9DB478CAD09D" style="Mode=3;EOID=EC7B31CB;SOID=589AEBC0;Color=-1;LWidth=0;Hidden=0;"/>
+				<UML:DiagramElement geometry="SX=0;SY=0;EX=0;EY=0;EDGE=2;$LLB=;LLT=;LMT=;LMB=;LRT=;LRB=;IRHS=;ILHS=;Path=;" subject="EAID_5A17F2ED_435B_419c_822C_1D99DD9EBC0F" style="Mode=3;EOID=F4BB63EC;SOID=589AEBC0;Color=-1;LWidth=0;Hidden=0;"/>
+				<UML:DiagramElement geometry="SX=0;SY=0;EX=0;EY=0;EDGE=2;$LLB=;LLT=;LMT=;LMB=;LRT=;LRB=;IRHS=;ILHS=;Path=;" subject="EAID_93B84F2B_116A_4504_9AB7_A8E9DDCA8975" style="Mode=3;EOID=6F6A2253;SOID=589AEBC0;Color=-1;LWidth=0;Hidden=0;"/>
+				<UML:DiagramElement geometry="SX=0;SY=0;EX=0;EY=0;EDGE=4;$LLB=;LLT=;LMT=;LMB=;LRT=;LRB=;IRHS=;ILHS=;Path=;" subject="EAID_4FF37B23_7B0A_4d3e_A6EC_BD0050541E91" style="Mode=3;EOID=C1AF0407;SOID=02ECE752;Color=-1;LWidth=0;Hidden=0;"/>
 			</UML:Diagram.element>
 		</UML:Diagram>
 	</XMI.content>
 	<XMI.difference/>
-	<XMI.extensions xmi.extender="Enterprise Architect 2.5"/>
+	<XMI.extensions xmi.extender="Enterprise Architect 2.5">
+		<EAStub xmi.id="EAID_4CAC1FA2_DA29_43f1_BC34_153A8685C77B" name="Nutritional expert" UMLType="Actor"/>
+		<EAStub xmi.id="EAID_DD636FE1_24B5_438a_89F6_712B1D289E49" name="Assisted person" UMLType="Actor"/>
+	</XMI.extensions>
 </XMI>
