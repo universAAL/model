@@ -13,12 +13,11 @@
 				<UML:Package name="System Collaboration Model" xmi.id="EAPK_22151A71_E899_4583_820E_865C8809B0EC" isRoot="false" isLeaf="false" isAbstract="false" visibility="public">
 					<UML:ModelElement.taggedValue>
 						<UML:TaggedValue tag="documentation" value="&lt;b&gt;Purpose&lt;/b&gt;: Describe the main interactions in the system as a set of collaborating components&#xA;&#xA;&lt;b&gt;Input&lt;/b&gt;: Target system interface model (Requirements view)&#xA;&#xA;&lt;b&gt;Output&lt;/b&gt;: UML class diagram, UML activity diagram, UML sequence diagram, UML collaboration diagram, Textual description (area of concern)&#xA;&#xA;The target system interface model of the requirements view described the functionality provided by the system to the users and other systems. The collaboration model includes description of how each of the identified actions is handled in the architecture. In addition to the collaborations originating in system interface requirements, the collaboration model also describes other mechanisms that are considered part of the architecture. For each collaboration to be described, the area of concern shall be given in a textual description. Class diagrams can be used to display the set of interacting components, along with the connections and interfaces directly involved in the interaction. The collaboration is further detailed by sequence, collaboration or activity diagrams. An alternative to focusing directly on components in the description of collaborations is to first identify and describe the roles involved, and later map these roles to the components that play these roles in the system."/>
-						<UML:TaggedValue tag="parent" value="EAPK_CC4909B3_7E3D_4601_BEC7_17357AA786DD"/>
 						<UML:TaggedValue tag="created" value="2010-06-02 15:46:55"/>
 						<UML:TaggedValue tag="modified" value="2010-06-02 15:46:55"/>
 						<UML:TaggedValue tag="iscontrolled" value="TRUE"/>
 						<UML:TaggedValue tag="xmlpath" value="Component View\System Collaboration Model.xml"/>
-						<UML:TaggedValue tag="lastloaddate" value="2011-09-29 10:10:30"/>
+						<UML:TaggedValue tag="lastloaddate" value="2011-09-29 14:32:20"/>
 						<UML:TaggedValue tag="lastsavedate" value="2010-06-15 15:00:42"/>
 						<UML:TaggedValue tag="version" value="1.0"/>
 						<UML:TaggedValue tag="isprotected" value="FALSE"/>
@@ -26,7 +25,7 @@
 						<UML:TaggedValue tag="xmiver" value="Enterprise Architect XMI/UML 1.3"/>
 						<UML:TaggedValue tag="logxml" value="FALSE"/>
 						<UML:TaggedValue tag="tpos" value="3"/>
-						<UML:TaggedValue tag="packageFlags" value="Recurse=0;VCCFG=uAAL;CRC=0;"/>
+						<UML:TaggedValue tag="packageFlags" value="Recurse=0;VCCFG=uAAL;CheckedOutOffline=0;CRC=0;"/>
 						<UML:TaggedValue tag="batchsave" value="0"/>
 						<UML:TaggedValue tag="batchload" value="0"/>
 						<UML:TaggedValue tag="phase" value="1.0"/>
@@ -40,16 +39,38 @@
 					<UML:Namespace.ownedElement>
 						<UML:Collaboration xmi.id="EAID_22151A71_E899_4583_820E_865C8809B0EC_Collaboration" name="Collaborations">
 							<UML:Namespace.ownedElement>
-								<UML:ClassifierRole name="AAL Service - Personal Safety" xmi.id="EAID_92614E13_29EB_4be1_B351_0048C62D43B8" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+								<UML:ClassifierRole name="AAL Service - Medication Manager - to be merged" xmi.id="EAID_9068BE19_F2A1_4cbb_99CE_BE41F2FF81BB" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
 									<UML:ModelElement.taggedValue>
-										<UML:TaggedValue tag="isAbstract" value="false"/>
 										<UML:TaggedValue tag="isSpecification" value="false"/>
 										<UML:TaggedValue tag="ea_stype" value="Package"/>
 										<UML:TaggedValue tag="ea_ntype" value="0"/>
 										<UML:TaggedValue tag="version" value="1.0"/>
 										<UML:TaggedValue tag="package" value="EAPK_22151A71_E899_4583_820E_865C8809B0EC"/>
-										<UML:TaggedValue tag="date_created" value="2011-09-29 10:11:32"/>
-										<UML:TaggedValue tag="date_modified" value="2011-09-29 10:11:32"/>
+										<UML:TaggedValue tag="date_created" value="2011-10-19 17:02:29"/>
+										<UML:TaggedValue tag="date_modified" value="2011-10-19 17:02:29"/>
+										<UML:TaggedValue tag="gentype" value="Java"/>
+										<UML:TaggedValue tag="tagged" value="0"/>
+										<UML:TaggedValue tag="package2" value="EAID_9068BE19_F2A1_4cbb_99CE_BE41F2FF81BB"/>
+										<UML:TaggedValue tag="package_name" value="System Collaboration Model"/>
+										<UML:TaggedValue tag="phase" value="1.0"/>
+										<UML:TaggedValue tag="author" value="ven"/>
+										<UML:TaggedValue tag="complexity" value="1"/>
+										<UML:TaggedValue tag="status" value="Proposed"/>
+										<UML:TaggedValue tag="tpos" value="0"/>
+										<UML:TaggedValue tag="ea_localid" value="1262"/>
+										<UML:TaggedValue tag="ea_eleType" value="package"/>
+										<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+									</UML:ModelElement.taggedValue>
+								</UML:ClassifierRole>
+								<UML:ClassifierRole name="AAL Service - Personal Safety" xmi.id="EAID_92614E13_29EB_4be1_B351_0048C62D43B8" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="isSpecification" value="false"/>
+										<UML:TaggedValue tag="ea_stype" value="Package"/>
+										<UML:TaggedValue tag="ea_ntype" value="0"/>
+										<UML:TaggedValue tag="version" value="1.0"/>
+										<UML:TaggedValue tag="package" value="EAPK_22151A71_E899_4583_820E_865C8809B0EC"/>
+										<UML:TaggedValue tag="date_created" value="2011-09-29 14:40:56"/>
+										<UML:TaggedValue tag="date_modified" value="2011-09-29 14:40:56"/>
 										<UML:TaggedValue tag="gentype" value="Java"/>
 										<UML:TaggedValue tag="tagged" value="0"/>
 										<UML:TaggedValue tag="package2" value="EAID_92614E13_29EB_4be1_B351_0048C62D43B8"/>
@@ -59,21 +80,20 @@
 										<UML:TaggedValue tag="complexity" value="1"/>
 										<UML:TaggedValue tag="status" value="Proposed"/>
 										<UML:TaggedValue tag="tpos" value="0"/>
-										<UML:TaggedValue tag="ea_localid" value="809"/>
+										<UML:TaggedValue tag="ea_localid" value="740"/>
 										<UML:TaggedValue tag="ea_eleType" value="package"/>
 										<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
 									</UML:ModelElement.taggedValue>
 								</UML:ClassifierRole>
 								<UML:ClassifierRole name="AAL Service - Help When Outdoor" xmi.id="EAID_A7045858_49A0_4b08_9A0F_FBE51B14FA3A" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
 									<UML:ModelElement.taggedValue>
-										<UML:TaggedValue tag="isAbstract" value="false"/>
 										<UML:TaggedValue tag="isSpecification" value="false"/>
 										<UML:TaggedValue tag="ea_stype" value="Package"/>
 										<UML:TaggedValue tag="ea_ntype" value="0"/>
 										<UML:TaggedValue tag="version" value="1.0"/>
 										<UML:TaggedValue tag="package" value="EAPK_22151A71_E899_4583_820E_865C8809B0EC"/>
-										<UML:TaggedValue tag="date_created" value="2011-09-29 10:11:33"/>
-										<UML:TaggedValue tag="date_modified" value="2011-09-29 10:11:33"/>
+										<UML:TaggedValue tag="date_created" value="2011-09-29 14:40:19"/>
+										<UML:TaggedValue tag="date_modified" value="2011-09-29 14:40:19"/>
 										<UML:TaggedValue tag="gentype" value="Java"/>
 										<UML:TaggedValue tag="tagged" value="0"/>
 										<UML:TaggedValue tag="package2" value="EAID_A7045858_49A0_4b08_9A0F_FBE51B14FA3A"/>
@@ -83,21 +103,20 @@
 										<UML:TaggedValue tag="complexity" value="1"/>
 										<UML:TaggedValue tag="status" value="Proposed"/>
 										<UML:TaggedValue tag="tpos" value="0"/>
-										<UML:TaggedValue tag="ea_localid" value="810"/>
+										<UML:TaggedValue tag="ea_localid" value="732"/>
 										<UML:TaggedValue tag="ea_eleType" value="package"/>
 										<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
 									</UML:ModelElement.taggedValue>
 								</UML:ClassifierRole>
 								<UML:ClassifierRole name="AAL Service - Health Manager" xmi.id="EAID_B8DF783A_08C0_4dc3_98A8_DBABA6512C09" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
 									<UML:ModelElement.taggedValue>
-										<UML:TaggedValue tag="isAbstract" value="false"/>
 										<UML:TaggedValue tag="isSpecification" value="false"/>
 										<UML:TaggedValue tag="ea_stype" value="Package"/>
 										<UML:TaggedValue tag="ea_ntype" value="0"/>
 										<UML:TaggedValue tag="version" value="1.0"/>
 										<UML:TaggedValue tag="package" value="EAPK_22151A71_E899_4583_820E_865C8809B0EC"/>
-										<UML:TaggedValue tag="date_created" value="2011-09-29 10:11:30"/>
-										<UML:TaggedValue tag="date_modified" value="2011-09-29 10:11:30"/>
+										<UML:TaggedValue tag="date_created" value="2011-09-29 14:40:12"/>
+										<UML:TaggedValue tag="date_modified" value="2011-09-29 14:40:12"/>
 										<UML:TaggedValue tag="gentype" value="Java"/>
 										<UML:TaggedValue tag="tagged" value="0"/>
 										<UML:TaggedValue tag="package2" value="EAID_B8DF783A_08C0_4dc3_98A8_DBABA6512C09"/>
@@ -107,21 +126,20 @@
 										<UML:TaggedValue tag="complexity" value="1"/>
 										<UML:TaggedValue tag="status" value="Proposed"/>
 										<UML:TaggedValue tag="tpos" value="0"/>
-										<UML:TaggedValue tag="ea_localid" value="808"/>
+										<UML:TaggedValue tag="ea_localid" value="731"/>
 										<UML:TaggedValue tag="ea_eleType" value="package"/>
 										<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
 									</UML:ModelElement.taggedValue>
 								</UML:ClassifierRole>
 								<UML:ClassifierRole name="AAL Service - Nutritional Advisor" xmi.id="EAID_C393A574_3B67_4ca4_9174_31BED952103E" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
 									<UML:ModelElement.taggedValue>
-										<UML:TaggedValue tag="isAbstract" value="false"/>
 										<UML:TaggedValue tag="isSpecification" value="false"/>
 										<UML:TaggedValue tag="ea_stype" value="Package"/>
 										<UML:TaggedValue tag="ea_ntype" value="0"/>
 										<UML:TaggedValue tag="version" value="1.0"/>
 										<UML:TaggedValue tag="package" value="EAPK_22151A71_E899_4583_820E_865C8809B0EC"/>
-										<UML:TaggedValue tag="date_created" value="2011-09-29 10:11:36"/>
-										<UML:TaggedValue tag="date_modified" value="2011-09-29 10:11:36"/>
+										<UML:TaggedValue tag="date_created" value="2011-09-29 14:40:30"/>
+										<UML:TaggedValue tag="date_modified" value="2011-09-29 14:40:30"/>
 										<UML:TaggedValue tag="gentype" value="Java"/>
 										<UML:TaggedValue tag="tagged" value="0"/>
 										<UML:TaggedValue tag="package2" value="EAID_C393A574_3B67_4ca4_9174_31BED952103E"/>
@@ -131,21 +149,20 @@
 										<UML:TaggedValue tag="complexity" value="1"/>
 										<UML:TaggedValue tag="status" value="Proposed"/>
 										<UML:TaggedValue tag="tpos" value="0"/>
-										<UML:TaggedValue tag="ea_localid" value="811"/>
+										<UML:TaggedValue tag="ea_localid" value="733"/>
 										<UML:TaggedValue tag="ea_eleType" value="package"/>
 										<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
 									</UML:ModelElement.taggedValue>
 								</UML:ClassifierRole>
 								<UML:ClassifierRole name="AAL Service - Medication Manager" xmi.id="EAID_D11A31E1_F56E_4195_8405_102151AC2BEE" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
 									<UML:ModelElement.taggedValue>
-										<UML:TaggedValue tag="isAbstract" value="false"/>
 										<UML:TaggedValue tag="isSpecification" value="false"/>
 										<UML:TaggedValue tag="ea_stype" value="Package"/>
 										<UML:TaggedValue tag="ea_ntype" value="0"/>
 										<UML:TaggedValue tag="version" value="1.0"/>
 										<UML:TaggedValue tag="package" value="EAPK_22151A71_E899_4583_820E_865C8809B0EC"/>
-										<UML:TaggedValue tag="date_created" value="2011-09-29 10:24:55"/>
-										<UML:TaggedValue tag="date_modified" value="2011-09-29 10:24:55"/>
+										<UML:TaggedValue tag="date_created" value="2011-10-19 16:55:03"/>
+										<UML:TaggedValue tag="date_modified" value="2011-10-19 16:55:03"/>
 										<UML:TaggedValue tag="gentype" value="Java"/>
 										<UML:TaggedValue tag="tagged" value="0"/>
 										<UML:TaggedValue tag="package2" value="EAID_D11A31E1_F56E_4195_8405_102151AC2BEE"/>
@@ -155,21 +172,20 @@
 										<UML:TaggedValue tag="complexity" value="1"/>
 										<UML:TaggedValue tag="status" value="Proposed"/>
 										<UML:TaggedValue tag="tpos" value="0"/>
-										<UML:TaggedValue tag="ea_localid" value="1157"/>
+										<UML:TaggedValue tag="ea_localid" value="1128"/>
 										<UML:TaggedValue tag="ea_eleType" value="package"/>
 										<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
 									</UML:ModelElement.taggedValue>
 								</UML:ClassifierRole>
 								<UML:ClassifierRole name="Tools" xmi.id="EAID_FCB70273_EAF4_42c5_90B6_28F0F4945ED5" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
 									<UML:ModelElement.taggedValue>
-										<UML:TaggedValue tag="isAbstract" value="false"/>
 										<UML:TaggedValue tag="isSpecification" value="false"/>
 										<UML:TaggedValue tag="ea_stype" value="Package"/>
 										<UML:TaggedValue tag="ea_ntype" value="0"/>
 										<UML:TaggedValue tag="version" value="1.0"/>
 										<UML:TaggedValue tag="package" value="EAPK_22151A71_E899_4583_820E_865C8809B0EC"/>
-										<UML:TaggedValue tag="date_created" value="2011-09-29 10:11:42"/>
-										<UML:TaggedValue tag="date_modified" value="2011-09-29 10:11:42"/>
+										<UML:TaggedValue tag="date_created" value="2011-09-29 14:41:04"/>
+										<UML:TaggedValue tag="date_modified" value="2011-09-29 14:41:04"/>
 										<UML:TaggedValue tag="gentype" value="Java"/>
 										<UML:TaggedValue tag="tagged" value="0"/>
 										<UML:TaggedValue tag="package2" value="EAID_FCB70273_EAF4_42c5_90B6_28F0F4945ED5"/>
@@ -179,7 +195,7 @@
 										<UML:TaggedValue tag="complexity" value="1"/>
 										<UML:TaggedValue tag="status" value="Proposed"/>
 										<UML:TaggedValue tag="tpos" value="0"/>
-										<UML:TaggedValue tag="ea_localid" value="812"/>
+										<UML:TaggedValue tag="ea_localid" value="741"/>
 										<UML:TaggedValue tag="ea_eleType" value="package"/>
 										<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
 									</UML:ModelElement.taggedValue>
@@ -187,38 +203,35 @@
 							</UML:Namespace.ownedElement>
 							<UML:Collaboration.interaction/>
 						</UML:Collaboration>
-						<UML:Package name="AAL Service - Medication Manager" xmi.id="EAPK_D11A31E1_F56E_4195_8405_102151AC2BEE" isRoot="false" isLeaf="false" isAbstract="false" visibility="public">
+						<UML:Package name="AAL Service - Medication Manager - to be merged" xmi.id="EAPK_9068BE19_F2A1_4cbb_99CE_BE41F2FF81BB" isRoot="false" isLeaf="false" isAbstract="false" visibility="public">
 							<UML:ModelElement.taggedValue>
-								<UML:TaggedValue tag="parent" value="EAPK_22151A71_E899_4583_820E_865C8809B0EC"/>
-								<UML:TaggedValue tag="created" value="2011-09-29 10:24:55"/>
-								<UML:TaggedValue tag="modified" value="2011-09-29 10:24:55"/>
+								<UML:TaggedValue tag="created" value="2011-10-19 00:00:00"/>
+								<UML:TaggedValue tag="modified" value="2011-10-19 00:00:00"/>
 								<UML:TaggedValue tag="iscontrolled" value="TRUE"/>
-								<UML:TaggedValue tag="xmlpath" value="AAL Service - Medication Manager.xml"/>
+								<UML:TaggedValue tag="xmlpath" value="AAL Service - Medication Manager - to be merged.xml"/>
 								<UML:TaggedValue tag="version" value="1.0"/>
 								<UML:TaggedValue tag="isprotected" value="FALSE"/>
 								<UML:TaggedValue tag="usedtd" value="FALSE"/>
-								<UML:TaggedValue tag="owner" value="fournadjiev"/>
+								<UML:TaggedValue tag="owner" value="ven"/>
 								<UML:TaggedValue tag="xmiver" value="Enterprise Architect XMI/UML 1.3"/>
 								<UML:TaggedValue tag="logxml" value="FALSE"/>
 								<UML:TaggedValue tag="batchsave" value="0"/>
 								<UML:TaggedValue tag="batchload" value="0"/>
-								<UML:TaggedValue tag="packageFlags" value="Recurse=0;VCCFG=uAAL;CheckedOutTo=fournadjiev;"/>
-								<UML:TaggedValue tag="savedasstub" value="true"/>
+								<UML:TaggedValue tag="packageFlags" value="VCCFG=uAAL;CheckedOutTo=ven;"/>
 								<UML:TaggedValue tag="phase" value="1.0"/>
 								<UML:TaggedValue tag="status" value="Proposed"/>
-								<UML:TaggedValue tag="author" value="fournadjiev"/>
+								<UML:TaggedValue tag="author" value="ven"/>
 								<UML:TaggedValue tag="complexity" value="1"/>
 								<UML:TaggedValue tag="ea_stype" value="Public"/>
 							</UML:ModelElement.taggedValue>
 						</UML:Package>
 						<UML:Package name="AAL Service - Health Manager" xmi.id="EAPK_B8DF783A_08C0_4dc3_98A8_DBABA6512C09" isRoot="false" isLeaf="false" isAbstract="false" visibility="public">
 							<UML:ModelElement.taggedValue>
-								<UML:TaggedValue tag="parent" value="EAPK_22151A71_E899_4583_820E_865C8809B0EC"/>
 								<UML:TaggedValue tag="created" value="2011-04-15 13:01:08"/>
 								<UML:TaggedValue tag="modified" value="2011-04-15 13:01:08"/>
 								<UML:TaggedValue tag="iscontrolled" value="TRUE"/>
 								<UML:TaggedValue tag="xmlpath" value="AAL Service - Health Manager.xml"/>
-								<UML:TaggedValue tag="lastloaddate" value="2011-09-29 10:11:31"/>
+								<UML:TaggedValue tag="lastloaddate" value="2011-09-29 14:40:17"/>
 								<UML:TaggedValue tag="lastsavedate" value="2011-09-29 10:11:29"/>
 								<UML:TaggedValue tag="version" value="1.0"/>
 								<UML:TaggedValue tag="isprotected" value="FALSE"/>
@@ -228,8 +241,7 @@
 								<UML:TaggedValue tag="tpos" value="0"/>
 								<UML:TaggedValue tag="batchsave" value="0"/>
 								<UML:TaggedValue tag="batchload" value="0"/>
-								<UML:TaggedValue tag="packageFlags" value="Recurse=0;VCCFG=uAAL;CheckedOutTo=fournadjiev;"/>
-								<UML:TaggedValue tag="savedasstub" value="true"/>
+								<UML:TaggedValue tag="packageFlags" value="Recurse=0;VCCFG=uAAL;"/>
 								<UML:TaggedValue tag="phase" value="1.0"/>
 								<UML:TaggedValue tag="status" value="Proposed"/>
 								<UML:TaggedValue tag="author" value="amedrano"/>
@@ -239,12 +251,11 @@
 						</UML:Package>
 						<UML:Package name="AAL Service - Help When Outdoor" xmi.id="EAPK_A7045858_49A0_4b08_9A0F_FBE51B14FA3A" isRoot="false" isLeaf="false" isAbstract="false" visibility="public">
 							<UML:ModelElement.taggedValue>
-								<UML:TaggedValue tag="parent" value="EAPK_22151A71_E899_4583_820E_865C8809B0EC"/>
 								<UML:TaggedValue tag="created" value="2011-02-24 17:28:59"/>
 								<UML:TaggedValue tag="modified" value="2011-02-24 17:28:59"/>
 								<UML:TaggedValue tag="iscontrolled" value="TRUE"/>
 								<UML:TaggedValue tag="xmlpath" value="AAL Service - Help When Outdoor.xml"/>
-								<UML:TaggedValue tag="lastloaddate" value="2011-09-29 10:11:35"/>
+								<UML:TaggedValue tag="lastloaddate" value="2011-09-29 14:40:27"/>
 								<UML:TaggedValue tag="lastsavedate" value="2011-02-25 10:03:37"/>
 								<UML:TaggedValue tag="version" value="1.0"/>
 								<UML:TaggedValue tag="isprotected" value="FALSE"/>
@@ -254,8 +265,7 @@
 								<UML:TaggedValue tag="tpos" value="0"/>
 								<UML:TaggedValue tag="batchsave" value="0"/>
 								<UML:TaggedValue tag="batchload" value="0"/>
-								<UML:TaggedValue tag="packageFlags" value="Recurse=0;VCCFG=uAAL;CheckedOutTo=fournadjiev;"/>
-								<UML:TaggedValue tag="savedasstub" value="true"/>
+								<UML:TaggedValue tag="packageFlags" value="Recurse=0;VCCFG=uAAL;"/>
 								<UML:TaggedValue tag="phase" value="1.0"/>
 								<UML:TaggedValue tag="status" value="Proposed"/>
 								<UML:TaggedValue tag="author" value="geibsan"/>
@@ -263,14 +273,37 @@
 								<UML:TaggedValue tag="ea_stype" value="Public"/>
 							</UML:ModelElement.taggedValue>
 						</UML:Package>
+						<UML:Package name="AAL Service - Medication Manager" xmi.id="EAPK_D11A31E1_F56E_4195_8405_102151AC2BEE" isRoot="false" isLeaf="false" isAbstract="false" visibility="public">
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="created" value="2011-09-29 10:24:55"/>
+								<UML:TaggedValue tag="modified" value="2011-09-29 10:24:55"/>
+								<UML:TaggedValue tag="iscontrolled" value="TRUE"/>
+								<UML:TaggedValue tag="xmlpath" value="AAL Service - Medication Manager.xml"/>
+								<UML:TaggedValue tag="lastloaddate" value="2011-10-19 16:55:07"/>
+								<UML:TaggedValue tag="lastsavedate" value="2011-10-07 20:21:12"/>
+								<UML:TaggedValue tag="version" value="1.0"/>
+								<UML:TaggedValue tag="isprotected" value="FALSE"/>
+								<UML:TaggedValue tag="usedtd" value="FALSE"/>
+								<UML:TaggedValue tag="xmiver" value="Enterprise Architect XMI/UML 1.3"/>
+								<UML:TaggedValue tag="logxml" value="FALSE"/>
+								<UML:TaggedValue tag="tpos" value="0"/>
+								<UML:TaggedValue tag="batchsave" value="0"/>
+								<UML:TaggedValue tag="batchload" value="0"/>
+								<UML:TaggedValue tag="packageFlags" value="Recurse=0;VCCFG=uAAL;"/>
+								<UML:TaggedValue tag="phase" value="1.0"/>
+								<UML:TaggedValue tag="status" value="Proposed"/>
+								<UML:TaggedValue tag="author" value="fournadjiev"/>
+								<UML:TaggedValue tag="complexity" value="1"/>
+								<UML:TaggedValue tag="ea_stype" value="Public"/>
+							</UML:ModelElement.taggedValue>
+						</UML:Package>
 						<UML:Package name="AAL Service - Nutritional Advisor" xmi.id="EAPK_C393A574_3B67_4ca4_9174_31BED952103E" isRoot="false" isLeaf="false" isAbstract="false" visibility="public">
 							<UML:ModelElement.taggedValue>
-								<UML:TaggedValue tag="parent" value="EAPK_22151A71_E899_4583_820E_865C8809B0EC"/>
 								<UML:TaggedValue tag="created" value="2011-02-24 17:27:49"/>
 								<UML:TaggedValue tag="modified" value="2011-02-24 17:27:49"/>
 								<UML:TaggedValue tag="iscontrolled" value="TRUE"/>
 								<UML:TaggedValue tag="xmlpath" value="AAL Service - Nutritional Advisor.xml"/>
-								<UML:TaggedValue tag="lastloaddate" value="2011-09-29 10:11:41"/>
+								<UML:TaggedValue tag="lastloaddate" value="2011-09-29 14:40:43"/>
 								<UML:TaggedValue tag="lastsavedate" value="2011-03-24 16:13:51"/>
 								<UML:TaggedValue tag="version" value="1.0"/>
 								<UML:TaggedValue tag="isprotected" value="FALSE"/>
@@ -281,7 +314,6 @@
 								<UML:TaggedValue tag="batchsave" value="0"/>
 								<UML:TaggedValue tag="batchload" value="0"/>
 								<UML:TaggedValue tag="packageFlags" value="Recurse=0;VCCFG=uAAL;"/>
-								<UML:TaggedValue tag="savedasstub" value="true"/>
 								<UML:TaggedValue tag="phase" value="1.0"/>
 								<UML:TaggedValue tag="status" value="Proposed"/>
 								<UML:TaggedValue tag="author" value="geibsan"/>
@@ -291,12 +323,11 @@
 						</UML:Package>
 						<UML:Package name="AAL Service - Personal Safety" xmi.id="EAPK_92614E13_29EB_4be1_B351_0048C62D43B8" isRoot="false" isLeaf="false" isAbstract="false" visibility="public">
 							<UML:ModelElement.taggedValue>
-								<UML:TaggedValue tag="parent" value="EAPK_22151A71_E899_4583_820E_865C8809B0EC"/>
 								<UML:TaggedValue tag="created" value="2011-07-21 17:00:46"/>
 								<UML:TaggedValue tag="modified" value="2011-07-21 17:00:46"/>
 								<UML:TaggedValue tag="iscontrolled" value="TRUE"/>
 								<UML:TaggedValue tag="xmlpath" value="Component View\AAL Service - Personal Safety.xml"/>
-								<UML:TaggedValue tag="lastloaddate" value="2011-09-29 10:11:33"/>
+								<UML:TaggedValue tag="lastloaddate" value="2011-09-29 14:41:01"/>
 								<UML:TaggedValue tag="lastsavedate" value="2011-09-29 10:11:32"/>
 								<UML:TaggedValue tag="version" value="1.0"/>
 								<UML:TaggedValue tag="isprotected" value="FALSE"/>
@@ -306,8 +337,7 @@
 								<UML:TaggedValue tag="tpos" value="0"/>
 								<UML:TaggedValue tag="batchsave" value="0"/>
 								<UML:TaggedValue tag="batchload" value="0"/>
-								<UML:TaggedValue tag="packageFlags" value="Recurse=0;VCCFG=uAAL;CheckedOutTo=fournadjiev;"/>
-								<UML:TaggedValue tag="savedasstub" value="true"/>
+								<UML:TaggedValue tag="packageFlags" value="Recurse=0;VCCFG=uAAL;"/>
 								<UML:TaggedValue tag="phase" value="1.0"/>
 								<UML:TaggedValue tag="status" value="Proposed"/>
 								<UML:TaggedValue tag="author" value="amedrano"/>
@@ -317,12 +347,11 @@
 						</UML:Package>
 						<UML:Package name="Tools" xmi.id="EAPK_FCB70273_EAF4_42c5_90B6_28F0F4945ED5" isRoot="false" isLeaf="false" isAbstract="false" visibility="public">
 							<UML:ModelElement.taggedValue>
-								<UML:TaggedValue tag="parent" value="EAPK_22151A71_E899_4583_820E_865C8809B0EC"/>
 								<UML:TaggedValue tag="created" value="2010-11-05 10:52:31"/>
 								<UML:TaggedValue tag="modified" value="2010-11-05 10:52:31"/>
 								<UML:TaggedValue tag="iscontrolled" value="TRUE"/>
 								<UML:TaggedValue tag="xmlpath" value="Component View\System Collaboration Model Tools.xml"/>
-								<UML:TaggedValue tag="lastloaddate" value="2011-09-29 10:11:43"/>
+								<UML:TaggedValue tag="lastloaddate" value="2011-09-29 14:41:09"/>
 								<UML:TaggedValue tag="lastsavedate" value="2011-02-07 18:05:40"/>
 								<UML:TaggedValue tag="version" value="1.0"/>
 								<UML:TaggedValue tag="isprotected" value="FALSE"/>
@@ -332,8 +361,7 @@
 								<UML:TaggedValue tag="tpos" value="0"/>
 								<UML:TaggedValue tag="batchsave" value="0"/>
 								<UML:TaggedValue tag="batchload" value="0"/>
-								<UML:TaggedValue tag="packageFlags" value="Recurse=0;VCCFG=uAAL;CheckedOutTo=fournadjiev;"/>
-								<UML:TaggedValue tag="savedasstub" value="true"/>
+								<UML:TaggedValue tag="packageFlags" value="Recurse=0;VCCFG=uAAL;"/>
 								<UML:TaggedValue tag="phase" value="1.0"/>
 								<UML:TaggedValue tag="status" value="Proposed"/>
 								<UML:TaggedValue tag="author" value="erlend"/>
