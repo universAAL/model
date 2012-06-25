@@ -519,6 +519,33 @@
 								</UML:Interaction>
 							</UML:Collaboration.interaction>
 						</UML:Collaboration>
+						<UML:Interface name="AALSpaceManager" xmi.id="EAID_30B2CA67_A748_4e7f_80E2_103009983F67" visibility="public" namespace="EAPK_F9D20461_8B66_4497_A434_998D0EA2B537" isRoot="false" isLeaf="false" isAbstract="true">
+							<UML:ModelElement.stereotype>
+								<UML:Stereotype name="interface"/>
+							</UML:ModelElement.stereotype>
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="isSpecification" value="false"/>
+								<UML:TaggedValue tag="ea_stype" value="Interface"/>
+								<UML:TaggedValue tag="ea_ntype" value="0"/>
+								<UML:TaggedValue tag="version" value="1.0"/>
+								<UML:TaggedValue tag="package" value="EAPK_F9D20461_8B66_4497_A434_998D0EA2B537"/>
+								<UML:TaggedValue tag="date_created" value="2012-06-25 11:10:48"/>
+								<UML:TaggedValue tag="date_modified" value="2012-06-25 11:10:53"/>
+								<UML:TaggedValue tag="gentype" value="Java"/>
+								<UML:TaggedValue tag="tagged" value="0"/>
+								<UML:TaggedValue tag="package_name" value="uCC and Execution Environment"/>
+								<UML:TaggedValue tag="phase" value="1.0"/>
+								<UML:TaggedValue tag="author" value="michele"/>
+								<UML:TaggedValue tag="complexity" value="1"/>
+								<UML:TaggedValue tag="status" value="Proposed"/>
+								<UML:TaggedValue tag="stereotype" value="interface"/>
+								<UML:TaggedValue tag="tpos" value="0"/>
+								<UML:TaggedValue tag="ea_localid" value="12905"/>
+								<UML:TaggedValue tag="ea_eleType" value="element"/>
+								<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+								<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={30B5AECC-63A3-4e44-8F64-271C067D74A4}$XID;$NAM=Stereotypes$NAM;$TYP=element property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=interface;GUID={D3D96F24-0091-4c82-8360-CDD72E4B428C};@ENDSTEREO;$DES;$CLT={30B2CA67-A748-4e7f-80E2-103009983F67}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
+							</UML:ModelElement.taggedValue>
+						</UML:Interface>
 						<UML:Interface name="DeployManager" xmi.id="EAID_4DC18D2A_1868_4d8a_BEB6_A32F7B0E2B84" visibility="public" namespace="EAPK_F9D20461_8B66_4497_A434_998D0EA2B537" isRoot="false" isLeaf="false" isAbstract="true">
 							<UML:ModelElement.stereotype>
 								<UML:Stereotype name="interface"/>
@@ -546,56 +573,13 @@
 								<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={CB5A3219-B70D-4e37-BAE0-E435FE470505}$XID;$NAM=Stereotypes$NAM;$TYP=element property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=interface;GUID={DB755E82-6186-4b17-A70F-5650218B543E};@ENDSTEREO;$DES;$CLT={4DC18D2A-1868-4d8a-BEB6-A32F7B0E2B84}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
 							</UML:ModelElement.taggedValue>
 							<UML:Classifier.feature>
-								<UML:Operation name="checkDeployLayout" visibility="public" ownerScope="instance" isQuery="false" concurrency="sequential">
+								<UML:Operation name="requestToInstall" visibility="public" ownerScope="instance" isQuery="false" concurrency="sequential">
 									<UML:ModelElement.taggedValue>
-										<UML:TaggedValue tag="type" value="HashMap"/>
+										<UML:TaggedValue tag="type" value="InstallationResult"/>
 										<UML:TaggedValue tag="const" value="false"/>
 										<UML:TaggedValue tag="synchronised" value="0"/>
 										<UML:TaggedValue tag="concurrency" value="Sequential"/>
 										<UML:TaggedValue tag="position" value="0"/>
-										<UML:TaggedValue tag="returnarray" value="0"/>
-										<UML:TaggedValue tag="pure" value="0"/>
-										<UML:TaggedValue tag="ea_guid" value="{C21A2648-2C83-46d9-8437-6FF34609BD26}"/>
-										<UML:TaggedValue tag="ea_localid" value="13419"/>
-									</UML:ModelElement.taggedValue>
-									<UML:BehavioralFeature.parameter>
-										<UML:Parameter kind="return" visibility="public">
-											<UML:Parameter.type>
-												<UML:Classifier xmi.idref="eaxmiid0"/>
-											</UML:Parameter.type>
-											<UML:ModelElement.taggedValue>
-												<UML:TaggedValue tag="pos" value="0"/>
-												<UML:TaggedValue tag="type" value="HashMap"/>
-												<UML:TaggedValue tag="const" value="0"/>
-												<UML:TaggedValue tag="ea_guid" value="{RETURNID-2C83-46d9-8437-6FF34609BD26}"/>
-											</UML:ModelElement.taggedValue>
-											<UML:Parameter.defaultValue>
-												<UML:Expression/>
-											</UML:Parameter.defaultValue>
-										</UML:Parameter>
-										<UML:Parameter name="mulitPartApplication" kind="in" visibility="public">
-											<UML:Parameter.type>
-												<UML:Classifier xmi.idref="eaxmiid1"/>
-											</UML:Parameter.type>
-											<UML:ModelElement.taggedValue>
-												<UML:TaggedValue tag="pos" value="0"/>
-												<UML:TaggedValue tag="type" value="File"/>
-												<UML:TaggedValue tag="const" value="0"/>
-												<UML:TaggedValue tag="ea_guid" value="{FDCDB84A-EBD6-472d-A37C-708349767952}"/>
-											</UML:ModelElement.taggedValue>
-											<UML:Parameter.defaultValue>
-												<UML:Expression/>
-											</UML:Parameter.defaultValue>
-										</UML:Parameter>
-									</UML:BehavioralFeature.parameter>
-								</UML:Operation>
-								<UML:Operation name="requestToInstall" visibility="public" ownerScope="instance" isQuery="false" concurrency="sequential">
-									<UML:ModelElement.taggedValue>
-										<UML:TaggedValue tag="type" value="void"/>
-										<UML:TaggedValue tag="const" value="false"/>
-										<UML:TaggedValue tag="synchronised" value="0"/>
-										<UML:TaggedValue tag="concurrency" value="Sequential"/>
-										<UML:TaggedValue tag="position" value="1"/>
 										<UML:TaggedValue tag="returnarray" value="0"/>
 										<UML:TaggedValue tag="pure" value="0"/>
 										<UML:TaggedValue tag="ea_guid" value="{9F1C7564-E9CE-4663-B475-28A02038FACC}"/>
@@ -604,11 +588,11 @@
 									<UML:BehavioralFeature.parameter>
 										<UML:Parameter kind="return" visibility="public">
 											<UML:Parameter.type>
-												<UML:Classifier xmi.idref="eaxmiid2"/>
+												<UML:Classifier xmi.idref="eaxmiid0"/>
 											</UML:Parameter.type>
 											<UML:ModelElement.taggedValue>
 												<UML:TaggedValue tag="pos" value="0"/>
-												<UML:TaggedValue tag="type" value="void"/>
+												<UML:TaggedValue tag="type" value="InstallationResult"/>
 												<UML:TaggedValue tag="const" value="0"/>
 												<UML:TaggedValue tag="ea_guid" value="{RETURNID-E9CE-4663-B475-28A02038FACC}"/>
 											</UML:ModelElement.taggedValue>
@@ -616,174 +600,15 @@
 												<UML:Expression/>
 											</UML:Parameter.defaultValue>
 										</UML:Parameter>
-										<UML:Parameter name="multiPartApplication" kind="in" visibility="public">
+										<UML:Parameter name="layout" kind="in" visibility="public">
 											<UML:Parameter.type>
-												<UML:Classifier xmi.idref="eaxmiid3"/>
+												<UML:Classifier xmi.idref="eaxmiid1"/>
 											</UML:Parameter.type>
 											<UML:ModelElement.taggedValue>
 												<UML:TaggedValue tag="pos" value="0"/>
-												<UML:TaggedValue tag="type" value="URI"/>
+												<UML:TaggedValue tag="type" value="Map&lt;PeerCard, Part&gt;"/>
 												<UML:TaggedValue tag="const" value="0"/>
 												<UML:TaggedValue tag="ea_guid" value="{A0DF80EA-82BB-41d8-BCAA-CEFD4614B07A}"/>
-											</UML:ModelElement.taggedValue>
-											<UML:Parameter.defaultValue>
-												<UML:Expression/>
-											</UML:Parameter.defaultValue>
-										</UML:Parameter>
-									</UML:BehavioralFeature.parameter>
-								</UML:Operation>
-								<UML:Operation name="requestToInstall" visibility="public" ownerScope="instance" isQuery="false" concurrency="sequential">
-									<UML:ModelElement.taggedValue>
-										<UML:TaggedValue tag="type" value="void"/>
-										<UML:TaggedValue tag="const" value="false"/>
-										<UML:TaggedValue tag="synchronised" value="0"/>
-										<UML:TaggedValue tag="concurrency" value="Sequential"/>
-										<UML:TaggedValue tag="position" value="2"/>
-										<UML:TaggedValue tag="returnarray" value="0"/>
-										<UML:TaggedValue tag="pure" value="0"/>
-										<UML:TaggedValue tag="ea_guid" value="{7C5DB73D-A86B-4c4a-B029-E022BB66BA45}"/>
-										<UML:TaggedValue tag="ea_localid" value="13421"/>
-									</UML:ModelElement.taggedValue>
-									<UML:BehavioralFeature.parameter>
-										<UML:Parameter kind="return" visibility="public">
-											<UML:Parameter.type>
-												<UML:Classifier xmi.idref="eaxmiid2"/>
-											</UML:Parameter.type>
-											<UML:ModelElement.taggedValue>
-												<UML:TaggedValue tag="pos" value="0"/>
-												<UML:TaggedValue tag="type" value="void"/>
-												<UML:TaggedValue tag="const" value="0"/>
-												<UML:TaggedValue tag="ea_guid" value="{RETURNID-A86B-4c4a-B029-E022BB66BA45}"/>
-											</UML:ModelElement.taggedValue>
-											<UML:Parameter.defaultValue>
-												<UML:Expression/>
-											</UML:Parameter.defaultValue>
-										</UML:Parameter>
-										<UML:Parameter name="multiPartApplication" kind="in" visibility="public">
-											<UML:Parameter.type>
-												<UML:Classifier xmi.idref="eaxmiid4"/>
-											</UML:Parameter.type>
-											<UML:ModelElement.taggedValue>
-												<UML:TaggedValue tag="pos" value="0"/>
-												<UML:TaggedValue tag="type" value="JarFile"/>
-												<UML:TaggedValue tag="const" value="0"/>
-												<UML:TaggedValue tag="ea_guid" value="{4DA73CE7-5335-4040-B01F-20668A3BF9CC}"/>
-											</UML:ModelElement.taggedValue>
-											<UML:Parameter.defaultValue>
-												<UML:Expression/>
-											</UML:Parameter.defaultValue>
-										</UML:Parameter>
-									</UML:BehavioralFeature.parameter>
-								</UML:Operation>
-								<UML:Operation name="requestToInstall" visibility="public" ownerScope="instance" isQuery="false" concurrency="sequential">
-									<UML:ModelElement.taggedValue>
-										<UML:TaggedValue tag="documentation" value="artefacts are jars zipped in one file;&#xA;configs file contains the mapping of the application parts and the user selected node list."/>
-										<UML:TaggedValue tag="type" value="InstallResult"/>
-										<UML:TaggedValue tag="const" value="false"/>
-										<UML:TaggedValue tag="synchronised" value="0"/>
-										<UML:TaggedValue tag="concurrency" value="Sequential"/>
-										<UML:TaggedValue tag="position" value="3"/>
-										<UML:TaggedValue tag="returnarray" value="0"/>
-										<UML:TaggedValue tag="pure" value="0"/>
-										<UML:TaggedValue tag="ea_guid" value="{FBF9693A-E1B6-4d7d-96A1-C672D2AFEF79}"/>
-										<UML:TaggedValue tag="ea_localid" value="13422"/>
-									</UML:ModelElement.taggedValue>
-									<UML:BehavioralFeature.parameter>
-										<UML:Parameter kind="return" visibility="public">
-											<UML:Parameter.type>
-												<UML:Classifier xmi.idref="eaxmiid5"/>
-											</UML:Parameter.type>
-											<UML:ModelElement.taggedValue>
-												<UML:TaggedValue tag="pos" value="0"/>
-												<UML:TaggedValue tag="type" value="InstallResult"/>
-												<UML:TaggedValue tag="const" value="0"/>
-												<UML:TaggedValue tag="ea_guid" value="{RETURNID-E1B6-4d7d-96A1-C672D2AFEF79}"/>
-											</UML:ModelElement.taggedValue>
-											<UML:Parameter.defaultValue>
-												<UML:Expression/>
-											</UML:Parameter.defaultValue>
-										</UML:Parameter>
-										<UML:Parameter name="configs" kind="in" visibility="public">
-											<UML:Parameter.type>
-												<UML:Classifier xmi.idref="eaxmiid1"/>
-											</UML:Parameter.type>
-											<UML:ModelElement.taggedValue>
-												<UML:TaggedValue tag="pos" value="0"/>
-												<UML:TaggedValue tag="type" value="File"/>
-												<UML:TaggedValue tag="const" value="0"/>
-												<UML:TaggedValue tag="ea_guid" value="{47E53078-BBBD-4710-A38F-487B693B30D1}"/>
-											</UML:ModelElement.taggedValue>
-											<UML:Parameter.defaultValue>
-												<UML:Expression/>
-											</UML:Parameter.defaultValue>
-										</UML:Parameter>
-										<UML:Parameter name="artefacts" kind="in" visibility="public">
-											<UML:Parameter.type>
-												<UML:Classifier xmi.idref="eaxmiid1"/>
-											</UML:Parameter.type>
-											<UML:ModelElement.taggedValue>
-												<UML:TaggedValue tag="pos" value="1"/>
-												<UML:TaggedValue tag="type" value="File"/>
-												<UML:TaggedValue tag="const" value="0"/>
-												<UML:TaggedValue tag="ea_guid" value="{CC979E3F-005A-4300-943A-AF82C0FC0800}"/>
-											</UML:ModelElement.taggedValue>
-											<UML:Parameter.defaultValue>
-												<UML:Expression/>
-											</UML:Parameter.defaultValue>
-										</UML:Parameter>
-									</UML:BehavioralFeature.parameter>
-								</UML:Operation>
-								<UML:Operation name="requestToInstall" visibility="public" ownerScope="instance" isQuery="false" concurrency="sequential">
-									<UML:ModelElement.taggedValue>
-										<UML:TaggedValue tag="type" value="void"/>
-										<UML:TaggedValue tag="const" value="false"/>
-										<UML:TaggedValue tag="synchronised" value="0"/>
-										<UML:TaggedValue tag="concurrency" value="Sequential"/>
-										<UML:TaggedValue tag="position" value="4"/>
-										<UML:TaggedValue tag="returnarray" value="0"/>
-										<UML:TaggedValue tag="pure" value="0"/>
-										<UML:TaggedValue tag="ea_guid" value="{F3942503-8018-41b2-9685-E64DC1459376}"/>
-										<UML:TaggedValue tag="ea_localid" value="13423"/>
-									</UML:ModelElement.taggedValue>
-									<UML:BehavioralFeature.parameter>
-										<UML:Parameter kind="return" visibility="public">
-											<UML:Parameter.type>
-												<UML:Classifier xmi.idref="eaxmiid2"/>
-											</UML:Parameter.type>
-											<UML:ModelElement.taggedValue>
-												<UML:TaggedValue tag="pos" value="0"/>
-												<UML:TaggedValue tag="type" value="void"/>
-												<UML:TaggedValue tag="const" value="0"/>
-												<UML:TaggedValue tag="ea_guid" value="{RETURNID-8018-41b2-9685-E64DC1459376}"/>
-											</UML:ModelElement.taggedValue>
-											<UML:Parameter.defaultValue>
-												<UML:Expression/>
-											</UML:Parameter.defaultValue>
-										</UML:Parameter>
-										<UML:Parameter name="deployConfig" kind="in" visibility="public">
-											<UML:Parameter.type>
-												<UML:Classifier xmi.idref="eaxmiid0"/>
-											</UML:Parameter.type>
-											<UML:ModelElement.taggedValue>
-												<UML:TaggedValue tag="note" value="artefacts are jars zipped in one file;&#xA;deployConfig HashMap contains the mapping of the application parts and the user selected node list.&#xA;"/>
-												<UML:TaggedValue tag="pos" value="0"/>
-												<UML:TaggedValue tag="type" value="HashMap"/>
-												<UML:TaggedValue tag="const" value="0"/>
-												<UML:TaggedValue tag="ea_guid" value="{0D497DD8-92C2-43cb-B5A9-E92BD5AFACCF}"/>
-											</UML:ModelElement.taggedValue>
-											<UML:Parameter.defaultValue>
-												<UML:Expression/>
-											</UML:Parameter.defaultValue>
-										</UML:Parameter>
-										<UML:Parameter name="artefacts" kind="in" visibility="public">
-											<UML:Parameter.type>
-												<UML:Classifier xmi.idref="eaxmiid1"/>
-											</UML:Parameter.type>
-											<UML:ModelElement.taggedValue>
-												<UML:TaggedValue tag="pos" value="1"/>
-												<UML:TaggedValue tag="type" value="File"/>
-												<UML:TaggedValue tag="const" value="0"/>
-												<UML:TaggedValue tag="ea_guid" value="{DDDD96C2-7038-4e6f-AB0A-DACCCDB98D15}"/>
 											</UML:ModelElement.taggedValue>
 											<UML:Parameter.defaultValue>
 												<UML:Expression/>
@@ -815,29 +640,6 @@
 								<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
 							</UML:ModelElement.taggedValue>
 						</UML:Component>
-						<UML:Comment xmi.id="EAID_6899164A_F56A_4462_BB70_8014FE8B18EF" visibility="public" namespace="EAPK_F9D20461_8B66_4497_A434_998D0EA2B537">
-							<UML:ModelElement.taggedValue>
-								<UML:TaggedValue tag="documentation" value="About the parameters:&#xA;-checkDeployLayout(File mpa):HashMap&#xA;returns a HashMap of (appPart, peerList);&#xA;&#xA;-requestToInstall(File artefacts, File configs):InstallResult&#xA;-requestToInstall(File artefacts, HashMap configs): InstallResult &#xA;artefacts are jars zipped in one file;&#xA;configs settting contains the mapping of application parts and the user selected deploy nodes. It  can either be a file or a HashMap (the same as the return from the checkDeployLayout);&#xA;returns the result of the installation (for all parts and all deployed nodes)."/>
-								<UML:TaggedValue tag="isSpecification" value="false"/>
-								<UML:TaggedValue tag="ea_stype" value="Note"/>
-								<UML:TaggedValue tag="ea_ntype" value="0"/>
-								<UML:TaggedValue tag="version" value="1.0"/>
-								<UML:TaggedValue tag="package" value="EAPK_F9D20461_8B66_4497_A434_998D0EA2B537"/>
-								<UML:TaggedValue tag="date_created" value="2012-05-30 14:05:15"/>
-								<UML:TaggedValue tag="date_modified" value="2012-06-01 11:08:30"/>
-								<UML:TaggedValue tag="gentype" value="&lt;none&gt;"/>
-								<UML:TaggedValue tag="tagged" value="0"/>
-								<UML:TaggedValue tag="package_name" value="uCC and Execution Environment"/>
-								<UML:TaggedValue tag="phase" value="1.0"/>
-								<UML:TaggedValue tag="author" value="sji"/>
-								<UML:TaggedValue tag="complexity" value="1"/>
-								<UML:TaggedValue tag="status" value="Proposed"/>
-								<UML:TaggedValue tag="tpos" value="0"/>
-								<UML:TaggedValue tag="ea_localid" value="12894"/>
-								<UML:TaggedValue tag="ea_eleType" value="element"/>
-								<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
-							</UML:ModelElement.taggedValue>
-						</UML:Comment>
 						<UML:Comment xmi.id="EAID_7158DCCC_ECA1_4b46_AB1B_BD4C70BE7BA6" visibility="public" namespace="EAPK_F9D20461_8B66_4497_A434_998D0EA2B537">
 							<UML:ModelElement.taggedValue>
 								<UML:TaggedValue tag="documentation" value="Assume all artefacts are downloaded from repository by uCC;&#xA;It is possible for uCC to have internal check (license, app configuration....)for MPA before invoking Deploy Manager."/>
@@ -945,6 +747,67 @@
 								<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
 							</UML:ModelElement.taggedValue>
 						</UML:Comment>
+						<UML:Class name="peers" xmi.id="EAID_A1FF9F62_4EDE_44cf_9F66_F2B998728A87" visibility="public" namespace="EAPK_F9D20461_8B66_4497_A434_998D0EA2B537" isRoot="false" isLeaf="false" isAbstract="false">
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="isSpecification" value="false"/>
+								<UML:TaggedValue tag="ea_stype" value="Port"/>
+								<UML:TaggedValue tag="ea_ntype" value="0"/>
+								<UML:TaggedValue tag="version" value="1.0"/>
+								<UML:TaggedValue tag="package" value="EAPK_F9D20461_8B66_4497_A434_998D0EA2B537"/>
+								<UML:TaggedValue tag="owner" value="EAID_BEE933CD_AA5C_4849_B419_40BCCDF7B871"/>
+								<UML:TaggedValue tag="date_created" value="2012-06-25 11:11:27"/>
+								<UML:TaggedValue tag="date_modified" value="2012-06-25 11:11:32"/>
+								<UML:TaggedValue tag="gentype" value="&lt;none&gt;"/>
+								<UML:TaggedValue tag="tagged" value="0"/>
+								<UML:TaggedValue tag="package_name" value="uCC and Execution Environment"/>
+								<UML:TaggedValue tag="phase" value="1.0"/>
+								<UML:TaggedValue tag="author" value="michele"/>
+								<UML:TaggedValue tag="complexity" value="1"/>
+								<UML:TaggedValue tag="status" value="Proposed"/>
+								<UML:TaggedValue tag="tpos" value="0"/>
+								<UML:TaggedValue tag="ea_localid" value="12907"/>
+								<UML:TaggedValue tag="ea_eleType" value="element"/>
+								<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+							</UML:ModelElement.taggedValue>
+						</UML:Class>
+						<UML:Dependency client="EAID_F2F749CA_75B0_41fa_B3BD_6F7031E973D0" supplier="EAID_A1FF9F62_4EDE_44cf_9F66_F2B998728A87" xmi.id="EAID_FCD3D9AD_F286_40b2_A3B2_74450EC87C28" visibility="public">
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="style" value="3"/>
+								<UML:TaggedValue tag="ea_type" value="Assembly"/>
+								<UML:TaggedValue tag="direction" value="Source -&gt; Destination"/>
+								<UML:TaggedValue tag="linemode" value="3"/>
+								<UML:TaggedValue tag="linecolor" value="-1"/>
+								<UML:TaggedValue tag="linewidth" value="0"/>
+								<UML:TaggedValue tag="seqno" value="0"/>
+								<UML:TaggedValue tag="headStyle" value="0"/>
+								<UML:TaggedValue tag="lineStyle" value="0"/>
+								<UML:TaggedValue tag="ea_localid" value="11071"/>
+								<UML:TaggedValue tag="ea_sourceName" value="deploy"/>
+								<UML:TaggedValue tag="ea_targetName" value="peers"/>
+								<UML:TaggedValue tag="ea_sourceType" value="Port"/>
+								<UML:TaggedValue tag="ea_targetType" value="Port"/>
+								<UML:TaggedValue tag="ea_sourceID" value="12587"/>
+								<UML:TaggedValue tag="ea_targetID" value="12907"/>
+								<UML:TaggedValue tag="src_visibility" value="Public"/>
+								<UML:TaggedValue tag="src_aggregation" value="0"/>
+								<UML:TaggedValue tag="src_isOrdered" value="false"/>
+								<UML:TaggedValue tag="src_targetScope" value="instance"/>
+								<UML:TaggedValue tag="src_changeable" value="none"/>
+								<UML:TaggedValue tag="src_isNavigable" value="false"/>
+								<UML:TaggedValue tag="src_containment" value="Unspecified"/>
+								<UML:TaggedValue tag="src_style" value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Non-Navigable;"/>
+								<UML:TaggedValue tag="dst_visibility" value="Public"/>
+								<UML:TaggedValue tag="dst_aggregation" value="0"/>
+								<UML:TaggedValue tag="dst_isOrdered" value="false"/>
+								<UML:TaggedValue tag="dst_targetScope" value="instance"/>
+								<UML:TaggedValue tag="dst_changeable" value="none"/>
+								<UML:TaggedValue tag="dst_isNavigable" value="true"/>
+								<UML:TaggedValue tag="dst_containment" value="Unspecified"/>
+								<UML:TaggedValue tag="dst_style" value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Navigable;"/>
+								<UML:TaggedValue tag="privatedata5" value="SX=0;SY=0;EX=0;EY=0;EDGE=2;"/>
+								<UML:TaggedValue tag="virtualInheritance" value="0"/>
+							</UML:ModelElement.taggedValue>
+						</UML:Dependency>
 						<UML:Actor name="Deployer" xmi.id="EAID_AC758C39_4210_41d8_A507_BF64A3CFB9F0" visibility="public" namespace="EAPK_F9D20461_8B66_4497_A434_998D0EA2B537" isRoot="false" isLeaf="false" isAbstract="false">
 							<UML:ModelElement.taggedValue>
 								<UML:TaggedValue tag="isSpecification" value="false"/>
@@ -967,6 +830,28 @@
 								<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
 							</UML:ModelElement.taggedValue>
 						</UML:Actor>
+						<UML:Component name="AALSpaceManager" xmi.id="EAID_BEE933CD_AA5C_4849_B419_40BCCDF7B871" visibility="public" namespace="EAPK_F9D20461_8B66_4497_A434_998D0EA2B537" isRoot="false" isLeaf="false" isAbstract="false">
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="isSpecification" value="false"/>
+								<UML:TaggedValue tag="ea_stype" value="Component"/>
+								<UML:TaggedValue tag="ea_ntype" value="0"/>
+								<UML:TaggedValue tag="version" value="1.0"/>
+								<UML:TaggedValue tag="package" value="EAPK_F9D20461_8B66_4497_A434_998D0EA2B537"/>
+								<UML:TaggedValue tag="date_created" value="2012-06-25 11:10:58"/>
+								<UML:TaggedValue tag="date_modified" value="2012-06-25 11:11:01"/>
+								<UML:TaggedValue tag="gentype" value="Java"/>
+								<UML:TaggedValue tag="tagged" value="0"/>
+								<UML:TaggedValue tag="package_name" value="uCC and Execution Environment"/>
+								<UML:TaggedValue tag="phase" value="1.0"/>
+								<UML:TaggedValue tag="author" value="michele"/>
+								<UML:TaggedValue tag="complexity" value="1"/>
+								<UML:TaggedValue tag="status" value="Proposed"/>
+								<UML:TaggedValue tag="tpos" value="0"/>
+								<UML:TaggedValue tag="ea_localid" value="12906"/>
+								<UML:TaggedValue tag="ea_eleType" value="element"/>
+								<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+							</UML:ModelElement.taggedValue>
+						</UML:Component>
 						<UML:Comment xmi.id="EAID_DAFF6BFA_EEAD_4095_8274_22FDBE69A6AD" visibility="public" namespace="EAPK_F9D20461_8B66_4497_A434_998D0EA2B537">
 							<UML:ModelElement.taggedValue>
 								<UML:TaggedValue tag="documentation" value="Relevant stakeholders for this interface - use cases not defined in this model yet"/>
@@ -992,12 +877,8 @@
 						</UML:Comment>
 					</UML:Namespace.ownedElement>
 				</UML:Package>
-				<UML:DataType xmi.id="eaxmiid1" name="File" visibility="private" isRoot="false" isLeaf="false" isAbstract="false"/>
-				<UML:DataType xmi.id="eaxmiid2" name="void" visibility="private" isRoot="false" isLeaf="false" isAbstract="false"/>
-				<UML:DataType xmi.id="eaxmiid5" name="InstallResult" visibility="private" isRoot="false" isLeaf="false" isAbstract="false"/>
-				<UML:DataType xmi.id="eaxmiid3" name="URI" visibility="private" isRoot="false" isLeaf="false" isAbstract="false"/>
-				<UML:DataType xmi.id="eaxmiid0" name="HashMap" visibility="private" isRoot="false" isLeaf="false" isAbstract="false"/>
-				<UML:DataType xmi.id="eaxmiid4" name="JarFile" visibility="private" isRoot="false" isLeaf="false" isAbstract="false"/>
+				<UML:DataType xmi.id="eaxmiid0" name="InstallationResult" visibility="private" isRoot="false" isLeaf="false" isAbstract="false"/>
+				<UML:DataType xmi.id="eaxmiid1" name="Map&lt;PeerCard, Part&gt;" visibility="private" isRoot="false" isLeaf="false" isAbstract="false"/>
 			</UML:Namespace.ownedElement>
 		</UML:Model>
 		<UML:Diagram name="uCC and Execution Environment" xmi.id="EAID_0C3953E0_D482_4728_B88F_68BB9D049CCC" diagramType="ComponentDiagram" owner="EAPK_F9D20461_8B66_4497_A434_998D0EA2B537" toolName="Enterprise Architect 2.5">
@@ -1005,7 +886,7 @@
 				<UML:TaggedValue tag="version" value="1.0"/>
 				<UML:TaggedValue tag="author" value="erlend"/>
 				<UML:TaggedValue tag="created_date" value="2012-05-24 08:48:29"/>
-				<UML:TaggedValue tag="modified_date" value="2012-06-01 11:08:47"/>
+				<UML:TaggedValue tag="modified_date" value="2012-06-25 11:15:10"/>
 				<UML:TaggedValue tag="package" value="EAPK_F9D20461_8B66_4497_A434_998D0EA2B537"/>
 				<UML:TaggedValue tag="type" value="Component"/>
 				<UML:TaggedValue tag="swimlanes" value="locked=false;orientation=0;width=0;inbar=false;names=false;color=0;bold=false;fcol=0;;cls=0;"/>
@@ -1015,14 +896,16 @@
 				<UML:TaggedValue tag="styleex" value="ExcludeRTF=0;DocAll=0;HideQuals=0;AttPkg=1;ShowTests=0;ShowMaint=0;SuppressFOC=1;MatrixActive=0;SwimlanesActive=1;MatrixLineWidth=1;MatrixLocked=0;TConnectorNotation=UML 2.1;TExplicitNavigability=0;AdvancedElementProps=1;AdvancedFeatureProps=1;AdvancedConnectorProps=1;ProfileData=;MDGDgm=;STBLDgm=;ShowNotes=0;VisibleAttributeDetail=0;ShowOpRetType=1;SuppressBrackets=0;SuppConnectorLabels=0;PrintPageHeadFoot=0;ShowAsList=0;"/>
 			</UML:ModelElement.taggedValue>
 			<UML:Diagram.element>
-				<UML:DiagramElement geometry="Left=239;Top=132;Right=254;Bottom=147;" subject="EAID_F2F749CA_75B0_41fa_B3BD_6F7031E973D0" seqno="1" style="DUID=B4FC0F8F;LBL=CX=32:CY=13:OX=0:OY=0:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:ALT=0:ROT=0;"/>
-				<UML:DiagramElement geometry="Left=410;Top=134;Right=425;Bottom=149;" subject="EAID_847422B0_1E8E_4f04_AAFB_12B779A9E381" seqno="2" style="DUID=A1124076;LBL=CX=32:CY=13:OX=0:OY=0:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:ALT=0:ROT=0;"/>
-				<UML:DiagramElement geometry="Left=23;Top=241;Right=285;Bottom=469;" subject="EAID_6899164A_F56A_4462_BB70_8014FE8B18EF" seqno="3" style="DUID=00606BA5;"/>
-				<UML:DiagramElement geometry="Left=612;Top=50;Right=786;Bottom=167;" subject="EAID_8564C226_C321_406e_A855_C31F6837F067" seqno="4" style="DUID=52F0BEB9;"/>
-				<UML:DiagramElement geometry="Left=348;Top=318;Right=587;Bottom=422;" subject="EAID_4DC18D2A_1868_4d8a_BEB6_A32F7B0E2B84" seqno="5" style="DUID=E4BA9675;"/>
-				<UML:DiagramElement geometry="Left=417;Top=108;Right=527;Bottom=168;" subject="EAID_6427D10F_3508_4760_95BC_94E19A3AF67B" seqno="6" style="DUID=9F4129C3;"/>
-				<UML:DiagramElement geometry="Left=337;Top=35;Right=578;Bottom=255;" subject="EAID_2B2ECC22_061F_479d_A570_F3AAC480DE5D" seqno="7" style="DUID=16584DB9;NSL=0;BCol=-1;BFol=-1;LCol=-1;LWth=-1;fontsz=0;bold=0;italic=0;ul=0;charset=0;pitch=0;OpPro=0;OpPri=0;OpPub=0;OpPkg=0;AttCustom=0;OpCustom=0;RzO=1;"/>
-				<UML:DiagramElement geometry="Left=53;Top=84;Right=246;Bottom=213;" subject="EAID_27BE54FC_532B_46bf_A154_61BC2A335E78" seqno="8" style="DUID=8BACB1A4;NSL=0;BCol=-1;BFol=-1;LCol=-1;LWth=-1;fontsz=0;bold=0;italic=0;ul=0;charset=0;pitch=0;OpPro=0;OpPri=0;OpPub=0;OpPkg=0;AttCustom=0;OpCustom=0;RzO=1;"/>
+				<UML:DiagramElement geometry="Left=392;Top=110;Right=407;Bottom=125;" subject="EAID_A1FF9F62_4EDE_44cf_9F66_F2B998728A87" seqno="1" style="DUID=FA9E9F95;LBL=CX=25:CY=13:OX=0:OY=0:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:ALT=0:ROT=0;"/>
+				<UML:DiagramElement geometry="Left=239;Top=171;Right=254;Bottom=186;" subject="EAID_F2F749CA_75B0_41fa_B3BD_6F7031E973D0" seqno="2" style="DUID=B4FC0F8F;LBL=CX=32:CY=13:OX=0:OY=0:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:ALT=0:ROT=0;"/>
+				<UML:DiagramElement geometry="Left=398;Top=208;Right=413;Bottom=223;" subject="EAID_847422B0_1E8E_4f04_AAFB_12B779A9E381" seqno="3" style="DUID=A1124076;LBL=CX=32:CY=13:OX=0:OY=0:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:ALT=0:ROT=0;"/>
+				<UML:DiagramElement geometry="Left=399;Top=92;Right=509;Bottom=152;" subject="EAID_BEE933CD_AA5C_4849_B419_40BCCDF7B871" seqno="4" style="DUID=958B0575;"/>
+				<UML:DiagramElement geometry="Left=612;Top=50;Right=786;Bottom=167;" subject="EAID_8564C226_C321_406e_A855_C31F6837F067" seqno="5" style="DUID=52F0BEB9;"/>
+				<UML:DiagramElement geometry="Left=327;Top=321;Right=627;Bottom=425;" subject="EAID_4DC18D2A_1868_4d8a_BEB6_A32F7B0E2B84" seqno="6" style="DUID=E4BA9675;"/>
+				<UML:DiagramElement geometry="Left=405;Top=182;Right=515;Bottom=242;" subject="EAID_6427D10F_3508_4760_95BC_94E19A3AF67B" seqno="7" style="DUID=9F4129C3;"/>
+				<UML:DiagramElement geometry="Left=337;Top=35;Right=578;Bottom=255;" subject="EAID_2B2ECC22_061F_479d_A570_F3AAC480DE5D" seqno="8" style="DUID=16584DB9;NSL=0;BCol=-1;BFol=-1;LCol=-1;LWth=-1;fontsz=0;bold=0;italic=0;ul=0;charset=0;pitch=0;OpPro=0;OpPri=0;OpPub=0;OpPkg=0;AttCustom=0;OpCustom=0;RzO=1;"/>
+				<UML:DiagramElement geometry="Left=53;Top=84;Right=246;Bottom=213;" subject="EAID_27BE54FC_532B_46bf_A154_61BC2A335E78" seqno="9" style="DUID=8BACB1A4;NSL=0;BCol=-1;BFol=-1;LCol=-1;LWth=-1;fontsz=0;bold=0;italic=0;ul=0;charset=0;pitch=0;OpPro=0;OpPri=0;OpPub=0;OpPkg=0;AttCustom=0;OpCustom=0;RzO=1;"/>
+				<UML:DiagramElement geometry="SX=0;SY=0;EX=0;EY=0;EDGE=2;$LLB=;LLT=;LMT=;LMB=;LRT=;LRB=;IRHS=;ILHS=;Path=;" subject="EAID_FCD3D9AD_F286_40b2_A3B2_74450EC87C28" style="Mode=3;EOID=FA9E9F95;SOID=B4FC0F8F;Color=-1;LWidth=0;Hidden=0;"/>
 				<UML:DiagramElement geometry="SX=0;SY=0;EX=0;EY=0;EDGE=2;$LLB=;LLT=;LMT=;LMB=;LRT=;LRB=;IRHS=;ILHS=;Path=;" subject="EAID_ECC454D6_8057_4bf6_BE60_EC3000A0773B" style="Mode=3;EOID=A1124076;SOID=B4FC0F8F;Color=-1;LWidth=0;Hidden=0;"/>
 			</UML:Diagram.element>
 		</UML:Diagram>
@@ -1031,7 +914,7 @@
 				<UML:TaggedValue tag="version" value="1.0"/>
 				<UML:TaggedValue tag="author" value="erlend"/>
 				<UML:TaggedValue tag="created_date" value="2012-05-24 08:49:22"/>
-				<UML:TaggedValue tag="modified_date" value="2012-06-14 16:05:45"/>
+				<UML:TaggedValue tag="modified_date" value="2012-06-25 11:14:51"/>
 				<UML:TaggedValue tag="package" value="EAPK_F9D20461_8B66_4497_A434_998D0EA2B537"/>
 				<UML:TaggedValue tag="type" value="Use Case"/>
 				<UML:TaggedValue tag="swimlanes" value="locked=false;orientation=0;width=0;inbar=false;names=false;color=0;bold=false;fcol=0;;cls=0;"/>
@@ -1053,7 +936,7 @@
 				<UML:TaggedValue tag="version" value="1.0"/>
 				<UML:TaggedValue tag="author" value="sji"/>
 				<UML:TaggedValue tag="created_date" value="2012-05-30 10:36:03"/>
-				<UML:TaggedValue tag="modified_date" value="2012-06-25 09:51:18"/>
+				<UML:TaggedValue tag="modified_date" value="2012-06-25 11:14:51"/>
 				<UML:TaggedValue tag="package" value="EAPK_F9D20461_8B66_4497_A434_998D0EA2B537"/>
 				<UML:TaggedValue tag="type" value="Sequence"/>
 				<UML:TaggedValue tag="swimlanes" value="locked=false;orientation=0;width=0;inbar=false;names=false;color=0;bold=false;fcol=0;;cls=0;"/>
