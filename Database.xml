@@ -40,13 +40,14 @@
 								<UML:Stereotype name="table"/>
 							</UML:ModelElement.stereotype>
 							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="documentation" value="Reflects the MedicationTreatment Ontology"/>
 								<UML:TaggedValue tag="isSpecification" value="false"/>
 								<UML:TaggedValue tag="ea_stype" value="Class"/>
 								<UML:TaggedValue tag="ea_ntype" value="0"/>
 								<UML:TaggedValue tag="version" value="1.0"/>
 								<UML:TaggedValue tag="package" value="EAPK_0DAD8747_BEEE_4d6e_AE68_EA968BB0E474"/>
 								<UML:TaggedValue tag="date_created" value="2012-12-30 17:35:58"/>
-								<UML:TaggedValue tag="date_modified" value="2012-12-30 17:36:09"/>
+								<UML:TaggedValue tag="date_modified" value="2013-01-10 12:42:36"/>
 								<UML:TaggedValue tag="tagged" value="0"/>
 								<UML:TaggedValue tag="package_name" value="Database"/>
 								<UML:TaggedValue tag="phase" value="1.0"/>
@@ -118,7 +119,7 @@
 									<UML:ModelElement.taggedValue>
 										<UML:TaggedValue tag="ordered" value="0"/>
 										<UML:TaggedValue tag="stereotype" value="column"/>
-										<UML:TaggedValue tag="collection" value="false"/>
+										<UML:TaggedValue tag="collection" value="true"/>
 										<UML:TaggedValue tag="position" value="2"/>
 										<UML:TaggedValue tag="lowerBound" value="1"/>
 										<UML:TaggedValue tag="upperBound" value="1"/>
@@ -140,7 +141,7 @@
 									<UML:ModelElement.taggedValue>
 										<UML:TaggedValue tag="ordered" value="0"/>
 										<UML:TaggedValue tag="stereotype" value="column"/>
-										<UML:TaggedValue tag="collection" value="false"/>
+										<UML:TaggedValue tag="collection" value="true"/>
 										<UML:TaggedValue tag="position" value="3"/>
 										<UML:TaggedValue tag="lowerBound" value="1"/>
 										<UML:TaggedValue tag="upperBound" value="1"/>
@@ -162,7 +163,7 @@
 									<UML:ModelElement.taggedValue>
 										<UML:TaggedValue tag="ordered" value="0"/>
 										<UML:TaggedValue tag="stereotype" value="column"/>
-										<UML:TaggedValue tag="collection" value="false"/>
+										<UML:TaggedValue tag="collection" value="true"/>
 										<UML:TaggedValue tag="position" value="4"/>
 										<UML:TaggedValue tag="lowerBound" value="1"/>
 										<UML:TaggedValue tag="upperBound" value="1"/>
@@ -171,7 +172,7 @@
 										<UML:TaggedValue tag="ea_localid" value="6716"/>
 									</UML:ModelElement.taggedValue>
 								</UML:Attribute>
-								<UML:Attribute name="ACTIVE" changeable="none" visibility="public" ownerScope="instance" targetScope="instance">
+								<UML:Attribute name="STATUS" changeable="none" visibility="public" ownerScope="instance" targetScope="instance">
 									<UML:Attribute.initialValue>
 										<UML:Expression/>
 									</UML:Attribute.initialValue>
@@ -182,6 +183,7 @@
 										<UML:Stereotype name="column"/>
 									</UML:ModelElement.stereotype>
 									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="description" value="One of: ACTIVE, PLANNED, FINISHED, CANCELLED, PROLONGED"/>
 										<UML:TaggedValue tag="ordered" value="0"/>
 										<UML:TaggedValue tag="stereotype" value="column"/>
 										<UML:TaggedValue tag="collection" value="false"/>
@@ -422,7 +424,7 @@
 								<UML:TaggedValue tag="lineStyle" value="0"/>
 								<UML:TaggedValue tag="ea_localid" value="15993"/>
 								<UML:TaggedValue tag="ea_sourceName" value="TREATMENT"/>
-								<UML:TaggedValue tag="ea_targetName" value="USER"/>
+								<UML:TaggedValue tag="ea_targetName" value="PERSON"/>
 								<UML:TaggedValue tag="ea_sourceType" value="Class"/>
 								<UML:TaggedValue tag="ea_targetType" value="Class"/>
 								<UML:TaggedValue tag="ea_sourceID" value="17829"/>
@@ -461,7 +463,7 @@
 								<UML:TaggedValue tag="lineStyle" value="0"/>
 								<UML:TaggedValue tag="ea_localid" value="15994"/>
 								<UML:TaggedValue tag="ea_sourceName" value="TREATMENT"/>
-								<UML:TaggedValue tag="ea_targetName" value="USER"/>
+								<UML:TaggedValue tag="ea_targetName" value="PERSON"/>
 								<UML:TaggedValue tag="ea_sourceType" value="Class"/>
 								<UML:TaggedValue tag="ea_targetType" value="Class"/>
 								<UML:TaggedValue tag="ea_sourceID" value="17829"/>
@@ -531,13 +533,14 @@
 								<UML:Stereotype name="table"/>
 							</UML:ModelElement.stereotype>
 							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="documentation" value="This table contains the list of scheduled intakes. An additional field indicates if and when the intake has been completed."/>
 								<UML:TaggedValue tag="isSpecification" value="false"/>
 								<UML:TaggedValue tag="ea_stype" value="Class"/>
 								<UML:TaggedValue tag="ea_ntype" value="0"/>
 								<UML:TaggedValue tag="version" value="1.0"/>
 								<UML:TaggedValue tag="package" value="EAPK_0DAD8747_BEEE_4d6e_AE68_EA968BB0E474"/>
 								<UML:TaggedValue tag="date_created" value="2012-12-30 17:58:46"/>
-								<UML:TaggedValue tag="date_modified" value="2012-12-30 17:59:06"/>
+								<UML:TaggedValue tag="date_modified" value="2013-01-10 12:38:17"/>
 								<UML:TaggedValue tag="tagged" value="0"/>
 								<UML:TaggedValue tag="package_name" value="Database"/>
 								<UML:TaggedValue tag="phase" value="1.0"/>
@@ -587,7 +590,7 @@
 									<UML:ModelElement.taggedValue>
 										<UML:TaggedValue tag="ordered" value="0"/>
 										<UML:TaggedValue tag="stereotype" value="column"/>
-										<UML:TaggedValue tag="collection" value="false"/>
+										<UML:TaggedValue tag="collection" value="true"/>
 										<UML:TaggedValue tag="position" value="1"/>
 										<UML:TaggedValue tag="lowerBound" value="1"/>
 										<UML:TaggedValue tag="upperBound" value="1"/>
@@ -609,7 +612,7 @@
 									<UML:ModelElement.taggedValue>
 										<UML:TaggedValue tag="ordered" value="0"/>
 										<UML:TaggedValue tag="stereotype" value="column"/>
-										<UML:TaggedValue tag="collection" value="false"/>
+										<UML:TaggedValue tag="collection" value="true"/>
 										<UML:TaggedValue tag="position" value="2"/>
 										<UML:TaggedValue tag="lowerBound" value="1"/>
 										<UML:TaggedValue tag="upperBound" value="1"/>
@@ -640,7 +643,7 @@
 										<UML:TaggedValue tag="ea_localid" value="6739"/>
 									</UML:ModelElement.taggedValue>
 								</UML:Attribute>
-								<UML:Attribute name="UNITS_CLASS" changeable="none" visibility="public" ownerScope="instance" targetScope="instance">
+								<UML:Attribute name="UNIT_CLASS" changeable="none" visibility="public" ownerScope="instance" targetScope="instance">
 									<UML:Attribute.initialValue>
 										<UML:Expression/>
 									</UML:Attribute.initialValue>
@@ -651,6 +654,7 @@
 										<UML:Stereotype name="column"/>
 									</UML:ModelElement.stereotype>
 									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="description" value="One of: PILLS, DROPS"/>
 										<UML:TaggedValue tag="ordered" value="0"/>
 										<UML:TaggedValue tag="stereotype" value="column"/>
 										<UML:TaggedValue tag="collection" value="false"/>
@@ -662,7 +666,7 @@
 										<UML:TaggedValue tag="ea_localid" value="6740"/>
 									</UML:ModelElement.taggedValue>
 								</UML:Attribute>
-								<UML:Attribute name="TIMESTAMP_PLAN" changeable="none" visibility="public" ownerScope="instance" targetScope="instance">
+								<UML:Attribute name="TIME_PLAN" changeable="none" visibility="public" ownerScope="instance" targetScope="instance">
 									<UML:Attribute.initialValue>
 										<UML:Expression/>
 									</UML:Attribute.initialValue>
@@ -673,6 +677,7 @@
 										<UML:Stereotype name="column"/>
 									</UML:ModelElement.stereotype>
 									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="description" value="When the medicine should be taken."/>
 										<UML:TaggedValue tag="ordered" value="0"/>
 										<UML:TaggedValue tag="stereotype" value="column"/>
 										<UML:TaggedValue tag="collection" value="false"/>
@@ -684,7 +689,7 @@
 										<UML:TaggedValue tag="ea_localid" value="6741"/>
 									</UML:ModelElement.taggedValue>
 								</UML:Attribute>
-								<UML:Attribute name="TIMESTAMP_TAKEN" changeable="none" visibility="public" ownerScope="instance" targetScope="instance">
+								<UML:Attribute name="TIME_TAKEN" changeable="none" visibility="public" ownerScope="instance" targetScope="instance">
 									<UML:Attribute.initialValue>
 										<UML:Expression/>
 									</UML:Attribute.initialValue>
@@ -695,6 +700,7 @@
 										<UML:Stereotype name="column"/>
 									</UML:ModelElement.stereotype>
 									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="description" value="When the medicine is actually taken"/>
 										<UML:TaggedValue tag="ordered" value="0"/>
 										<UML:TaggedValue tag="stereotype" value="column"/>
 										<UML:TaggedValue tag="collection" value="false"/>
@@ -717,9 +723,10 @@
 										<UML:Stereotype name="column"/>
 									</UML:ModelElement.stereotype>
 									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="description" value="In case the medicine is provided by a dispenser."/>
 										<UML:TaggedValue tag="ordered" value="0"/>
 										<UML:TaggedValue tag="stereotype" value="column"/>
-										<UML:TaggedValue tag="collection" value="false"/>
+										<UML:TaggedValue tag="collection" value="true"/>
 										<UML:TaggedValue tag="position" value="7"/>
 										<UML:TaggedValue tag="lowerBound" value="1"/>
 										<UML:TaggedValue tag="upperBound" value="1"/>
@@ -918,7 +925,7 @@
 								<UML:TaggedValue tag="lineStyle" value="0"/>
 								<UML:TaggedValue tag="ea_localid" value="16004"/>
 								<UML:TaggedValue tag="ea_sourceName" value="INTAKE"/>
-								<UML:TaggedValue tag="ea_targetName" value="USER"/>
+								<UML:TaggedValue tag="ea_targetName" value="PERSON"/>
 								<UML:TaggedValue tag="ea_sourceType" value="Class"/>
 								<UML:TaggedValue tag="ea_targetType" value="Class"/>
 								<UML:TaggedValue tag="ea_sourceID" value="17833"/>
@@ -957,7 +964,7 @@
 								<UML:TaggedValue tag="lineStyle" value="0"/>
 								<UML:TaggedValue tag="ea_localid" value="16006"/>
 								<UML:TaggedValue tag="ea_sourceName" value="INTAKE"/>
-								<UML:TaggedValue tag="ea_targetName" value="DISPENSERS"/>
+								<UML:TaggedValue tag="ea_targetName" value="DISPENSER"/>
 								<UML:TaggedValue tag="ea_sourceType" value="Class"/>
 								<UML:TaggedValue tag="ea_targetType" value="Class"/>
 								<UML:TaggedValue tag="ea_sourceID" value="17833"/>
@@ -1027,13 +1034,14 @@
 								<UML:Stereotype name="table"/>
 							</UML:ModelElement.stereotype>
 							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="documentation" value="This table contains the current status of the medicine inventory (available medicines). When the QUANTITY falls under WARNING_THRESHOLD, the Service displays a warning for shortage."/>
 								<UML:TaggedValue tag="isSpecification" value="false"/>
 								<UML:TaggedValue tag="ea_stype" value="Class"/>
 								<UML:TaggedValue tag="ea_ntype" value="0"/>
 								<UML:TaggedValue tag="version" value="1.0"/>
 								<UML:TaggedValue tag="package" value="EAPK_0DAD8747_BEEE_4d6e_AE68_EA968BB0E474"/>
 								<UML:TaggedValue tag="date_created" value="2012-12-30 17:52:52"/>
-								<UML:TaggedValue tag="date_modified" value="2012-12-30 17:53:05"/>
+								<UML:TaggedValue tag="date_modified" value="2013-01-10 12:37:11"/>
 								<UML:TaggedValue tag="tagged" value="0"/>
 								<UML:TaggedValue tag="package_name" value="Database"/>
 								<UML:TaggedValue tag="phase" value="1.0"/>
@@ -1083,7 +1091,7 @@
 									<UML:ModelElement.taggedValue>
 										<UML:TaggedValue tag="ordered" value="0"/>
 										<UML:TaggedValue tag="stereotype" value="column"/>
-										<UML:TaggedValue tag="collection" value="false"/>
+										<UML:TaggedValue tag="collection" value="true"/>
 										<UML:TaggedValue tag="position" value="1"/>
 										<UML:TaggedValue tag="lowerBound" value="1"/>
 										<UML:TaggedValue tag="upperBound" value="1"/>
@@ -1105,7 +1113,7 @@
 									<UML:ModelElement.taggedValue>
 										<UML:TaggedValue tag="ordered" value="0"/>
 										<UML:TaggedValue tag="stereotype" value="column"/>
-										<UML:TaggedValue tag="collection" value="false"/>
+										<UML:TaggedValue tag="collection" value="true"/>
 										<UML:TaggedValue tag="position" value="2"/>
 										<UML:TaggedValue tag="lowerBound" value="1"/>
 										<UML:TaggedValue tag="upperBound" value="1"/>
@@ -1114,7 +1122,7 @@
 										<UML:TaggedValue tag="ea_localid" value="6725"/>
 									</UML:ModelElement.taggedValue>
 								</UML:Attribute>
-								<UML:Attribute name="UNITS_CLASS" changeable="none" visibility="public" ownerScope="instance" targetScope="instance">
+								<UML:Attribute name="UNIT_CLASS" changeable="none" visibility="public" ownerScope="instance" targetScope="instance">
 									<UML:Attribute.initialValue>
 										<UML:Expression/>
 									</UML:Attribute.initialValue>
@@ -1125,6 +1133,7 @@
 										<UML:Stereotype name="column"/>
 									</UML:ModelElement.stereotype>
 									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="description" value="One of: DROPS, PILLS"/>
 										<UML:TaggedValue tag="ordered" value="0"/>
 										<UML:TaggedValue tag="stereotype" value="column"/>
 										<UML:TaggedValue tag="collection" value="false"/>
@@ -1326,7 +1335,7 @@
 								<UML:TaggedValue tag="lineStyle" value="0"/>
 								<UML:TaggedValue tag="ea_localid" value="16001"/>
 								<UML:TaggedValue tag="ea_sourceName" value="MEDICINE_INVENTORY"/>
-								<UML:TaggedValue tag="ea_targetName" value="USER"/>
+								<UML:TaggedValue tag="ea_targetName" value="PERSON"/>
 								<UML:TaggedValue tag="ea_sourceType" value="Class"/>
 								<UML:TaggedValue tag="ea_targetType" value="Class"/>
 								<UML:TaggedValue tag="ea_sourceID" value="17831"/>
@@ -1396,13 +1405,14 @@
 								<UML:Stereotype name="table"/>
 							</UML:ModelElement.stereotype>
 							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="documentation" value="The table provides mapping of prescriptions and prescribed medicines."/>
 								<UML:TaggedValue tag="isSpecification" value="false"/>
 								<UML:TaggedValue tag="ea_stype" value="Class"/>
 								<UML:TaggedValue tag="ea_ntype" value="0"/>
 								<UML:TaggedValue tag="version" value="1.0"/>
 								<UML:TaggedValue tag="package" value="EAPK_0DAD8747_BEEE_4d6e_AE68_EA968BB0E474"/>
 								<UML:TaggedValue tag="date_created" value="2012-12-30 17:51:00"/>
-								<UML:TaggedValue tag="date_modified" value="2012-12-30 17:51:21"/>
+								<UML:TaggedValue tag="date_modified" value="2013-01-10 12:37:48"/>
 								<UML:TaggedValue tag="tagged" value="0"/>
 								<UML:TaggedValue tag="package_name" value="Database"/>
 								<UML:TaggedValue tag="phase" value="1.0"/>
@@ -1765,13 +1775,14 @@
 								<UML:Stereotype name="table"/>
 							</UML:ModelElement.stereotype>
 							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="documentation" value="This table contains the basic information about the taken medicines."/>
 								<UML:TaggedValue tag="isSpecification" value="false"/>
 								<UML:TaggedValue tag="ea_stype" value="Class"/>
 								<UML:TaggedValue tag="ea_ntype" value="0"/>
 								<UML:TaggedValue tag="version" value="1.0"/>
 								<UML:TaggedValue tag="package" value="EAPK_0DAD8747_BEEE_4d6e_AE68_EA968BB0E474"/>
 								<UML:TaggedValue tag="date_created" value="2012-12-30 17:23:20"/>
-								<UML:TaggedValue tag="date_modified" value="2012-12-30 17:23:34"/>
+								<UML:TaggedValue tag="date_modified" value="2013-01-10 12:35:12"/>
 								<UML:TaggedValue tag="tagged" value="0"/>
 								<UML:TaggedValue tag="package_name" value="Database"/>
 								<UML:TaggedValue tag="phase" value="1.0"/>
@@ -1830,7 +1841,7 @@
 										<UML:TaggedValue tag="ea_localid" value="6703"/>
 									</UML:ModelElement.taggedValue>
 								</UML:Attribute>
-								<UML:Attribute name="INFO" changeable="none" visibility="public" ownerScope="instance" targetScope="instance">
+								<UML:Attribute name="MEDICINE_INFO" changeable="none" visibility="public" ownerScope="instance" targetScope="instance">
 									<UML:Attribute.initialValue>
 										<UML:Expression/>
 									</UML:Attribute.initialValue>
@@ -1907,7 +1918,7 @@
 										<UML:Stereotype name="column"/>
 									</UML:ModelElement.stereotype>
 									<UML:ModelElement.taggedValue>
-										<UML:TaggedValue tag="description" value="BEFORE, AFTER, DURING, NOT_RELATED"/>
+										<UML:TaggedValue tag="description" value="One of: BEFORE, AFTER, WITH_MEAL, ANY"/>
 										<UML:TaggedValue tag="ordered" value="0"/>
 										<UML:TaggedValue tag="stereotype" value="column"/>
 										<UML:TaggedValue tag="collection" value="false"/>
@@ -2008,13 +2019,14 @@
 								<UML:Stereotype name="table"/>
 							</UML:ModelElement.stereotype>
 							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="documentation" value="This table stores the log of the changes to the medicine inventory – refills and intakes"/>
 								<UML:TaggedValue tag="isSpecification" value="false"/>
 								<UML:TaggedValue tag="ea_stype" value="Class"/>
 								<UML:TaggedValue tag="ea_ntype" value="0"/>
 								<UML:TaggedValue tag="version" value="1.0"/>
 								<UML:TaggedValue tag="package" value="EAPK_0DAD8747_BEEE_4d6e_AE68_EA968BB0E474"/>
 								<UML:TaggedValue tag="date_created" value="2012-12-30 17:56:14"/>
-								<UML:TaggedValue tag="date_modified" value="2012-12-30 17:56:24"/>
+								<UML:TaggedValue tag="date_modified" value="2013-01-10 12:39:18"/>
 								<UML:TaggedValue tag="tagged" value="0"/>
 								<UML:TaggedValue tag="package_name" value="Database"/>
 								<UML:TaggedValue tag="phase" value="1.0"/>
@@ -2051,7 +2063,7 @@
 										<UML:TaggedValue tag="ea_localid" value="6729"/>
 									</UML:ModelElement.taggedValue>
 								</UML:Attribute>
-								<UML:Attribute name="TIMESTAMP" changeable="none" visibility="public" ownerScope="instance" targetScope="instance">
+								<UML:Attribute name="CREATION_TIME" changeable="none" visibility="public" ownerScope="instance" targetScope="instance">
 									<UML:Attribute.initialValue>
 										<UML:Expression/>
 									</UML:Attribute.initialValue>
@@ -2086,7 +2098,7 @@
 									<UML:ModelElement.taggedValue>
 										<UML:TaggedValue tag="ordered" value="0"/>
 										<UML:TaggedValue tag="stereotype" value="column"/>
-										<UML:TaggedValue tag="collection" value="false"/>
+										<UML:TaggedValue tag="collection" value="true"/>
 										<UML:TaggedValue tag="position" value="2"/>
 										<UML:TaggedValue tag="lowerBound" value="1"/>
 										<UML:TaggedValue tag="upperBound" value="1"/>
@@ -2108,7 +2120,7 @@
 									<UML:ModelElement.taggedValue>
 										<UML:TaggedValue tag="ordered" value="0"/>
 										<UML:TaggedValue tag="stereotype" value="column"/>
-										<UML:TaggedValue tag="collection" value="false"/>
+										<UML:TaggedValue tag="collection" value="true"/>
 										<UML:TaggedValue tag="position" value="3"/>
 										<UML:TaggedValue tag="lowerBound" value="1"/>
 										<UML:TaggedValue tag="upperBound" value="1"/>
@@ -2139,7 +2151,7 @@
 										<UML:TaggedValue tag="ea_localid" value="6733"/>
 									</UML:ModelElement.taggedValue>
 								</UML:Attribute>
-								<UML:Attribute name="UNITS_CLASS" changeable="none" visibility="public" ownerScope="instance" targetScope="instance">
+								<UML:Attribute name="UNIT_CLASS" changeable="none" visibility="public" ownerScope="instance" targetScope="instance">
 									<UML:Attribute.initialValue>
 										<UML:Expression/>
 									</UML:Attribute.initialValue>
@@ -2150,6 +2162,7 @@
 										<UML:Stereotype name="column"/>
 									</UML:ModelElement.stereotype>
 									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="description" value="One of: PILLS, DROPS"/>
 										<UML:TaggedValue tag="ordered" value="0"/>
 										<UML:TaggedValue tag="stereotype" value="column"/>
 										<UML:TaggedValue tag="collection" value="false"/>
@@ -2172,6 +2185,7 @@
 										<UML:Stereotype name="column"/>
 									</UML:ModelElement.stereotype>
 									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="description" value="One of: INTAKE, REFILL"/>
 										<UML:TaggedValue tag="ordered" value="0"/>
 										<UML:TaggedValue tag="stereotype" value="column"/>
 										<UML:TaggedValue tag="collection" value="false"/>
@@ -2329,7 +2343,7 @@
 								<UML:TaggedValue tag="lineStyle" value="0"/>
 								<UML:TaggedValue tag="ea_localid" value="15999"/>
 								<UML:TaggedValue tag="ea_sourceName" value="INVENTORY_LOG"/>
-								<UML:TaggedValue tag="ea_targetName" value="USER"/>
+								<UML:TaggedValue tag="ea_targetName" value="PERSON"/>
 								<UML:TaggedValue tag="ea_sourceType" value="Class"/>
 								<UML:TaggedValue tag="ea_targetType" value="Class"/>
 								<UML:TaggedValue tag="ea_sourceID" value="17832"/>
@@ -2355,18 +2369,19 @@
 								</UML:AssociationEnd>
 							</UML:Association.connection>
 						</UML:Association>
-						<UML:Class name="DISPENSERS" xmi.id="EAID_D85CF2EA_E933_4c0b_A3BB_69C8BE2239E0" visibility="public" namespace="EAPK_0DAD8747_BEEE_4d6e_AE68_EA968BB0E474" isRoot="false" isLeaf="false" isAbstract="false" isActive="false">
+						<UML:Class name="DISPENSER" xmi.id="EAID_D85CF2EA_E933_4c0b_A3BB_69C8BE2239E0" visibility="public" namespace="EAPK_0DAD8747_BEEE_4d6e_AE68_EA968BB0E474" isRoot="false" isLeaf="false" isAbstract="false" isActive="false">
 							<UML:ModelElement.stereotype>
 								<UML:Stereotype name="table"/>
 							</UML:ModelElement.stereotype>
 							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="documentation" value="Maps the available pill dispensers to patients"/>
 								<UML:TaggedValue tag="isSpecification" value="false"/>
 								<UML:TaggedValue tag="ea_stype" value="Class"/>
 								<UML:TaggedValue tag="ea_ntype" value="0"/>
 								<UML:TaggedValue tag="version" value="1.0"/>
 								<UML:TaggedValue tag="package" value="EAPK_0DAD8747_BEEE_4d6e_AE68_EA968BB0E474"/>
 								<UML:TaggedValue tag="date_created" value="2012-12-30 18:01:57"/>
-								<UML:TaggedValue tag="date_modified" value="2012-12-30 18:02:16"/>
+								<UML:TaggedValue tag="date_modified" value="2013-01-10 12:31:36"/>
 								<UML:TaggedValue tag="tagged" value="0"/>
 								<UML:TaggedValue tag="package_name" value="Database"/>
 								<UML:TaggedValue tag="phase" value="1.0"/>
@@ -2414,6 +2429,7 @@
 										<UML:Stereotype name="column"/>
 									</UML:ModelElement.stereotype>
 									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="description" value="the patient using this dispenser"/>
 										<UML:TaggedValue tag="ordered" value="0"/>
 										<UML:TaggedValue tag="stereotype" value="column"/>
 										<UML:TaggedValue tag="collection" value="false"/>
@@ -2447,6 +2463,50 @@
 										<UML:TaggedValue tag="ea_localid" value="6746"/>
 									</UML:ModelElement.taggedValue>
 								</UML:Attribute>
+								<UML:Operation name="FK_PATIENT_FK_ID" visibility="public" ownerScope="instance" isQuery="false" concurrency="sequential">
+									<UML:ModelElement.stereotype>
+										<UML:Stereotype name="FK"/>
+									</UML:ModelElement.stereotype>
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="documentation" value="Foreign key constraint"/>
+										<UML:TaggedValue tag="const" value="false"/>
+										<UML:TaggedValue tag="stereotype" value="FK"/>
+										<UML:TaggedValue tag="synchronised" value="0"/>
+										<UML:TaggedValue tag="position" value="0"/>
+										<UML:TaggedValue tag="returnarray" value="0"/>
+										<UML:TaggedValue tag="pure" value="0"/>
+										<UML:TaggedValue tag="ea_guid" value="{60637C04-AEE9-494a-AF72-E8658D1E231E}"/>
+										<UML:TaggedValue tag="ea_localid" value="14750"/>
+									</UML:ModelElement.taggedValue>
+									<UML:BehavioralFeature.parameter>
+										<UML:Parameter kind="return" visibility="public">
+											<UML:Parameter.type>
+												<UML:Classifier xmi.idref="eaxmiid0"/>
+											</UML:Parameter.type>
+											<UML:ModelElement.taggedValue>
+												<UML:TaggedValue tag="pos" value="0"/>
+												<UML:TaggedValue tag="const" value="0"/>
+												<UML:TaggedValue tag="ea_guid" value="{RETURNID-AEE9-494a-AF72-E8658D1E231E}"/>
+											</UML:ModelElement.taggedValue>
+											<UML:Parameter.defaultValue>
+												<UML:Expression/>
+											</UML:Parameter.defaultValue>
+										</UML:Parameter>
+										<UML:Parameter name="PATIENT_FK_ID" kind="in" visibility="public">
+											<UML:Parameter.type>
+												<UML:Classifier xmi.idref="eaxmiid0"/>
+											</UML:Parameter.type>
+											<UML:ModelElement.taggedValue>
+												<UML:TaggedValue tag="pos" value="0"/>
+												<UML:TaggedValue tag="const" value="0"/>
+												<UML:TaggedValue tag="ea_guid" value="{B357719A-5A85-4247-ADFD-50E7501BF279}"/>
+											</UML:ModelElement.taggedValue>
+											<UML:Parameter.defaultValue>
+												<UML:Expression/>
+											</UML:Parameter.defaultValue>
+										</UML:Parameter>
+									</UML:BehavioralFeature.parameter>
+								</UML:Operation>
 								<UML:Operation name="PK_DISPENSERS" visibility="public" ownerScope="instance" isQuery="false" concurrency="sequential">
 									<UML:ModelElement.stereotype>
 										<UML:Stereotype name="PK"/>
@@ -2492,18 +2552,58 @@
 								</UML:Operation>
 							</UML:Classifier.feature>
 						</UML:Class>
+						<UML:Association xmi.id="EAID_14A4663E_DA95_4f93_AFC2_8F86684AC609" visibility="public" isRoot="false" isLeaf="false" isAbstract="false">
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="style" value="3"/>
+								<UML:TaggedValue tag="ea_type" value="Association"/>
+								<UML:TaggedValue tag="direction" value="Unspecified"/>
+								<UML:TaggedValue tag="linemode" value="3"/>
+								<UML:TaggedValue tag="linecolor" value="-1"/>
+								<UML:TaggedValue tag="linewidth" value="0"/>
+								<UML:TaggedValue tag="seqno" value="0"/>
+								<UML:TaggedValue tag="headStyle" value="0"/>
+								<UML:TaggedValue tag="lineStyle" value="0"/>
+								<UML:TaggedValue tag="ea_localid" value="16007"/>
+								<UML:TaggedValue tag="ea_sourceName" value="DISPENSER"/>
+								<UML:TaggedValue tag="ea_targetName" value="PERSON"/>
+								<UML:TaggedValue tag="ea_sourceType" value="Class"/>
+								<UML:TaggedValue tag="ea_targetType" value="Class"/>
+								<UML:TaggedValue tag="ea_sourceID" value="17834"/>
+								<UML:TaggedValue tag="ea_targetID" value="17826"/>
+								<UML:TaggedValue tag="virtualInheritance" value="0"/>
+								<UML:TaggedValue tag="lt" value="+PATIENT_FK_ID"/>
+								<UML:TaggedValue tag="rt" value="+PK_PERSON"/>
+							</UML:ModelElement.taggedValue>
+							<UML:Association.connection>
+								<UML:AssociationEnd visibility="public" name="PATIENT_FK_ID" aggregation="none" isOrdered="false" targetScope="instance" changeable="none" isNavigable="true" type="EAID_D85CF2EA_E933_4c0b_A3BB_69C8BE2239E0">
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="containment" value="Unspecified"/>
+										<UML:TaggedValue tag="sourcestyle" value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Non-Navigable;"/>
+										<UML:TaggedValue tag="ea_end" value="source"/>
+									</UML:ModelElement.taggedValue>
+								</UML:AssociationEnd>
+								<UML:AssociationEnd visibility="public" name="PK_PERSON" aggregation="none" isOrdered="false" targetScope="instance" changeable="none" isNavigable="true" type="EAID_EFAA5D0A_DD8B_479a_8138_8ECA4136E916">
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="containment" value="Unspecified"/>
+										<UML:TaggedValue tag="deststyle" value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Unspecified;"/>
+										<UML:TaggedValue tag="ea_end" value="target"/>
+									</UML:ModelElement.taggedValue>
+								</UML:AssociationEnd>
+							</UML:Association.connection>
+						</UML:Association>
 						<UML:Class name="PRESCRIPTION" xmi.id="EAID_DC75347D_2CF7_4da3_AA62_6046C04553F3" visibility="public" namespace="EAPK_0DAD8747_BEEE_4d6e_AE68_EA968BB0E474" isRoot="false" isLeaf="false" isAbstract="false" isActive="false">
 							<UML:ModelElement.stereotype>
 								<UML:Stereotype name="table"/>
 							</UML:ModelElement.stereotype>
 							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="documentation" value="This table stores the basic information about the issued prescriptions."/>
 								<UML:TaggedValue tag="isSpecification" value="false"/>
 								<UML:TaggedValue tag="ea_stype" value="Class"/>
 								<UML:TaggedValue tag="ea_ntype" value="0"/>
 								<UML:TaggedValue tag="version" value="1.0"/>
 								<UML:TaggedValue tag="package" value="EAPK_0DAD8747_BEEE_4d6e_AE68_EA968BB0E474"/>
 								<UML:TaggedValue tag="date_created" value="2012-12-30 17:30:51"/>
-								<UML:TaggedValue tag="date_modified" value="2012-12-30 21:52:48"/>
+								<UML:TaggedValue tag="date_modified" value="2013-01-10 12:41:32"/>
 								<UML:TaggedValue tag="tagged" value="0"/>
 								<UML:TaggedValue tag="package_name" value="Database"/>
 								<UML:TaggedValue tag="phase" value="1.0"/>
@@ -2540,7 +2640,7 @@
 										<UML:TaggedValue tag="ea_localid" value="6708"/>
 									</UML:ModelElement.taggedValue>
 								</UML:Attribute>
-								<UML:Attribute name="TIMESTAMP_OF_CREATION" changeable="none" visibility="public" ownerScope="instance" targetScope="instance">
+								<UML:Attribute name="TIME_OF_CREATION" changeable="none" visibility="public" ownerScope="instance" targetScope="instance">
 									<UML:Attribute.initialValue>
 										<UML:Expression/>
 									</UML:Attribute.initialValue>
@@ -2606,7 +2706,7 @@
 										<UML:TaggedValue tag="ea_localid" value="6711"/>
 									</UML:ModelElement.taggedValue>
 								</UML:Attribute>
-								<UML:Attribute name="VALID" changeable="none" visibility="public" ownerScope="instance" targetScope="instance">
+								<UML:Attribute name="STATUS" changeable="none" visibility="public" ownerScope="instance" targetScope="instance">
 									<UML:Attribute.initialValue>
 										<UML:Expression/>
 									</UML:Attribute.initialValue>
@@ -2617,6 +2717,7 @@
 										<UML:Stereotype name="column"/>
 									</UML:ModelElement.stereotype>
 									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="description" value="one of: ACTIVE, INACTIVE"/>
 										<UML:TaggedValue tag="ordered" value="0"/>
 										<UML:TaggedValue tag="stereotype" value="column"/>
 										<UML:TaggedValue tag="collection" value="false"/>
@@ -2774,7 +2875,7 @@
 								<UML:TaggedValue tag="lineStyle" value="0"/>
 								<UML:TaggedValue tag="ea_localid" value="15992"/>
 								<UML:TaggedValue tag="ea_sourceName" value="PRESCRIPTION"/>
-								<UML:TaggedValue tag="ea_targetName" value="USER"/>
+								<UML:TaggedValue tag="ea_targetName" value="PERSON"/>
 								<UML:TaggedValue tag="ea_sourceType" value="Class"/>
 								<UML:TaggedValue tag="ea_targetType" value="Class"/>
 								<UML:TaggedValue tag="ea_sourceID" value="17828"/>
@@ -2813,7 +2914,7 @@
 								<UML:TaggedValue tag="lineStyle" value="0"/>
 								<UML:TaggedValue tag="ea_localid" value="15991"/>
 								<UML:TaggedValue tag="ea_sourceName" value="PRESCRIPTION"/>
-								<UML:TaggedValue tag="ea_targetName" value="USER"/>
+								<UML:TaggedValue tag="ea_targetName" value="PERSON"/>
 								<UML:TaggedValue tag="ea_sourceType" value="Class"/>
 								<UML:TaggedValue tag="ea_targetType" value="Class"/>
 								<UML:TaggedValue tag="ea_sourceID" value="17828"/>
@@ -2839,18 +2940,19 @@
 								</UML:AssociationEnd>
 							</UML:Association.connection>
 						</UML:Association>
-						<UML:Class name="USER" xmi.id="EAID_EFAA5D0A_DD8B_479a_8138_8ECA4136E916" visibility="public" namespace="EAPK_0DAD8747_BEEE_4d6e_AE68_EA968BB0E474" isRoot="false" isLeaf="false" isAbstract="false" isActive="false">
+						<UML:Class name="PERSON" xmi.id="EAID_EFAA5D0A_DD8B_479a_8138_8ECA4136E916" visibility="public" namespace="EAPK_0DAD8747_BEEE_4d6e_AE68_EA968BB0E474" isRoot="false" isLeaf="false" isAbstract="false" isActive="false">
 							<UML:ModelElement.stereotype>
 								<UML:Stereotype name="table"/>
 							</UML:ModelElement.stereotype>
 							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="documentation" value="This table stores information about users, categorized by roles, and with a reference to the user profile"/>
 								<UML:TaggedValue tag="isSpecification" value="false"/>
 								<UML:TaggedValue tag="ea_stype" value="Class"/>
 								<UML:TaggedValue tag="ea_ntype" value="0"/>
 								<UML:TaggedValue tag="version" value="1.0"/>
 								<UML:TaggedValue tag="package" value="EAPK_0DAD8747_BEEE_4d6e_AE68_EA968BB0E474"/>
 								<UML:TaggedValue tag="date_created" value="2012-12-30 17:01:11"/>
-								<UML:TaggedValue tag="date_modified" value="2012-12-30 17:21:09"/>
+								<UML:TaggedValue tag="date_modified" value="2013-01-10 12:28:49"/>
 								<UML:TaggedValue tag="tagged" value="0"/>
 								<UML:TaggedValue tag="package_name" value="Database"/>
 								<UML:TaggedValue tag="phase" value="1.0"/>
@@ -2865,7 +2967,7 @@
 								<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={04DF9333-2958-4915-A02B-AD90E9319314}$XID;$NAM=Stereotypes$NAM;$TYP=element property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=table;FQName=EAUI::table;@ENDSTEREO;$DES;$CLT={EFAA5D0A-DD8B-479a-8138-8ECA4136E916}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
 							</UML:ModelElement.taggedValue>
 							<UML:Classifier.feature>
-								<UML:Attribute name="USER_ID" changeable="none" visibility="public" ownerScope="instance" targetScope="instance">
+								<UML:Attribute name="PERSON_ID" changeable="none" visibility="public" ownerScope="instance" targetScope="instance">
 									<UML:Attribute.initialValue>
 										<UML:Expression/>
 									</UML:Attribute.initialValue>
@@ -2909,7 +3011,7 @@
 										<UML:TaggedValue tag="ea_localid" value="6699"/>
 									</UML:ModelElement.taggedValue>
 								</UML:Attribute>
-								<UML:Attribute name="USER_URI" changeable="none" visibility="public" ownerScope="instance" targetScope="instance">
+								<UML:Attribute name="PERSON_URI" changeable="none" visibility="public" ownerScope="instance" targetScope="instance">
 									<UML:Attribute.initialValue>
 										<UML:Expression/>
 									</UML:Attribute.initialValue>
@@ -2920,6 +3022,7 @@
 										<UML:Stereotype name="column"/>
 									</UML:ModelElement.stereotype>
 									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="description" value="Reference to the user profile of this person."/>
 										<UML:TaggedValue tag="ordered" value="0"/>
 										<UML:TaggedValue tag="stereotype" value="column"/>
 										<UML:TaggedValue tag="collection" value="false"/>
@@ -2942,7 +3045,7 @@
 										<UML:Stereotype name="column"/>
 									</UML:ModelElement.stereotype>
 									<UML:ModelElement.taggedValue>
-										<UML:TaggedValue tag="description" value="PATIENT, PHYSICIAN, CAREGIVER"/>
+										<UML:TaggedValue tag="description" value="One of: PATIENT, PHYSICIAN, CAREGIVER"/>
 										<UML:TaggedValue tag="ordered" value="0"/>
 										<UML:TaggedValue tag="stereotype" value="column"/>
 										<UML:TaggedValue tag="collection" value="false"/>
@@ -2954,7 +3057,7 @@
 										<UML:TaggedValue tag="ea_localid" value="6701"/>
 									</UML:ModelElement.taggedValue>
 								</UML:Attribute>
-								<UML:Operation name="PK_USER" visibility="public" ownerScope="instance" isQuery="false" concurrency="sequential">
+								<UML:Operation name="PK_PERSON" visibility="public" ownerScope="instance" isQuery="false" concurrency="sequential">
 									<UML:ModelElement.stereotype>
 										<UML:Stereotype name="PK"/>
 									</UML:ModelElement.stereotype>
@@ -2982,14 +3085,14 @@
 												<UML:Expression/>
 											</UML:Parameter.defaultValue>
 										</UML:Parameter>
-										<UML:Parameter name="USER_ID" kind="in" visibility="public">
+										<UML:Parameter name="PERSON_ID" kind="in" visibility="public">
 											<UML:Parameter.type>
 												<UML:Classifier xmi.idref="eaxmiid0"/>
 											</UML:Parameter.type>
 											<UML:ModelElement.taggedValue>
 												<UML:TaggedValue tag="pos" value="0"/>
 												<UML:TaggedValue tag="const" value="0"/>
-												<UML:TaggedValue tag="ea_guid" value="{E0E5A936-0C2C-4467-9140-B945AFA27758}"/>
+												<UML:TaggedValue tag="ea_guid" value="{AE0B6DC7-46A2-429a-8FB5-6E415D1E95EC}"/>
 											</UML:ModelElement.taggedValue>
 											<UML:Parameter.defaultValue>
 												<UML:Expression/>
@@ -3036,7 +3139,7 @@
 				<UML:TaggedValue tag="version" value="1.0"/>
 				<UML:TaggedValue tag="author" value="Venelin"/>
 				<UML:TaggedValue tag="created_date" value="2012-12-30 17:00:03"/>
-				<UML:TaggedValue tag="modified_date" value="2012-12-30 22:14:45"/>
+				<UML:TaggedValue tag="modified_date" value="2013-01-10 12:51:53"/>
 				<UML:TaggedValue tag="package" value="EAPK_0DAD8747_BEEE_4d6e_AE68_EA968BB0E474"/>
 				<UML:TaggedValue tag="type" value="Logical"/>
 				<UML:TaggedValue tag="swimlanes" value="locked=false;orientation=0;width=0;inbar=false;names=false;color=0;bold=false;fcol=0;;cls=0;"/>
@@ -3046,30 +3149,31 @@
 				<UML:TaggedValue tag="styleex" value="ExcludeRTF=0;DocAll=0;HideQuals=0;AttPkg=1;ShowTests=0;ShowMaint=0;SuppressFOC=1;MatrixActive=0;SwimlanesActive=1;MatrixLineWidth=1;MatrixLocked=0;TConnectorNotation=Information Engineering;TExplicitNavigability=0;AdvancedElementProps=1;AdvancedFeatureProps=1;AdvancedConnectorProps=1;ProfileData=;MDGDgm=Extended::Data Modeling;STBLDgm=;ShowNotes=0;VisibleAttributeDetail=0;ShowOpRetType=1;SuppressBrackets=0;SuppConnectorLabels=0;PrintPageHeadFoot=0;ShowAsList=0;"/>
 			</UML:ModelElement.taggedValue>
 			<UML:Diagram.element>
-				<UML:DiagramElement geometry="Left=340;Top=667;Right=465;Bottom=799;" subject="EAID_D85CF2EA_E933_4c0b_A3BB_69C8BE2239E0" seqno="1" style="DUID=FF70F102;HideIcon=0;"/>
+				<UML:DiagramElement geometry="Left=329;Top=670;Right=467;Bottom=832;" subject="EAID_D85CF2EA_E933_4c0b_A3BB_69C8BE2239E0" seqno="1" style="DUID=FF70F102;HideIcon=0;"/>
 				<UML:DiagramElement geometry="Left=18;Top=606;Right=170;Bottom=859;" subject="EAID_8A825D8F_520C_4aba_A9B6_DE8C7E56784A" seqno="2" style="DUID=B0F9A84E;HideIcon=0;"/>
 				<UML:DiagramElement geometry="Left=16;Top=7;Right=163;Bottom=234;" subject="EAID_CCD7166F_E1FE_4254_A8B4_0978B218683A" seqno="3" style="DUID=A3B1304C;HideIcon=0;"/>
 				<UML:DiagramElement geometry="Left=13;Top=291;Right=188;Bottom=505;" subject="EAID_90407E85_778D_4e4d_9BA2_44B18C6DC559" seqno="4" style="DUID=24982C06;HideIcon=0;"/>
 				<UML:DiagramElement geometry="Left=580;Top=642;Right=761;Bottom=843;" subject="EAID_9994E9D7_3A38_46db_BEDE_C61B1E3F8AAF" seqno="5" style="DUID=EB908852;HideIcon=0;"/>
 				<UML:DiagramElement geometry="Left=579;Top=319;Right=727;Bottom=546;" subject="EAID_637B48B1_EAC1_48f1_BBED_DCB82081B121" seqno="6" style="DUID=6BABAA0C;HideIcon=0;"/>
 				<UML:DiagramElement geometry="Left=583;Top=28;Right=758;Bottom=229;" subject="EAID_DC75347D_2CF7_4da3_AA62_6046C04553F3" seqno="7" style="DUID=BE08D466;HideIcon=0;"/>
-				<UML:DiagramElement geometry="Left=346;Top=433;Right=465;Bottom=604;" subject="EAID_CA018F94_595D_4386_AECB_4AF7FCB79176" seqno="8" style="DUID=5CCD4738;HideIcon=0;"/>
+				<UML:DiagramElement geometry="Left=319;Top=433;Right=438;Bottom=604;" subject="EAID_CA018F94_595D_4386_AECB_4AF7FCB79176" seqno="8" style="DUID=5CCD4738;HideIcon=0;"/>
 				<UML:DiagramElement geometry="Left=325;Top=190;Right=464;Bottom=335;" subject="EAID_EFAA5D0A_DD8B_479a_8138_8ECA4136E916" seqno="9" style="DUID=C1FEE78E;HideIcon=0;"/>
-				<UML:DiagramElement geometry="SX=0;SY=0;EX=0;EY=0;EDGE=2;$LLB=CX=122:CY=13:OX=0:OY=0:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:DIR=0:ROT=0;LLT=CX=119:CY=13:OX=8:OY=20:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:DIR=0:ROT=0;LMT=;LMB=;LRT=CX=92:CY=13:OX=0:OY=0:HDN=1:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:DIR=0:ROT=0;LRB=CX=122:CY=13:OX=0:OY=0:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:DIR=0:ROT=0;IRHS=;ILHS=;Path=;" subject="EAID_4690CB6A_A18F_42e5_9166_3057F7AFA31B" style="Mode=3;EOID=FF70F102;SOID=B0F9A84E;Color=-1;LWidth=0;Hidden=0;"/>
-				<UML:DiagramElement geometry="SX=-67;SY=90;EX=-50;EY=-92;EDGE=1;$LLB=CX=122:CY=13:OX=0:OY=0:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:DIR=0:ROT=0;LLT=CX=106:CY=13:OX=0:OY=0:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:DIR=0:ROT=0;LMT=;LMB=;LRT=CX=91:CY=13:OX=0:OY=0:HDN=1:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:DIR=0:ROT=0;LRB=CX=122:CY=13:OX=0:OY=0:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:DIR=0:ROT=0;IRHS=;ILHS=;Path=;" subject="EAID_6674B50E_FDD0_42cc_9198_5425707F5B9A" style="Mode=3;EOID=6BABAA0C;SOID=EB908852;Color=-1;LWidth=0;Hidden=0;"/>
-				<UML:DiagramElement geometry="SX=74;SY=68;EX=74;EY=68;EDGE=1;$LLB=CX=122:CY=13:OX=0:OY=0:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:DIR=0:ROT=0;LLT=CX=118:CY=13:OX=0:OY=0:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:DIR=0:ROT=0;LMT=;LMB=;LRT=CX=103:CY=13:OX=0:OY=0:HDN=1:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:DIR=0:ROT=0;LRB=CX=122:CY=13:OX=0:OY=0:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:DIR=0:ROT=0;IRHS=;ILHS=;Path=;" subject="EAID_9EF3BDBB_3E17_4ed8_AB80_DC79EE9244A9" style="Mode=3;EOID=BE08D466;SOID=EB908852;Color=-1;LWidth=0;Hidden=0;"/>
-				<UML:DiagramElement geometry="SX=0;SY=0;EX=0;EY=0;EDGE=4;$LLB=CX=122:CY=13:OX=0:OY=0:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:DIR=0:ROT=0;LLT=CX=110:CY=13:OX=17:OY=27:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:DIR=0:ROT=0;LMT=;LMB=;LRT=CX=76:CY=13:OX=2:OY=21:HDN=1:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:DIR=0:ROT=0;LRB=CX=122:CY=13:OX=0:OY=0:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:DIR=0:ROT=0;IRHS=;ILHS=;Path=;" subject="EAID_0C0ECE62_9964_4722_B569_4A6AB1F519D0" style="Mode=3;EOID=5CCD4738;SOID=6BABAA0C;Color=-1;LWidth=0;Hidden=0;"/>
-				<UML:DiagramElement geometry="SX=58;SY=-19;EX=27;EY=-19;EDGE=4;$LLB=CX=122:CY=13:OX=0:OY=0:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:DIR=0:ROT=0;LLT=CX=110:CY=13:OX=10:OY=-2:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:DIR=0:ROT=0;LMT=;LMB=;LRT=CX=76:CY=13:OX=18:OY=19:HDN=1:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:DIR=0:ROT=0;LRB=CX=122:CY=13:OX=0:OY=0:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:DIR=0:ROT=0;IRHS=;ILHS=;Path=;" subject="EAID_4EBC20AE_5952_405b_B4CC_8110ADAF41EE" style="Mode=3;EOID=5CCD4738;SOID=EB908852;Color=-1;LWidth=0;Hidden=0;"/>
-				<UML:DiagramElement geometry="SX=0;SY=0;EX=0;EY=0;EDGE=2;$LLB=CX=122:CY=13:OX=0:OY=0:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:DIR=0:ROT=0;LLT=CX=110:CY=13:OX=-16:OY=3:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:DIR=0:ROT=0;LMT=;LMB=;LRT=CX=76:CY=13:OX=0:OY=0:HDN=1:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:DIR=0:ROT=0;LRB=CX=122:CY=13:OX=0:OY=0:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:DIR=0:ROT=0;IRHS=;ILHS=;Path=;" subject="EAID_AD574D4B_C24D_49c7_8887_BBA8DBBB6617" style="Mode=3;EOID=5CCD4738;SOID=24982C06;Color=-1;LWidth=0;Hidden=0;"/>
-				<UML:DiagramElement geometry="SX=4;SY=-5;EX=4;EY=-5;EDGE=2;$LLB=CX=122:CY=13:OX=0:OY=0:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:DIR=0:ROT=0;LLT=CX=110:CY=13:OX=11:OY=28:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:DIR=0:ROT=0;LMT=;LMB=;LRT=CX=76:CY=13:OX=0:OY=0:HDN=1:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:DIR=0:ROT=0;LRB=CX=122:CY=13:OX=0:OY=0:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:DIR=0:ROT=0;IRHS=;ILHS=;Path=;" subject="EAID_0129E526_3CD6_4f80_BAA4_9CEDB4A8DC8C" style="Mode=3;EOID=5CCD4738;SOID=A3B1304C;Color=-1;LWidth=0;Hidden=0;"/>
-				<UML:DiagramElement geometry="SX=0;SY=0;EX=0;EY=0;EDGE=2;$LLB=CX=122:CY=13:OX=0:OY=0:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:DIR=0:ROT=0;LLT=CX=110:CY=13:OX=23:OY=-35:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:DIR=0:ROT=0;LMT=;LMB=;LRT=CX=76:CY=13:OX=0:OY=0:HDN=1:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:DIR=0:ROT=0;LRB=CX=122:CY=13:OX=0:OY=0:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:DIR=0:ROT=0;IRHS=;ILHS=;Path=;" subject="EAID_6D60ED2F_7371_4dac_A254_01EF21EB32F5" style="Mode=3;EOID=5CCD4738;SOID=B0F9A84E;Color=-1;LWidth=0;Hidden=0;"/>
-				<UML:DiagramElement geometry="SX=16;SY=11;EX=16;EY=11;EDGE=4;$LLB=CX=122:CY=13:OX=0:OY=0:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:DIR=0:ROT=0;LLT=CX=86:CY=13:OX=0:OY=0:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:DIR=0:ROT=0;LMT=;LMB=;LRT=CX=54:CY=13:OX=0:OY=0:HDN=1:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:DIR=0:ROT=0;LRB=CX=122:CY=13:OX=0:OY=0:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:DIR=0:ROT=0;IRHS=;ILHS=;Path=;" subject="EAID_B9170EB5_ABAA_41aa_898D_503071163217" style="Mode=3;EOID=C1FEE78E;SOID=BE08D466;Color=-1;LWidth=0;Hidden=0;"/>
+				<UML:DiagramElement geometry="SX=0;SY=0;EX=0;EY=0;EDGE=4;$LLB=CX=122:CY=13:OX=0:OY=0:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:DIR=0:ROT=0;LLT=CX=91:CY=13:OX=17:OY=27:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:DIR=0:ROT=0;LMT=;LMB=;LRT=CX=76:CY=13:OX=2:OY=21:HDN=1:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:DIR=0:ROT=0;LRB=CX=122:CY=13:OX=0:OY=0:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:DIR=0:ROT=0;IRHS=;ILHS=;Path=;" subject="EAID_0C0ECE62_9964_4722_B569_4A6AB1F519D0" style="Mode=3;EOID=5CCD4738;SOID=6BABAA0C;Color=-1;LWidth=0;Hidden=0;"/>
 				<UML:DiagramElement geometry="SX=32;SY=43;EX=32;EY=43;EDGE=4;$LLB=CX=122:CY=13:OX=0:OY=0:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:DIR=0:ROT=0;LLT=CX=96:CY=13:OX=0:OY=0:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:DIR=0:ROT=0;LMT=;LMB=;LRT=CX=54:CY=13:OX=0:OY=0:HDN=1:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:DIR=0:ROT=0;LRB=CX=122:CY=13:OX=0:OY=0:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:DIR=0:ROT=0;IRHS=;ILHS=;Path=;" subject="EAID_B2CFBE33_5C7B_4390_A015_515A24F02118" style="Mode=3;EOID=C1FEE78E;SOID=BE08D466;Color=-1;LWidth=0;Hidden=0;"/>
-				<UML:DiagramElement geometry="SX=-74;SY=76;EX=68;EY=-10;EDGE=4;$LLB=CX=122:CY=13:OX=0:OY=0:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:DIR=0:ROT=0;LLT=CX=105:CY=13:OX=12:OY=-21:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:DIR=0:ROT=0;LMT=;LMB=;LRT=CX=54:CY=13:OX=0:OY=0:HDN=1:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:DIR=0:ROT=0;LRB=CX=122:CY=13:OX=0:OY=0:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:DIR=0:ROT=0;IRHS=;ILHS=;Path=;" subject="EAID_400A0A99_9313_490b_8CA6_850B74B4C7A2" style="Mode=3;EOID=C1FEE78E;SOID=6BABAA0C;Color=-1;LWidth=0;Hidden=0;"/>
-				<UML:DiagramElement geometry="SX=24;SY=18;EX=19;EY=41;EDGE=4;$LLB=CX=122:CY=13:OX=0:OY=0:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:DIR=0:ROT=0;LLT=CX=115:CY=13:OX=42:OY=-39:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:DIR=0:ROT=0;LMT=;LMB=;LRT=CX=54:CY=13:OX=11:OY=-1:HDN=1:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:DIR=0:ROT=0;LRB=CX=122:CY=13:OX=0:OY=0:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:DIR=0:ROT=0;IRHS=;ILHS=;Path=;" subject="EAID_50E4FC06_E427_436c_952A_063ECF2618C6" style="Mode=3;EOID=C1FEE78E;SOID=6BABAA0C;Color=-1;LWidth=0;Hidden=0;"/>
-				<UML:DiagramElement geometry="SX=0;SY=0;EX=0;EY=0;EDGE=2;$LLB=CX=122:CY=13:OX=0:OY=0:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:DIR=0:ROT=0;LLT=CX=105:CY=13:OX=-18:OY=22:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:DIR=0:ROT=0;LMT=;LMB=;LRT=CX=54:CY=13:OX=0:OY=0:HDN=1:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:DIR=0:ROT=0;LRB=CX=122:CY=13:OX=0:OY=0:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:DIR=0:ROT=0;IRHS=;ILHS=;Path=;" subject="EAID_17B7CFFF_1A87_45d2_9A2B_B31BCBF746AA" style="Mode=3;EOID=C1FEE78E;SOID=24982C06;Color=-1;LWidth=0;Hidden=0;"/>
-				<UML:DiagramElement geometry="SX=0;SY=24;EX=0;EY=24;EDGE=2;$LLB=CX=122:CY=13:OX=0:OY=0:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:DIR=0:ROT=0;LLT=CX=105:CY=13:OX=0:OY=0:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:DIR=0:ROT=0;LMT=;LMB=;LRT=CX=54:CY=13:OX=0:OY=0:HDN=1:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:DIR=0:ROT=0;LRB=CX=122:CY=13:OX=0:OY=0:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:DIR=0:ROT=0;IRHS=;ILHS=;Path=;" subject="EAID_475163B2_CD99_442d_9899_2C5FCF11A436" style="Mode=3;EOID=C1FEE78E;SOID=A3B1304C;Color=-1;LWidth=0;Hidden=0;"/>
-				<UML:DiagramElement geometry="SX=0;SY=0;EX=0;EY=0;EDGE=2;$LLB=CX=122:CY=13:OX=0:OY=0:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:DIR=0:ROT=0;LLT=CX=105:CY=13:OX=-1:OY=-46:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:DIR=0:ROT=0;LMT=;LMB=;LRT=CX=54:CY=13:OX=0:OY=0:HDN=1:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:DIR=0:ROT=0;LRB=CX=122:CY=13:OX=0:OY=0:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:DIR=0:ROT=0;IRHS=;ILHS=;Path=;" subject="EAID_29191150_73E5_4800_A268_5CB599FADE70" style="Mode=3;EOID=C1FEE78E;SOID=B0F9A84E;Color=-1;LWidth=0;Hidden=0;"/>
+				<UML:DiagramElement geometry="SX=-74;SY=76;EX=68;EY=-10;EDGE=4;$LLB=CX=122:CY=13:OX=0:OY=0:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:DIR=0:ROT=0;LLT=CX=86:CY=13:OX=12:OY=-21:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:DIR=0:ROT=0;LMT=;LMB=;LRT=CX=54:CY=13:OX=0:OY=0:HDN=1:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:DIR=0:ROT=0;LRB=CX=122:CY=13:OX=0:OY=0:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:DIR=0:ROT=0;IRHS=;ILHS=;Path=;" subject="EAID_400A0A99_9313_490b_8CA6_850B74B4C7A2" style="Mode=3;EOID=C1FEE78E;SOID=6BABAA0C;Color=-1;LWidth=0;Hidden=0;"/>
+				<UML:DiagramElement geometry="SX=0;SY=0;EX=0;EY=0;EDGE=2;$LLB=CX=122:CY=13:OX=0:OY=0:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:DIR=0:ROT=0;LLT=CX=86:CY=13:OX=-1:OY=-46:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:DIR=0:ROT=0;LMT=;LMB=;LRT=CX=54:CY=13:OX=0:OY=0:HDN=1:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:DIR=0:ROT=0;LRB=CX=122:CY=13:OX=0:OY=0:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:DIR=0:ROT=0;IRHS=;ILHS=;Path=;" subject="EAID_29191150_73E5_4800_A268_5CB599FADE70" style="Mode=3;EOID=C1FEE78E;SOID=B0F9A84E;Color=-1;LWidth=0;Hidden=0;"/>
+				<UML:DiagramElement geometry="SX=0;SY=24;EX=0;EY=24;EDGE=2;$LLB=CX=122:CY=13:OX=0:OY=0:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:DIR=0:ROT=0;LLT=CX=86:CY=13:OX=0:OY=0:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:DIR=0:ROT=0;LMT=;LMB=;LRT=CX=54:CY=13:OX=0:OY=0:HDN=1:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:DIR=0:ROT=0;LRB=CX=122:CY=13:OX=0:OY=0:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:DIR=0:ROT=0;IRHS=;ILHS=;Path=;" subject="EAID_475163B2_CD99_442d_9899_2C5FCF11A436" style="Mode=3;EOID=C1FEE78E;SOID=A3B1304C;Color=-1;LWidth=0;Hidden=0;"/>
+				<UML:DiagramElement geometry="SX=24;SY=18;EX=19;EY=41;EDGE=4;$LLB=CX=122:CY=13:OX=0:OY=0:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:DIR=0:ROT=0;LLT=CX=96:CY=13:OX=42:OY=-39:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:DIR=0:ROT=0;LMT=;LMB=;LRT=CX=54:CY=13:OX=11:OY=-1:HDN=1:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:DIR=0:ROT=0;LRB=CX=122:CY=13:OX=0:OY=0:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:DIR=0:ROT=0;IRHS=;ILHS=;Path=;" subject="EAID_50E4FC06_E427_436c_952A_063ECF2618C6" style="Mode=3;EOID=C1FEE78E;SOID=6BABAA0C;Color=-1;LWidth=0;Hidden=0;"/>
+				<UML:DiagramElement geometry="SX=0;SY=0;EX=0;EY=0;EDGE=2;$LLB=CX=122:CY=13:OX=0:OY=0:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:DIR=0:ROT=0;LLT=CX=86:CY=13:OX=-18:OY=22:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:DIR=0:ROT=0;LMT=;LMB=;LRT=CX=54:CY=13:OX=0:OY=0:HDN=1:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:DIR=0:ROT=0;LRB=CX=122:CY=13:OX=0:OY=0:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:DIR=0:ROT=0;IRHS=;ILHS=;Path=;" subject="EAID_17B7CFFF_1A87_45d2_9A2B_B31BCBF746AA" style="Mode=3;EOID=C1FEE78E;SOID=24982C06;Color=-1;LWidth=0;Hidden=0;"/>
+				<UML:DiagramElement geometry="SX=16;SY=11;EX=16;EY=11;EDGE=4;$LLB=CX=122:CY=13:OX=0:OY=0:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:DIR=0:ROT=0;LLT=CX=86:CY=13:OX=0:OY=0:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:DIR=0:ROT=0;LMT=;LMB=;LRT=CX=54:CY=13:OX=0:OY=0:HDN=1:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:DIR=0:ROT=0;LRB=CX=122:CY=13:OX=0:OY=0:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:DIR=0:ROT=0;IRHS=;ILHS=;Path=;" subject="EAID_B9170EB5_ABAA_41aa_898D_503071163217" style="Mode=3;EOID=C1FEE78E;SOID=BE08D466;Color=-1;LWidth=0;Hidden=0;"/>
+				<UML:DiagramElement geometry="SX=0;SY=0;EX=0;EY=0;EDGE=2;$LLB=CX=122:CY=13:OX=0:OY=0:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:DIR=0:ROT=0;LLT=CX=100:CY=13:OX=8:OY=20:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:DIR=0:ROT=0;LMT=;LMB=;LRT=CX=92:CY=13:OX=0:OY=0:HDN=1:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:DIR=0:ROT=0;LRB=CX=122:CY=13:OX=0:OY=0:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:DIR=0:ROT=0;IRHS=;ILHS=;Path=;" subject="EAID_4690CB6A_A18F_42e5_9166_3057F7AFA31B" style="Mode=3;EOID=FF70F102;SOID=B0F9A84E;Color=-1;LWidth=0;Hidden=0;"/>
+				<UML:DiagramElement geometry="SX=58;SY=-19;EX=27;EY=-19;EDGE=4;$LLB=CX=122:CY=13:OX=0:OY=0:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:DIR=0:ROT=0;LLT=CX=91:CY=13:OX=10:OY=-2:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:DIR=0:ROT=0;LMT=;LMB=;LRT=CX=76:CY=13:OX=18:OY=19:HDN=1:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:DIR=0:ROT=0;LRB=CX=122:CY=13:OX=0:OY=0:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:DIR=0:ROT=0;IRHS=;ILHS=;Path=;" subject="EAID_4EBC20AE_5952_405b_B4CC_8110ADAF41EE" style="Mode=3;EOID=5CCD4738;SOID=EB908852;Color=-1;LWidth=0;Hidden=0;"/>
+				<UML:DiagramElement geometry="SX=0;SY=0;EX=0;EY=0;EDGE=2;$LLB=CX=122:CY=13:OX=0:OY=0:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:DIR=0:ROT=0;LLT=CX=91:CY=13:OX=-16:OY=3:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:DIR=0:ROT=0;LMT=;LMB=;LRT=CX=76:CY=13:OX=0:OY=0:HDN=1:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:DIR=0:ROT=0;LRB=CX=122:CY=13:OX=0:OY=0:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:DIR=0:ROT=0;IRHS=;ILHS=;Path=;" subject="EAID_AD574D4B_C24D_49c7_8887_BBA8DBBB6617" style="Mode=3;EOID=5CCD4738;SOID=24982C06;Color=-1;LWidth=0;Hidden=0;"/>
+				<UML:DiagramElement geometry="SX=4;SY=-5;EX=4;EY=-5;EDGE=2;$LLB=CX=122:CY=13:OX=0:OY=0:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:DIR=0:ROT=0;LLT=CX=91:CY=13:OX=11:OY=28:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:DIR=0:ROT=0;LMT=;LMB=;LRT=CX=76:CY=13:OX=0:OY=0:HDN=1:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:DIR=0:ROT=0;LRB=CX=122:CY=13:OX=0:OY=0:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:DIR=0:ROT=0;IRHS=;ILHS=;Path=;" subject="EAID_0129E526_3CD6_4f80_BAA4_9CEDB4A8DC8C" style="Mode=3;EOID=5CCD4738;SOID=A3B1304C;Color=-1;LWidth=0;Hidden=0;"/>
+				<UML:DiagramElement geometry="SX=0;SY=0;EX=0;EY=0;EDGE=2;$LLB=CX=122:CY=13:OX=0:OY=0:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:DIR=0:ROT=0;LLT=CX=91:CY=13:OX=23:OY=-35:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:DIR=0:ROT=0;LMT=;LMB=;LRT=CX=76:CY=13:OX=0:OY=0:HDN=1:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:DIR=0:ROT=0;LRB=CX=122:CY=13:OX=0:OY=0:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:DIR=0:ROT=0;IRHS=;ILHS=;Path=;" subject="EAID_6D60ED2F_7371_4dac_A254_01EF21EB32F5" style="Mode=3;EOID=5CCD4738;SOID=B0F9A84E;Color=-1;LWidth=0;Hidden=0;"/>
+				<UML:DiagramElement geometry="SX=74;SY=68;EX=74;EY=68;EDGE=1;$LLB=CX=122:CY=13:OX=0:OY=0:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:DIR=0:ROT=0;LLT=CX=118:CY=13:OX=0:OY=0:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:DIR=0:ROT=0;LMT=;LMB=;LRT=CX=103:CY=13:OX=0:OY=0:HDN=1:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:DIR=0:ROT=0;LRB=CX=122:CY=13:OX=0:OY=0:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:DIR=0:ROT=0;IRHS=;ILHS=;Path=;" subject="EAID_9EF3BDBB_3E17_4ed8_AB80_DC79EE9244A9" style="Mode=3;EOID=BE08D466;SOID=EB908852;Color=-1;LWidth=0;Hidden=0;"/>
+				<UML:DiagramElement geometry="SX=-67;SY=90;EX=-50;EY=-92;EDGE=1;$LLB=CX=122:CY=13:OX=0:OY=0:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:DIR=0:ROT=0;LLT=CX=106:CY=13:OX=0:OY=0:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:DIR=0:ROT=0;LMT=;LMB=;LRT=CX=91:CY=13:OX=0:OY=0:HDN=1:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:DIR=0:ROT=0;LRB=CX=122:CY=13:OX=0:OY=0:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:DIR=0:ROT=0;IRHS=;ILHS=;Path=;" subject="EAID_6674B50E_FDD0_42cc_9198_5425707F5B9A" style="Mode=3;EOID=6BABAA0C;SOID=EB908852;Color=-1;LWidth=0;Hidden=0;"/>
+				<UML:DiagramElement geometry="SX=57;SY=-8;EX=61;EY=-8;EDGE=1;$LLB=CX=122:CY=13:OX=0:OY=0:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:DIR=0:ROT=0;LLT=CX=105:CY=13:OX=0:OY=0:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:DIR=0:ROT=0;LMT=;LMB=;LRT=CX=69:CY=13:OX=0:OY=0:HDN=1:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:DIR=0:ROT=0;LRB=CX=122:CY=13:OX=0:OY=0:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:DIR=0:ROT=0;IRHS=;ILHS=;Path=;" subject="EAID_14A4663E_DA95_4f93_AFC2_8F86684AC609" style="Mode=3;EOID=C1FEE78E;SOID=FF70F102;Color=-1;LWidth=0;Hidden=0;"/>
 			</UML:Diagram.element>
 		</UML:Diagram>
 	</XMI.content>
