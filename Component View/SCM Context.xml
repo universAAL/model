@@ -35,6 +35,29 @@
 						<UML:TaggedValue tag="gentype" value="Java"/>
 					</UML:ModelElement.taggedValue>
 					<UML:Namespace.ownedElement>
+						<UML:Comment xmi.id="EAID_24A6867B_6CF0_43cc_A183_180A1EBE823B" visibility="public" namespace="EAPK_022ED2C1_1F77_405f_9BB8_FA64EC46D333">
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="documentation" value="Here is my suggestion for semantic interface regardining the context bus. The operations represent a ContextEventPattern with the format [S,P,O] defining the filters on each proeprty of the event. Asterisk * means no restriction. For simplicity, I would ommit restrictions on other properties such as e.g. timestamp. Additional operations can be added in this format representing additional ContextEventPatterns passed as filter.&#xA;"/>
+								<UML:TaggedValue tag="isSpecification" value="false"/>
+								<UML:TaggedValue tag="ea_stype" value="Note"/>
+								<UML:TaggedValue tag="ea_ntype" value="0"/>
+								<UML:TaggedValue tag="version" value="1.0"/>
+								<UML:TaggedValue tag="package" value="EAPK_022ED2C1_1F77_405f_9BB8_FA64EC46D333"/>
+								<UML:TaggedValue tag="date_created" value="2013-03-13 13:44:49"/>
+								<UML:TaggedValue tag="date_modified" value="2013-03-13 13:47:07"/>
+								<UML:TaggedValue tag="gentype" value="&lt;none&gt;"/>
+								<UML:TaggedValue tag="tagged" value="0"/>
+								<UML:TaggedValue tag="package_name" value="Context"/>
+								<UML:TaggedValue tag="phase" value="1.0"/>
+								<UML:TaggedValue tag="author" value="alfiva"/>
+								<UML:TaggedValue tag="complexity" value="1"/>
+								<UML:TaggedValue tag="status" value="Proposed"/>
+								<UML:TaggedValue tag="tpos" value="0"/>
+								<UML:TaggedValue tag="ea_localid" value="27368"/>
+								<UML:TaggedValue tag="ea_eleType" value="element"/>
+								<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+							</UML:ModelElement.taggedValue>
+						</UML:Comment>
 						<UML:Comment xmi.id="EAID_332DEB59_0142_4c3f_9EE1_1E24DCB3E256" visibility="public" namespace="EAPK_022ED2C1_1F77_405f_9BB8_FA64EC46D333">
 							<UML:ModelElement.taggedValue>
 								<UML:TaggedValue tag="documentation" value="How do we specify that SR is calling the exact semantic service &quot;doSparqlQuery&quot; from CHE? Stereotype too? Was there some way to show which &quot;method&quot; is being called?&#xA;"/>
@@ -58,52 +81,102 @@
 								<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
 							</UML:ModelElement.taggedValue>
 						</UML:Comment>
-						<UML:Comment xmi.id="EAID_6EAA71D1_F5A8_4134_ACEA_AAB6D945BD5C" visibility="public" namespace="EAPK_022ED2C1_1F77_405f_9BB8_FA64EC46D333">
+						<UML:Interface name="ContextSubscriptions" xmi.id="EAID_63B3BBA6_2236_4124_8A20_E1579770FE43" visibility="public" namespace="EAPK_022ED2C1_1F77_405f_9BB8_FA64EC46D333" isRoot="false" isLeaf="false" isAbstract="true">
+							<UML:ModelElement.stereotype>
+								<UML:Stereotype name="interface"/>
+							</UML:ModelElement.stereotype>
 							<UML:ModelElement.taggedValue>
-								<UML:TaggedValue tag="documentation" value="Again: do we specify the parameters of operations? With elements from Sys Info Model?&#xA;"/>
 								<UML:TaggedValue tag="isSpecification" value="false"/>
-								<UML:TaggedValue tag="ea_stype" value="Note"/>
+								<UML:TaggedValue tag="ea_stype" value="Interface"/>
 								<UML:TaggedValue tag="ea_ntype" value="0"/>
 								<UML:TaggedValue tag="version" value="1.0"/>
 								<UML:TaggedValue tag="package" value="EAPK_022ED2C1_1F77_405f_9BB8_FA64EC46D333"/>
-								<UML:TaggedValue tag="date_created" value="2013-03-12 18:52:09"/>
-								<UML:TaggedValue tag="date_modified" value="2013-03-12 18:52:41"/>
-								<UML:TaggedValue tag="gentype" value="&lt;none&gt;"/>
+								<UML:TaggedValue tag="date_created" value="2013-03-13 13:42:54"/>
+								<UML:TaggedValue tag="date_modified" value="2013-03-13 13:44:06"/>
+								<UML:TaggedValue tag="gentype" value="Java"/>
 								<UML:TaggedValue tag="tagged" value="0"/>
 								<UML:TaggedValue tag="package_name" value="Context"/>
 								<UML:TaggedValue tag="phase" value="1.0"/>
 								<UML:TaggedValue tag="author" value="alfiva"/>
 								<UML:TaggedValue tag="complexity" value="1"/>
 								<UML:TaggedValue tag="status" value="Proposed"/>
+								<UML:TaggedValue tag="stereotype" value="interface"/>
 								<UML:TaggedValue tag="tpos" value="0"/>
-								<UML:TaggedValue tag="ea_localid" value="27277"/>
+								<UML:TaggedValue tag="ea_localid" value="27367"/>
 								<UML:TaggedValue tag="ea_eleType" value="element"/>
+								<UML:TaggedValue tag="$ea_classified" value="{9667A7AD-8677-4989-8428-A76B0FFCB5C6}"/>
 								<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+								<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={7985E85A-1D99-4ccb-9B19-C3797ED72E69}$XID;$NAM=Stereotypes$NAM;$TYP=element property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=interface;GUID={5DF5548F-DF8D-4e77-9AD7-CFA2A447CCC5};@ENDSTEREO;$DES;$CLT={63B3BBA6-2236-4124-8A20-E1579770FE43}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
 							</UML:ModelElement.taggedValue>
-						</UML:Comment>
-						<UML:Comment xmi.id="EAID_A7D38BC6_57CF_414a_9542_C95C524EFE5B" visibility="public" namespace="EAPK_022ED2C1_1F77_405f_9BB8_FA64EC46D333">
+							<UML:Classifier.feature>
+								<UML:Operation name="[*,*,*]" visibility="public" ownerScope="instance" isQuery="false" concurrency="sequential">
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="type" value="void"/>
+										<UML:TaggedValue tag="const" value="false"/>
+										<UML:TaggedValue tag="synchronised" value="0"/>
+										<UML:TaggedValue tag="concurrency" value="Sequential"/>
+										<UML:TaggedValue tag="position" value="0"/>
+										<UML:TaggedValue tag="returnarray" value="0"/>
+										<UML:TaggedValue tag="pure" value="0"/>
+										<UML:TaggedValue tag="ea_guid" value="{091415DD-5A2B-4b1d-9C57-3EB452C96B32}"/>
+										<UML:TaggedValue tag="ea_localid" value="35425"/>
+									</UML:ModelElement.taggedValue>
+									<UML:BehavioralFeature.parameter>
+										<UML:Parameter kind="return" visibility="public">
+											<UML:Parameter.type>
+												<UML:Classifier xmi.idref="eaxmiid0"/>
+											</UML:Parameter.type>
+											<UML:ModelElement.taggedValue>
+												<UML:TaggedValue tag="pos" value="0"/>
+												<UML:TaggedValue tag="type" value="void"/>
+												<UML:TaggedValue tag="const" value="0"/>
+												<UML:TaggedValue tag="ea_guid" value="{RETURNID-5A2B-4b1d-9C57-3EB452C96B32}"/>
+											</UML:ModelElement.taggedValue>
+											<UML:Parameter.defaultValue>
+												<UML:Expression/>
+											</UML:Parameter.defaultValue>
+										</UML:Parameter>
+									</UML:BehavioralFeature.parameter>
+								</UML:Operation>
+							</UML:Classifier.feature>
+						</UML:Interface>
+						<UML:Dependency client="EAID_E7C38D48_EB7B_4983_801D_7F4153F7856B" supplier="EAID_63B3BBA6_2236_4124_8A20_E1579770FE43" xmi.id="EAID_D74B8B13_13E4_4b7b_9874_8DD5FB1ED40D" visibility="public">
 							<UML:ModelElement.taggedValue>
-								<UML:TaggedValue tag="documentation" value="Here is another trouble: How do we define the pseudo-interfaces that represent the semantic services via uAAL SBus (not to tals about context events yet...)?&#xA;"/>
-								<UML:TaggedValue tag="isSpecification" value="false"/>
-								<UML:TaggedValue tag="ea_stype" value="Note"/>
-								<UML:TaggedValue tag="ea_ntype" value="0"/>
-								<UML:TaggedValue tag="version" value="1.0"/>
-								<UML:TaggedValue tag="package" value="EAPK_022ED2C1_1F77_405f_9BB8_FA64EC46D333"/>
-								<UML:TaggedValue tag="date_created" value="2013-03-12 18:48:18"/>
-								<UML:TaggedValue tag="date_modified" value="2013-03-12 18:48:57"/>
-								<UML:TaggedValue tag="gentype" value="&lt;none&gt;"/>
-								<UML:TaggedValue tag="tagged" value="0"/>
-								<UML:TaggedValue tag="package_name" value="Context"/>
-								<UML:TaggedValue tag="phase" value="1.0"/>
-								<UML:TaggedValue tag="author" value="alfiva"/>
-								<UML:TaggedValue tag="complexity" value="1"/>
-								<UML:TaggedValue tag="status" value="Proposed"/>
-								<UML:TaggedValue tag="tpos" value="0"/>
-								<UML:TaggedValue tag="ea_localid" value="27274"/>
-								<UML:TaggedValue tag="ea_eleType" value="element"/>
-								<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+								<UML:TaggedValue tag="style" value="3"/>
+								<UML:TaggedValue tag="ea_type" value="Realisation"/>
+								<UML:TaggedValue tag="direction" value="Source -&gt; Destination"/>
+								<UML:TaggedValue tag="linemode" value="3"/>
+								<UML:TaggedValue tag="linecolor" value="-1"/>
+								<UML:TaggedValue tag="linewidth" value="0"/>
+								<UML:TaggedValue tag="seqno" value="0"/>
+								<UML:TaggedValue tag="headStyle" value="0"/>
+								<UML:TaggedValue tag="lineStyle" value="0"/>
+								<UML:TaggedValue tag="ea_localid" value="25095"/>
+								<UML:TaggedValue tag="ea_sourceName" value="Context Storage"/>
+								<UML:TaggedValue tag="ea_targetName" value="ContextSubscriptions"/>
+								<UML:TaggedValue tag="ea_sourceType" value="Component"/>
+								<UML:TaggedValue tag="ea_targetType" value="Interface"/>
+								<UML:TaggedValue tag="ea_sourceID" value="27178"/>
+								<UML:TaggedValue tag="ea_targetID" value="27367"/>
+								<UML:TaggedValue tag="src_visibility" value="Public"/>
+								<UML:TaggedValue tag="src_aggregation" value="0"/>
+								<UML:TaggedValue tag="src_isOrdered" value="false"/>
+								<UML:TaggedValue tag="src_targetScope" value="instance"/>
+								<UML:TaggedValue tag="src_changeable" value="none"/>
+								<UML:TaggedValue tag="src_isNavigable" value="false"/>
+								<UML:TaggedValue tag="src_containment" value="Unspecified"/>
+								<UML:TaggedValue tag="src_style" value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Non-Navigable;"/>
+								<UML:TaggedValue tag="dst_visibility" value="Public"/>
+								<UML:TaggedValue tag="dst_aggregation" value="0"/>
+								<UML:TaggedValue tag="dst_isOrdered" value="false"/>
+								<UML:TaggedValue tag="dst_targetScope" value="instance"/>
+								<UML:TaggedValue tag="dst_changeable" value="none"/>
+								<UML:TaggedValue tag="dst_isNavigable" value="true"/>
+								<UML:TaggedValue tag="dst_containment" value="Unspecified"/>
+								<UML:TaggedValue tag="dst_style" value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Navigable;"/>
+								<UML:TaggedValue tag="virtualInheritance" value="0"/>
 							</UML:ModelElement.taggedValue>
-						</UML:Comment>
+						</UML:Dependency>
 						<UML:Interface name="ProvidedServices" xmi.id="EAID_B2DE474F_10A6_4fb9_8DC9_86C1D13484DD" visibility="public" namespace="EAPK_022ED2C1_1F77_405f_9BB8_FA64EC46D333" isRoot="false" isLeaf="false" isAbstract="true">
 							<UML:ModelElement.stereotype>
 								<UML:Stereotype name="interface"/>
@@ -316,16 +389,16 @@
 								<UML:TaggedValue tag="virtualInheritance" value="0"/>
 							</UML:ModelElement.taggedValue>
 						</UML:Dependency>
-						<UML:Comment xmi.id="EAID_CFC387D4_78A4_4ad4_A645_DDFF283F7885" visibility="public" namespace="EAPK_022ED2C1_1F77_405f_9BB8_FA64EC46D333">
+						<UML:Comment xmi.id="EAID_B8AD5944_4FFE_4c72_BB94_6E9A0E0F4F96" visibility="public" namespace="EAPK_022ED2C1_1F77_405f_9BB8_FA64EC46D333">
 							<UML:ModelElement.taggedValue>
-								<UML:TaggedValue tag="documentation" value="Where do we place (if we finally use them) these new &quot;semantic&quot; interfaces and their realisations? Same diagram than those of the other comp diagram? Separate one in Comp and If Spec Model?&#xA;"/>
+								<UML:TaggedValue tag="documentation" value="Again: do we specify the parameters of operations? With elements from Sys Info Model?&#xA;"/>
 								<UML:TaggedValue tag="isSpecification" value="false"/>
 								<UML:TaggedValue tag="ea_stype" value="Note"/>
 								<UML:TaggedValue tag="ea_ntype" value="0"/>
 								<UML:TaggedValue tag="version" value="1.0"/>
 								<UML:TaggedValue tag="package" value="EAPK_022ED2C1_1F77_405f_9BB8_FA64EC46D333"/>
-								<UML:TaggedValue tag="date_created" value="2013-03-12 18:49:18"/>
-								<UML:TaggedValue tag="date_modified" value="2013-03-12 18:50:21"/>
+								<UML:TaggedValue tag="date_created" value="2013-03-13 13:39:39"/>
+								<UML:TaggedValue tag="date_modified" value="2013-03-13 13:39:40"/>
 								<UML:TaggedValue tag="gentype" value="&lt;none&gt;"/>
 								<UML:TaggedValue tag="tagged" value="0"/>
 								<UML:TaggedValue tag="package_name" value="Context"/>
@@ -334,7 +407,99 @@
 								<UML:TaggedValue tag="complexity" value="1"/>
 								<UML:TaggedValue tag="status" value="Proposed"/>
 								<UML:TaggedValue tag="tpos" value="0"/>
-								<UML:TaggedValue tag="ea_localid" value="27275"/>
+								<UML:TaggedValue tag="ea_localid" value="27364"/>
+								<UML:TaggedValue tag="ea_eleType" value="element"/>
+								<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+							</UML:ModelElement.taggedValue>
+						</UML:Comment>
+						<UML:Comment xmi.id="EAID_BCCCC072_C789_4314_80E2_3213C02625E6" visibility="public" namespace="EAPK_022ED2C1_1F77_405f_9BB8_FA64EC46D333">
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="documentation" value="Here is another trouble: How do we define the pseudo-interfaces that represent the semantic services via uAAL SBus (not to tals about context events yet...)?&#xA;"/>
+								<UML:TaggedValue tag="isSpecification" value="false"/>
+								<UML:TaggedValue tag="ea_stype" value="Note"/>
+								<UML:TaggedValue tag="ea_ntype" value="0"/>
+								<UML:TaggedValue tag="version" value="1.0"/>
+								<UML:TaggedValue tag="package" value="EAPK_022ED2C1_1F77_405f_9BB8_FA64EC46D333"/>
+								<UML:TaggedValue tag="date_created" value="2013-03-13 13:39:25"/>
+								<UML:TaggedValue tag="date_modified" value="2013-03-13 13:39:27"/>
+								<UML:TaggedValue tag="gentype" value="&lt;none&gt;"/>
+								<UML:TaggedValue tag="tagged" value="0"/>
+								<UML:TaggedValue tag="package_name" value="Context"/>
+								<UML:TaggedValue tag="phase" value="1.0"/>
+								<UML:TaggedValue tag="author" value="alfiva"/>
+								<UML:TaggedValue tag="complexity" value="1"/>
+								<UML:TaggedValue tag="status" value="Proposed"/>
+								<UML:TaggedValue tag="tpos" value="0"/>
+								<UML:TaggedValue tag="ea_localid" value="27363"/>
+								<UML:TaggedValue tag="ea_eleType" value="element"/>
+								<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+							</UML:ModelElement.taggedValue>
+						</UML:Comment>
+						<UML:Comment xmi.id="EAID_CADEAA0C_EA27_4819_BAB6_225CA013405F" visibility="public" namespace="EAPK_022ED2C1_1F77_405f_9BB8_FA64EC46D333">
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="documentation" value="The collaboration with the Context Subscriber semantic interface of CHE  is a bit special, because it gets events from all sources, and that shouldnt be represented on the diagram. However, maybe other components have more specific subscribers and it may make sense to link publishers that publish such events to those interfaces... A stereoptype with &amp;lt;&amp;lt;ContextEvent&amp;gt;&amp;gt; could suffice but then we have the same question of how to specify which Event Pattern is this event matching... although here it is not so important.&#xA;"/>
+								<UML:TaggedValue tag="isSpecification" value="false"/>
+								<UML:TaggedValue tag="ea_stype" value="Note"/>
+								<UML:TaggedValue tag="ea_ntype" value="0"/>
+								<UML:TaggedValue tag="version" value="1.0"/>
+								<UML:TaggedValue tag="package" value="EAPK_022ED2C1_1F77_405f_9BB8_FA64EC46D333"/>
+								<UML:TaggedValue tag="date_created" value="2013-03-13 13:50:46"/>
+								<UML:TaggedValue tag="date_modified" value="2013-03-13 13:56:05"/>
+								<UML:TaggedValue tag="gentype" value="&lt;none&gt;"/>
+								<UML:TaggedValue tag="tagged" value="0"/>
+								<UML:TaggedValue tag="package_name" value="Context"/>
+								<UML:TaggedValue tag="phase" value="1.0"/>
+								<UML:TaggedValue tag="author" value="alfiva"/>
+								<UML:TaggedValue tag="complexity" value="1"/>
+								<UML:TaggedValue tag="status" value="Proposed"/>
+								<UML:TaggedValue tag="tpos" value="0"/>
+								<UML:TaggedValue tag="ea_localid" value="27369"/>
+								<UML:TaggedValue tag="ea_eleType" value="element"/>
+								<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+							</UML:ModelElement.taggedValue>
+						</UML:Comment>
+						<UML:Comment xmi.id="EAID_EB0351C6_5122_4706_BAA6_00FBE652BA7B" visibility="public" namespace="EAPK_022ED2C1_1F77_405f_9BB8_FA64EC46D333">
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="documentation" value="IMO it doesnt make much sense to have the &quot;semantic&quot; interfaces delegated to the outside in the BB. But thi would imply that an overall diagram of this type would involve all components instead of the BB&#xA;"/>
+								<UML:TaggedValue tag="isSpecification" value="false"/>
+								<UML:TaggedValue tag="ea_stype" value="Note"/>
+								<UML:TaggedValue tag="ea_ntype" value="0"/>
+								<UML:TaggedValue tag="version" value="1.0"/>
+								<UML:TaggedValue tag="package" value="EAPK_022ED2C1_1F77_405f_9BB8_FA64EC46D333"/>
+								<UML:TaggedValue tag="date_created" value="2013-03-13 13:40:27"/>
+								<UML:TaggedValue tag="date_modified" value="2013-03-13 13:41:37"/>
+								<UML:TaggedValue tag="gentype" value="&lt;none&gt;"/>
+								<UML:TaggedValue tag="tagged" value="0"/>
+								<UML:TaggedValue tag="package_name" value="Context"/>
+								<UML:TaggedValue tag="phase" value="1.0"/>
+								<UML:TaggedValue tag="author" value="alfiva"/>
+								<UML:TaggedValue tag="complexity" value="1"/>
+								<UML:TaggedValue tag="status" value="Proposed"/>
+								<UML:TaggedValue tag="tpos" value="0"/>
+								<UML:TaggedValue tag="ea_localid" value="27366"/>
+								<UML:TaggedValue tag="ea_eleType" value="element"/>
+								<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+							</UML:ModelElement.taggedValue>
+						</UML:Comment>
+						<UML:Comment xmi.id="EAID_FEB5B294_C613_492b_8FF8_E1912DD255A9" visibility="public" namespace="EAPK_022ED2C1_1F77_405f_9BB8_FA64EC46D333">
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="documentation" value="Where do we place (if we finally use them) these new &quot;semantic&quot; interfaces and their realisations? Same diagram than those of the other comp diagram? Separate one in Comp and If Spec Model?&#xA;"/>
+								<UML:TaggedValue tag="isSpecification" value="false"/>
+								<UML:TaggedValue tag="ea_stype" value="Note"/>
+								<UML:TaggedValue tag="ea_ntype" value="0"/>
+								<UML:TaggedValue tag="version" value="1.0"/>
+								<UML:TaggedValue tag="package" value="EAPK_022ED2C1_1F77_405f_9BB8_FA64EC46D333"/>
+								<UML:TaggedValue tag="date_created" value="2013-03-13 13:39:53"/>
+								<UML:TaggedValue tag="date_modified" value="2013-03-13 13:39:55"/>
+								<UML:TaggedValue tag="gentype" value="&lt;none&gt;"/>
+								<UML:TaggedValue tag="tagged" value="0"/>
+								<UML:TaggedValue tag="package_name" value="Context"/>
+								<UML:TaggedValue tag="phase" value="1.0"/>
+								<UML:TaggedValue tag="author" value="alfiva"/>
+								<UML:TaggedValue tag="complexity" value="1"/>
+								<UML:TaggedValue tag="status" value="Proposed"/>
+								<UML:TaggedValue tag="tpos" value="0"/>
+								<UML:TaggedValue tag="ea_localid" value="27365"/>
 								<UML:TaggedValue tag="ea_eleType" value="element"/>
 								<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
 							</UML:ModelElement.taggedValue>
@@ -349,7 +514,7 @@
 				<UML:TaggedValue tag="version" value="1.0"/>
 				<UML:TaggedValue tag="author" value="alfiva"/>
 				<UML:TaggedValue tag="created_date" value="2013-03-11 18:26:44"/>
-				<UML:TaggedValue tag="modified_date" value="2013-03-12 18:53:58"/>
+				<UML:TaggedValue tag="modified_date" value="2013-03-13 13:56:09"/>
 				<UML:TaggedValue tag="package" value="EAPK_022ED2C1_1F77_405f_9BB8_FA64EC46D333"/>
 				<UML:TaggedValue tag="type" value="Component"/>
 				<UML:TaggedValue tag="swimlanes" value="locked=false;orientation=0;width=0;inbar=false;names=false;color=0;bold=false;fcol=0;;cls=0;"/>
@@ -359,20 +524,45 @@
 				<UML:TaggedValue tag="styleex" value="ExcludeRTF=0;DocAll=0;HideQuals=0;AttPkg=1;ShowTests=0;ShowMaint=0;SuppressFOC=1;MatrixActive=0;SwimlanesActive=1;MatrixLineWidth=1;MatrixLocked=0;TConnectorNotation=UML 2.1;TExplicitNavigability=0;AdvancedElementProps=1;AdvancedFeatureProps=1;AdvancedConnectorProps=1;ProfileData=;MDGDgm=;STBLDgm=;ShowNotes=0;VisibleAttributeDetail=0;ShowOpRetType=1;SuppressBrackets=0;SuppConnectorLabels=0;PrintPageHeadFoot=0;ShowAsList=0;"/>
 			</UML:ModelElement.taggedValue>
 			<UML:Diagram.element>
-				<UML:DiagramElement geometry="Left=268;Top=392;Right=308;Bottom=405;" subject="EAID_99CAA80E_540D_45d7_BCE9_8155348F1E2B" seqno="1" style="DUID=BD4EB9ED;LBL=CX=81:CY=15:OX=0:OY=0:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:ALT=0:ROT=0;"/>
-				<UML:DiagramElement geometry="Left=511;Top=392;Right=551;Bottom=405;" subject="EAID_EB8C7445_5377_42bd_AD54_C55917F46B80" seqno="2" style="DUID=791909CD;LBL=CX=81:CY=15:OX=0:OY=0:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:ALT=0:ROT=0;"/>
-				<UML:DiagramElement geometry="Left=550;Top=392;Right=565;Bottom=407;" subject="EAID_87B66EF7_3625_466b_BC9B_391894979475" seqno="3" style="DUID=5BE72742;NSL=0;BCol=-1;BFol=-1;LCol=-1;LWth=-1;fontsz=0;bold=0;italic=0;ul=0;charset=0;pitch=0;LBL=CX=64:CY=15:OX=17:OY=0:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:ALT=0:ROT=0;"/>
-				<UML:DiagramElement geometry="Left=254;Top=392;Right=269;Bottom=407;" subject="EAID_7E574722_E471_44a6_A20B_3D074E56D061" seqno="4" style="DUID=00BA290B;NSL=0;BCol=-1;BFol=-1;LCol=-1;LWth=-1;fontsz=0;bold=0;italic=0;ul=0;charset=0;pitch=0;LBL=CX=61:CY=15:OX=-65:OY=2:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:ALT=0:ROT=0;"/>
-				<UML:DiagramElement geometry="Left=332;Top=603;Right=447;Bottom=687;" subject="EAID_6EAA71D1_F5A8_4134_ACEA_AAB6D945BD5C" seqno="5" style="DUID=52B9B1F7;"/>
-				<UML:DiagramElement geometry="Left=295;Top=306;Right=521;Bottom=377;" subject="EAID_332DEB59_0142_4c3f_9EE1_1E24DCB3E256" seqno="6" style="DUID=C1F88BD9;"/>
-				<UML:DiagramElement geometry="Left=506;Top=489;Right=677;Bottom=593;" subject="EAID_CFC387D4_78A4_4ad4_A645_DDFF283F7885" seqno="7" style="DUID=DA8FC1D3;"/>
-				<UML:DiagramElement geometry="Left=177;Top=486;Right=292;Bottom=596;" subject="EAID_A7D38BC6_57CF_414a_9542_C95C524EFE5B" seqno="8" style="DUID=B3F9F6FD;"/>
-				<UML:DiagramElement geometry="Left=298;Top=489;Right=497;Bottom=596;" subject="EAID_B2DE474F_10A6_4fb9_8DC9_86C1D13484DD" seqno="9" style="DUID=105EBF83;"/>
-				<UML:DiagramElement geometry="Left=63;Top=351;Right=261;Bottom=440;" subject="EAID_AD69CD40_7A1E_40c4_BB28_975A4476E549" seqno="10" style="DUID=36CACF9E;NSL=0;BCol=-1;BFol=-1;LCol=-1;LWth=-1;fontsz=0;bold=0;italic=0;ul=0;charset=0;pitch=0;"/>
-				<UML:DiagramElement geometry="Left=557;Top=348;Right=724;Bottom=434;" subject="EAID_E7C38D48_EB7B_4983_801D_7F4153F7856B" seqno="11" style="DUID=A38D0DC3;"/>
-				<UML:DiagramElement geometry="Left=49;Top=262;Right=756;Bottom=457;" subject="EAID_9ED9B455_6142_4a13_9872_14E3DC1F8749" seqno="12" style="NSL=0;BCol=-1;BFol=-1;LCol=-1;LWth=-1;fontsz=0;bold=0;italic=0;ul=0;charset=0;pitch=0;DUID=522BA445;"/>
+				<UML:DiagramElement geometry="Left=511;Top=421;Right=551;Bottom=434;" subject="EAID_9667A7AD_8677_4989_8428_A76B0FFCB5C6" seqno="1" style="DUID=39E2BDA3;LBL=CX=99:CY=15:OX=0:OY=0:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:ALT=0:ROT=0;"/>
+				<UML:DiagramElement geometry="Left=550;Top=421;Right=565;Bottom=436;" subject="EAID_E53570CA_7F46_45c3_8C86_6C274EEC471B" seqno="2" style="DUID=E06AAA1C;NSL=0;BCol=-1;BFol=-1;LCol=-1;LWth=-1;fontsz=0;bold=0;italic=0;ul=0;charset=0;pitch=0;LBL=CX=86:CY=15:OX=16:OY=-1:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:ALT=0:ROT=0;"/>
+				<UML:DiagramElement geometry="Left=268;Top=391;Right=308;Bottom=404;" subject="EAID_99CAA80E_540D_45d7_BCE9_8155348F1E2B" seqno="3" style="DUID=BD4EB9ED;LBL=CX=81:CY=15:OX=0:OY=0:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:ALT=0:ROT=0;"/>
+				<UML:DiagramElement geometry="Left=511;Top=391;Right=551;Bottom=404;" subject="EAID_EB8C7445_5377_42bd_AD54_C55917F46B80" seqno="4" style="DUID=791909CD;LBL=CX=81:CY=15:OX=0:OY=0:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:ALT=0:ROT=0;"/>
+				<UML:DiagramElement geometry="Left=550;Top=391;Right=565;Bottom=406;" subject="EAID_87B66EF7_3625_466b_BC9B_391894979475" seqno="5" style="DUID=5BE72742;NSL=0;BCol=-1;BFol=-1;LCol=-1;LWth=-1;fontsz=0;bold=0;italic=0;ul=0;charset=0;pitch=0;LBL=CX=64:CY=15:OX=17:OY=0:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:ALT=0:ROT=0;"/>
+				<UML:DiagramElement geometry="Left=254;Top=391;Right=269;Bottom=406;" subject="EAID_7E574722_E471_44a6_A20B_3D074E56D061" seqno="6" style="DUID=00BA290B;NSL=0;BCol=-1;BFol=-1;LCol=-1;LWth=-1;fontsz=0;bold=0;italic=0;ul=0;charset=0;pitch=0;LBL=CX=61:CY=15:OX=-65:OY=2:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:ALT=0:ROT=0;"/>
+				<UML:DiagramElement geometry="Left=367;Top=448;Right=550;Bottom=662;" subject="EAID_CADEAA0C_EA27_4819_BAB6_225CA013405F" seqno="7" style="DUID=E68968EF;"/>
+				<UML:DiagramElement geometry="Left=61;Top=480;Right=265;Bottom=564;" subject="EAID_EB0351C6_5122_4706_BAA6_00FBE652BA7B" seqno="8" style="DUID=52C0818D;"/>
+				<UML:DiagramElement geometry="Left=295;Top=305;Right=521;Bottom=376;" subject="EAID_332DEB59_0142_4c3f_9EE1_1E24DCB3E256" seqno="9" style="DUID=C1F88BD9;"/>
+				<UML:DiagramElement geometry="Left=63;Top=350;Right=261;Bottom=439;" subject="EAID_AD69CD40_7A1E_40c4_BB28_975A4476E549" seqno="10" style="DUID=36CACF9E;NSL=0;BCol=-1;BFol=-1;LCol=-1;LWth=-1;fontsz=0;bold=0;italic=0;ul=0;charset=0;pitch=0;"/>
+				<UML:DiagramElement geometry="Left=557;Top=347;Right=724;Bottom=449;" subject="EAID_E7C38D48_EB7B_4983_801D_7F4153F7856B" seqno="11" style="DUID=A38D0DC3;"/>
+				<UML:DiagramElement geometry="Left=49;Top=261;Right=756;Bottom=472;" subject="EAID_9ED9B455_6142_4a13_9872_14E3DC1F8749" seqno="12" style="NSL=0;BCol=-1;BFol=-1;LCol=-1;LWth=-1;fontsz=0;bold=0;italic=0;ul=0;charset=0;pitch=0;DUID=522BA445;"/>
 				<UML:DiagramElement geometry="SX=19;SY=-1;EX=0;EY=0;EDGE=2;$LLB=;LLT=;LMT=;LMB=CX=64:CY=15:OX=0:OY=0:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:DIR=0:ROT=0;LRT=;LRB=;IRHS=;ILHS=;Path=;" subject="EAID_AFCC9D95_1A75_495e_8D67_0E234A410F8B" style="Mode=3;EOID=791909CD;SOID=BD4EB9ED;Color=-1;LWidth=0;Hidden=0;"/>
-				<UML:DiagramElement geometry="SX=0;SY=0;EX=0;EY=0;EDGE=3;$LLB=;LLT=;LMT=;LMB=;LRT=;LRB=;IRHS=;ILHS=;Path=;" subject="EAID_70B8BCCE_E87E_4000_8CFB_7AC7C9C685D4" style="Mode=3;EOID=105EBF83;SOID=A38D0DC3;Color=-1;LWidth=0;Hidden=0;"/>
+			</UML:Diagram.element>
+		</UML:Diagram>
+		<UML:Diagram name="__notation workaround" xmi.id="EAID_55A3EBDA_E10D_4a81_8949_2B38DA8BB9A7" diagramType="ClassDiagram" owner="EAPK_022ED2C1_1F77_405f_9BB8_FA64EC46D333" toolName="Enterprise Architect 2.5">
+			<UML:ModelElement.taggedValue>
+				<UML:TaggedValue tag="version" value="1.0"/>
+				<UML:TaggedValue tag="author" value="alfiva"/>
+				<UML:TaggedValue tag="created_date" value="2013-03-13 13:37:06"/>
+				<UML:TaggedValue tag="modified_date" value="2013-03-13 13:47:22"/>
+				<UML:TaggedValue tag="package" value="EAPK_022ED2C1_1F77_405f_9BB8_FA64EC46D333"/>
+				<UML:TaggedValue tag="type" value="Logical"/>
+				<UML:TaggedValue tag="swimlanes" value="locked=false;orientation=0;width=0;inbar=false;names=false;color=0;bold=false;fcol=0;;cls=0;"/>
+				<UML:TaggedValue tag="matrixitems" value="locked=false;matrixactive=false;swimlanesactive=true;width=1;"/>
+				<UML:TaggedValue tag="ea_localid" value="3123"/>
+				<UML:TaggedValue tag="EAStyle" value="ShowPrivate=1;ShowProtected=1;ShowPublic=1;HideRelationships=0;Locked=0;Border=1;HighlightForeign=1;PackageContents=1;SequenceNotes=0;ScalePrintImage=0;PPgs.cx=1;PPgs.cy=1;DocSize.cx=827;DocSize.cy=1169;ShowDetails=0;Orientation=P;Zoom=100;ShowTags=0;OpParams=1;VisibleAttributeDetail=0;ShowOpRetType=1;ShowIcons=1;CollabNums=0;HideProps=0;ShowReqs=0;ShowCons=0;PaperSize=9;HideParents=0;UseAlias=0;HideAtts=0;HideOps=0;HideStereo=0;HideElemStereo=0;ShowTests=0;ShowMaint=0;ConnectorNotation=UML 2.1;ExplicitNavigability=0;AdvancedElementProps=1;AdvancedFeatureProps=1;AdvancedConnectorProps=1;ShowNotes=0;SuppressBrackets=0;SuppConnectorLabels=0;PrintPageHeadFoot=0;ShowAsList=0;"/>
+				<UML:TaggedValue tag="styleex" value="ExcludeRTF=0;DocAll=0;HideQuals=0;AttPkg=1;ShowTests=0;ShowMaint=0;SuppressFOC=1;MatrixActive=0;SwimlanesActive=1;MatrixLineWidth=1;MatrixLocked=0;TConnectorNotation=UML 2.1;TExplicitNavigability=0;AdvancedElementProps=1;AdvancedFeatureProps=1;AdvancedConnectorProps=1;ProfileData=;MDGDgm=;STBLDgm=;ShowNotes=0;VisibleAttributeDetail=0;ShowOpRetType=1;SuppressBrackets=0;SuppConnectorLabels=0;PrintPageHeadFoot=0;ShowAsList=0;"/>
+			</UML:ModelElement.taggedValue>
+			<UML:Diagram.element>
+				<UML:DiagramElement geometry="Left=466;Top=362;Right=721;Bottom=498;" subject="EAID_24A6867B_6CF0_43cc_A183_180A1EBE823B" seqno="1" style="DUID=8AC1B5A0;"/>
+				<UML:DiagramElement geometry="Left=533;Top=255;Right=646;Bottom=345;" subject="EAID_63B3BBA6_2236_4124_8A20_E1579770FE43" seqno="2" style="DUID=075B7A9A;"/>
+				<UML:DiagramElement geometry="Left=283;Top=366;Right=398;Bottom=515;" subject="EAID_FEB5B294_C613_492b_8FF8_E1912DD255A9" seqno="3" style="DUID=4C0CEE19;"/>
+				<UML:DiagramElement geometry="Left=160;Top=365;Right=275;Bottom=449;" subject="EAID_B8AD5944_4FFE_4c72_BB94_6E9A0E0F4F96" seqno="4" style="DUID=50459567;"/>
+				<UML:DiagramElement geometry="Left=38;Top=362;Right=153;Bottom=472;" subject="EAID_BCCCC072_C789_4314_80E2_3213C02625E6" seqno="5" style="DUID=6C6B0D97;"/>
+				<UML:DiagramElement geometry="Left=308;Top=66;Right=475;Bottom=152;" subject="EAID_E7C38D48_EB7B_4983_801D_7F4153F7856B" seqno="6" style="DUID=6E403EEF;NSL=0;BCol=-1;BFol=-1;LCol=-1;LWth=-1;fontsz=0;bold=0;italic=0;ul=0;charset=0;pitch=0;"/>
+				<UML:DiagramElement geometry="Left=106;Top=247;Right=305;Bottom=354;" subject="EAID_B2DE474F_10A6_4fb9_8DC9_86C1D13484DD" seqno="7" style="DUID=97691952;NSL=0;BCol=-1;BFol=-1;LCol=-1;LWth=-1;fontsz=0;bold=0;italic=0;ul=0;charset=0;pitch=0;"/>
+				<UML:DiagramElement geometry="SX=0;SY=0;EX=0;EY=0;EDGE=3;$LLB=;LLT=;LMT=;LMB=;LRT=;LRB=;IRHS=;ILHS=;Path=;" subject="EAID_D74B8B13_13E4_4b7b_9874_8DD5FB1ED40D" style="Mode=3;EOID=075B7A9A;SOID=6E403EEF;Color=-1;LWidth=0;Hidden=0;"/>
+				<UML:DiagramElement geometry="EDGE=3;$LLB=;LLT=;LMT=;LMB=;LRT=;LRB=;IRHS=;ILHS=;Path=;" subject="EAID_70B8BCCE_E87E_4000_8CFB_7AC7C9C685D4" style="Mode=3;EOID=97691952;SOID=6E403EEF;Color=-1;LWidth=0;Hidden=0;"/>
 			</UML:Diagram.element>
 		</UML:Diagram>
 	</XMI.content>
