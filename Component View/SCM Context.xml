@@ -888,6 +888,31 @@
 								<UML:TaggedValue tag="virtualInheritance" value="0"/>
 							</UML:ModelElement.taggedValue>
 						</UML:Dependency>
+						<UML:Class name="BusStrategy" xmi.id="EAID_15D82171_DC20_427a_9BFE_03EF73686483" visibility="public" namespace="EAPK_022ED2C1_1F77_405f_9BB8_FA64EC46D333" isRoot="false" isLeaf="false" isAbstract="false">
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="isSpecification" value="false"/>
+								<UML:TaggedValue tag="ea_stype" value="Port"/>
+								<UML:TaggedValue tag="ea_ntype" value="0"/>
+								<UML:TaggedValue tag="version" value="1.0"/>
+								<UML:TaggedValue tag="package" value="EAPK_022ED2C1_1F77_405f_9BB8_FA64EC46D333"/>
+								<UML:TaggedValue tag="owner" value="EAID_9B32EC13_49A4_4793_B926_8DFC7DB761C9"/>
+								<UML:TaggedValue tag="classname" value="BusStrategy"/>
+								<UML:TaggedValue tag="date_created" value="2013-03-21 18:14:56"/>
+								<UML:TaggedValue tag="date_modified" value="2013-03-21 18:15:01"/>
+								<UML:TaggedValue tag="gentype" value="&lt;none&gt;"/>
+								<UML:TaggedValue tag="tagged" value="0"/>
+								<UML:TaggedValue tag="package_name" value="Context"/>
+								<UML:TaggedValue tag="phase" value="1.0"/>
+								<UML:TaggedValue tag="author" value="alfiva"/>
+								<UML:TaggedValue tag="complexity" value="1"/>
+								<UML:TaggedValue tag="status" value="Proposed"/>
+								<UML:TaggedValue tag="tpos" value="0"/>
+								<UML:TaggedValue tag="ea_localid" value="28311"/>
+								<UML:TaggedValue tag="ea_eleType" value="element"/>
+								<UML:TaggedValue tag="reusesProperty" value="{4AF7417B-ECCC-4d58-B373-C1D4A89FD6AD}"/>
+								<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+							</UML:ModelElement.taggedValue>
+						</UML:Class>
 						<UML:UseCase name="Synchronize transferred data into stationary" xmi.id="EAID_182139E5_7E4D_4043_9BF1_EC19F6026A5B" visibility="public" namespace="EAPK_022ED2C1_1F77_405f_9BB8_FA64EC46D333" isRoot="false" isLeaf="false" isAbstract="false">
 							<UML:ModelElement.taggedValue>
 								<UML:TaggedValue tag="isSpecification" value="false"/>
@@ -3119,6 +3144,31 @@
 								<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
 							</UML:ModelElement.taggedValue>
 						</UML:Class>
+						<UML:Class name="AbstractBus" xmi.id="EAID_81CA5A31_E1D4_4f3c_B544_10301D08A32A" visibility="public" namespace="EAPK_022ED2C1_1F77_405f_9BB8_FA64EC46D333" isRoot="false" isLeaf="false" isAbstract="false">
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="isSpecification" value="false"/>
+								<UML:TaggedValue tag="ea_stype" value="Port"/>
+								<UML:TaggedValue tag="ea_ntype" value="0"/>
+								<UML:TaggedValue tag="version" value="1.0"/>
+								<UML:TaggedValue tag="package" value="EAPK_022ED2C1_1F77_405f_9BB8_FA64EC46D333"/>
+								<UML:TaggedValue tag="owner" value="EAID_07F9EDCE_4B22_4f8d_8BFE_89FAE47BAD2E"/>
+								<UML:TaggedValue tag="classname" value="AbstractBus"/>
+								<UML:TaggedValue tag="date_created" value="2013-03-21 18:05:09"/>
+								<UML:TaggedValue tag="date_modified" value="2013-03-21 18:05:17"/>
+								<UML:TaggedValue tag="gentype" value="&lt;none&gt;"/>
+								<UML:TaggedValue tag="tagged" value="0"/>
+								<UML:TaggedValue tag="package_name" value="Context"/>
+								<UML:TaggedValue tag="phase" value="1.0"/>
+								<UML:TaggedValue tag="author" value="alfiva"/>
+								<UML:TaggedValue tag="complexity" value="1"/>
+								<UML:TaggedValue tag="status" value="Proposed"/>
+								<UML:TaggedValue tag="tpos" value="0"/>
+								<UML:TaggedValue tag="ea_localid" value="28304"/>
+								<UML:TaggedValue tag="ea_eleType" value="element"/>
+								<UML:TaggedValue tag="reusesProperty" value="{3E4F9551-DD02-4793-B535-E986C983BA32}"/>
+								<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+							</UML:ModelElement.taggedValue>
+						</UML:Class>
 						<UML:Comment xmi.id="EAID_8218D5FB_0A29_4529_B50F_C4DC92C64C50" visibility="public" namespace="EAPK_022ED2C1_1F77_405f_9BB8_FA64EC46D333">
 							<UML:ModelElement.taggedValue>
 								<UML:TaggedValue tag="documentation" value="These UC are actually the Features listed in each component wiki page. Things we can do: Link them to RUCs (importing from Context View), link these UC together with those of other components (e.g. Add situation with Execute SPARQL), link the UC to the Actor, in this case, the environment (which I couldnt find among the already defined actors in Context View)&#xA;"/>
@@ -3383,6 +3433,31 @@
 								<UML:TaggedValue tag="virtualInheritance" value="0"/>
 							</UML:ModelElement.taggedValue>
 						</UML:Dependency>
+						<UML:Class name="AbstractBus" xmi.id="EAID_8B3FA7FA_BC5C_4bc9_BA3F_986AC51DF8A8" visibility="public" namespace="EAPK_022ED2C1_1F77_405f_9BB8_FA64EC46D333" isRoot="false" isLeaf="false" isAbstract="false">
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="isSpecification" value="false"/>
+								<UML:TaggedValue tag="ea_stype" value="Port"/>
+								<UML:TaggedValue tag="ea_ntype" value="0"/>
+								<UML:TaggedValue tag="version" value="1.0"/>
+								<UML:TaggedValue tag="package" value="EAPK_022ED2C1_1F77_405f_9BB8_FA64EC46D333"/>
+								<UML:TaggedValue tag="owner" value="EAID_9B32EC13_49A4_4793_B926_8DFC7DB761C9"/>
+								<UML:TaggedValue tag="classname" value="AbstractBus"/>
+								<UML:TaggedValue tag="date_created" value="2013-03-21 18:14:43"/>
+								<UML:TaggedValue tag="date_modified" value="2013-03-21 18:14:53"/>
+								<UML:TaggedValue tag="gentype" value="&lt;none&gt;"/>
+								<UML:TaggedValue tag="tagged" value="0"/>
+								<UML:TaggedValue tag="package_name" value="Context"/>
+								<UML:TaggedValue tag="phase" value="1.0"/>
+								<UML:TaggedValue tag="author" value="alfiva"/>
+								<UML:TaggedValue tag="complexity" value="1"/>
+								<UML:TaggedValue tag="status" value="Proposed"/>
+								<UML:TaggedValue tag="tpos" value="0"/>
+								<UML:TaggedValue tag="ea_localid" value="28308"/>
+								<UML:TaggedValue tag="ea_eleType" value="element"/>
+								<UML:TaggedValue tag="reusesProperty" value="{2E9834B6-CB32-43bc-BD59-01183648D13F}"/>
+								<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+							</UML:ModelElement.taggedValue>
+						</UML:Class>
 						<UML:UseCase name="Query &amp; Modify User Parameters" xmi.id="EAID_9443C131_3D69_47e2_B28B_4FAA0CDEF9D2" visibility="public" namespace="EAPK_022ED2C1_1F77_405f_9BB8_FA64EC46D333" isRoot="false" isLeaf="false" isAbstract="false">
 							<UML:ModelElement.taggedValue>
 								<UML:TaggedValue tag="isSpecification" value="false"/>
@@ -3537,6 +3612,31 @@
 								<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={C89FCD6A-0F9B-4250-A49B-11F31CB4589D}$XID;$NAM=CustomProperties$NAM;$TYP=element property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@PROP=@NAME=isIndirectlyInstantiated@ENDNAME;@TYPE=Boolean@ENDTYPE;@VALU=true@ENDVALU;@PRMT=@ENDPRMT;@ENDPROP;$DES;$CLT={9B32EC13-49A4-4793-B926-8DFC7DB761C9}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
 							</UML:ModelElement.taggedValue>
 						</UML:Component>
+						<UML:Class name="BusStrategy" xmi.id="EAID_9E275E20_51C7_491c_864E_8D4D2EC3CA18" visibility="public" namespace="EAPK_022ED2C1_1F77_405f_9BB8_FA64EC46D333" isRoot="false" isLeaf="false" isAbstract="false">
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="isSpecification" value="false"/>
+								<UML:TaggedValue tag="ea_stype" value="Port"/>
+								<UML:TaggedValue tag="ea_ntype" value="0"/>
+								<UML:TaggedValue tag="version" value="1.0"/>
+								<UML:TaggedValue tag="package" value="EAPK_022ED2C1_1F77_405f_9BB8_FA64EC46D333"/>
+								<UML:TaggedValue tag="owner" value="EAID_07F9EDCE_4B22_4f8d_8BFE_89FAE47BAD2E"/>
+								<UML:TaggedValue tag="classname" value="BusStrategy"/>
+								<UML:TaggedValue tag="date_created" value="2013-03-21 18:04:46"/>
+								<UML:TaggedValue tag="date_modified" value="2013-03-21 18:04:53"/>
+								<UML:TaggedValue tag="gentype" value="&lt;none&gt;"/>
+								<UML:TaggedValue tag="tagged" value="0"/>
+								<UML:TaggedValue tag="package_name" value="Context"/>
+								<UML:TaggedValue tag="phase" value="1.0"/>
+								<UML:TaggedValue tag="author" value="alfiva"/>
+								<UML:TaggedValue tag="complexity" value="1"/>
+								<UML:TaggedValue tag="status" value="Proposed"/>
+								<UML:TaggedValue tag="tpos" value="0"/>
+								<UML:TaggedValue tag="ea_localid" value="28300"/>
+								<UML:TaggedValue tag="ea_eleType" value="element"/>
+								<UML:TaggedValue tag="reusesProperty" value="{BEE1EC29-913C-4525-A5A8-2C364E1982F5}"/>
+								<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+							</UML:ModelElement.taggedValue>
+						</UML:Class>
 						<UML:Class name="ServiceCallee" xmi.id="EAID_A27A7162_FB80_4639_AEDB_F70695C9E866" visibility="public" namespace="EAPK_022ED2C1_1F77_405f_9BB8_FA64EC46D333" isRoot="false" isLeaf="false" isAbstract="false">
 							<UML:ModelElement.taggedValue>
 								<UML:TaggedValue tag="isSpecification" value="false"/>
@@ -4017,7 +4117,7 @@
 								<UML:TaggedValue tag="tpos" value="0"/>
 								<UML:TaggedValue tag="ea_localid" value="27271"/>
 								<UML:TaggedValue tag="ea_eleType" value="element"/>
-								<UML:TaggedValue tag="$ea_classified" value="{EB8C7445-5377-42bd-AD54-C55917F46B80},{99CAA80E-540D-45d7-BCE9-8155348F1E2B},{770F9C82-3D28-4dc2-8990-B0C536262FE0},{C0BFAA95-5368-4ded-8665-697960192A64},{B65D0B28-801E-42e5-9186-BBA193779869},{C0BD2535-66CA-4567-B2CB-6382D7A492EC}"/>
+								<UML:TaggedValue tag="$ea_classified" value="{99CAA80E-540D-45d7-BCE9-8155348F1E2B},{EB8C7445-5377-42bd-AD54-C55917F46B80},{C0BD2535-66CA-4567-B2CB-6382D7A492EC},{B65D0B28-801E-42e5-9186-BBA193779869},{770F9C82-3D28-4dc2-8990-B0C536262FE0},{C0BFAA95-5368-4ded-8665-697960192A64}"/>
 								<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
 								<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={562456E2-7BD5-49ba-9006-BDAAC4347769}$XID;$NAM=Stereotypes$NAM;$TYP=element property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=interface;GUID={5DF5548F-DF8D-4e77-9AD7-CFA2A447CCC5};@ENDSTEREO;$DES;$CLT={B2DE474F-10A6-4fb9-8DC9-86C1D13484DD}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
 							</UML:ModelElement.taggedValue>
