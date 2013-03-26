@@ -14,12 +14,12 @@
 					<UML:ModelElement.taggedValue>
 						<UML:TaggedValue tag="documentation" value="&lt;b&gt;Purpose&lt;/b&gt;: Shall describe the realisation of the target system in terms of its subsystems. The view will describe how to structure implementation and deployment the target system.&#xA;&#xA;&lt;b&gt;Stakeholders addressed&lt;/b&gt;: Architects&#xA;&#xA;&lt;b&gt;Required models&lt;/b&gt;: System Deployment Model, System Integration Test Model,&#xA;&#xA;The realisation view will document constraints on how the target system should be implemented and deployed into its environment. The deployment models will get input from the distribution view. There is not necessarily a direct mapping from the logical distribution created in the distribution view to the actual distribution that will be created in the realisation view. Two logically distributed components can be deployed to the same or different nodes. However, two components that are not logically distributed should always be deployed to the same node. &#xA;&#xA;In this view, technological aspects such as component technology, collaboration mechanisms and system platforms will be taken into account.&lt;b&gt; &lt;/b&gt;&#xA;&#xA;Realisation of the target system includes implementation and deployment of components.&#xA;Implementation must consider: &#xA;&lt;ul&gt;&#xA;	&lt;li&gt;&lt;b&gt;Platform&lt;/b&gt;: Relevant hardware and software platforms must be investigated and specified. There might be dependencies between hardware and software platforms that must be taken into account.&lt;/li&gt;&#xA;	&lt;li&gt;&lt;b&gt;Component technology: &lt;/b&gt;Related to platform, the architects must investigate and specify which component technology is available, required or most feasible. Mechanisms for component interaction, such as messaging or remote procedure calls, must also be considered.&lt;/li&gt;&#xA;	&lt;li&gt;&lt;b&gt;Development process: &lt;/b&gt;The architects should recommend the most suited development process. This process must be adapted to the target system&amp;rsquo;s properties and the context in which it should be deployed. &lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&#xA;Deployment of components must consider:&#xA;&lt;ul&gt;&#xA;	&lt;li&gt;&lt;b&gt;&amp;ldquo;All in once&amp;rdquo;: &lt;/b&gt;One needs to develop a strategy for deployment of target system components. This can be done step by step or all in once. In a distributed system, one must decide if deployment at different locations should be done in parallel or serially.&lt;/li&gt;&#xA;	&lt;li&gt;&lt;b&gt;Fault handling:&lt;/b&gt; One should develop a strategy for fault handling. Roles and responsibilities should be specified. This is to ensure that the realisation process can be carried out properly within specified time and cost limits.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&#xA;To describe the realisation view, UML deployment diagrams and textual descriptions should be used. It is recommended to model the System Deployment Model first since the System Integration Test Model uses it as input."/>
 						<UML:TaggedValue tag="parent" value="EAPK_2BAD1FEB_5A26_46c3_A93B_B94C5E939FCF"/>
-						<UML:TaggedValue tag="ea_package_id" value="549"/>
+						<UML:TaggedValue tag="ea_package_id" value="1401"/>
 						<UML:TaggedValue tag="created" value="2010-06-02 00:00:00"/>
 						<UML:TaggedValue tag="modified" value="2010-06-02 00:00:00"/>
 						<UML:TaggedValue tag="iscontrolled" value="TRUE"/>
 						<UML:TaggedValue tag="xmlpath" value="Realization View\60 Realisation Viewpoint.xml"/>
-						<UML:TaggedValue tag="lastloaddate" value="2011-09-22 11:18:18"/>
+						<UML:TaggedValue tag="lastloaddate" value="2013-03-26 13:55:21"/>
 						<UML:TaggedValue tag="lastsavedate" value="2010-06-15 15:00:15"/>
 						<UML:TaggedValue tag="version" value="1.0"/>
 						<UML:TaggedValue tag="isprotected" value="FALSE"/>
@@ -61,7 +61,7 @@
 										<UML:TaggedValue tag="complexity" value="1"/>
 										<UML:TaggedValue tag="status" value="Proposed"/>
 										<UML:TaggedValue tag="tpos" value="3"/>
-										<UML:TaggedValue tag="ea_localid" value="755"/>
+										<UML:TaggedValue tag="ea_localid" value="671"/>
 										<UML:TaggedValue tag="ea_eleType" value="package"/>
 										<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
 									</UML:ModelElement.taggedValue>
@@ -86,7 +86,7 @@
 										<UML:TaggedValue tag="complexity" value="1"/>
 										<UML:TaggedValue tag="status" value="Proposed"/>
 										<UML:TaggedValue tag="tpos" value="2"/>
-										<UML:TaggedValue tag="ea_localid" value="606"/>
+										<UML:TaggedValue tag="ea_localid" value="616"/>
 										<UML:TaggedValue tag="ea_eleType" value="package"/>
 										<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
 									</UML:ModelElement.taggedValue>
@@ -111,7 +111,7 @@
 										<UML:TaggedValue tag="complexity" value="1"/>
 										<UML:TaggedValue tag="status" value="Proposed"/>
 										<UML:TaggedValue tag="tpos" value="1"/>
-										<UML:TaggedValue tag="ea_localid" value="605"/>
+										<UML:TaggedValue tag="ea_localid" value="615"/>
 										<UML:TaggedValue tag="ea_eleType" value="package"/>
 										<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
 									</UML:ModelElement.taggedValue>
@@ -127,7 +127,7 @@
 								<UML:TaggedValue tag="modified" value="2010-06-02 16:07:07"/>
 								<UML:TaggedValue tag="iscontrolled" value="TRUE"/>
 								<UML:TaggedValue tag="xmlpath" value="Realization View\System Deployment Model.xml"/>
-								<UML:TaggedValue tag="lastloaddate" value="2011-09-22 11:18:33"/>
+								<UML:TaggedValue tag="lastloaddate" value="2013-03-15 11:25:32"/>
 								<UML:TaggedValue tag="lastsavedate" value="2010-06-15 15:00:44"/>
 								<UML:TaggedValue tag="version" value="1.0"/>
 								<UML:TaggedValue tag="isprotected" value="FALSE"/>
@@ -154,7 +154,7 @@
 								<UML:TaggedValue tag="modified" value="2010-06-02 16:09:34"/>
 								<UML:TaggedValue tag="iscontrolled" value="TRUE"/>
 								<UML:TaggedValue tag="xmlpath" value="Realization View\Technology Mapping Model.xml"/>
-								<UML:TaggedValue tag="lastloaddate" value="2011-09-22 11:18:33"/>
+								<UML:TaggedValue tag="lastloaddate" value="2013-03-15 11:25:33"/>
 								<UML:TaggedValue tag="lastsavedate" value="2010-06-15 15:00:55"/>
 								<UML:TaggedValue tag="version" value="1.0"/>
 								<UML:TaggedValue tag="isprotected" value="FALSE"/>
@@ -181,7 +181,7 @@
 								<UML:TaggedValue tag="modified" value="2010-06-02 16:11:22"/>
 								<UML:TaggedValue tag="iscontrolled" value="TRUE"/>
 								<UML:TaggedValue tag="xmlpath" value="Realization View\System Integration Test Model.xml"/>
-								<UML:TaggedValue tag="lastloaddate" value="2011-09-22 11:19:09"/>
+								<UML:TaggedValue tag="lastloaddate" value="2013-03-15 11:25:47"/>
 								<UML:TaggedValue tag="lastsavedate" value="2010-06-15 15:00:45"/>
 								<UML:TaggedValue tag="version" value="1.0"/>
 								<UML:TaggedValue tag="isprotected" value="FALSE"/>
