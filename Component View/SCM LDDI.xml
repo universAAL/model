@@ -141,7 +141,7 @@
 							<UML:Collaboration.interaction>
 								<UML:Interaction xmi.id="EAID_32E78A51_10BF_414c_BD1F_5C2C6F71B651_INT" name="EAID_32E78A51_10BF_414c_BD1F_5C2C6F71B651_INT">
 									<UML:Interaction.message>
-										<UML:Message name="status" xmi.id="EAID_2E2EA9E9_4CDA_4764_9243_4BD4E1332EF6" visibility="public" sender="EAID_8021315D_04C9_448b_A90B_C5FFD74ACB3E" receiver="EAID_4E51654F_0CB8_4375_B630_3070E8F3CBDB">
+										<UML:Message name="delegateCall()" xmi.id="EAID_2E2EA9E9_4CDA_4764_9243_4BD4E1332EF6" visibility="public" sender="EAID_8021315D_04C9_448b_A90B_C5FFD74ACB3E" receiver="EAID_4E51654F_0CB8_4375_B630_3070E8F3CBDB">
 											<UML:ModelElement.stereotype>
 												<UML:Stereotype name="OSGi Service"/>
 											</UML:ModelElement.stereotype>
@@ -182,12 +182,12 @@
 												<UML:TaggedValue tag="dst_style" value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Navigable;"/>
 												<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={C1C7B158-ED68-423c-B262-E9B6FB406397}$XID;$NAM=Stereotypes$NAM;$TYP=connector property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=OSGi Service;GUID={F0684416-6B62-4ce0-9904-344F2504F5E6};@ENDSTEREO;$DES;$CLT={2E2EA9E9-4CDA-4764-9243-4BD4E1332EF6}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
 												<UML:TaggedValue tag="privatedata5" value="SX=0;SY=0;EX=0;EY=0;$LLB=;LLT=;LMT=CX=35:CY=15:OX=0:OY=0:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:DIR=0:ROT=0;LMB=CX=75:CY=15:OX=0:OY=0:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:DIR=0:ROT=0;LRT=;LRB=;IRHS=;ILHS=;"/>
-												<UML:TaggedValue tag="sequence_points" value="PtStartX=65;PtStartY=0;PtEndX=65;PtEndY=0;"/>
+												<UML:TaggedValue tag="sequence_points" value="PtStartX=423;PtStartY=0;PtEndX=258;PtEndY=0;"/>
 												<UML:TaggedValue tag="stateflags" value="Activation=0;"/>
 												<UML:TaggedValue tag="virtualInheritance" value="0"/>
 												<UML:TaggedValue tag="diagram" value="EAID_FE5D3290_5E8C_440b_A9CD_4B1856557CDF"/>
 												<UML:TaggedValue tag="mb" value="«OSGi Service»"/>
-												<UML:TaggedValue tag="mt" value="status()"/>
+												<UML:TaggedValue tag="mt" value="delegateCall()"/>
 											</UML:ModelElement.taggedValue>
 										</UML:Message>
 										<UML:Message name="event" xmi.id="EAID_48CDD004_4CFF_4fb6_9BDD_1761F3CB90B2" visibility="public" sender="EAID_4E51654F_0CB8_4375_B630_3070E8F3CBDB" receiver="EAID_8021315D_04C9_448b_A90B_C5FFD74ACB3E">
@@ -231,7 +231,7 @@
 												<UML:TaggedValue tag="dst_style" value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Navigable;"/>
 												<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={36E4877C-5F66-4bca-B7B0-89385120F715}$XID;$NAM=Stereotypes$NAM;$TYP=connector property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=OSGi Service;GUID={F0684416-6B62-4ce0-9904-344F2504F5E6};@ENDSTEREO;$DES;$CLT={48CDD004-4CFF-4fb6-9BDD-1761F3CB90B2}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
 												<UML:TaggedValue tag="privatedata5" value="SX=0;SY=0;EX=0;EY=0;$LLB=;LLT=;LMT=CX=33:CY=15:OX=0:OY=0:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:DIR=0:ROT=0;LMB=CX=75:CY=15:OX=0:OY=0:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:DIR=0:ROT=0;LRT=;LRB=;IRHS=;ILHS=;"/>
-												<UML:TaggedValue tag="sequence_points" value="PtStartX=65;PtStartY=0;PtEndX=65;PtEndY=0;"/>
+												<UML:TaggedValue tag="sequence_points" value="PtStartX=65;PtStartY=0;PtEndX=423;PtEndY=0;"/>
 												<UML:TaggedValue tag="stateflags" value="Activation=0;"/>
 												<UML:TaggedValue tag="virtualInheritance" value="0"/>
 												<UML:TaggedValue tag="diagram" value="EAID_D79E2D06_82B6_48e7_B680_8FCAEBD7DBED"/>
@@ -280,7 +280,7 @@
 												<UML:TaggedValue tag="dst_style" value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Navigable;"/>
 												<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={1FEAFC3C-CBB0-4d79-8FDF-DBB76886D6FF}$XID;$NAM=Stereotypes$NAM;$TYP=connector property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=OSGi Service;GUID={F0684416-6B62-4ce0-9904-344F2504F5E6};@ENDSTEREO;$DES;$CLT={B1A6164E-910C-4b52-A56A-9727931B26A0}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
 												<UML:TaggedValue tag="privatedata5" value="SX=0;SY=-21;EX=0;EY=0;$LLB=;LLT=;LMT=CX=33:CY=15:OX=0:OY=0:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:DIR=0:ROT=0;LMB=CX=75:CY=15:OX=0:OY=0:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:DIR=0:ROT=0;LRT=;LRB=;IRHS=;ILHS=;"/>
-												<UML:TaggedValue tag="sequence_points" value="PtStartX=65;PtStartY=0;PtEndX=65;PtEndY=0;"/>
+												<UML:TaggedValue tag="sequence_points" value="PtStartX=109;PtStartY=0;PtEndX=258;PtEndY=0;"/>
 												<UML:TaggedValue tag="stateflags" value="Activation=0;ExtendActivationUp=0;"/>
 												<UML:TaggedValue tag="virtualInheritance" value="0"/>
 												<UML:TaggedValue tag="diagram" value="EAID_D79E2D06_82B6_48e7_B680_8FCAEBD7DBED"/>
@@ -288,7 +288,7 @@
 												<UML:TaggedValue tag="mt" value="event()"/>
 											</UML:ModelElement.taggedValue>
 										</UML:Message>
-										<UML:Message name="status" xmi.id="EAID_B9450EDC_7645_4be8_AD59_069A23CCECEB" visibility="public" sender="EAID_4E51654F_0CB8_4375_B630_3070E8F3CBDB" receiver="EAID_7C505598_1561_4a90_A520_0DCD2F0F3F13">
+										<UML:Message name="executeCall()" xmi.id="EAID_B9450EDC_7645_4be8_AD59_069A23CCECEB" visibility="public" sender="EAID_4E51654F_0CB8_4375_B630_3070E8F3CBDB" receiver="EAID_7C505598_1561_4a90_A520_0DCD2F0F3F13">
 											<UML:ModelElement.stereotype>
 												<UML:Stereotype name="OSGi Service"/>
 											</UML:ModelElement.stereotype>
@@ -329,12 +329,12 @@
 												<UML:TaggedValue tag="dst_style" value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Navigable;"/>
 												<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={74E48E05-7F6B-4db2-8957-58B4ED16FE09}$XID;$NAM=Stereotypes$NAM;$TYP=connector property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=OSGi Service;GUID={F0684416-6B62-4ce0-9904-344F2504F5E6};@ENDSTEREO;$DES;$CLT={B9450EDC-7645-4be8-AD59-069A23CCECEB}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
 												<UML:TaggedValue tag="privatedata5" value="SX=0;SY=-4;EX=0;EY=0;$LLB=;LLT=;LMT=CX=35:CY=15:OX=0:OY=0:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:DIR=0:ROT=0;LMB=CX=75:CY=15:OX=0:OY=0:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:DIR=0:ROT=0;LRT=;LRB=;IRHS=;ILHS=;"/>
-												<UML:TaggedValue tag="sequence_points" value="PtStartX=65;PtStartY=0;PtEndX=65;PtEndY=0;"/>
+												<UML:TaggedValue tag="sequence_points" value="PtStartX=65;PtStartY=0;PtEndX=109;PtEndY=0;"/>
 												<UML:TaggedValue tag="stateflags" value="Activation=0;"/>
 												<UML:TaggedValue tag="virtualInheritance" value="0"/>
 												<UML:TaggedValue tag="diagram" value="EAID_FE5D3290_5E8C_440b_A9CD_4B1856557CDF"/>
 												<UML:TaggedValue tag="mb" value="«OSGi Service»"/>
-												<UML:TaggedValue tag="mt" value="status()"/>
+												<UML:TaggedValue tag="mt" value="executeCall()"/>
 											</UML:ModelElement.taggedValue>
 										</UML:Message>
 										<UML:Message name="publish(ContextEvent)" xmi.id="EAID_5D7D5DB0_CAA4_4437_985D_B0055844D9C8" visibility="public" sender="EAID_8021315D_04C9_448b_A90B_C5FFD74ACB3E" receiver="EAID_8906D5F3_8DD0_4821_BA2C_E43F53636A8E">
@@ -374,7 +374,7 @@
 												<UML:TaggedValue tag="dst_containment" value="Unspecified"/>
 												<UML:TaggedValue tag="dst_style" value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Navigable;"/>
 												<UML:TaggedValue tag="privatedata5" value="SX=0;SY=0;EX=0;EY=0;$LLB=;LLT=;LMT=CX=103:CY=15:OX=0:OY=0:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:DIR=0:ROT=0;LMB=;LRT=;LRB=;IRHS=;ILHS=;"/>
-												<UML:TaggedValue tag="sequence_points" value="PtStartX=65;PtStartY=0;PtEndX=65;PtEndY=0;"/>
+												<UML:TaggedValue tag="sequence_points" value="PtStartX=65;PtStartY=0;PtEndX=619;PtEndY=0;"/>
 												<UML:TaggedValue tag="stateflags" value="Activation=0;"/>
 												<UML:TaggedValue tag="virtualInheritance" value="0"/>
 												<UML:TaggedValue tag="diagram" value="EAID_D79E2D06_82B6_48e7_B680_8FCAEBD7DBED"/>
@@ -418,7 +418,7 @@
 												<UML:TaggedValue tag="dst_containment" value="Unspecified"/>
 												<UML:TaggedValue tag="dst_style" value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Navigable;"/>
 												<UML:TaggedValue tag="privatedata5" value="SX=0;SY=-13;EX=0;EY=0;$LLB=;LLT=;LMT=CX=56:CY=15:OX=0:OY=0:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:DIR=0:ROT=0;LMB=;LRT=;LRB=;IRHS=;ILHS=;"/>
-												<UML:TaggedValue tag="sequence_points" value="PtStartX=65;PtStartY=0;PtEndX=65;PtEndY=0;"/>
+												<UML:TaggedValue tag="sequence_points" value="PtStartX=65;PtStartY=0;PtEndX=423;PtEndY=0;"/>
 												<UML:TaggedValue tag="stateflags" value="Activation=0;ExtendActivationUp=0;"/>
 												<UML:TaggedValue tag="virtualInheritance" value="0"/>
 												<UML:TaggedValue tag="diagram" value="EAID_FE5D3290_5E8C_440b_A9CD_4B1856557CDF"/>
