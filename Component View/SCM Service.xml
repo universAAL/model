@@ -92,7 +92,7 @@
 							<UML:Collaboration.interaction>
 								<UML:Interaction xmi.id="EAID_EEEB7742_6C7F_4946_8E32_697F557E970E_INT" name="EAID_EEEB7742_6C7F_4946_8E32_697F557E970E_INT">
 									<UML:Interaction.message>
-										<UML:Message name="handleCall()" xmi.id="EAID_5EB540DD_7DB9_4729_8BCE_4A49E0C96A80" visibility="public" sender="EAID_3451304A_0D8E_4d7c_A3C7_8F185D2C7310" receiver="EAID_5D50416B_ABC2_4c78_B550_5CB5F941F650">
+										<UML:Message name="handleMessage(BusMessage)" xmi.id="EAID_5EB540DD_7DB9_4729_8BCE_4A49E0C96A80" visibility="public" sender="EAID_3451304A_0D8E_4d7c_A3C7_8F185D2C7310" receiver="EAID_5D50416B_ABC2_4c78_B550_5CB5F941F650">
 											<UML:ModelElement.taggedValue>
 												<UML:TaggedValue tag="style" value="1"/>
 												<UML:TaggedValue tag="ea_type" value="Sequence"/>
@@ -101,10 +101,11 @@
 												<UML:TaggedValue tag="linecolor" value="-1"/>
 												<UML:TaggedValue tag="linewidth" value="0"/>
 												<UML:TaggedValue tag="seqno" value="7"/>
+												<UML:TaggedValue tag="styleex" value="aliasparams=response;aliasparamsTO=BusMessage;"/>
 												<UML:TaggedValue tag="headStyle" value="0"/>
 												<UML:TaggedValue tag="lineStyle" value="0"/>
 												<UML:TaggedValue tag="privatedata1" value="Synchronous"/>
-												<UML:TaggedValue tag="privatedata2" value="retval=void;"/>
+												<UML:TaggedValue tag="privatedata2" value="retval=void;params=response;paramsDlg=message;"/>
 												<UML:TaggedValue tag="privatedata3" value="Call"/>
 												<UML:TaggedValue tag="privatedata4" value="0"/>
 												<UML:TaggedValue tag="ea_localid" value="31551"/>
@@ -131,11 +132,11 @@
 												<UML:TaggedValue tag="stateflags" value="Activation=0;"/>
 												<UML:TaggedValue tag="virtualInheritance" value="0"/>
 												<UML:TaggedValue tag="diagram" value="EAID_66EF7D41_BFE2_46fb_82BE_1D45F799705D"/>
-												<UML:TaggedValue tag="mt" value="handleCall()"/>
-												<UML:TaggedValue tag="operation_guid" value="{69459165-DF00-4c63-8008-09289B6155C0}" xmi.id="EAID_0599889B_E3A6_4d9c_A9A2_D8BF6654EA4B"/>
+												<UML:TaggedValue tag="mt" value="handleMessage(BusMessage)"/>
+												<UML:TaggedValue tag="operation_guid" value="{94763205-7087-4275-964C-A2DC40E2C3A8}" xmi.id="EAID_0599889B_E3A6_4d9c_A9A2_D8BF6654EA4B"/>
 											</UML:ModelElement.taggedValue>
 										</UML:Message>
-										<UML:Message name="brokerMessage()" xmi.id="EAID_27712B13_1E71_4e22_9F6D_7B2426EC794A" visibility="public" sender="EAID_5D50416B_ABC2_4c78_B550_5CB5F941F650" receiver="EAID_3451304A_0D8E_4d7c_A3C7_8F185D2C7310">
+										<UML:Message name="brokerMessage(BusMessage)" xmi.id="EAID_27712B13_1E71_4e22_9F6D_7B2426EC794A" visibility="public" sender="EAID_5D50416B_ABC2_4c78_B550_5CB5F941F650" receiver="EAID_3451304A_0D8E_4d7c_A3C7_8F185D2C7310">
 											<UML:ModelElement.taggedValue>
 												<UML:TaggedValue tag="style" value="1"/>
 												<UML:TaggedValue tag="ea_type" value="Sequence"/>
@@ -144,10 +145,11 @@
 												<UML:TaggedValue tag="linecolor" value="-1"/>
 												<UML:TaggedValue tag="linewidth" value="0"/>
 												<UML:TaggedValue tag="seqno" value="6"/>
+												<UML:TaggedValue tag="styleex" value="aliasparams=message;aliasparamsTO=BusMessage;"/>
 												<UML:TaggedValue tag="headStyle" value="0"/>
 												<UML:TaggedValue tag="lineStyle" value="0"/>
 												<UML:TaggedValue tag="privatedata1" value="Asynchronous"/>
-												<UML:TaggedValue tag="privatedata2" value="retval=void;params=;paramsDlg=event;"/>
+												<UML:TaggedValue tag="privatedata2" value="retval=void;paramsDlg=event;params=message;"/>
 												<UML:TaggedValue tag="privatedata3" value="Call"/>
 												<UML:TaggedValue tag="privatedata4" value="0"/>
 												<UML:TaggedValue tag="ea_localid" value="31550"/>
@@ -174,11 +176,11 @@
 												<UML:TaggedValue tag="stateflags" value="Activation=0;"/>
 												<UML:TaggedValue tag="virtualInheritance" value="0"/>
 												<UML:TaggedValue tag="diagram" value="EAID_66EF7D41_BFE2_46fb_82BE_1D45F799705D"/>
-												<UML:TaggedValue tag="mt" value="brokerMessage()"/>
+												<UML:TaggedValue tag="mt" value="brokerMessage(BusMessage)"/>
 												<UML:TaggedValue tag="operation_guid" value="{C8332A89-4343-4bf9-A739-FD096C028D91}" xmi.id="EAID_B8FB5686_31CF_44ae_87DF_038C975D05D1"/>
 											</UML:ModelElement.taggedValue>
 										</UML:Message>
-										<UML:Message name="register()" xmi.id="EAID_32D8464C_F9D4_47c3_BFA3_A507087E7AC7" visibility="public" sender="EAID_5D50416B_ABC2_4c78_B550_5CB5F941F650" receiver="EAID_3451304A_0D8E_4d7c_A3C7_8F185D2C7310">
+										<UML:Message name="register(BusMember)" xmi.id="EAID_32D8464C_F9D4_47c3_BFA3_A507087E7AC7" visibility="public" sender="EAID_5D50416B_ABC2_4c78_B550_5CB5F941F650" receiver="EAID_3451304A_0D8E_4d7c_A3C7_8F185D2C7310">
 											<UML:ModelElement.taggedValue>
 												<UML:TaggedValue tag="style" value="1"/>
 												<UML:TaggedValue tag="ea_type" value="Sequence"/>
@@ -187,10 +189,11 @@
 												<UML:TaggedValue tag="linecolor" value="-1"/>
 												<UML:TaggedValue tag="linewidth" value="0"/>
 												<UML:TaggedValue tag="seqno" value="4"/>
+												<UML:TaggedValue tag="styleex" value="aliasparams=member;aliasparamsTO=BusMember;"/>
 												<UML:TaggedValue tag="headStyle" value="0"/>
 												<UML:TaggedValue tag="lineStyle" value="0"/>
 												<UML:TaggedValue tag="privatedata1" value="Synchronous"/>
-												<UML:TaggedValue tag="privatedata2" value="retval=void;"/>
+												<UML:TaggedValue tag="privatedata2" value="retval=void;params=member;"/>
 												<UML:TaggedValue tag="privatedata3" value="Call"/>
 												<UML:TaggedValue tag="privatedata4" value="0"/>
 												<UML:TaggedValue tag="ea_localid" value="31548"/>
@@ -217,11 +220,11 @@
 												<UML:TaggedValue tag="stateflags" value="Activation=0;"/>
 												<UML:TaggedValue tag="virtualInheritance" value="0"/>
 												<UML:TaggedValue tag="diagram" value="EAID_66EF7D41_BFE2_46fb_82BE_1D45F799705D"/>
-												<UML:TaggedValue tag="mt" value="register()"/>
+												<UML:TaggedValue tag="mt" value="register(BusMember)"/>
 												<UML:TaggedValue tag="operation_guid" value="{506EA827-C336-4bbb-800A-B47D64FD1DEA}" xmi.id="EAID_8F83315E_C56C_45ca_9ECC_A0B7EB3C05A5"/>
 											</UML:ModelElement.taggedValue>
 										</UML:Message>
-										<UML:Message name="register()" xmi.id="EAID_8EE53711_9694_4808_93A7_9E8C2BA78A54" visibility="public" sender="EAID_5D50416B_ABC2_4c78_B550_5CB5F941F650" receiver="EAID_3451304A_0D8E_4d7c_A3C7_8F185D2C7310">
+										<UML:Message name="register(BusMember)" xmi.id="EAID_8EE53711_9694_4808_93A7_9E8C2BA78A54" visibility="public" sender="EAID_5D50416B_ABC2_4c78_B550_5CB5F941F650" receiver="EAID_3451304A_0D8E_4d7c_A3C7_8F185D2C7310">
 											<UML:ModelElement.taggedValue>
 												<UML:TaggedValue tag="style" value="1"/>
 												<UML:TaggedValue tag="ea_type" value="Sequence"/>
@@ -230,10 +233,11 @@
 												<UML:TaggedValue tag="linecolor" value="-1"/>
 												<UML:TaggedValue tag="linewidth" value="0"/>
 												<UML:TaggedValue tag="seqno" value="2"/>
+												<UML:TaggedValue tag="styleex" value="aliasparams=member;aliasparamsTO=BusMember;"/>
 												<UML:TaggedValue tag="headStyle" value="0"/>
 												<UML:TaggedValue tag="lineStyle" value="0"/>
 												<UML:TaggedValue tag="privatedata1" value="Synchronous"/>
-												<UML:TaggedValue tag="privatedata2" value="retval=void;"/>
+												<UML:TaggedValue tag="privatedata2" value="retval=void;params=member;"/>
 												<UML:TaggedValue tag="privatedata3" value="Call"/>
 												<UML:TaggedValue tag="privatedata4" value="0"/>
 												<UML:TaggedValue tag="ea_localid" value="31546"/>
@@ -260,11 +264,11 @@
 												<UML:TaggedValue tag="stateflags" value="Activation=0;"/>
 												<UML:TaggedValue tag="virtualInheritance" value="0"/>
 												<UML:TaggedValue tag="diagram" value="EAID_66EF7D41_BFE2_46fb_82BE_1D45F799705D"/>
-												<UML:TaggedValue tag="mt" value="register()"/>
+												<UML:TaggedValue tag="mt" value="register(BusMember)"/>
 												<UML:TaggedValue tag="operation_guid" value="{506EA827-C336-4bbb-800A-B47D64FD1DEA}" xmi.id="EAID_DC5E82C6_15EF_49ce_95E4_522D2154A3A7"/>
 											</UML:ModelElement.taggedValue>
 										</UML:Message>
-										<UML:Message name="handleCall()" xmi.id="EAID_0354559F_B308_49fc_9D41_69914800292C" visibility="public" sender="EAID_5D50416B_ABC2_4c78_B550_5CB5F941F650" receiver="EAID_B61F5C19_EC51_4b2a_8504_D35DE804BC22">
+										<UML:Message name="handleCall(ServiceResponse)" xmi.id="EAID_0354559F_B308_49fc_9D41_69914800292C" visibility="public" sender="EAID_5D50416B_ABC2_4c78_B550_5CB5F941F650" receiver="EAID_B61F5C19_EC51_4b2a_8504_D35DE804BC22">
 											<UML:ModelElement.taggedValue>
 												<UML:TaggedValue tag="style" value="1"/>
 												<UML:TaggedValue tag="ea_type" value="Sequence"/>
@@ -273,10 +277,11 @@
 												<UML:TaggedValue tag="linecolor" value="-1"/>
 												<UML:TaggedValue tag="linewidth" value="0"/>
 												<UML:TaggedValue tag="seqno" value="8"/>
+												<UML:TaggedValue tag="styleex" value="aliasparams=response;aliasparamsTO=ServiceResponse;"/>
 												<UML:TaggedValue tag="headStyle" value="0"/>
 												<UML:TaggedValue tag="lineStyle" value="0"/>
 												<UML:TaggedValue tag="privatedata1" value="Synchronous"/>
-												<UML:TaggedValue tag="privatedata2" value="retval=void;"/>
+												<UML:TaggedValue tag="privatedata2" value="retval=void;params=response;"/>
 												<UML:TaggedValue tag="privatedata3" value="Call"/>
 												<UML:TaggedValue tag="privatedata4" value="0"/>
 												<UML:TaggedValue tag="ea_localid" value="31552"/>
@@ -303,7 +308,7 @@
 												<UML:TaggedValue tag="stateflags" value="Activation=0;"/>
 												<UML:TaggedValue tag="virtualInheritance" value="0"/>
 												<UML:TaggedValue tag="diagram" value="EAID_66EF7D41_BFE2_46fb_82BE_1D45F799705D"/>
-												<UML:TaggedValue tag="mt" value="handleCall()"/>
+												<UML:TaggedValue tag="mt" value="handleCall(ServiceResponse)"/>
 												<UML:TaggedValue tag="operation_guid" value="{69459165-DF00-4c63-8008-09289B6155C0}" xmi.id="EAID_E683744F_1116_4524_ACA0_6FB711604BB2"/>
 											</UML:ModelElement.taggedValue>
 										</UML:Message>
@@ -392,7 +397,7 @@
 												<UML:TaggedValue tag="operation_guid" value="{CF1CB1AA-DD55-4500-AD3D-7E7017FD827F}" xmi.id="EAID_131AE897_FD93_47c8_8AD5_D64E57F2151F"/>
 											</UML:ModelElement.taggedValue>
 										</UML:Message>
-										<UML:Message name="call()" xmi.id="EAID_D9F584D8_8426_47dd_8456_81C3CDFC15B0" visibility="public" sender="EAID_B61F5C19_EC51_4b2a_8504_D35DE804BC22" receiver="EAID_5D50416B_ABC2_4c78_B550_5CB5F941F650">
+										<UML:Message name="call(ServiceRequest)" xmi.id="EAID_D9F584D8_8426_47dd_8456_81C3CDFC15B0" visibility="public" sender="EAID_B61F5C19_EC51_4b2a_8504_D35DE804BC22" receiver="EAID_5D50416B_ABC2_4c78_B550_5CB5F941F650">
 											<UML:ModelElement.taggedValue>
 												<UML:TaggedValue tag="style" value="1"/>
 												<UML:TaggedValue tag="ea_type" value="Sequence"/>
@@ -401,10 +406,11 @@
 												<UML:TaggedValue tag="linecolor" value="-1"/>
 												<UML:TaggedValue tag="linewidth" value="0"/>
 												<UML:TaggedValue tag="seqno" value="5"/>
+												<UML:TaggedValue tag="styleex" value="aliasparams=request;aliasparamsTO=ServiceRequest;"/>
 												<UML:TaggedValue tag="headStyle" value="0"/>
 												<UML:TaggedValue tag="lineStyle" value="0"/>
 												<UML:TaggedValue tag="privatedata1" value="Synchronous"/>
-												<UML:TaggedValue tag="privatedata2" value="retval=void;"/>
+												<UML:TaggedValue tag="privatedata2" value="retval=void;params=request;"/>
 												<UML:TaggedValue tag="privatedata3" value="Call"/>
 												<UML:TaggedValue tag="privatedata4" value="0"/>
 												<UML:TaggedValue tag="ea_localid" value="31549"/>
@@ -430,7 +436,7 @@
 												<UML:TaggedValue tag="privatedata5" value="SX=0;SY=0;EX=0;EY=0;$LLB=;LLT=;LMT=CX=22:CY=15:OX=0:OY=0:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:DIR=0:ROT=0;LMB=;LRT=;LRB=;IRHS=;ILHS=;"/>
 												<UML:TaggedValue tag="virtualInheritance" value="0"/>
 												<UML:TaggedValue tag="diagram" value="EAID_66EF7D41_BFE2_46fb_82BE_1D45F799705D"/>
-												<UML:TaggedValue tag="mt" value="call()"/>
+												<UML:TaggedValue tag="mt" value="call(ServiceRequest)"/>
 												<UML:TaggedValue tag="operation_guid" value="{BACE2191-5D4F-474e-A162-75B85D0D8519}" xmi.id="EAID_688BDE8D_62A9_498d_A409_87B96361BC54"/>
 											</UML:ModelElement.taggedValue>
 										</UML:Message>
