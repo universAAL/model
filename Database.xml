@@ -17,12 +17,14 @@
 						<UML:TaggedValue tag="modified" value="2012-12-30 16:59:14"/>
 						<UML:TaggedValue tag="iscontrolled" value="TRUE"/>
 						<UML:TaggedValue tag="xmlpath" value="Database.xml"/>
+						<UML:TaggedValue tag="lastloaddate" value="2013-01-28 17:41:07"/>
+						<UML:TaggedValue tag="lastsavedate" value="2013-01-28 17:41:05"/>
 						<UML:TaggedValue tag="version" value="1.0"/>
 						<UML:TaggedValue tag="isprotected" value="FALSE"/>
 						<UML:TaggedValue tag="usedtd" value="FALSE"/>
-						<UML:TaggedValue tag="owner" value="Venelin"/>
 						<UML:TaggedValue tag="xmiver" value="Enterprise Architect XMI/UML 1.3"/>
 						<UML:TaggedValue tag="logxml" value="FALSE"/>
+						<UML:TaggedValue tag="tpos" value="0"/>
 						<UML:TaggedValue tag="packageFlags" value="Recurse=0;VCCFG=uAAL;CRC=0;"/>
 						<UML:TaggedValue tag="batchsave" value="0"/>
 						<UML:TaggedValue tag="batchload" value="0"/>
@@ -56,13 +58,13 @@
 								<UML:TaggedValue tag="status" value="Proposed"/>
 								<UML:TaggedValue tag="stereotype" value="table"/>
 								<UML:TaggedValue tag="tpos" value="0"/>
-								<UML:TaggedValue tag="ea_localid" value="17829"/>
+								<UML:TaggedValue tag="ea_localid" value="17836"/>
 								<UML:TaggedValue tag="ea_eleType" value="element"/>
 								<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
 								<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={2808D9AE-A3EA-4d15-B3FA-488F27C22CDC}$XID;$NAM=Stereotypes$NAM;$TYP=element property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=table;FQName=EAUI::table;@ENDSTEREO;$DES;$CLT={637B48B1-EAC1-48f1-BBED-DCB82081B121}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
 							</UML:ModelElement.taggedValue>
 							<UML:Classifier.feature>
-								<UML:Attribute name="TREATMENT_ID" changeable="none" visibility="public" ownerScope="instance" targetScope="instance">
+								<UML:Attribute name="ID" changeable="none" visibility="public" ownerScope="instance" targetScope="instance">
 									<UML:Attribute.initialValue>
 										<UML:Expression/>
 									</UML:Attribute.initialValue>
@@ -81,10 +83,10 @@
 										<UML:TaggedValue tag="upperBound" value="1"/>
 										<UML:TaggedValue tag="duplicates" value="1"/>
 										<UML:TaggedValue tag="ea_guid" value="{D3BE66A9-6E2F-4040-8E29-14FDECA60CDB}"/>
-										<UML:TaggedValue tag="ea_localid" value="6713"/>
+										<UML:TaggedValue tag="ea_localid" value="6747"/>
 									</UML:ModelElement.taggedValue>
 								</UML:Attribute>
-								<UML:Attribute name="NAME" changeable="none" visibility="public" ownerScope="instance" targetScope="instance">
+								<UML:Attribute name="PRESCRIPTION_FK_ID" changeable="none" visibility="public" ownerScope="instance" targetScope="instance">
 									<UML:Attribute.initialValue>
 										<UML:Expression/>
 									</UML:Attribute.initialValue>
@@ -102,30 +104,8 @@
 										<UML:TaggedValue tag="lowerBound" value="1"/>
 										<UML:TaggedValue tag="upperBound" value="1"/>
 										<UML:TaggedValue tag="duplicates" value="1"/>
-										<UML:TaggedValue tag="ea_guid" value="{5A2846E9-8AF0-4100-93D1-29380618A784}"/>
-										<UML:TaggedValue tag="ea_localid" value="6714"/>
-									</UML:ModelElement.taggedValue>
-								</UML:Attribute>
-								<UML:Attribute name="PATIENT_FK_ID" changeable="none" visibility="public" ownerScope="instance" targetScope="instance">
-									<UML:Attribute.initialValue>
-										<UML:Expression/>
-									</UML:Attribute.initialValue>
-									<UML:StructuralFeature.type>
-										<UML:Classifier xmi.idref="eaxmiid0"/>
-									</UML:StructuralFeature.type>
-									<UML:ModelElement.stereotype>
-										<UML:Stereotype name="column"/>
-									</UML:ModelElement.stereotype>
-									<UML:ModelElement.taggedValue>
-										<UML:TaggedValue tag="ordered" value="0"/>
-										<UML:TaggedValue tag="stereotype" value="column"/>
-										<UML:TaggedValue tag="collection" value="true"/>
-										<UML:TaggedValue tag="position" value="2"/>
-										<UML:TaggedValue tag="lowerBound" value="1"/>
-										<UML:TaggedValue tag="upperBound" value="1"/>
-										<UML:TaggedValue tag="duplicates" value="1"/>
-										<UML:TaggedValue tag="ea_guid" value="{6AEF5F1C-E0BB-42a5-8E39-8C0F251942AD}"/>
-										<UML:TaggedValue tag="ea_localid" value="6715"/>
+										<UML:TaggedValue tag="ea_guid" value="{28DFEFF3-B3C1-4cfa-980B-30B1F7AD0C16}"/>
+										<UML:TaggedValue tag="ea_localid" value="12959"/>
 									</UML:ModelElement.taggedValue>
 								</UML:Attribute>
 								<UML:Attribute name="MEDICINE_FK_ID" changeable="none" visibility="public" ownerScope="instance" targetScope="instance">
@@ -139,18 +119,21 @@
 										<UML:Stereotype name="column"/>
 									</UML:ModelElement.stereotype>
 									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="length" value="0"/>
 										<UML:TaggedValue tag="ordered" value="0"/>
+										<UML:TaggedValue tag="precision" value="0"/>
+										<UML:TaggedValue tag="scale" value="0"/>
 										<UML:TaggedValue tag="stereotype" value="column"/>
 										<UML:TaggedValue tag="collection" value="true"/>
-										<UML:TaggedValue tag="position" value="3"/>
+										<UML:TaggedValue tag="position" value="2"/>
 										<UML:TaggedValue tag="lowerBound" value="1"/>
 										<UML:TaggedValue tag="upperBound" value="1"/>
 										<UML:TaggedValue tag="duplicates" value="1"/>
 										<UML:TaggedValue tag="ea_guid" value="{19B535DE-202B-4fcd-AC68-456C0BAE7947}"/>
-										<UML:TaggedValue tag="ea_localid" value="6717"/>
+										<UML:TaggedValue tag="ea_localid" value="6750"/>
 									</UML:ModelElement.taggedValue>
 								</UML:Attribute>
-								<UML:Attribute name="PHYSICIAN_FK_ID" changeable="none" visibility="public" ownerScope="instance" targetScope="instance">
+								<UML:Attribute name="START_DATE" changeable="none" visibility="public" ownerScope="instance" targetScope="instance">
 									<UML:Attribute.initialValue>
 										<UML:Expression/>
 									</UML:Attribute.initialValue>
@@ -163,13 +146,35 @@
 									<UML:ModelElement.taggedValue>
 										<UML:TaggedValue tag="ordered" value="0"/>
 										<UML:TaggedValue tag="stereotype" value="column"/>
-										<UML:TaggedValue tag="collection" value="true"/>
+										<UML:TaggedValue tag="collection" value="false"/>
+										<UML:TaggedValue tag="position" value="3"/>
+										<UML:TaggedValue tag="lowerBound" value="1"/>
+										<UML:TaggedValue tag="upperBound" value="1"/>
+										<UML:TaggedValue tag="duplicates" value="1"/>
+										<UML:TaggedValue tag="ea_guid" value="{B2E6F0B5-DEF8-40ae-B29E-2AADB793292F}"/>
+										<UML:TaggedValue tag="ea_localid" value="12960"/>
+									</UML:ModelElement.taggedValue>
+								</UML:Attribute>
+								<UML:Attribute name="END_DATE" changeable="none" visibility="public" ownerScope="instance" targetScope="instance">
+									<UML:Attribute.initialValue>
+										<UML:Expression/>
+									</UML:Attribute.initialValue>
+									<UML:StructuralFeature.type>
+										<UML:Classifier xmi.idref="eaxmiid0"/>
+									</UML:StructuralFeature.type>
+									<UML:ModelElement.stereotype>
+										<UML:Stereotype name="column"/>
+									</UML:ModelElement.stereotype>
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="ordered" value="0"/>
+										<UML:TaggedValue tag="stereotype" value="column"/>
+										<UML:TaggedValue tag="collection" value="false"/>
 										<UML:TaggedValue tag="position" value="4"/>
 										<UML:TaggedValue tag="lowerBound" value="1"/>
 										<UML:TaggedValue tag="upperBound" value="1"/>
 										<UML:TaggedValue tag="duplicates" value="1"/>
-										<UML:TaggedValue tag="ea_guid" value="{30BF9EA5-A48E-409a-8BBB-2BB2F2AA0B89}"/>
-										<UML:TaggedValue tag="ea_localid" value="6716"/>
+										<UML:TaggedValue tag="ea_guid" value="{F3079B8B-9221-45de-A056-DD0B2B87D4A8}"/>
+										<UML:TaggedValue tag="ea_localid" value="12961"/>
 									</UML:ModelElement.taggedValue>
 								</UML:Attribute>
 								<UML:Attribute name="STATUS" changeable="none" visibility="public" ownerScope="instance" targetScope="instance">
@@ -184,7 +189,10 @@
 									</UML:ModelElement.stereotype>
 									<UML:ModelElement.taggedValue>
 										<UML:TaggedValue tag="description" value="One of: ACTIVE, PLANNED, FINISHED, CANCELLED, PROLONGED"/>
+										<UML:TaggedValue tag="length" value="0"/>
 										<UML:TaggedValue tag="ordered" value="0"/>
+										<UML:TaggedValue tag="precision" value="0"/>
+										<UML:TaggedValue tag="scale" value="0"/>
 										<UML:TaggedValue tag="stereotype" value="column"/>
 										<UML:TaggedValue tag="collection" value="false"/>
 										<UML:TaggedValue tag="position" value="5"/>
@@ -192,7 +200,73 @@
 										<UML:TaggedValue tag="upperBound" value="1"/>
 										<UML:TaggedValue tag="duplicates" value="1"/>
 										<UML:TaggedValue tag="ea_guid" value="{85F20B96-69C4-4485-B4B8-B2DE48D4274F}"/>
-										<UML:TaggedValue tag="ea_localid" value="6718"/>
+										<UML:TaggedValue tag="ea_localid" value="6752"/>
+									</UML:ModelElement.taggedValue>
+								</UML:Attribute>
+								<UML:Attribute name="MISSED_INTAKE_ALERT" changeable="none" visibility="public" ownerScope="instance" targetScope="instance">
+									<UML:Attribute.initialValue>
+										<UML:Expression/>
+									</UML:Attribute.initialValue>
+									<UML:StructuralFeature.type>
+										<UML:Classifier xmi.idref="eaxmiid0"/>
+									</UML:StructuralFeature.type>
+									<UML:ModelElement.stereotype>
+										<UML:Stereotype name="column"/>
+									</UML:ModelElement.stereotype>
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="ordered" value="0"/>
+										<UML:TaggedValue tag="stereotype" value="column"/>
+										<UML:TaggedValue tag="collection" value="false"/>
+										<UML:TaggedValue tag="position" value="6"/>
+										<UML:TaggedValue tag="lowerBound" value="1"/>
+										<UML:TaggedValue tag="upperBound" value="1"/>
+										<UML:TaggedValue tag="duplicates" value="1"/>
+										<UML:TaggedValue tag="ea_guid" value="{052B20D1-EF0F-46a7-8DA8-B47CB0E4BD97}"/>
+										<UML:TaggedValue tag="ea_localid" value="12962"/>
+									</UML:ModelElement.taggedValue>
+								</UML:Attribute>
+								<UML:Attribute name="NEW_DOSE_ALERT" changeable="none" visibility="public" ownerScope="instance" targetScope="instance">
+									<UML:Attribute.initialValue>
+										<UML:Expression/>
+									</UML:Attribute.initialValue>
+									<UML:StructuralFeature.type>
+										<UML:Classifier xmi.idref="eaxmiid0"/>
+									</UML:StructuralFeature.type>
+									<UML:ModelElement.stereotype>
+										<UML:Stereotype name="column"/>
+									</UML:ModelElement.stereotype>
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="ordered" value="0"/>
+										<UML:TaggedValue tag="stereotype" value="column"/>
+										<UML:TaggedValue tag="collection" value="false"/>
+										<UML:TaggedValue tag="position" value="7"/>
+										<UML:TaggedValue tag="lowerBound" value="1"/>
+										<UML:TaggedValue tag="upperBound" value="1"/>
+										<UML:TaggedValue tag="duplicates" value="1"/>
+										<UML:TaggedValue tag="ea_guid" value="{B2FD4141-4A5F-42d9-B380-387F262F395D}"/>
+										<UML:TaggedValue tag="ea_localid" value="12963"/>
+									</UML:ModelElement.taggedValue>
+								</UML:Attribute>
+								<UML:Attribute name="SHORTAGE_ALERT" changeable="none" visibility="public" ownerScope="instance" targetScope="instance">
+									<UML:Attribute.initialValue>
+										<UML:Expression/>
+									</UML:Attribute.initialValue>
+									<UML:StructuralFeature.type>
+										<UML:Classifier xmi.idref="eaxmiid0"/>
+									</UML:StructuralFeature.type>
+									<UML:ModelElement.stereotype>
+										<UML:Stereotype name="column"/>
+									</UML:ModelElement.stereotype>
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="ordered" value="0"/>
+										<UML:TaggedValue tag="stereotype" value="column"/>
+										<UML:TaggedValue tag="collection" value="false"/>
+										<UML:TaggedValue tag="position" value="8"/>
+										<UML:TaggedValue tag="lowerBound" value="1"/>
+										<UML:TaggedValue tag="upperBound" value="1"/>
+										<UML:TaggedValue tag="duplicates" value="1"/>
+										<UML:TaggedValue tag="ea_guid" value="{B16D280C-C7EE-4996-8A25-35F6CF2D9A5A}"/>
+										<UML:TaggedValue tag="ea_localid" value="12964"/>
 									</UML:ModelElement.taggedValue>
 								</UML:Attribute>
 								<UML:Operation name="FK_MEDICINE_FK_ID" visibility="public" ownerScope="instance" isQuery="false" concurrency="sequential">
@@ -208,7 +282,7 @@
 										<UML:TaggedValue tag="returnarray" value="0"/>
 										<UML:TaggedValue tag="pure" value="0"/>
 										<UML:TaggedValue tag="ea_guid" value="{F4276E58-9897-46f3-A902-7BF34B0D3D53}"/>
-										<UML:TaggedValue tag="ea_localid" value="14734"/>
+										<UML:TaggedValue tag="ea_localid" value="14751"/>
 									</UML:ModelElement.taggedValue>
 									<UML:BehavioralFeature.parameter>
 										<UML:Parameter kind="return" visibility="public">
@@ -239,94 +313,6 @@
 										</UML:Parameter>
 									</UML:BehavioralFeature.parameter>
 								</UML:Operation>
-								<UML:Operation name="FK_PATIENT_FK_ID" visibility="public" ownerScope="instance" isQuery="false" concurrency="sequential">
-									<UML:ModelElement.stereotype>
-										<UML:Stereotype name="FK"/>
-									</UML:ModelElement.stereotype>
-									<UML:ModelElement.taggedValue>
-										<UML:TaggedValue tag="documentation" value="Foreign key constraint"/>
-										<UML:TaggedValue tag="const" value="false"/>
-										<UML:TaggedValue tag="stereotype" value="FK"/>
-										<UML:TaggedValue tag="synchronised" value="0"/>
-										<UML:TaggedValue tag="position" value="0"/>
-										<UML:TaggedValue tag="returnarray" value="0"/>
-										<UML:TaggedValue tag="pure" value="0"/>
-										<UML:TaggedValue tag="ea_guid" value="{D36D5F71-A635-4cfe-AAC2-8559C53B68BC}"/>
-										<UML:TaggedValue tag="ea_localid" value="14732"/>
-									</UML:ModelElement.taggedValue>
-									<UML:BehavioralFeature.parameter>
-										<UML:Parameter kind="return" visibility="public">
-											<UML:Parameter.type>
-												<UML:Classifier xmi.idref="eaxmiid0"/>
-											</UML:Parameter.type>
-											<UML:ModelElement.taggedValue>
-												<UML:TaggedValue tag="pos" value="0"/>
-												<UML:TaggedValue tag="const" value="0"/>
-												<UML:TaggedValue tag="ea_guid" value="{RETURNID-A635-4cfe-AAC2-8559C53B68BC}"/>
-											</UML:ModelElement.taggedValue>
-											<UML:Parameter.defaultValue>
-												<UML:Expression/>
-											</UML:Parameter.defaultValue>
-										</UML:Parameter>
-										<UML:Parameter name="PATIENT_FK_ID" kind="in" visibility="public">
-											<UML:Parameter.type>
-												<UML:Classifier xmi.idref="eaxmiid0"/>
-											</UML:Parameter.type>
-											<UML:ModelElement.taggedValue>
-												<UML:TaggedValue tag="pos" value="0"/>
-												<UML:TaggedValue tag="const" value="0"/>
-												<UML:TaggedValue tag="ea_guid" value="{259A7D85-0746-4763-A59E-D26C347805E1}"/>
-											</UML:ModelElement.taggedValue>
-											<UML:Parameter.defaultValue>
-												<UML:Expression/>
-											</UML:Parameter.defaultValue>
-										</UML:Parameter>
-									</UML:BehavioralFeature.parameter>
-								</UML:Operation>
-								<UML:Operation name="FK_PHYSICIAN_FK_ID" visibility="public" ownerScope="instance" isQuery="false" concurrency="sequential">
-									<UML:ModelElement.stereotype>
-										<UML:Stereotype name="FK"/>
-									</UML:ModelElement.stereotype>
-									<UML:ModelElement.taggedValue>
-										<UML:TaggedValue tag="documentation" value="Foreign key constraint"/>
-										<UML:TaggedValue tag="const" value="false"/>
-										<UML:TaggedValue tag="stereotype" value="FK"/>
-										<UML:TaggedValue tag="synchronised" value="0"/>
-										<UML:TaggedValue tag="position" value="0"/>
-										<UML:TaggedValue tag="returnarray" value="0"/>
-										<UML:TaggedValue tag="pure" value="0"/>
-										<UML:TaggedValue tag="ea_guid" value="{07D55AC9-EDAC-4e4b-AD2C-053E40BD2A3E}"/>
-										<UML:TaggedValue tag="ea_localid" value="14733"/>
-									</UML:ModelElement.taggedValue>
-									<UML:BehavioralFeature.parameter>
-										<UML:Parameter kind="return" visibility="public">
-											<UML:Parameter.type>
-												<UML:Classifier xmi.idref="eaxmiid0"/>
-											</UML:Parameter.type>
-											<UML:ModelElement.taggedValue>
-												<UML:TaggedValue tag="pos" value="0"/>
-												<UML:TaggedValue tag="const" value="0"/>
-												<UML:TaggedValue tag="ea_guid" value="{RETURNID-EDAC-4e4b-AD2C-053E40BD2A3E}"/>
-											</UML:ModelElement.taggedValue>
-											<UML:Parameter.defaultValue>
-												<UML:Expression/>
-											</UML:Parameter.defaultValue>
-										</UML:Parameter>
-										<UML:Parameter name="PHYSICIAN_FK_ID" kind="in" visibility="public">
-											<UML:Parameter.type>
-												<UML:Classifier xmi.idref="eaxmiid0"/>
-											</UML:Parameter.type>
-											<UML:ModelElement.taggedValue>
-												<UML:TaggedValue tag="pos" value="0"/>
-												<UML:TaggedValue tag="const" value="0"/>
-												<UML:TaggedValue tag="ea_guid" value="{FE899006-161A-4484-9DA3-C664F6F5B325}"/>
-											</UML:ModelElement.taggedValue>
-											<UML:Parameter.defaultValue>
-												<UML:Expression/>
-											</UML:Parameter.defaultValue>
-										</UML:Parameter>
-									</UML:BehavioralFeature.parameter>
-								</UML:Operation>
 								<UML:Operation name="PK_TREATMENT" visibility="public" ownerScope="instance" isQuery="false" concurrency="sequential">
 									<UML:ModelElement.stereotype>
 										<UML:Stereotype name="PK"/>
@@ -339,7 +325,7 @@
 										<UML:TaggedValue tag="returnarray" value="0"/>
 										<UML:TaggedValue tag="pure" value="0"/>
 										<UML:TaggedValue tag="ea_guid" value="{E54BB196-8D43-4607-96C2-2097EE172A14}"/>
-										<UML:TaggedValue tag="ea_localid" value="14731"/>
+										<UML:TaggedValue tag="ea_localid" value="14754"/>
 									</UML:ModelElement.taggedValue>
 									<UML:BehavioralFeature.parameter>
 										<UML:Parameter kind="return" visibility="public">
@@ -355,14 +341,14 @@
 												<UML:Expression/>
 											</UML:Parameter.defaultValue>
 										</UML:Parameter>
-										<UML:Parameter name="TREATMENT_ID" kind="in" visibility="public">
+										<UML:Parameter name="ID" kind="in" visibility="public">
 											<UML:Parameter.type>
 												<UML:Classifier xmi.idref="eaxmiid0"/>
 											</UML:Parameter.type>
 											<UML:ModelElement.taggedValue>
 												<UML:TaggedValue tag="pos" value="0"/>
 												<UML:TaggedValue tag="const" value="0"/>
-												<UML:TaggedValue tag="ea_guid" value="{0CB23B9D-3195-4d15-A82A-8418E89CD0AB}"/>
+												<UML:TaggedValue tag="ea_guid" value="{5D8D1F56-B52F-41ab-A708-A1C2F511219E}"/>
 											</UML:ModelElement.taggedValue>
 											<UML:Parameter.defaultValue>
 												<UML:Expression/>
@@ -383,13 +369,13 @@
 								<UML:TaggedValue tag="seqno" value="0"/>
 								<UML:TaggedValue tag="headStyle" value="0"/>
 								<UML:TaggedValue tag="lineStyle" value="0"/>
-								<UML:TaggedValue tag="ea_localid" value="15995"/>
+								<UML:TaggedValue tag="ea_localid" value="16024"/>
 								<UML:TaggedValue tag="ea_sourceName" value="TREATMENT"/>
 								<UML:TaggedValue tag="ea_targetName" value="MEDICINE"/>
 								<UML:TaggedValue tag="ea_sourceType" value="Class"/>
 								<UML:TaggedValue tag="ea_targetType" value="Class"/>
-								<UML:TaggedValue tag="ea_sourceID" value="17829"/>
-								<UML:TaggedValue tag="ea_targetID" value="17827"/>
+								<UML:TaggedValue tag="ea_sourceID" value="17836"/>
+								<UML:TaggedValue tag="ea_targetID" value="17840"/>
 								<UML:TaggedValue tag="virtualInheritance" value="0"/>
 								<UML:TaggedValue tag="lt" value="+MEDICINE_FK_ID"/>
 								<UML:TaggedValue tag="rt" value="+PK_MEDICINE"/>
@@ -411,7 +397,298 @@
 								</UML:AssociationEnd>
 							</UML:Association.connection>
 						</UML:Association>
-						<UML:Association xmi.id="EAID_400A0A99_9313_490b_8CA6_850B74B4C7A2" visibility="public" isRoot="false" isLeaf="false" isAbstract="false">
+						<UML:Class name="PATIENT_LINKS" xmi.id="EAID_70E71B65_E7DD_469c_BD9A_224DC69D8918" visibility="public" namespace="EAPK_0DAD8747_BEEE_4d6e_AE68_EA968BB0E474" isRoot="false" isLeaf="false" isAbstract="false" isActive="false">
+							<UML:ModelElement.stereotype>
+								<UML:Stereotype name="table"/>
+							</UML:ModelElement.stereotype>
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="isSpecification" value="false"/>
+								<UML:TaggedValue tag="ea_stype" value="Class"/>
+								<UML:TaggedValue tag="ea_ntype" value="0"/>
+								<UML:TaggedValue tag="version" value="1.0"/>
+								<UML:TaggedValue tag="package" value="EAPK_0DAD8747_BEEE_4d6e_AE68_EA968BB0E474"/>
+								<UML:TaggedValue tag="date_created" value="2013-11-06 17:17:04"/>
+								<UML:TaggedValue tag="date_modified" value="2013-11-06 17:17:21"/>
+								<UML:TaggedValue tag="tagged" value="0"/>
+								<UML:TaggedValue tag="package_name" value="Database"/>
+								<UML:TaggedValue tag="phase" value="1.0"/>
+								<UML:TaggedValue tag="author" value="Venelin"/>
+								<UML:TaggedValue tag="complexity" value="1"/>
+								<UML:TaggedValue tag="status" value="Proposed"/>
+								<UML:TaggedValue tag="stereotype" value="table"/>
+								<UML:TaggedValue tag="tpos" value="0"/>
+								<UML:TaggedValue tag="ea_localid" value="35409"/>
+								<UML:TaggedValue tag="ea_eleType" value="element"/>
+								<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+								<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={26EAF393-CD32-487a-9BD5-627C1F74154C}$XID;$NAM=Stereotypes$NAM;$TYP=element property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=table;FQName=EAUI::table;@ENDSTEREO;$DES;$CLT={70E71B65-E7DD-469c-BD9A-224DC69D8918}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
+							</UML:ModelElement.taggedValue>
+							<UML:Classifier.feature>
+								<UML:Attribute name="ID" changeable="none" visibility="public" ownerScope="instance" targetScope="instance">
+									<UML:Attribute.initialValue>
+										<UML:Expression/>
+									</UML:Attribute.initialValue>
+									<UML:StructuralFeature.type>
+										<UML:Classifier xmi.idref="eaxmiid0"/>
+									</UML:StructuralFeature.type>
+									<UML:ModelElement.stereotype>
+										<UML:Stereotype name="column"/>
+									</UML:ModelElement.stereotype>
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="ordered" value="1"/>
+										<UML:TaggedValue tag="stereotype" value="column"/>
+										<UML:TaggedValue tag="collection" value="false"/>
+										<UML:TaggedValue tag="position" value="0"/>
+										<UML:TaggedValue tag="lowerBound" value="1"/>
+										<UML:TaggedValue tag="upperBound" value="1"/>
+										<UML:TaggedValue tag="duplicates" value="1"/>
+										<UML:TaggedValue tag="ea_guid" value="{DCA7DCB5-ECD2-476b-AFC5-58029F275ECF}"/>
+										<UML:TaggedValue tag="ea_localid" value="12947"/>
+									</UML:ModelElement.taggedValue>
+								</UML:Attribute>
+								<UML:Attribute name="DOCTOR_FK_ID" changeable="none" visibility="public" ownerScope="instance" targetScope="instance">
+									<UML:Attribute.initialValue>
+										<UML:Expression/>
+									</UML:Attribute.initialValue>
+									<UML:StructuralFeature.type>
+										<UML:Classifier xmi.idref="eaxmiid0"/>
+									</UML:StructuralFeature.type>
+									<UML:ModelElement.stereotype>
+										<UML:Stereotype name="column"/>
+									</UML:ModelElement.stereotype>
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="ordered" value="0"/>
+										<UML:TaggedValue tag="stereotype" value="column"/>
+										<UML:TaggedValue tag="collection" value="true"/>
+										<UML:TaggedValue tag="position" value="1"/>
+										<UML:TaggedValue tag="lowerBound" value="1"/>
+										<UML:TaggedValue tag="upperBound" value="1"/>
+										<UML:TaggedValue tag="duplicates" value="1"/>
+										<UML:TaggedValue tag="ea_guid" value="{4E71DF34-C4B5-4dd5-B599-7B4456C7D212}"/>
+										<UML:TaggedValue tag="ea_localid" value="12948"/>
+									</UML:ModelElement.taggedValue>
+								</UML:Attribute>
+								<UML:Attribute name="PATIENT_FK_ID" changeable="none" visibility="public" ownerScope="instance" targetScope="instance">
+									<UML:Attribute.initialValue>
+										<UML:Expression/>
+									</UML:Attribute.initialValue>
+									<UML:StructuralFeature.type>
+										<UML:Classifier xmi.idref="eaxmiid0"/>
+									</UML:StructuralFeature.type>
+									<UML:ModelElement.stereotype>
+										<UML:Stereotype name="column"/>
+									</UML:ModelElement.stereotype>
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="ordered" value="0"/>
+										<UML:TaggedValue tag="stereotype" value="column"/>
+										<UML:TaggedValue tag="collection" value="true"/>
+										<UML:TaggedValue tag="position" value="2"/>
+										<UML:TaggedValue tag="lowerBound" value="1"/>
+										<UML:TaggedValue tag="upperBound" value="1"/>
+										<UML:TaggedValue tag="duplicates" value="1"/>
+										<UML:TaggedValue tag="ea_guid" value="{BE8685AE-0841-4902-8315-41517621B347}"/>
+										<UML:TaggedValue tag="ea_localid" value="12949"/>
+									</UML:ModelElement.taggedValue>
+								</UML:Attribute>
+								<UML:Attribute name="CAREGIVER_FK_ID" changeable="none" visibility="public" ownerScope="instance" targetScope="instance">
+									<UML:Attribute.initialValue>
+										<UML:Expression/>
+									</UML:Attribute.initialValue>
+									<UML:StructuralFeature.type>
+										<UML:Classifier xmi.idref="eaxmiid0"/>
+									</UML:StructuralFeature.type>
+									<UML:ModelElement.stereotype>
+										<UML:Stereotype name="column"/>
+									</UML:ModelElement.stereotype>
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="ordered" value="0"/>
+										<UML:TaggedValue tag="stereotype" value="column"/>
+										<UML:TaggedValue tag="collection" value="true"/>
+										<UML:TaggedValue tag="position" value="3"/>
+										<UML:TaggedValue tag="lowerBound" value="1"/>
+										<UML:TaggedValue tag="upperBound" value="1"/>
+										<UML:TaggedValue tag="duplicates" value="1"/>
+										<UML:TaggedValue tag="ea_guid" value="{2706DED8-8E28-419e-98D4-BCDD9B4197A7}"/>
+										<UML:TaggedValue tag="ea_localid" value="12950"/>
+									</UML:ModelElement.taggedValue>
+								</UML:Attribute>
+								<UML:Operation name="FK_CAREGIVER_FK_ID" visibility="public" ownerScope="instance" isQuery="false" concurrency="sequential">
+									<UML:ModelElement.stereotype>
+										<UML:Stereotype name="FK"/>
+									</UML:ModelElement.stereotype>
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="documentation" value="Foreign key constraint"/>
+										<UML:TaggedValue tag="const" value="false"/>
+										<UML:TaggedValue tag="stereotype" value="FK"/>
+										<UML:TaggedValue tag="synchronised" value="0"/>
+										<UML:TaggedValue tag="position" value="0"/>
+										<UML:TaggedValue tag="returnarray" value="0"/>
+										<UML:TaggedValue tag="pure" value="0"/>
+										<UML:TaggedValue tag="ea_guid" value="{0C76321E-593C-481e-BCEC-E2FFE7B5C50C}"/>
+										<UML:TaggedValue tag="ea_localid" value="28443"/>
+									</UML:ModelElement.taggedValue>
+									<UML:BehavioralFeature.parameter>
+										<UML:Parameter kind="return" visibility="public">
+											<UML:Parameter.type>
+												<UML:Classifier xmi.idref="eaxmiid0"/>
+											</UML:Parameter.type>
+											<UML:ModelElement.taggedValue>
+												<UML:TaggedValue tag="pos" value="0"/>
+												<UML:TaggedValue tag="const" value="0"/>
+												<UML:TaggedValue tag="ea_guid" value="{RETURNID-593C-481e-BCEC-E2FFE7B5C50C}"/>
+											</UML:ModelElement.taggedValue>
+											<UML:Parameter.defaultValue>
+												<UML:Expression/>
+											</UML:Parameter.defaultValue>
+										</UML:Parameter>
+										<UML:Parameter name="CAREGIVER_FK_ID" kind="in" visibility="public">
+											<UML:Parameter.type>
+												<UML:Classifier xmi.idref="eaxmiid0"/>
+											</UML:Parameter.type>
+											<UML:ModelElement.taggedValue>
+												<UML:TaggedValue tag="pos" value="0"/>
+												<UML:TaggedValue tag="const" value="0"/>
+												<UML:TaggedValue tag="ea_guid" value="{FABB5828-02F9-434d-9E9F-F3D82DF6AF5B}"/>
+											</UML:ModelElement.taggedValue>
+											<UML:Parameter.defaultValue>
+												<UML:Expression/>
+											</UML:Parameter.defaultValue>
+										</UML:Parameter>
+									</UML:BehavioralFeature.parameter>
+								</UML:Operation>
+								<UML:Operation name="FK_DOCTOR_FK_ID" visibility="public" ownerScope="instance" isQuery="false" concurrency="sequential">
+									<UML:ModelElement.stereotype>
+										<UML:Stereotype name="FK"/>
+									</UML:ModelElement.stereotype>
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="documentation" value="Foreign key constraint"/>
+										<UML:TaggedValue tag="const" value="false"/>
+										<UML:TaggedValue tag="stereotype" value="FK"/>
+										<UML:TaggedValue tag="synchronised" value="0"/>
+										<UML:TaggedValue tag="position" value="0"/>
+										<UML:TaggedValue tag="returnarray" value="0"/>
+										<UML:TaggedValue tag="pure" value="0"/>
+										<UML:TaggedValue tag="ea_guid" value="{A1EB5979-917C-449a-BDDD-8222A0A8E308}"/>
+										<UML:TaggedValue tag="ea_localid" value="28441"/>
+									</UML:ModelElement.taggedValue>
+									<UML:BehavioralFeature.parameter>
+										<UML:Parameter kind="return" visibility="public">
+											<UML:Parameter.type>
+												<UML:Classifier xmi.idref="eaxmiid0"/>
+											</UML:Parameter.type>
+											<UML:ModelElement.taggedValue>
+												<UML:TaggedValue tag="pos" value="0"/>
+												<UML:TaggedValue tag="const" value="0"/>
+												<UML:TaggedValue tag="ea_guid" value="{RETURNID-917C-449a-BDDD-8222A0A8E308}"/>
+											</UML:ModelElement.taggedValue>
+											<UML:Parameter.defaultValue>
+												<UML:Expression/>
+											</UML:Parameter.defaultValue>
+										</UML:Parameter>
+										<UML:Parameter name="DOCTOR_FK_ID" kind="in" visibility="public">
+											<UML:Parameter.type>
+												<UML:Classifier xmi.idref="eaxmiid0"/>
+											</UML:Parameter.type>
+											<UML:ModelElement.taggedValue>
+												<UML:TaggedValue tag="pos" value="0"/>
+												<UML:TaggedValue tag="const" value="0"/>
+												<UML:TaggedValue tag="ea_guid" value="{8E93BABD-866E-4968-8349-A670AFB74EE0}"/>
+											</UML:ModelElement.taggedValue>
+											<UML:Parameter.defaultValue>
+												<UML:Expression/>
+											</UML:Parameter.defaultValue>
+										</UML:Parameter>
+									</UML:BehavioralFeature.parameter>
+								</UML:Operation>
+								<UML:Operation name="FK_PATIENT_FK_ID" visibility="public" ownerScope="instance" isQuery="false" concurrency="sequential">
+									<UML:ModelElement.stereotype>
+										<UML:Stereotype name="FK"/>
+									</UML:ModelElement.stereotype>
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="documentation" value="Foreign key constraint"/>
+										<UML:TaggedValue tag="const" value="false"/>
+										<UML:TaggedValue tag="stereotype" value="FK"/>
+										<UML:TaggedValue tag="synchronised" value="0"/>
+										<UML:TaggedValue tag="position" value="0"/>
+										<UML:TaggedValue tag="returnarray" value="0"/>
+										<UML:TaggedValue tag="pure" value="0"/>
+										<UML:TaggedValue tag="ea_guid" value="{9F70720E-10B6-40c0-860C-5E0777FDAAAD}"/>
+										<UML:TaggedValue tag="ea_localid" value="28442"/>
+									</UML:ModelElement.taggedValue>
+									<UML:BehavioralFeature.parameter>
+										<UML:Parameter kind="return" visibility="public">
+											<UML:Parameter.type>
+												<UML:Classifier xmi.idref="eaxmiid0"/>
+											</UML:Parameter.type>
+											<UML:ModelElement.taggedValue>
+												<UML:TaggedValue tag="pos" value="0"/>
+												<UML:TaggedValue tag="const" value="0"/>
+												<UML:TaggedValue tag="ea_guid" value="{RETURNID-10B6-40c0-860C-5E0777FDAAAD}"/>
+											</UML:ModelElement.taggedValue>
+											<UML:Parameter.defaultValue>
+												<UML:Expression/>
+											</UML:Parameter.defaultValue>
+										</UML:Parameter>
+										<UML:Parameter name="PATIENT_FK_ID" kind="in" visibility="public">
+											<UML:Parameter.type>
+												<UML:Classifier xmi.idref="eaxmiid0"/>
+											</UML:Parameter.type>
+											<UML:ModelElement.taggedValue>
+												<UML:TaggedValue tag="pos" value="0"/>
+												<UML:TaggedValue tag="const" value="0"/>
+												<UML:TaggedValue tag="ea_guid" value="{DACC0AFB-5081-429a-BC2F-DA8F0BE3CFEF}"/>
+											</UML:ModelElement.taggedValue>
+											<UML:Parameter.defaultValue>
+												<UML:Expression/>
+											</UML:Parameter.defaultValue>
+										</UML:Parameter>
+									</UML:BehavioralFeature.parameter>
+								</UML:Operation>
+								<UML:Operation name="PK_PATIENT_LINKS" visibility="public" ownerScope="instance" isQuery="false" concurrency="sequential">
+									<UML:ModelElement.stereotype>
+										<UML:Stereotype name="PK"/>
+									</UML:ModelElement.stereotype>
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="const" value="false"/>
+										<UML:TaggedValue tag="stereotype" value="PK"/>
+										<UML:TaggedValue tag="synchronised" value="0"/>
+										<UML:TaggedValue tag="position" value="0"/>
+										<UML:TaggedValue tag="returnarray" value="0"/>
+										<UML:TaggedValue tag="pure" value="0"/>
+										<UML:TaggedValue tag="ea_guid" value="{50EA4A24-2998-49cb-9992-264730380DF6}"/>
+										<UML:TaggedValue tag="ea_localid" value="28436"/>
+									</UML:ModelElement.taggedValue>
+									<UML:BehavioralFeature.parameter>
+										<UML:Parameter kind="return" visibility="public">
+											<UML:Parameter.type>
+												<UML:Classifier xmi.idref="eaxmiid0"/>
+											</UML:Parameter.type>
+											<UML:ModelElement.taggedValue>
+												<UML:TaggedValue tag="pos" value="0"/>
+												<UML:TaggedValue tag="const" value="0"/>
+												<UML:TaggedValue tag="ea_guid" value="{RETURNID-2998-49cb-9992-264730380DF6}"/>
+											</UML:ModelElement.taggedValue>
+											<UML:Parameter.defaultValue>
+												<UML:Expression/>
+											</UML:Parameter.defaultValue>
+										</UML:Parameter>
+										<UML:Parameter name="ID" kind="in" visibility="public">
+											<UML:Parameter.type>
+												<UML:Classifier xmi.idref="eaxmiid0"/>
+											</UML:Parameter.type>
+											<UML:ModelElement.taggedValue>
+												<UML:TaggedValue tag="pos" value="0"/>
+												<UML:TaggedValue tag="const" value="0"/>
+												<UML:TaggedValue tag="ea_guid" value="{0F4F0EA4-FFD0-413e-9A5C-A87CD21D1745}"/>
+											</UML:ModelElement.taggedValue>
+											<UML:Parameter.defaultValue>
+												<UML:Expression/>
+											</UML:Parameter.defaultValue>
+										</UML:Parameter>
+									</UML:BehavioralFeature.parameter>
+								</UML:Operation>
+							</UML:Classifier.feature>
+						</UML:Class>
+						<UML:Association xmi.id="EAID_A0FFA5D2_D1D4_4e03_AD96_B6D340BE480E" visibility="public" isRoot="false" isLeaf="false" isAbstract="false">
 							<UML:ModelElement.taggedValue>
 								<UML:TaggedValue tag="style" value="3"/>
 								<UML:TaggedValue tag="ea_type" value="Association"/>
@@ -422,26 +699,65 @@
 								<UML:TaggedValue tag="seqno" value="0"/>
 								<UML:TaggedValue tag="headStyle" value="0"/>
 								<UML:TaggedValue tag="lineStyle" value="0"/>
-								<UML:TaggedValue tag="ea_localid" value="15993"/>
-								<UML:TaggedValue tag="ea_sourceName" value="TREATMENT"/>
+								<UML:TaggedValue tag="ea_localid" value="30625"/>
+								<UML:TaggedValue tag="ea_sourceName" value="PATIENT_LINKS"/>
 								<UML:TaggedValue tag="ea_targetName" value="PERSON"/>
 								<UML:TaggedValue tag="ea_sourceType" value="Class"/>
 								<UML:TaggedValue tag="ea_targetType" value="Class"/>
-								<UML:TaggedValue tag="ea_sourceID" value="17829"/>
-								<UML:TaggedValue tag="ea_targetID" value="17826"/>
+								<UML:TaggedValue tag="ea_sourceID" value="35409"/>
+								<UML:TaggedValue tag="ea_targetID" value="17844"/>
+								<UML:TaggedValue tag="virtualInheritance" value="0"/>
+								<UML:TaggedValue tag="lt" value="+CAREGIVER_FK_ID"/>
+								<UML:TaggedValue tag="rt" value="+PK_PERSON"/>
+							</UML:ModelElement.taggedValue>
+							<UML:Association.connection>
+								<UML:AssociationEnd visibility="public" name="CAREGIVER_FK_ID" aggregation="none" isOrdered="false" targetScope="instance" changeable="none" isNavigable="true" type="EAID_70E71B65_E7DD_469c_BD9A_224DC69D8918">
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="containment" value="Unspecified"/>
+										<UML:TaggedValue tag="sourcestyle" value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Non-Navigable;"/>
+										<UML:TaggedValue tag="ea_end" value="source"/>
+									</UML:ModelElement.taggedValue>
+								</UML:AssociationEnd>
+								<UML:AssociationEnd visibility="public" name="PK_PERSON" aggregation="none" isOrdered="false" targetScope="instance" changeable="none" isNavigable="true" type="EAID_EFAA5D0A_DD8B_479a_8138_8ECA4136E916">
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="containment" value="Unspecified"/>
+										<UML:TaggedValue tag="deststyle" value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Unspecified;"/>
+										<UML:TaggedValue tag="ea_end" value="target"/>
+									</UML:ModelElement.taggedValue>
+								</UML:AssociationEnd>
+							</UML:Association.connection>
+						</UML:Association>
+						<UML:Association xmi.id="EAID_E76BE468_CBB3_458f_98B7_EF4750F31E0A" visibility="public" isRoot="false" isLeaf="false" isAbstract="false">
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="style" value="3"/>
+								<UML:TaggedValue tag="ea_type" value="Association"/>
+								<UML:TaggedValue tag="direction" value="Unspecified"/>
+								<UML:TaggedValue tag="linemode" value="3"/>
+								<UML:TaggedValue tag="linecolor" value="-1"/>
+								<UML:TaggedValue tag="linewidth" value="0"/>
+								<UML:TaggedValue tag="seqno" value="0"/>
+								<UML:TaggedValue tag="headStyle" value="0"/>
+								<UML:TaggedValue tag="lineStyle" value="0"/>
+								<UML:TaggedValue tag="ea_localid" value="30624"/>
+								<UML:TaggedValue tag="ea_sourceName" value="PATIENT_LINKS"/>
+								<UML:TaggedValue tag="ea_targetName" value="PERSON"/>
+								<UML:TaggedValue tag="ea_sourceType" value="Class"/>
+								<UML:TaggedValue tag="ea_targetType" value="Class"/>
+								<UML:TaggedValue tag="ea_sourceID" value="35409"/>
+								<UML:TaggedValue tag="ea_targetID" value="17844"/>
 								<UML:TaggedValue tag="virtualInheritance" value="0"/>
 								<UML:TaggedValue tag="lt" value="+PATIENT_FK_ID"/>
-								<UML:TaggedValue tag="rt" value="+PK_USER"/>
+								<UML:TaggedValue tag="rt" value="+PK_PERSON"/>
 							</UML:ModelElement.taggedValue>
 							<UML:Association.connection>
-								<UML:AssociationEnd visibility="public" name="PATIENT_FK_ID" aggregation="none" isOrdered="false" targetScope="instance" changeable="none" isNavigable="true" type="EAID_637B48B1_EAC1_48f1_BBED_DCB82081B121">
+								<UML:AssociationEnd visibility="public" name="PATIENT_FK_ID" aggregation="none" isOrdered="false" targetScope="instance" changeable="none" isNavigable="true" type="EAID_70E71B65_E7DD_469c_BD9A_224DC69D8918">
 									<UML:ModelElement.taggedValue>
 										<UML:TaggedValue tag="containment" value="Unspecified"/>
 										<UML:TaggedValue tag="sourcestyle" value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Non-Navigable;"/>
 										<UML:TaggedValue tag="ea_end" value="source"/>
 									</UML:ModelElement.taggedValue>
 								</UML:AssociationEnd>
-								<UML:AssociationEnd visibility="public" name="PK_USER" aggregation="none" isOrdered="false" targetScope="instance" changeable="none" isNavigable="true" type="EAID_EFAA5D0A_DD8B_479a_8138_8ECA4136E916">
+								<UML:AssociationEnd visibility="public" name="PK_PERSON" aggregation="none" isOrdered="false" targetScope="instance" changeable="none" isNavigable="true" type="EAID_EFAA5D0A_DD8B_479a_8138_8ECA4136E916">
 									<UML:ModelElement.taggedValue>
 										<UML:TaggedValue tag="containment" value="Unspecified"/>
 										<UML:TaggedValue tag="deststyle" value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Unspecified;"/>
@@ -450,7 +766,7 @@
 								</UML:AssociationEnd>
 							</UML:Association.connection>
 						</UML:Association>
-						<UML:Association xmi.id="EAID_50E4FC06_E427_436c_952A_063ECF2618C6" visibility="public" isRoot="false" isLeaf="false" isAbstract="false">
+						<UML:Association xmi.id="EAID_ECF0C606_5FB4_4c73_87D4_7C41D7626997" visibility="public" isRoot="false" isLeaf="false" isAbstract="false">
 							<UML:ModelElement.taggedValue>
 								<UML:TaggedValue tag="style" value="3"/>
 								<UML:TaggedValue tag="ea_type" value="Association"/>
@@ -461,26 +777,26 @@
 								<UML:TaggedValue tag="seqno" value="0"/>
 								<UML:TaggedValue tag="headStyle" value="0"/>
 								<UML:TaggedValue tag="lineStyle" value="0"/>
-								<UML:TaggedValue tag="ea_localid" value="15994"/>
-								<UML:TaggedValue tag="ea_sourceName" value="TREATMENT"/>
+								<UML:TaggedValue tag="ea_localid" value="30623"/>
+								<UML:TaggedValue tag="ea_sourceName" value="PATIENT_LINKS"/>
 								<UML:TaggedValue tag="ea_targetName" value="PERSON"/>
 								<UML:TaggedValue tag="ea_sourceType" value="Class"/>
 								<UML:TaggedValue tag="ea_targetType" value="Class"/>
-								<UML:TaggedValue tag="ea_sourceID" value="17829"/>
-								<UML:TaggedValue tag="ea_targetID" value="17826"/>
+								<UML:TaggedValue tag="ea_sourceID" value="35409"/>
+								<UML:TaggedValue tag="ea_targetID" value="17844"/>
 								<UML:TaggedValue tag="virtualInheritance" value="0"/>
-								<UML:TaggedValue tag="lt" value="+PHYSICIAN_FK_ID"/>
-								<UML:TaggedValue tag="rt" value="+PK_USER"/>
+								<UML:TaggedValue tag="lt" value="+DOCTOR_FK_ID"/>
+								<UML:TaggedValue tag="rt" value="+PK_PERSON"/>
 							</UML:ModelElement.taggedValue>
 							<UML:Association.connection>
-								<UML:AssociationEnd visibility="public" name="PHYSICIAN_FK_ID" aggregation="none" isOrdered="false" targetScope="instance" changeable="none" isNavigable="true" type="EAID_637B48B1_EAC1_48f1_BBED_DCB82081B121">
+								<UML:AssociationEnd visibility="public" name="DOCTOR_FK_ID" aggregation="none" isOrdered="false" targetScope="instance" changeable="none" isNavigable="true" type="EAID_70E71B65_E7DD_469c_BD9A_224DC69D8918">
 									<UML:ModelElement.taggedValue>
 										<UML:TaggedValue tag="containment" value="Unspecified"/>
 										<UML:TaggedValue tag="sourcestyle" value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Non-Navigable;"/>
 										<UML:TaggedValue tag="ea_end" value="source"/>
 									</UML:ModelElement.taggedValue>
 								</UML:AssociationEnd>
-								<UML:AssociationEnd visibility="public" name="PK_USER" aggregation="none" isOrdered="false" targetScope="instance" changeable="none" isNavigable="true" type="EAID_EFAA5D0A_DD8B_479a_8138_8ECA4136E916">
+								<UML:AssociationEnd visibility="public" name="PK_PERSON" aggregation="none" isOrdered="false" targetScope="instance" changeable="none" isNavigable="true" type="EAID_EFAA5D0A_DD8B_479a_8138_8ECA4136E916">
 									<UML:ModelElement.taggedValue>
 										<UML:TaggedValue tag="containment" value="Unspecified"/>
 										<UML:TaggedValue tag="deststyle" value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Unspecified;"/>
@@ -489,45 +805,209 @@
 								</UML:AssociationEnd>
 							</UML:Association.connection>
 						</UML:Association>
-						<UML:Association xmi.id="EAID_6674B50E_FDD0_42cc_9198_5425707F5B9A" visibility="public" isRoot="false" isLeaf="false" isAbstract="false">
+						<UML:Class name="PROPERTIES" xmi.id="EAID_74A11565_2684_4304_9BDA_84656AB1A427" visibility="public" namespace="EAPK_0DAD8747_BEEE_4d6e_AE68_EA968BB0E474" isRoot="false" isLeaf="false" isAbstract="false" isActive="false">
+							<UML:ModelElement.stereotype>
+								<UML:Stereotype name="table"/>
+							</UML:ModelElement.stereotype>
 							<UML:ModelElement.taggedValue>
-								<UML:TaggedValue tag="style" value="3"/>
-								<UML:TaggedValue tag="ea_type" value="Association"/>
-								<UML:TaggedValue tag="direction" value="Unspecified"/>
-								<UML:TaggedValue tag="linemode" value="3"/>
-								<UML:TaggedValue tag="linecolor" value="-1"/>
-								<UML:TaggedValue tag="linewidth" value="0"/>
-								<UML:TaggedValue tag="seqno" value="0"/>
-								<UML:TaggedValue tag="headStyle" value="0"/>
-								<UML:TaggedValue tag="lineStyle" value="0"/>
-								<UML:TaggedValue tag="ea_localid" value="15997"/>
-								<UML:TaggedValue tag="ea_sourceName" value="PRESCRIBED_MEDICINE"/>
-								<UML:TaggedValue tag="ea_targetName" value="TREATMENT"/>
-								<UML:TaggedValue tag="ea_sourceType" value="Class"/>
-								<UML:TaggedValue tag="ea_targetType" value="Class"/>
-								<UML:TaggedValue tag="ea_sourceID" value="17830"/>
-								<UML:TaggedValue tag="ea_targetID" value="17829"/>
-								<UML:TaggedValue tag="virtualInheritance" value="0"/>
-								<UML:TaggedValue tag="lt" value="+TREATMENT_FK_ID"/>
-								<UML:TaggedValue tag="rt" value="+PK_TREATMENT"/>
+								<UML:TaggedValue tag="isSpecification" value="false"/>
+								<UML:TaggedValue tag="ea_stype" value="Class"/>
+								<UML:TaggedValue tag="ea_ntype" value="0"/>
+								<UML:TaggedValue tag="version" value="1.0"/>
+								<UML:TaggedValue tag="package" value="EAPK_0DAD8747_BEEE_4d6e_AE68_EA968BB0E474"/>
+								<UML:TaggedValue tag="date_created" value="2013-11-06 17:23:36"/>
+								<UML:TaggedValue tag="date_modified" value="2013-11-06 17:29:26"/>
+								<UML:TaggedValue tag="tagged" value="0"/>
+								<UML:TaggedValue tag="package_name" value="Database"/>
+								<UML:TaggedValue tag="phase" value="1.0"/>
+								<UML:TaggedValue tag="author" value="Venelin"/>
+								<UML:TaggedValue tag="complexity" value="1"/>
+								<UML:TaggedValue tag="status" value="Proposed"/>
+								<UML:TaggedValue tag="stereotype" value="table"/>
+								<UML:TaggedValue tag="tpos" value="0"/>
+								<UML:TaggedValue tag="ea_localid" value="35410"/>
+								<UML:TaggedValue tag="ea_eleType" value="element"/>
+								<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+								<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={D96CF495-09A0-4d3b-B657-616BF70BC3D9}$XID;$NAM=Stereotypes$NAM;$TYP=element property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=table;FQName=EAUI::table;@ENDSTEREO;$DES;$CLT={74A11565-2684-4304-9BDA-84656AB1A427}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
 							</UML:ModelElement.taggedValue>
-							<UML:Association.connection>
-								<UML:AssociationEnd visibility="public" name="TREATMENT_FK_ID" aggregation="none" isOrdered="false" targetScope="instance" changeable="none" isNavigable="true" type="EAID_9994E9D7_3A38_46db_BEDE_C61B1E3F8AAF">
+							<UML:Classifier.feature>
+								<UML:Attribute name="ID" changeable="none" visibility="public" ownerScope="instance" targetScope="instance">
+									<UML:Attribute.initialValue>
+										<UML:Expression/>
+									</UML:Attribute.initialValue>
+									<UML:StructuralFeature.type>
+										<UML:Classifier xmi.idref="eaxmiid0"/>
+									</UML:StructuralFeature.type>
+									<UML:ModelElement.stereotype>
+										<UML:Stereotype name="column"/>
+									</UML:ModelElement.stereotype>
 									<UML:ModelElement.taggedValue>
-										<UML:TaggedValue tag="containment" value="Unspecified"/>
-										<UML:TaggedValue tag="sourcestyle" value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Unspecified;"/>
-										<UML:TaggedValue tag="ea_end" value="source"/>
+										<UML:TaggedValue tag="ordered" value="1"/>
+										<UML:TaggedValue tag="stereotype" value="column"/>
+										<UML:TaggedValue tag="collection" value="false"/>
+										<UML:TaggedValue tag="position" value="0"/>
+										<UML:TaggedValue tag="lowerBound" value="1"/>
+										<UML:TaggedValue tag="upperBound" value="1"/>
+										<UML:TaggedValue tag="duplicates" value="1"/>
+										<UML:TaggedValue tag="ea_guid" value="{B7118899-0172-4da3-A0A1-62EE279E9F8F}"/>
+										<UML:TaggedValue tag="ea_localid" value="12966"/>
 									</UML:ModelElement.taggedValue>
-								</UML:AssociationEnd>
-								<UML:AssociationEnd visibility="public" name="PK_TREATMENT" aggregation="none" isOrdered="false" targetScope="instance" changeable="none" isNavigable="true" type="EAID_637B48B1_EAC1_48f1_BBED_DCB82081B121">
+								</UML:Attribute>
+								<UML:Attribute name="NAME" changeable="none" visibility="public" ownerScope="instance" targetScope="instance">
+									<UML:Attribute.initialValue>
+										<UML:Expression/>
+									</UML:Attribute.initialValue>
+									<UML:StructuralFeature.type>
+										<UML:Classifier xmi.idref="eaxmiid0"/>
+									</UML:StructuralFeature.type>
+									<UML:ModelElement.stereotype>
+										<UML:Stereotype name="column"/>
+									</UML:ModelElement.stereotype>
 									<UML:ModelElement.taggedValue>
-										<UML:TaggedValue tag="containment" value="Unspecified"/>
-										<UML:TaggedValue tag="deststyle" value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Unspecified;"/>
-										<UML:TaggedValue tag="ea_end" value="target"/>
+										<UML:TaggedValue tag="ordered" value="0"/>
+										<UML:TaggedValue tag="stereotype" value="column"/>
+										<UML:TaggedValue tag="collection" value="false"/>
+										<UML:TaggedValue tag="position" value="1"/>
+										<UML:TaggedValue tag="lowerBound" value="1"/>
+										<UML:TaggedValue tag="upperBound" value="1"/>
+										<UML:TaggedValue tag="duplicates" value="1"/>
+										<UML:TaggedValue tag="ea_guid" value="{3BACCEC8-0190-4134-AB7D-0CF288C4854F}"/>
+										<UML:TaggedValue tag="ea_localid" value="12967"/>
 									</UML:ModelElement.taggedValue>
-								</UML:AssociationEnd>
-							</UML:Association.connection>
-						</UML:Association>
+								</UML:Attribute>
+								<UML:Attribute name="VALUE" changeable="none" visibility="public" ownerScope="instance" targetScope="instance">
+									<UML:Attribute.initialValue>
+										<UML:Expression/>
+									</UML:Attribute.initialValue>
+									<UML:StructuralFeature.type>
+										<UML:Classifier xmi.idref="eaxmiid0"/>
+									</UML:StructuralFeature.type>
+									<UML:ModelElement.stereotype>
+										<UML:Stereotype name="column"/>
+									</UML:ModelElement.stereotype>
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="ordered" value="0"/>
+										<UML:TaggedValue tag="stereotype" value="column"/>
+										<UML:TaggedValue tag="collection" value="false"/>
+										<UML:TaggedValue tag="position" value="2"/>
+										<UML:TaggedValue tag="lowerBound" value="1"/>
+										<UML:TaggedValue tag="upperBound" value="1"/>
+										<UML:TaggedValue tag="duplicates" value="1"/>
+										<UML:TaggedValue tag="ea_guid" value="{2EA1A200-380F-4ff3-AD56-AE6388A818C7}"/>
+										<UML:TaggedValue tag="ea_localid" value="12968"/>
+									</UML:ModelElement.taggedValue>
+								</UML:Attribute>
+								<UML:Attribute name="FORMAT" changeable="none" visibility="public" ownerScope="instance" targetScope="instance">
+									<UML:Attribute.initialValue>
+										<UML:Expression/>
+									</UML:Attribute.initialValue>
+									<UML:StructuralFeature.type>
+										<UML:Classifier xmi.idref="eaxmiid0"/>
+									</UML:StructuralFeature.type>
+									<UML:ModelElement.stereotype>
+										<UML:Stereotype name="column"/>
+									</UML:ModelElement.stereotype>
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="ordered" value="0"/>
+										<UML:TaggedValue tag="stereotype" value="column"/>
+										<UML:TaggedValue tag="collection" value="false"/>
+										<UML:TaggedValue tag="position" value="3"/>
+										<UML:TaggedValue tag="lowerBound" value="1"/>
+										<UML:TaggedValue tag="upperBound" value="1"/>
+										<UML:TaggedValue tag="duplicates" value="1"/>
+										<UML:TaggedValue tag="ea_guid" value="{8F609FAB-0AA2-48f6-B7A9-A564F59B6179}"/>
+										<UML:TaggedValue tag="ea_localid" value="12969"/>
+									</UML:ModelElement.taggedValue>
+								</UML:Attribute>
+								<UML:Attribute name="TYPE" changeable="none" visibility="public" ownerScope="instance" targetScope="instance">
+									<UML:Attribute.initialValue>
+										<UML:Expression/>
+									</UML:Attribute.initialValue>
+									<UML:StructuralFeature.type>
+										<UML:Classifier xmi.idref="eaxmiid0"/>
+									</UML:StructuralFeature.type>
+									<UML:ModelElement.stereotype>
+										<UML:Stereotype name="column"/>
+									</UML:ModelElement.stereotype>
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="ordered" value="0"/>
+										<UML:TaggedValue tag="stereotype" value="column"/>
+										<UML:TaggedValue tag="collection" value="false"/>
+										<UML:TaggedValue tag="position" value="4"/>
+										<UML:TaggedValue tag="lowerBound" value="1"/>
+										<UML:TaggedValue tag="upperBound" value="1"/>
+										<UML:TaggedValue tag="duplicates" value="1"/>
+										<UML:TaggedValue tag="ea_guid" value="{85243F24-7FA9-4ad9-93E8-B552F1B22473}"/>
+										<UML:TaggedValue tag="ea_localid" value="12970"/>
+									</UML:ModelElement.taggedValue>
+								</UML:Attribute>
+								<UML:Attribute name="DESCRIPTION" changeable="none" visibility="public" ownerScope="instance" targetScope="instance">
+									<UML:Attribute.initialValue>
+										<UML:Expression/>
+									</UML:Attribute.initialValue>
+									<UML:StructuralFeature.type>
+										<UML:Classifier xmi.idref="eaxmiid0"/>
+									</UML:StructuralFeature.type>
+									<UML:ModelElement.stereotype>
+										<UML:Stereotype name="column"/>
+									</UML:ModelElement.stereotype>
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="ordered" value="0"/>
+										<UML:TaggedValue tag="stereotype" value="column"/>
+										<UML:TaggedValue tag="collection" value="false"/>
+										<UML:TaggedValue tag="position" value="5"/>
+										<UML:TaggedValue tag="lowerBound" value="1"/>
+										<UML:TaggedValue tag="upperBound" value="1"/>
+										<UML:TaggedValue tag="duplicates" value="1"/>
+										<UML:TaggedValue tag="ea_guid" value="{532E0A3F-A291-4aa3-A4FC-ADF2E0479017}"/>
+										<UML:TaggedValue tag="ea_localid" value="12971"/>
+									</UML:ModelElement.taggedValue>
+								</UML:Attribute>
+								<UML:Operation name="PK_PROPERTIES" visibility="public" ownerScope="instance" isQuery="false" concurrency="sequential">
+									<UML:ModelElement.stereotype>
+										<UML:Stereotype name="PK"/>
+									</UML:ModelElement.stereotype>
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="const" value="false"/>
+										<UML:TaggedValue tag="stereotype" value="PK"/>
+										<UML:TaggedValue tag="synchronised" value="0"/>
+										<UML:TaggedValue tag="position" value="0"/>
+										<UML:TaggedValue tag="returnarray" value="0"/>
+										<UML:TaggedValue tag="pure" value="0"/>
+										<UML:TaggedValue tag="ea_guid" value="{1FD49FF0-467A-4b67-970E-F4C3350F2D8A}"/>
+										<UML:TaggedValue tag="ea_localid" value="28438"/>
+									</UML:ModelElement.taggedValue>
+									<UML:BehavioralFeature.parameter>
+										<UML:Parameter kind="return" visibility="public">
+											<UML:Parameter.type>
+												<UML:Classifier xmi.idref="eaxmiid0"/>
+											</UML:Parameter.type>
+											<UML:ModelElement.taggedValue>
+												<UML:TaggedValue tag="pos" value="0"/>
+												<UML:TaggedValue tag="const" value="0"/>
+												<UML:TaggedValue tag="ea_guid" value="{RETURNID-467A-4b67-970E-F4C3350F2D8A}"/>
+											</UML:ModelElement.taggedValue>
+											<UML:Parameter.defaultValue>
+												<UML:Expression/>
+											</UML:Parameter.defaultValue>
+										</UML:Parameter>
+										<UML:Parameter name="ID" kind="in" visibility="public">
+											<UML:Parameter.type>
+												<UML:Classifier xmi.idref="eaxmiid0"/>
+											</UML:Parameter.type>
+											<UML:ModelElement.taggedValue>
+												<UML:TaggedValue tag="pos" value="0"/>
+												<UML:TaggedValue tag="const" value="0"/>
+												<UML:TaggedValue tag="ea_guid" value="{70E581FD-879B-4919-8A8B-C68BCFB005D2}"/>
+											</UML:ModelElement.taggedValue>
+											<UML:Parameter.defaultValue>
+												<UML:Expression/>
+											</UML:Parameter.defaultValue>
+										</UML:Parameter>
+									</UML:BehavioralFeature.parameter>
+								</UML:Operation>
+							</UML:Classifier.feature>
+						</UML:Class>
 						<UML:Class name="INTAKE" xmi.id="EAID_8A825D8F_520C_4aba_A9B6_DE8C7E56784A" visibility="public" namespace="EAPK_0DAD8747_BEEE_4d6e_AE68_EA968BB0E474" isRoot="false" isLeaf="false" isAbstract="false" isActive="false">
 							<UML:ModelElement.stereotype>
 								<UML:Stereotype name="table"/>
@@ -549,7 +1029,7 @@
 								<UML:TaggedValue tag="status" value="Proposed"/>
 								<UML:TaggedValue tag="stereotype" value="table"/>
 								<UML:TaggedValue tag="tpos" value="0"/>
-								<UML:TaggedValue tag="ea_localid" value="17833"/>
+								<UML:TaggedValue tag="ea_localid" value="17837"/>
 								<UML:TaggedValue tag="ea_eleType" value="element"/>
 								<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
 								<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={030A1281-C24B-424f-9883-5FB8291A848B}$XID;$NAM=Stereotypes$NAM;$TYP=element property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=table;FQName=EAUI::table;@ENDSTEREO;$DES;$CLT={8A825D8F-520C-4aba-A9B6-DE8C7E56784A}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
@@ -566,7 +1046,10 @@
 										<UML:Stereotype name="column"/>
 									</UML:ModelElement.stereotype>
 									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="length" value="0"/>
 										<UML:TaggedValue tag="ordered" value="1"/>
+										<UML:TaggedValue tag="precision" value="0"/>
+										<UML:TaggedValue tag="scale" value="0"/>
 										<UML:TaggedValue tag="stereotype" value="column"/>
 										<UML:TaggedValue tag="collection" value="false"/>
 										<UML:TaggedValue tag="position" value="0"/>
@@ -574,10 +1057,10 @@
 										<UML:TaggedValue tag="upperBound" value="1"/>
 										<UML:TaggedValue tag="duplicates" value="1"/>
 										<UML:TaggedValue tag="ea_guid" value="{BBE88609-1940-4222-94D2-BBB3E6041C3D}"/>
-										<UML:TaggedValue tag="ea_localid" value="6736"/>
+										<UML:TaggedValue tag="ea_localid" value="6753"/>
 									</UML:ModelElement.taggedValue>
 								</UML:Attribute>
-								<UML:Attribute name="PATIENT_FK_ID" changeable="none" visibility="public" ownerScope="instance" targetScope="instance">
+								<UML:Attribute name="TREATMENT_FK_ID" changeable="none" visibility="public" ownerScope="instance" targetScope="instance">
 									<UML:Attribute.initialValue>
 										<UML:Expression/>
 									</UML:Attribute.initialValue>
@@ -590,35 +1073,13 @@
 									<UML:ModelElement.taggedValue>
 										<UML:TaggedValue tag="ordered" value="0"/>
 										<UML:TaggedValue tag="stereotype" value="column"/>
-										<UML:TaggedValue tag="collection" value="true"/>
+										<UML:TaggedValue tag="collection" value="false"/>
 										<UML:TaggedValue tag="position" value="1"/>
 										<UML:TaggedValue tag="lowerBound" value="1"/>
 										<UML:TaggedValue tag="upperBound" value="1"/>
 										<UML:TaggedValue tag="duplicates" value="1"/>
-										<UML:TaggedValue tag="ea_guid" value="{4FE8F70A-2FD4-4047-B591-AD6AAE24075A}"/>
-										<UML:TaggedValue tag="ea_localid" value="6737"/>
-									</UML:ModelElement.taggedValue>
-								</UML:Attribute>
-								<UML:Attribute name="MEDICINE_FK_ID" changeable="none" visibility="public" ownerScope="instance" targetScope="instance">
-									<UML:Attribute.initialValue>
-										<UML:Expression/>
-									</UML:Attribute.initialValue>
-									<UML:StructuralFeature.type>
-										<UML:Classifier xmi.idref="eaxmiid0"/>
-									</UML:StructuralFeature.type>
-									<UML:ModelElement.stereotype>
-										<UML:Stereotype name="column"/>
-									</UML:ModelElement.stereotype>
-									<UML:ModelElement.taggedValue>
-										<UML:TaggedValue tag="ordered" value="0"/>
-										<UML:TaggedValue tag="stereotype" value="column"/>
-										<UML:TaggedValue tag="collection" value="true"/>
-										<UML:TaggedValue tag="position" value="2"/>
-										<UML:TaggedValue tag="lowerBound" value="1"/>
-										<UML:TaggedValue tag="upperBound" value="1"/>
-										<UML:TaggedValue tag="duplicates" value="1"/>
-										<UML:TaggedValue tag="ea_guid" value="{19F8B610-A4E1-41fb-B27B-87C5AE69E9EA}"/>
-										<UML:TaggedValue tag="ea_localid" value="6738"/>
+										<UML:TaggedValue tag="ea_guid" value="{37AD747F-79CF-4b9f-A715-DA00E46A4467}"/>
+										<UML:TaggedValue tag="ea_localid" value="12965"/>
 									</UML:ModelElement.taggedValue>
 								</UML:Attribute>
 								<UML:Attribute name="QUANTITY" changeable="none" visibility="public" ownerScope="instance" targetScope="instance">
@@ -635,15 +1096,15 @@
 										<UML:TaggedValue tag="ordered" value="0"/>
 										<UML:TaggedValue tag="stereotype" value="column"/>
 										<UML:TaggedValue tag="collection" value="false"/>
-										<UML:TaggedValue tag="position" value="3"/>
+										<UML:TaggedValue tag="position" value="2"/>
 										<UML:TaggedValue tag="lowerBound" value="1"/>
 										<UML:TaggedValue tag="upperBound" value="1"/>
 										<UML:TaggedValue tag="duplicates" value="1"/>
 										<UML:TaggedValue tag="ea_guid" value="{C537F1B7-28A2-4512-AFDE-7CEE01BEDE68}"/>
-										<UML:TaggedValue tag="ea_localid" value="6739"/>
+										<UML:TaggedValue tag="ea_localid" value="6756"/>
 									</UML:ModelElement.taggedValue>
 								</UML:Attribute>
-								<UML:Attribute name="UNIT_CLASS" changeable="none" visibility="public" ownerScope="instance" targetScope="instance">
+								<UML:Attribute name="UNITS" changeable="none" visibility="public" ownerScope="instance" targetScope="instance">
 									<UML:Attribute.initialValue>
 										<UML:Expression/>
 									</UML:Attribute.initialValue>
@@ -658,12 +1119,12 @@
 										<UML:TaggedValue tag="ordered" value="0"/>
 										<UML:TaggedValue tag="stereotype" value="column"/>
 										<UML:TaggedValue tag="collection" value="false"/>
-										<UML:TaggedValue tag="position" value="4"/>
+										<UML:TaggedValue tag="position" value="3"/>
 										<UML:TaggedValue tag="lowerBound" value="1"/>
 										<UML:TaggedValue tag="upperBound" value="1"/>
 										<UML:TaggedValue tag="duplicates" value="1"/>
 										<UML:TaggedValue tag="ea_guid" value="{99AA38A0-97FB-4313-9A31-55707E3475AF}"/>
-										<UML:TaggedValue tag="ea_localid" value="6740"/>
+										<UML:TaggedValue tag="ea_localid" value="6757"/>
 									</UML:ModelElement.taggedValue>
 								</UML:Attribute>
 								<UML:Attribute name="TIME_PLAN" changeable="none" visibility="public" ownerScope="instance" targetScope="instance">
@@ -678,15 +1139,18 @@
 									</UML:ModelElement.stereotype>
 									<UML:ModelElement.taggedValue>
 										<UML:TaggedValue tag="description" value="When the medicine should be taken."/>
+										<UML:TaggedValue tag="length" value="0"/>
 										<UML:TaggedValue tag="ordered" value="0"/>
+										<UML:TaggedValue tag="precision" value="0"/>
+										<UML:TaggedValue tag="scale" value="0"/>
 										<UML:TaggedValue tag="stereotype" value="column"/>
 										<UML:TaggedValue tag="collection" value="false"/>
-										<UML:TaggedValue tag="position" value="5"/>
+										<UML:TaggedValue tag="position" value="4"/>
 										<UML:TaggedValue tag="lowerBound" value="1"/>
 										<UML:TaggedValue tag="upperBound" value="1"/>
 										<UML:TaggedValue tag="duplicates" value="1"/>
 										<UML:TaggedValue tag="ea_guid" value="{777435D9-9489-4518-B799-4A497A2DB8E1}"/>
-										<UML:TaggedValue tag="ea_localid" value="6741"/>
+										<UML:TaggedValue tag="ea_localid" value="6758"/>
 									</UML:ModelElement.taggedValue>
 								</UML:Attribute>
 								<UML:Attribute name="TIME_TAKEN" changeable="none" visibility="public" ownerScope="instance" targetScope="instance">
@@ -701,15 +1165,18 @@
 									</UML:ModelElement.stereotype>
 									<UML:ModelElement.taggedValue>
 										<UML:TaggedValue tag="description" value="When the medicine is actually taken"/>
+										<UML:TaggedValue tag="length" value="0"/>
 										<UML:TaggedValue tag="ordered" value="0"/>
+										<UML:TaggedValue tag="precision" value="0"/>
+										<UML:TaggedValue tag="scale" value="0"/>
 										<UML:TaggedValue tag="stereotype" value="column"/>
 										<UML:TaggedValue tag="collection" value="false"/>
-										<UML:TaggedValue tag="position" value="6"/>
+										<UML:TaggedValue tag="position" value="5"/>
 										<UML:TaggedValue tag="lowerBound" value="1"/>
 										<UML:TaggedValue tag="upperBound" value="1"/>
 										<UML:TaggedValue tag="duplicates" value="0"/>
 										<UML:TaggedValue tag="ea_guid" value="{451401DF-874B-4031-AEA2-7991B9AEE569}"/>
-										<UML:TaggedValue tag="ea_localid" value="6742"/>
+										<UML:TaggedValue tag="ea_localid" value="6759"/>
 									</UML:ModelElement.taggedValue>
 								</UML:Attribute>
 								<UML:Attribute name="DISPENSER_FK_ID" changeable="none" visibility="public" ownerScope="instance" targetScope="instance">
@@ -724,15 +1191,18 @@
 									</UML:ModelElement.stereotype>
 									<UML:ModelElement.taggedValue>
 										<UML:TaggedValue tag="description" value="In case the medicine is provided by a dispenser."/>
+										<UML:TaggedValue tag="length" value="0"/>
 										<UML:TaggedValue tag="ordered" value="0"/>
+										<UML:TaggedValue tag="precision" value="0"/>
+										<UML:TaggedValue tag="scale" value="0"/>
 										<UML:TaggedValue tag="stereotype" value="column"/>
 										<UML:TaggedValue tag="collection" value="true"/>
-										<UML:TaggedValue tag="position" value="7"/>
+										<UML:TaggedValue tag="position" value="6"/>
 										<UML:TaggedValue tag="lowerBound" value="1"/>
 										<UML:TaggedValue tag="upperBound" value="1"/>
 										<UML:TaggedValue tag="duplicates" value="0"/>
 										<UML:TaggedValue tag="ea_guid" value="{B04B5104-5CCF-4966-AEB1-8A55BBA3CB7D}"/>
-										<UML:TaggedValue tag="ea_localid" value="6743"/>
+										<UML:TaggedValue tag="ea_localid" value="6760"/>
 									</UML:ModelElement.taggedValue>
 								</UML:Attribute>
 								<UML:Operation name="FK_DISPENSER_FK_ID" visibility="public" ownerScope="instance" isQuery="false" concurrency="sequential">
@@ -748,7 +1218,7 @@
 										<UML:TaggedValue tag="returnarray" value="0"/>
 										<UML:TaggedValue tag="pure" value="0"/>
 										<UML:TaggedValue tag="ea_guid" value="{91CC7E39-3408-4d26-BEA7-ED0086E213B2}"/>
-										<UML:TaggedValue tag="ea_localid" value="14749"/>
+										<UML:TaggedValue tag="ea_localid" value="14755"/>
 									</UML:ModelElement.taggedValue>
 									<UML:BehavioralFeature.parameter>
 										<UML:Parameter kind="return" visibility="public">
@@ -779,94 +1249,6 @@
 										</UML:Parameter>
 									</UML:BehavioralFeature.parameter>
 								</UML:Operation>
-								<UML:Operation name="FK_MEDICINE_FK_ID" visibility="public" ownerScope="instance" isQuery="false" concurrency="sequential">
-									<UML:ModelElement.stereotype>
-										<UML:Stereotype name="FK"/>
-									</UML:ModelElement.stereotype>
-									<UML:ModelElement.taggedValue>
-										<UML:TaggedValue tag="documentation" value="Foreign key constraint"/>
-										<UML:TaggedValue tag="const" value="false"/>
-										<UML:TaggedValue tag="stereotype" value="FK"/>
-										<UML:TaggedValue tag="synchronised" value="0"/>
-										<UML:TaggedValue tag="position" value="0"/>
-										<UML:TaggedValue tag="returnarray" value="0"/>
-										<UML:TaggedValue tag="pure" value="0"/>
-										<UML:TaggedValue tag="ea_guid" value="{854B26F2-DCA5-43cb-A169-40837E9DCCA4}"/>
-										<UML:TaggedValue tag="ea_localid" value="14748"/>
-									</UML:ModelElement.taggedValue>
-									<UML:BehavioralFeature.parameter>
-										<UML:Parameter kind="return" visibility="public">
-											<UML:Parameter.type>
-												<UML:Classifier xmi.idref="eaxmiid0"/>
-											</UML:Parameter.type>
-											<UML:ModelElement.taggedValue>
-												<UML:TaggedValue tag="pos" value="0"/>
-												<UML:TaggedValue tag="const" value="0"/>
-												<UML:TaggedValue tag="ea_guid" value="{RETURNID-DCA5-43cb-A169-40837E9DCCA4}"/>
-											</UML:ModelElement.taggedValue>
-											<UML:Parameter.defaultValue>
-												<UML:Expression/>
-											</UML:Parameter.defaultValue>
-										</UML:Parameter>
-										<UML:Parameter name="MEDICINE_FK_ID" kind="in" visibility="public">
-											<UML:Parameter.type>
-												<UML:Classifier xmi.idref="eaxmiid0"/>
-											</UML:Parameter.type>
-											<UML:ModelElement.taggedValue>
-												<UML:TaggedValue tag="pos" value="0"/>
-												<UML:TaggedValue tag="const" value="0"/>
-												<UML:TaggedValue tag="ea_guid" value="{E0C8BCC0-67A6-4691-BC23-0C6EC01A76EA}"/>
-											</UML:ModelElement.taggedValue>
-											<UML:Parameter.defaultValue>
-												<UML:Expression/>
-											</UML:Parameter.defaultValue>
-										</UML:Parameter>
-									</UML:BehavioralFeature.parameter>
-								</UML:Operation>
-								<UML:Operation name="FK_PATIENT_FK_ID" visibility="public" ownerScope="instance" isQuery="false" concurrency="sequential">
-									<UML:ModelElement.stereotype>
-										<UML:Stereotype name="FK"/>
-									</UML:ModelElement.stereotype>
-									<UML:ModelElement.taggedValue>
-										<UML:TaggedValue tag="documentation" value="Foreign key constraint"/>
-										<UML:TaggedValue tag="const" value="false"/>
-										<UML:TaggedValue tag="stereotype" value="FK"/>
-										<UML:TaggedValue tag="synchronised" value="0"/>
-										<UML:TaggedValue tag="position" value="0"/>
-										<UML:TaggedValue tag="returnarray" value="0"/>
-										<UML:TaggedValue tag="pure" value="0"/>
-										<UML:TaggedValue tag="ea_guid" value="{CBBCDBC3-E98A-470c-8B71-7715BD4FD058}"/>
-										<UML:TaggedValue tag="ea_localid" value="14747"/>
-									</UML:ModelElement.taggedValue>
-									<UML:BehavioralFeature.parameter>
-										<UML:Parameter kind="return" visibility="public">
-											<UML:Parameter.type>
-												<UML:Classifier xmi.idref="eaxmiid0"/>
-											</UML:Parameter.type>
-											<UML:ModelElement.taggedValue>
-												<UML:TaggedValue tag="pos" value="0"/>
-												<UML:TaggedValue tag="const" value="0"/>
-												<UML:TaggedValue tag="ea_guid" value="{RETURNID-E98A-470c-8B71-7715BD4FD058}"/>
-											</UML:ModelElement.taggedValue>
-											<UML:Parameter.defaultValue>
-												<UML:Expression/>
-											</UML:Parameter.defaultValue>
-										</UML:Parameter>
-										<UML:Parameter name="PATIENT_FK_ID" kind="in" visibility="public">
-											<UML:Parameter.type>
-												<UML:Classifier xmi.idref="eaxmiid0"/>
-											</UML:Parameter.type>
-											<UML:ModelElement.taggedValue>
-												<UML:TaggedValue tag="pos" value="0"/>
-												<UML:TaggedValue tag="const" value="0"/>
-												<UML:TaggedValue tag="ea_guid" value="{27608A8A-6DB6-438b-9AFC-74C85A4E989C}"/>
-											</UML:ModelElement.taggedValue>
-											<UML:Parameter.defaultValue>
-												<UML:Expression/>
-											</UML:Parameter.defaultValue>
-										</UML:Parameter>
-									</UML:BehavioralFeature.parameter>
-								</UML:Operation>
 								<UML:Operation name="PK_INTAKE" visibility="public" ownerScope="instance" isQuery="false" concurrency="sequential">
 									<UML:ModelElement.stereotype>
 										<UML:Stereotype name="PK"/>
@@ -879,7 +1261,7 @@
 										<UML:TaggedValue tag="returnarray" value="0"/>
 										<UML:TaggedValue tag="pure" value="0"/>
 										<UML:TaggedValue tag="ea_guid" value="{02C8550C-B7EB-4279-B5AA-0932FECC1063}"/>
-										<UML:TaggedValue tag="ea_localid" value="14738"/>
+										<UML:TaggedValue tag="ea_localid" value="14758"/>
 									</UML:ModelElement.taggedValue>
 									<UML:BehavioralFeature.parameter>
 										<UML:Parameter kind="return" visibility="public">
@@ -923,13 +1305,13 @@
 								<UML:TaggedValue tag="seqno" value="0"/>
 								<UML:TaggedValue tag="headStyle" value="0"/>
 								<UML:TaggedValue tag="lineStyle" value="0"/>
-								<UML:TaggedValue tag="ea_localid" value="16004"/>
+								<UML:TaggedValue tag="ea_localid" value="16020"/>
 								<UML:TaggedValue tag="ea_sourceName" value="INTAKE"/>
 								<UML:TaggedValue tag="ea_targetName" value="PERSON"/>
 								<UML:TaggedValue tag="ea_sourceType" value="Class"/>
 								<UML:TaggedValue tag="ea_targetType" value="Class"/>
-								<UML:TaggedValue tag="ea_sourceID" value="17833"/>
-								<UML:TaggedValue tag="ea_targetID" value="17826"/>
+								<UML:TaggedValue tag="ea_sourceID" value="17837"/>
+								<UML:TaggedValue tag="ea_targetID" value="17844"/>
 								<UML:TaggedValue tag="virtualInheritance" value="0"/>
 								<UML:TaggedValue tag="lt" value="+PATIENT_FK_ID"/>
 								<UML:TaggedValue tag="rt" value="+PK_USER"/>
@@ -962,13 +1344,13 @@
 								<UML:TaggedValue tag="seqno" value="0"/>
 								<UML:TaggedValue tag="headStyle" value="0"/>
 								<UML:TaggedValue tag="lineStyle" value="0"/>
-								<UML:TaggedValue tag="ea_localid" value="16006"/>
+								<UML:TaggedValue tag="ea_localid" value="16019"/>
 								<UML:TaggedValue tag="ea_sourceName" value="INTAKE"/>
 								<UML:TaggedValue tag="ea_targetName" value="DISPENSER"/>
 								<UML:TaggedValue tag="ea_sourceType" value="Class"/>
 								<UML:TaggedValue tag="ea_targetType" value="Class"/>
-								<UML:TaggedValue tag="ea_sourceID" value="17833"/>
-								<UML:TaggedValue tag="ea_targetID" value="17834"/>
+								<UML:TaggedValue tag="ea_sourceID" value="17837"/>
+								<UML:TaggedValue tag="ea_targetID" value="17842"/>
 								<UML:TaggedValue tag="virtualInheritance" value="0"/>
 								<UML:TaggedValue tag="lt" value="+DISPENSER_FK_ID"/>
 								<UML:TaggedValue tag="rt" value="+PK_DISPENSERS"/>
@@ -1001,13 +1383,13 @@
 								<UML:TaggedValue tag="seqno" value="0"/>
 								<UML:TaggedValue tag="headStyle" value="0"/>
 								<UML:TaggedValue tag="lineStyle" value="0"/>
-								<UML:TaggedValue tag="ea_localid" value="16005"/>
+								<UML:TaggedValue tag="ea_localid" value="16018"/>
 								<UML:TaggedValue tag="ea_sourceName" value="INTAKE"/>
 								<UML:TaggedValue tag="ea_targetName" value="MEDICINE"/>
 								<UML:TaggedValue tag="ea_sourceType" value="Class"/>
 								<UML:TaggedValue tag="ea_targetType" value="Class"/>
-								<UML:TaggedValue tag="ea_sourceID" value="17833"/>
-								<UML:TaggedValue tag="ea_targetID" value="17827"/>
+								<UML:TaggedValue tag="ea_sourceID" value="17837"/>
+								<UML:TaggedValue tag="ea_targetID" value="17840"/>
 								<UML:TaggedValue tag="virtualInheritance" value="0"/>
 								<UML:TaggedValue tag="lt" value="+MEDICINE_FK_ID"/>
 								<UML:TaggedValue tag="rt" value="+PK_MEDICINE"/>
@@ -1050,7 +1432,7 @@
 								<UML:TaggedValue tag="status" value="Proposed"/>
 								<UML:TaggedValue tag="stereotype" value="table"/>
 								<UML:TaggedValue tag="tpos" value="0"/>
-								<UML:TaggedValue tag="ea_localid" value="17831"/>
+								<UML:TaggedValue tag="ea_localid" value="17838"/>
 								<UML:TaggedValue tag="ea_eleType" value="element"/>
 								<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
 								<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={23FDF87F-DFC9-42e6-8552-F2FA95B7B7C3}$XID;$NAM=Stereotypes$NAM;$TYP=element property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=table;FQName=EAUI::table;@ENDSTEREO;$DES;$CLT={90407E85-778D-4e4d-9BA2-44B18C6DC559}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
@@ -1067,7 +1449,10 @@
 										<UML:Stereotype name="column"/>
 									</UML:ModelElement.stereotype>
 									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="length" value="0"/>
 										<UML:TaggedValue tag="ordered" value="1"/>
+										<UML:TaggedValue tag="precision" value="0"/>
+										<UML:TaggedValue tag="scale" value="0"/>
 										<UML:TaggedValue tag="stereotype" value="column"/>
 										<UML:TaggedValue tag="collection" value="false"/>
 										<UML:TaggedValue tag="position" value="0"/>
@@ -1075,7 +1460,7 @@
 										<UML:TaggedValue tag="upperBound" value="1"/>
 										<UML:TaggedValue tag="duplicates" value="1"/>
 										<UML:TaggedValue tag="ea_guid" value="{33510A7A-F963-4c25-9A48-104AEC874BA7}"/>
-										<UML:TaggedValue tag="ea_localid" value="6723"/>
+										<UML:TaggedValue tag="ea_localid" value="6761"/>
 									</UML:ModelElement.taggedValue>
 								</UML:Attribute>
 								<UML:Attribute name="PATIENT_FK_ID" changeable="none" visibility="public" ownerScope="instance" targetScope="instance">
@@ -1089,7 +1474,10 @@
 										<UML:Stereotype name="column"/>
 									</UML:ModelElement.stereotype>
 									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="length" value="0"/>
 										<UML:TaggedValue tag="ordered" value="0"/>
+										<UML:TaggedValue tag="precision" value="0"/>
+										<UML:TaggedValue tag="scale" value="0"/>
 										<UML:TaggedValue tag="stereotype" value="column"/>
 										<UML:TaggedValue tag="collection" value="true"/>
 										<UML:TaggedValue tag="position" value="1"/>
@@ -1097,7 +1485,7 @@
 										<UML:TaggedValue tag="upperBound" value="1"/>
 										<UML:TaggedValue tag="duplicates" value="1"/>
 										<UML:TaggedValue tag="ea_guid" value="{197C05A6-9D4D-49ac-B07D-83AE42C81E24}"/>
-										<UML:TaggedValue tag="ea_localid" value="6724"/>
+										<UML:TaggedValue tag="ea_localid" value="6762"/>
 									</UML:ModelElement.taggedValue>
 								</UML:Attribute>
 								<UML:Attribute name="MEDICINE_FK_ID" changeable="none" visibility="public" ownerScope="instance" targetScope="instance">
@@ -1111,7 +1499,10 @@
 										<UML:Stereotype name="column"/>
 									</UML:ModelElement.stereotype>
 									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="length" value="0"/>
 										<UML:TaggedValue tag="ordered" value="0"/>
+										<UML:TaggedValue tag="precision" value="0"/>
+										<UML:TaggedValue tag="scale" value="0"/>
 										<UML:TaggedValue tag="stereotype" value="column"/>
 										<UML:TaggedValue tag="collection" value="true"/>
 										<UML:TaggedValue tag="position" value="2"/>
@@ -1119,7 +1510,7 @@
 										<UML:TaggedValue tag="upperBound" value="1"/>
 										<UML:TaggedValue tag="duplicates" value="1"/>
 										<UML:TaggedValue tag="ea_guid" value="{3206097E-18AA-4c1b-A52D-B77F8A7D7B31}"/>
-										<UML:TaggedValue tag="ea_localid" value="6725"/>
+										<UML:TaggedValue tag="ea_localid" value="6763"/>
 									</UML:ModelElement.taggedValue>
 								</UML:Attribute>
 								<UML:Attribute name="UNIT_CLASS" changeable="none" visibility="public" ownerScope="instance" targetScope="instance">
@@ -1134,7 +1525,10 @@
 									</UML:ModelElement.stereotype>
 									<UML:ModelElement.taggedValue>
 										<UML:TaggedValue tag="description" value="One of: DROPS, PILLS"/>
+										<UML:TaggedValue tag="length" value="0"/>
 										<UML:TaggedValue tag="ordered" value="0"/>
+										<UML:TaggedValue tag="precision" value="0"/>
+										<UML:TaggedValue tag="scale" value="0"/>
 										<UML:TaggedValue tag="stereotype" value="column"/>
 										<UML:TaggedValue tag="collection" value="false"/>
 										<UML:TaggedValue tag="position" value="3"/>
@@ -1142,7 +1536,7 @@
 										<UML:TaggedValue tag="upperBound" value="1"/>
 										<UML:TaggedValue tag="duplicates" value="1"/>
 										<UML:TaggedValue tag="ea_guid" value="{E1AE1BC3-0E67-4f1d-82EC-CC5DFFD33225}"/>
-										<UML:TaggedValue tag="ea_localid" value="6726"/>
+										<UML:TaggedValue tag="ea_localid" value="6764"/>
 									</UML:ModelElement.taggedValue>
 								</UML:Attribute>
 								<UML:Attribute name="QUANTITY" changeable="none" visibility="public" ownerScope="instance" targetScope="instance">
@@ -1156,7 +1550,10 @@
 										<UML:Stereotype name="column"/>
 									</UML:ModelElement.stereotype>
 									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="length" value="0"/>
 										<UML:TaggedValue tag="ordered" value="0"/>
+										<UML:TaggedValue tag="precision" value="0"/>
+										<UML:TaggedValue tag="scale" value="0"/>
 										<UML:TaggedValue tag="stereotype" value="column"/>
 										<UML:TaggedValue tag="collection" value="false"/>
 										<UML:TaggedValue tag="position" value="4"/>
@@ -1164,7 +1561,7 @@
 										<UML:TaggedValue tag="upperBound" value="1"/>
 										<UML:TaggedValue tag="duplicates" value="1"/>
 										<UML:TaggedValue tag="ea_guid" value="{52340BEC-EC17-497f-B2D1-B13C19414183}"/>
-										<UML:TaggedValue tag="ea_localid" value="6727"/>
+										<UML:TaggedValue tag="ea_localid" value="6765"/>
 									</UML:ModelElement.taggedValue>
 								</UML:Attribute>
 								<UML:Attribute name="WARNING_THRESHOLD" changeable="none" visibility="public" ownerScope="instance" targetScope="instance">
@@ -1178,7 +1575,10 @@
 										<UML:Stereotype name="column"/>
 									</UML:ModelElement.stereotype>
 									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="length" value="0"/>
 										<UML:TaggedValue tag="ordered" value="0"/>
+										<UML:TaggedValue tag="precision" value="0"/>
+										<UML:TaggedValue tag="scale" value="0"/>
 										<UML:TaggedValue tag="stereotype" value="column"/>
 										<UML:TaggedValue tag="collection" value="false"/>
 										<UML:TaggedValue tag="position" value="5"/>
@@ -1186,7 +1586,7 @@
 										<UML:TaggedValue tag="upperBound" value="1"/>
 										<UML:TaggedValue tag="duplicates" value="1"/>
 										<UML:TaggedValue tag="ea_guid" value="{6AC0BB23-F21A-41cd-A2A0-CDB2353B4B3D}"/>
-										<UML:TaggedValue tag="ea_localid" value="6728"/>
+										<UML:TaggedValue tag="ea_localid" value="6766"/>
 									</UML:ModelElement.taggedValue>
 								</UML:Attribute>
 								<UML:Operation name="FK_MEDICINE_FK_ID" visibility="public" ownerScope="instance" isQuery="false" concurrency="sequential">
@@ -1202,7 +1602,7 @@
 										<UML:TaggedValue tag="returnarray" value="0"/>
 										<UML:TaggedValue tag="pure" value="0"/>
 										<UML:TaggedValue tag="ea_guid" value="{30DCA5CD-53A9-4040-88EC-C5C43C1EE8B6}"/>
-										<UML:TaggedValue tag="ea_localid" value="14746"/>
+										<UML:TaggedValue tag="ea_localid" value="14759"/>
 									</UML:ModelElement.taggedValue>
 									<UML:BehavioralFeature.parameter>
 										<UML:Parameter kind="return" visibility="public">
@@ -1246,7 +1646,7 @@
 										<UML:TaggedValue tag="returnarray" value="0"/>
 										<UML:TaggedValue tag="pure" value="0"/>
 										<UML:TaggedValue tag="ea_guid" value="{1F89951C-1ED0-4760-91D5-B679A862414C}"/>
-										<UML:TaggedValue tag="ea_localid" value="14745"/>
+										<UML:TaggedValue tag="ea_localid" value="14760"/>
 									</UML:ModelElement.taggedValue>
 									<UML:BehavioralFeature.parameter>
 										<UML:Parameter kind="return" visibility="public">
@@ -1289,7 +1689,7 @@
 										<UML:TaggedValue tag="returnarray" value="0"/>
 										<UML:TaggedValue tag="pure" value="0"/>
 										<UML:TaggedValue tag="ea_guid" value="{1B8F09B0-0CEE-4f71-ADB4-BFE94DF189D4}"/>
-										<UML:TaggedValue tag="ea_localid" value="14736"/>
+										<UML:TaggedValue tag="ea_localid" value="14761"/>
 									</UML:ModelElement.taggedValue>
 									<UML:BehavioralFeature.parameter>
 										<UML:Parameter kind="return" visibility="public">
@@ -1333,13 +1733,13 @@
 								<UML:TaggedValue tag="seqno" value="0"/>
 								<UML:TaggedValue tag="headStyle" value="0"/>
 								<UML:TaggedValue tag="lineStyle" value="0"/>
-								<UML:TaggedValue tag="ea_localid" value="16001"/>
+								<UML:TaggedValue tag="ea_localid" value="16017"/>
 								<UML:TaggedValue tag="ea_sourceName" value="MEDICINE_INVENTORY"/>
 								<UML:TaggedValue tag="ea_targetName" value="PERSON"/>
 								<UML:TaggedValue tag="ea_sourceType" value="Class"/>
 								<UML:TaggedValue tag="ea_targetType" value="Class"/>
-								<UML:TaggedValue tag="ea_sourceID" value="17831"/>
-								<UML:TaggedValue tag="ea_targetID" value="17826"/>
+								<UML:TaggedValue tag="ea_sourceID" value="17838"/>
+								<UML:TaggedValue tag="ea_targetID" value="17844"/>
 								<UML:TaggedValue tag="virtualInheritance" value="0"/>
 								<UML:TaggedValue tag="lt" value="+PATIENT_FK_ID"/>
 								<UML:TaggedValue tag="rt" value="+PK_USER"/>
@@ -1372,13 +1772,13 @@
 								<UML:TaggedValue tag="seqno" value="0"/>
 								<UML:TaggedValue tag="headStyle" value="0"/>
 								<UML:TaggedValue tag="lineStyle" value="0"/>
-								<UML:TaggedValue tag="ea_localid" value="16002"/>
+								<UML:TaggedValue tag="ea_localid" value="16016"/>
 								<UML:TaggedValue tag="ea_sourceName" value="MEDICINE_INVENTORY"/>
 								<UML:TaggedValue tag="ea_targetName" value="MEDICINE"/>
 								<UML:TaggedValue tag="ea_sourceType" value="Class"/>
 								<UML:TaggedValue tag="ea_targetType" value="Class"/>
-								<UML:TaggedValue tag="ea_sourceID" value="17831"/>
-								<UML:TaggedValue tag="ea_targetID" value="17827"/>
+								<UML:TaggedValue tag="ea_sourceID" value="17838"/>
+								<UML:TaggedValue tag="ea_targetID" value="17840"/>
 								<UML:TaggedValue tag="virtualInheritance" value="0"/>
 								<UML:TaggedValue tag="lt" value="+MEDICINE_FK_ID"/>
 								<UML:TaggedValue tag="rt" value="+PK_MEDICINE"/>
@@ -1392,376 +1792,6 @@
 									</UML:ModelElement.taggedValue>
 								</UML:AssociationEnd>
 								<UML:AssociationEnd visibility="public" name="PK_MEDICINE" aggregation="none" isOrdered="false" targetScope="instance" changeable="none" isNavigable="true" type="EAID_CA018F94_595D_4386_AECB_4AF7FCB79176">
-									<UML:ModelElement.taggedValue>
-										<UML:TaggedValue tag="containment" value="Unspecified"/>
-										<UML:TaggedValue tag="deststyle" value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Unspecified;"/>
-										<UML:TaggedValue tag="ea_end" value="target"/>
-									</UML:ModelElement.taggedValue>
-								</UML:AssociationEnd>
-							</UML:Association.connection>
-						</UML:Association>
-						<UML:Class name="PRESCRIBED_MEDICINE" xmi.id="EAID_9994E9D7_3A38_46db_BEDE_C61B1E3F8AAF" visibility="public" namespace="EAPK_0DAD8747_BEEE_4d6e_AE68_EA968BB0E474" isRoot="false" isLeaf="false" isAbstract="false" isActive="false">
-							<UML:ModelElement.stereotype>
-								<UML:Stereotype name="table"/>
-							</UML:ModelElement.stereotype>
-							<UML:ModelElement.taggedValue>
-								<UML:TaggedValue tag="documentation" value="The table provides mapping of prescriptions and prescribed medicines."/>
-								<UML:TaggedValue tag="isSpecification" value="false"/>
-								<UML:TaggedValue tag="ea_stype" value="Class"/>
-								<UML:TaggedValue tag="ea_ntype" value="0"/>
-								<UML:TaggedValue tag="version" value="1.0"/>
-								<UML:TaggedValue tag="package" value="EAPK_0DAD8747_BEEE_4d6e_AE68_EA968BB0E474"/>
-								<UML:TaggedValue tag="date_created" value="2012-12-30 17:51:00"/>
-								<UML:TaggedValue tag="date_modified" value="2013-01-10 12:37:48"/>
-								<UML:TaggedValue tag="tagged" value="0"/>
-								<UML:TaggedValue tag="package_name" value="Database"/>
-								<UML:TaggedValue tag="phase" value="1.0"/>
-								<UML:TaggedValue tag="author" value="Venelin"/>
-								<UML:TaggedValue tag="complexity" value="1"/>
-								<UML:TaggedValue tag="status" value="Proposed"/>
-								<UML:TaggedValue tag="stereotype" value="table"/>
-								<UML:TaggedValue tag="tpos" value="0"/>
-								<UML:TaggedValue tag="ea_localid" value="17830"/>
-								<UML:TaggedValue tag="ea_eleType" value="element"/>
-								<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
-								<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={659126ED-A180-4838-966C-9D763A2DF2E2}$XID;$NAM=Stereotypes$NAM;$TYP=element property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=table;FQName=EAUI::table;@ENDSTEREO;$DES;$CLT={9994E9D7-3A38-46db-BEDE-C61B1E3F8AAF}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
-							</UML:ModelElement.taggedValue>
-							<UML:Classifier.feature>
-								<UML:Attribute name="PRESCRIBED_MEDICINE_ID" changeable="none" visibility="public" ownerScope="instance" targetScope="instance">
-									<UML:Attribute.initialValue>
-										<UML:Expression/>
-									</UML:Attribute.initialValue>
-									<UML:StructuralFeature.type>
-										<UML:Classifier xmi.idref="eaxmiid0"/>
-									</UML:StructuralFeature.type>
-									<UML:ModelElement.stereotype>
-										<UML:Stereotype name="column"/>
-									</UML:ModelElement.stereotype>
-									<UML:ModelElement.taggedValue>
-										<UML:TaggedValue tag="ordered" value="1"/>
-										<UML:TaggedValue tag="stereotype" value="column"/>
-										<UML:TaggedValue tag="collection" value="false"/>
-										<UML:TaggedValue tag="position" value="0"/>
-										<UML:TaggedValue tag="lowerBound" value="1"/>
-										<UML:TaggedValue tag="upperBound" value="1"/>
-										<UML:TaggedValue tag="duplicates" value="1"/>
-										<UML:TaggedValue tag="ea_guid" value="{DDE40414-6C56-4cfd-BF17-024D73FB39A9}"/>
-										<UML:TaggedValue tag="ea_localid" value="6719"/>
-									</UML:ModelElement.taggedValue>
-								</UML:Attribute>
-								<UML:Attribute name="PRESCRIPTION_FK_ID" changeable="none" visibility="public" ownerScope="instance" targetScope="instance">
-									<UML:Attribute.initialValue>
-										<UML:Expression/>
-									</UML:Attribute.initialValue>
-									<UML:StructuralFeature.type>
-										<UML:Classifier xmi.idref="eaxmiid0"/>
-									</UML:StructuralFeature.type>
-									<UML:ModelElement.stereotype>
-										<UML:Stereotype name="column"/>
-									</UML:ModelElement.stereotype>
-									<UML:ModelElement.taggedValue>
-										<UML:TaggedValue tag="ordered" value="0"/>
-										<UML:TaggedValue tag="stereotype" value="column"/>
-										<UML:TaggedValue tag="collection" value="false"/>
-										<UML:TaggedValue tag="position" value="1"/>
-										<UML:TaggedValue tag="lowerBound" value="1"/>
-										<UML:TaggedValue tag="upperBound" value="1"/>
-										<UML:TaggedValue tag="duplicates" value="1"/>
-										<UML:TaggedValue tag="ea_guid" value="{56516222-579E-4596-9604-021CF6584CD2}"/>
-										<UML:TaggedValue tag="ea_localid" value="6720"/>
-									</UML:ModelElement.taggedValue>
-								</UML:Attribute>
-								<UML:Attribute name="MEDICINE_FK_ID" changeable="none" visibility="public" ownerScope="instance" targetScope="instance">
-									<UML:Attribute.initialValue>
-										<UML:Expression/>
-									</UML:Attribute.initialValue>
-									<UML:StructuralFeature.type>
-										<UML:Classifier xmi.idref="eaxmiid0"/>
-									</UML:StructuralFeature.type>
-									<UML:ModelElement.stereotype>
-										<UML:Stereotype name="column"/>
-									</UML:ModelElement.stereotype>
-									<UML:ModelElement.taggedValue>
-										<UML:TaggedValue tag="ordered" value="0"/>
-										<UML:TaggedValue tag="stereotype" value="column"/>
-										<UML:TaggedValue tag="collection" value="false"/>
-										<UML:TaggedValue tag="position" value="2"/>
-										<UML:TaggedValue tag="lowerBound" value="1"/>
-										<UML:TaggedValue tag="upperBound" value="1"/>
-										<UML:TaggedValue tag="duplicates" value="1"/>
-										<UML:TaggedValue tag="ea_guid" value="{5F1C8745-4BE1-4be1-9427-3414E088B374}"/>
-										<UML:TaggedValue tag="ea_localid" value="6721"/>
-									</UML:ModelElement.taggedValue>
-								</UML:Attribute>
-								<UML:Attribute name="TREATMENT_FK_ID" changeable="none" visibility="public" ownerScope="instance" targetScope="instance">
-									<UML:Attribute.initialValue>
-										<UML:Expression/>
-									</UML:Attribute.initialValue>
-									<UML:StructuralFeature.type>
-										<UML:Classifier xmi.idref="eaxmiid0"/>
-									</UML:StructuralFeature.type>
-									<UML:ModelElement.stereotype>
-										<UML:Stereotype name="column"/>
-									</UML:ModelElement.stereotype>
-									<UML:ModelElement.taggedValue>
-										<UML:TaggedValue tag="ordered" value="0"/>
-										<UML:TaggedValue tag="stereotype" value="column"/>
-										<UML:TaggedValue tag="collection" value="false"/>
-										<UML:TaggedValue tag="position" value="3"/>
-										<UML:TaggedValue tag="lowerBound" value="1"/>
-										<UML:TaggedValue tag="upperBound" value="1"/>
-										<UML:TaggedValue tag="duplicates" value="1"/>
-										<UML:TaggedValue tag="ea_guid" value="{371DBFAF-5AFE-43e3-A30B-25C275C51F47}"/>
-										<UML:TaggedValue tag="ea_localid" value="6722"/>
-									</UML:ModelElement.taggedValue>
-								</UML:Attribute>
-								<UML:Operation name="FK_MEDICINE_FK_ID" visibility="public" ownerScope="instance" isQuery="false" concurrency="sequential">
-									<UML:ModelElement.stereotype>
-										<UML:Stereotype name="FK"/>
-									</UML:ModelElement.stereotype>
-									<UML:ModelElement.taggedValue>
-										<UML:TaggedValue tag="documentation" value="Foreign key constraint"/>
-										<UML:TaggedValue tag="const" value="false"/>
-										<UML:TaggedValue tag="stereotype" value="FK"/>
-										<UML:TaggedValue tag="synchronised" value="0"/>
-										<UML:TaggedValue tag="position" value="0"/>
-										<UML:TaggedValue tag="returnarray" value="0"/>
-										<UML:TaggedValue tag="pure" value="0"/>
-										<UML:TaggedValue tag="ea_guid" value="{109CBC8F-7B9E-4de4-A7E2-3713BBA5DC44}"/>
-										<UML:TaggedValue tag="ea_localid" value="14742"/>
-									</UML:ModelElement.taggedValue>
-									<UML:BehavioralFeature.parameter>
-										<UML:Parameter kind="return" visibility="public">
-											<UML:Parameter.type>
-												<UML:Classifier xmi.idref="eaxmiid0"/>
-											</UML:Parameter.type>
-											<UML:ModelElement.taggedValue>
-												<UML:TaggedValue tag="pos" value="0"/>
-												<UML:TaggedValue tag="const" value="0"/>
-												<UML:TaggedValue tag="ea_guid" value="{RETURNID-7B9E-4de4-A7E2-3713BBA5DC44}"/>
-											</UML:ModelElement.taggedValue>
-											<UML:Parameter.defaultValue>
-												<UML:Expression/>
-											</UML:Parameter.defaultValue>
-										</UML:Parameter>
-										<UML:Parameter name="MEDICINE_FK_ID" kind="in" visibility="public">
-											<UML:Parameter.type>
-												<UML:Classifier xmi.idref="eaxmiid0"/>
-											</UML:Parameter.type>
-											<UML:ModelElement.taggedValue>
-												<UML:TaggedValue tag="pos" value="0"/>
-												<UML:TaggedValue tag="const" value="0"/>
-												<UML:TaggedValue tag="ea_guid" value="{52755DD3-70A1-4cd5-A482-4CAE0709EE68}"/>
-											</UML:ModelElement.taggedValue>
-											<UML:Parameter.defaultValue>
-												<UML:Expression/>
-											</UML:Parameter.defaultValue>
-										</UML:Parameter>
-									</UML:BehavioralFeature.parameter>
-								</UML:Operation>
-								<UML:Operation name="FK_PRESCRIPTION_FK_ID" visibility="public" ownerScope="instance" isQuery="false" concurrency="sequential">
-									<UML:ModelElement.stereotype>
-										<UML:Stereotype name="FK"/>
-									</UML:ModelElement.stereotype>
-									<UML:ModelElement.taggedValue>
-										<UML:TaggedValue tag="documentation" value="Foreign key constraint"/>
-										<UML:TaggedValue tag="const" value="false"/>
-										<UML:TaggedValue tag="stereotype" value="FK"/>
-										<UML:TaggedValue tag="synchronised" value="0"/>
-										<UML:TaggedValue tag="position" value="0"/>
-										<UML:TaggedValue tag="returnarray" value="0"/>
-										<UML:TaggedValue tag="pure" value="0"/>
-										<UML:TaggedValue tag="ea_guid" value="{93D4AC73-2EC9-43ba-A526-5ABC133E5481}"/>
-										<UML:TaggedValue tag="ea_localid" value="14740"/>
-									</UML:ModelElement.taggedValue>
-									<UML:BehavioralFeature.parameter>
-										<UML:Parameter kind="return" visibility="public">
-											<UML:Parameter.type>
-												<UML:Classifier xmi.idref="eaxmiid0"/>
-											</UML:Parameter.type>
-											<UML:ModelElement.taggedValue>
-												<UML:TaggedValue tag="pos" value="0"/>
-												<UML:TaggedValue tag="const" value="0"/>
-												<UML:TaggedValue tag="ea_guid" value="{RETURNID-2EC9-43ba-A526-5ABC133E5481}"/>
-											</UML:ModelElement.taggedValue>
-											<UML:Parameter.defaultValue>
-												<UML:Expression/>
-											</UML:Parameter.defaultValue>
-										</UML:Parameter>
-										<UML:Parameter name="PRESCRIPTION_FK_ID" kind="in" visibility="public">
-											<UML:Parameter.type>
-												<UML:Classifier xmi.idref="eaxmiid0"/>
-											</UML:Parameter.type>
-											<UML:ModelElement.taggedValue>
-												<UML:TaggedValue tag="pos" value="0"/>
-												<UML:TaggedValue tag="const" value="0"/>
-												<UML:TaggedValue tag="ea_guid" value="{89708C2F-5E19-4988-8453-529EED32D6F8}"/>
-											</UML:ModelElement.taggedValue>
-											<UML:Parameter.defaultValue>
-												<UML:Expression/>
-											</UML:Parameter.defaultValue>
-										</UML:Parameter>
-									</UML:BehavioralFeature.parameter>
-								</UML:Operation>
-								<UML:Operation name="FK_TREATMENT_FK_ID" visibility="public" ownerScope="instance" isQuery="false" concurrency="sequential">
-									<UML:ModelElement.stereotype>
-										<UML:Stereotype name="FK"/>
-									</UML:ModelElement.stereotype>
-									<UML:ModelElement.taggedValue>
-										<UML:TaggedValue tag="documentation" value="Foreign key constraint"/>
-										<UML:TaggedValue tag="const" value="false"/>
-										<UML:TaggedValue tag="stereotype" value="FK"/>
-										<UML:TaggedValue tag="synchronised" value="0"/>
-										<UML:TaggedValue tag="position" value="0"/>
-										<UML:TaggedValue tag="returnarray" value="0"/>
-										<UML:TaggedValue tag="pure" value="0"/>
-										<UML:TaggedValue tag="ea_guid" value="{6463E8AA-C721-43f2-883A-1CD0DE8F7829}"/>
-										<UML:TaggedValue tag="ea_localid" value="14741"/>
-									</UML:ModelElement.taggedValue>
-									<UML:BehavioralFeature.parameter>
-										<UML:Parameter kind="return" visibility="public">
-											<UML:Parameter.type>
-												<UML:Classifier xmi.idref="eaxmiid0"/>
-											</UML:Parameter.type>
-											<UML:ModelElement.taggedValue>
-												<UML:TaggedValue tag="pos" value="0"/>
-												<UML:TaggedValue tag="const" value="0"/>
-												<UML:TaggedValue tag="ea_guid" value="{RETURNID-C721-43f2-883A-1CD0DE8F7829}"/>
-											</UML:ModelElement.taggedValue>
-											<UML:Parameter.defaultValue>
-												<UML:Expression/>
-											</UML:Parameter.defaultValue>
-										</UML:Parameter>
-										<UML:Parameter name="TREATMENT_FK_ID" kind="in" visibility="public">
-											<UML:Parameter.type>
-												<UML:Classifier xmi.idref="eaxmiid0"/>
-											</UML:Parameter.type>
-											<UML:ModelElement.taggedValue>
-												<UML:TaggedValue tag="pos" value="0"/>
-												<UML:TaggedValue tag="const" value="0"/>
-												<UML:TaggedValue tag="ea_guid" value="{CDC14A2E-8F93-423c-BFC1-EDA33A626E3F}"/>
-											</UML:ModelElement.taggedValue>
-											<UML:Parameter.defaultValue>
-												<UML:Expression/>
-											</UML:Parameter.defaultValue>
-										</UML:Parameter>
-									</UML:BehavioralFeature.parameter>
-								</UML:Operation>
-								<UML:Operation name="PK_PRESCRIBED_MEDICINE" visibility="public" ownerScope="instance" isQuery="false" concurrency="sequential">
-									<UML:ModelElement.stereotype>
-										<UML:Stereotype name="PK"/>
-									</UML:ModelElement.stereotype>
-									<UML:ModelElement.taggedValue>
-										<UML:TaggedValue tag="const" value="false"/>
-										<UML:TaggedValue tag="stereotype" value="PK"/>
-										<UML:TaggedValue tag="synchronised" value="0"/>
-										<UML:TaggedValue tag="position" value="0"/>
-										<UML:TaggedValue tag="returnarray" value="0"/>
-										<UML:TaggedValue tag="pure" value="0"/>
-										<UML:TaggedValue tag="ea_guid" value="{06D095ED-1074-4583-B743-BE5B4851E174}"/>
-										<UML:TaggedValue tag="ea_localid" value="14735"/>
-									</UML:ModelElement.taggedValue>
-									<UML:BehavioralFeature.parameter>
-										<UML:Parameter kind="return" visibility="public">
-											<UML:Parameter.type>
-												<UML:Classifier xmi.idref="eaxmiid0"/>
-											</UML:Parameter.type>
-											<UML:ModelElement.taggedValue>
-												<UML:TaggedValue tag="pos" value="0"/>
-												<UML:TaggedValue tag="const" value="0"/>
-												<UML:TaggedValue tag="ea_guid" value="{RETURNID-1074-4583-B743-BE5B4851E174}"/>
-											</UML:ModelElement.taggedValue>
-											<UML:Parameter.defaultValue>
-												<UML:Expression/>
-											</UML:Parameter.defaultValue>
-										</UML:Parameter>
-										<UML:Parameter name="PRESCRIBED_MEDICINE_ID" kind="in" visibility="public">
-											<UML:Parameter.type>
-												<UML:Classifier xmi.idref="eaxmiid0"/>
-											</UML:Parameter.type>
-											<UML:ModelElement.taggedValue>
-												<UML:TaggedValue tag="pos" value="0"/>
-												<UML:TaggedValue tag="const" value="0"/>
-												<UML:TaggedValue tag="ea_guid" value="{47813642-2D36-4a00-AE71-0F6A3D522DF5}"/>
-											</UML:ModelElement.taggedValue>
-											<UML:Parameter.defaultValue>
-												<UML:Expression/>
-											</UML:Parameter.defaultValue>
-										</UML:Parameter>
-									</UML:BehavioralFeature.parameter>
-								</UML:Operation>
-							</UML:Classifier.feature>
-						</UML:Class>
-						<UML:Association xmi.id="EAID_4EBC20AE_5952_405b_B4CC_8110ADAF41EE" visibility="public" isRoot="false" isLeaf="false" isAbstract="false">
-							<UML:ModelElement.taggedValue>
-								<UML:TaggedValue tag="style" value="3"/>
-								<UML:TaggedValue tag="ea_type" value="Association"/>
-								<UML:TaggedValue tag="direction" value="Unspecified"/>
-								<UML:TaggedValue tag="linemode" value="3"/>
-								<UML:TaggedValue tag="linecolor" value="-1"/>
-								<UML:TaggedValue tag="linewidth" value="0"/>
-								<UML:TaggedValue tag="seqno" value="0"/>
-								<UML:TaggedValue tag="headStyle" value="0"/>
-								<UML:TaggedValue tag="lineStyle" value="0"/>
-								<UML:TaggedValue tag="ea_localid" value="15998"/>
-								<UML:TaggedValue tag="ea_sourceName" value="PRESCRIBED_MEDICINE"/>
-								<UML:TaggedValue tag="ea_targetName" value="MEDICINE"/>
-								<UML:TaggedValue tag="ea_sourceType" value="Class"/>
-								<UML:TaggedValue tag="ea_targetType" value="Class"/>
-								<UML:TaggedValue tag="ea_sourceID" value="17830"/>
-								<UML:TaggedValue tag="ea_targetID" value="17827"/>
-								<UML:TaggedValue tag="virtualInheritance" value="0"/>
-								<UML:TaggedValue tag="lt" value="+MEDICINE_FK_ID"/>
-								<UML:TaggedValue tag="rt" value="+PK_MEDICINE"/>
-							</UML:ModelElement.taggedValue>
-							<UML:Association.connection>
-								<UML:AssociationEnd visibility="public" name="MEDICINE_FK_ID" aggregation="none" isOrdered="false" targetScope="instance" changeable="none" isNavigable="true" type="EAID_9994E9D7_3A38_46db_BEDE_C61B1E3F8AAF">
-									<UML:ModelElement.taggedValue>
-										<UML:TaggedValue tag="containment" value="Unspecified"/>
-										<UML:TaggedValue tag="sourcestyle" value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Non-Navigable;"/>
-										<UML:TaggedValue tag="ea_end" value="source"/>
-									</UML:ModelElement.taggedValue>
-								</UML:AssociationEnd>
-								<UML:AssociationEnd visibility="public" name="PK_MEDICINE" aggregation="none" isOrdered="false" targetScope="instance" changeable="none" isNavigable="true" type="EAID_CA018F94_595D_4386_AECB_4AF7FCB79176">
-									<UML:ModelElement.taggedValue>
-										<UML:TaggedValue tag="containment" value="Unspecified"/>
-										<UML:TaggedValue tag="deststyle" value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Unspecified;"/>
-										<UML:TaggedValue tag="ea_end" value="target"/>
-									</UML:ModelElement.taggedValue>
-								</UML:AssociationEnd>
-							</UML:Association.connection>
-						</UML:Association>
-						<UML:Association xmi.id="EAID_9EF3BDBB_3E17_4ed8_AB80_DC79EE9244A9" visibility="public" isRoot="false" isLeaf="false" isAbstract="false">
-							<UML:ModelElement.taggedValue>
-								<UML:TaggedValue tag="style" value="3"/>
-								<UML:TaggedValue tag="ea_type" value="Association"/>
-								<UML:TaggedValue tag="direction" value="Unspecified"/>
-								<UML:TaggedValue tag="linemode" value="3"/>
-								<UML:TaggedValue tag="linecolor" value="-1"/>
-								<UML:TaggedValue tag="linewidth" value="0"/>
-								<UML:TaggedValue tag="seqno" value="0"/>
-								<UML:TaggedValue tag="headStyle" value="0"/>
-								<UML:TaggedValue tag="lineStyle" value="0"/>
-								<UML:TaggedValue tag="ea_localid" value="15996"/>
-								<UML:TaggedValue tag="ea_sourceName" value="PRESCRIBED_MEDICINE"/>
-								<UML:TaggedValue tag="ea_targetName" value="PRESCRIPTION"/>
-								<UML:TaggedValue tag="ea_sourceType" value="Class"/>
-								<UML:TaggedValue tag="ea_targetType" value="Class"/>
-								<UML:TaggedValue tag="ea_sourceID" value="17830"/>
-								<UML:TaggedValue tag="ea_targetID" value="17828"/>
-								<UML:TaggedValue tag="virtualInheritance" value="0"/>
-								<UML:TaggedValue tag="lt" value="+PRESCRIPTION_FK_ID"/>
-								<UML:TaggedValue tag="rt" value="+PK_PRESCRIPTION"/>
-							</UML:ModelElement.taggedValue>
-							<UML:Association.connection>
-								<UML:AssociationEnd visibility="public" name="PRESCRIPTION_FK_ID" aggregation="none" isOrdered="false" targetScope="instance" changeable="none" isNavigable="true" type="EAID_9994E9D7_3A38_46db_BEDE_C61B1E3F8AAF">
-									<UML:ModelElement.taggedValue>
-										<UML:TaggedValue tag="containment" value="Unspecified"/>
-										<UML:TaggedValue tag="sourcestyle" value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Non-Navigable;"/>
-										<UML:TaggedValue tag="ea_end" value="source"/>
-									</UML:ModelElement.taggedValue>
-								</UML:AssociationEnd>
-								<UML:AssociationEnd visibility="public" name="PK_PRESCRIPTION" aggregation="none" isOrdered="false" targetScope="instance" changeable="none" isNavigable="true" type="EAID_DC75347D_2CF7_4da3_AA62_6046C04553F3">
 									<UML:ModelElement.taggedValue>
 										<UML:TaggedValue tag="containment" value="Unspecified"/>
 										<UML:TaggedValue tag="deststyle" value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Unspecified;"/>
@@ -1791,13 +1821,13 @@
 								<UML:TaggedValue tag="status" value="Proposed"/>
 								<UML:TaggedValue tag="stereotype" value="table"/>
 								<UML:TaggedValue tag="tpos" value="0"/>
-								<UML:TaggedValue tag="ea_localid" value="17827"/>
+								<UML:TaggedValue tag="ea_localid" value="17840"/>
 								<UML:TaggedValue tag="ea_eleType" value="element"/>
 								<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
 								<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={8778A00F-BFDE-452c-92BD-BC9F04563024}$XID;$NAM=Stereotypes$NAM;$TYP=element property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=table;FQName=EAUI::table;@ENDSTEREO;$DES;$CLT={CA018F94-595D-4386-AECB-4AF7FCB79176}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
 							</UML:ModelElement.taggedValue>
 							<UML:Classifier.feature>
-								<UML:Attribute name="MEDICINE_ID" changeable="none" visibility="public" ownerScope="instance" targetScope="instance">
+								<UML:Attribute name="ID" changeable="none" visibility="public" ownerScope="instance" targetScope="instance">
 									<UML:Attribute.initialValue>
 										<UML:Expression/>
 									</UML:Attribute.initialValue>
@@ -1816,7 +1846,7 @@
 										<UML:TaggedValue tag="upperBound" value="1"/>
 										<UML:TaggedValue tag="duplicates" value="1"/>
 										<UML:TaggedValue tag="ea_guid" value="{833E10C8-6733-4cee-B27C-467A3AE5FC30}"/>
-										<UML:TaggedValue tag="ea_localid" value="6702"/>
+										<UML:TaggedValue tag="ea_localid" value="6771"/>
 									</UML:ModelElement.taggedValue>
 								</UML:Attribute>
 								<UML:Attribute name="MEDICINE_NAME" changeable="none" visibility="public" ownerScope="instance" targetScope="instance">
@@ -1830,7 +1860,10 @@
 										<UML:Stereotype name="column"/>
 									</UML:ModelElement.stereotype>
 									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="length" value="0"/>
 										<UML:TaggedValue tag="ordered" value="0"/>
+										<UML:TaggedValue tag="precision" value="0"/>
+										<UML:TaggedValue tag="scale" value="0"/>
 										<UML:TaggedValue tag="stereotype" value="column"/>
 										<UML:TaggedValue tag="collection" value="false"/>
 										<UML:TaggedValue tag="position" value="1"/>
@@ -1838,7 +1871,7 @@
 										<UML:TaggedValue tag="upperBound" value="1"/>
 										<UML:TaggedValue tag="duplicates" value="1"/>
 										<UML:TaggedValue tag="ea_guid" value="{86A75660-890C-424e-A71D-D8C7EE4F84F8}"/>
-										<UML:TaggedValue tag="ea_localid" value="6703"/>
+										<UML:TaggedValue tag="ea_localid" value="6772"/>
 									</UML:ModelElement.taggedValue>
 								</UML:Attribute>
 								<UML:Attribute name="MEDICINE_INFO" changeable="none" visibility="public" ownerScope="instance" targetScope="instance">
@@ -1852,7 +1885,10 @@
 										<UML:Stereotype name="column"/>
 									</UML:ModelElement.stereotype>
 									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="length" value="0"/>
 										<UML:TaggedValue tag="ordered" value="0"/>
+										<UML:TaggedValue tag="precision" value="0"/>
+										<UML:TaggedValue tag="scale" value="0"/>
 										<UML:TaggedValue tag="stereotype" value="column"/>
 										<UML:TaggedValue tag="collection" value="false"/>
 										<UML:TaggedValue tag="position" value="2"/>
@@ -1860,7 +1896,7 @@
 										<UML:TaggedValue tag="upperBound" value="1"/>
 										<UML:TaggedValue tag="duplicates" value="0"/>
 										<UML:TaggedValue tag="ea_guid" value="{5CAF304C-03C8-425e-97C6-3399491D8F91}"/>
-										<UML:TaggedValue tag="ea_localid" value="6704"/>
+										<UML:TaggedValue tag="ea_localid" value="6773"/>
 									</UML:ModelElement.taggedValue>
 								</UML:Attribute>
 								<UML:Attribute name="SIDE_EFFECTS" changeable="none" visibility="public" ownerScope="instance" targetScope="instance">
@@ -1874,7 +1910,10 @@
 										<UML:Stereotype name="column"/>
 									</UML:ModelElement.stereotype>
 									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="length" value="0"/>
 										<UML:TaggedValue tag="ordered" value="0"/>
+										<UML:TaggedValue tag="precision" value="0"/>
+										<UML:TaggedValue tag="scale" value="0"/>
 										<UML:TaggedValue tag="stereotype" value="column"/>
 										<UML:TaggedValue tag="collection" value="false"/>
 										<UML:TaggedValue tag="position" value="3"/>
@@ -1882,7 +1921,7 @@
 										<UML:TaggedValue tag="upperBound" value="1"/>
 										<UML:TaggedValue tag="duplicates" value="0"/>
 										<UML:TaggedValue tag="ea_guid" value="{884A4103-55CC-4e9f-8BE1-0B6E0354F9EA}"/>
-										<UML:TaggedValue tag="ea_localid" value="6705"/>
+										<UML:TaggedValue tag="ea_localid" value="6774"/>
 									</UML:ModelElement.taggedValue>
 								</UML:Attribute>
 								<UML:Attribute name="INCOMPLIANCES" changeable="none" visibility="public" ownerScope="instance" targetScope="instance">
@@ -1896,7 +1935,10 @@
 										<UML:Stereotype name="column"/>
 									</UML:ModelElement.stereotype>
 									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="length" value="0"/>
 										<UML:TaggedValue tag="ordered" value="0"/>
+										<UML:TaggedValue tag="precision" value="0"/>
+										<UML:TaggedValue tag="scale" value="0"/>
 										<UML:TaggedValue tag="stereotype" value="column"/>
 										<UML:TaggedValue tag="collection" value="false"/>
 										<UML:TaggedValue tag="position" value="4"/>
@@ -1904,7 +1946,7 @@
 										<UML:TaggedValue tag="upperBound" value="1"/>
 										<UML:TaggedValue tag="duplicates" value="0"/>
 										<UML:TaggedValue tag="ea_guid" value="{4A5EEF68-CBB3-42fa-9DB9-0B6F43C3953C}"/>
-										<UML:TaggedValue tag="ea_localid" value="6706"/>
+										<UML:TaggedValue tag="ea_localid" value="6775"/>
 									</UML:ModelElement.taggedValue>
 								</UML:Attribute>
 								<UML:Attribute name="MEAL_RELATION" changeable="none" visibility="public" ownerScope="instance" targetScope="instance">
@@ -1925,9 +1967,31 @@
 										<UML:TaggedValue tag="position" value="5"/>
 										<UML:TaggedValue tag="lowerBound" value="1"/>
 										<UML:TaggedValue tag="upperBound" value="1"/>
-										<UML:TaggedValue tag="duplicates" value="0"/>
+										<UML:TaggedValue tag="duplicates" value="1"/>
 										<UML:TaggedValue tag="ea_guid" value="{8794697D-1F86-4738-96FC-7913DC1445CA}"/>
-										<UML:TaggedValue tag="ea_localid" value="6707"/>
+										<UML:TaggedValue tag="ea_localid" value="6776"/>
+									</UML:ModelElement.taggedValue>
+								</UML:Attribute>
+								<UML:Attribute name="UNITS" changeable="none" visibility="public" ownerScope="instance" targetScope="instance">
+									<UML:Attribute.initialValue>
+										<UML:Expression/>
+									</UML:Attribute.initialValue>
+									<UML:StructuralFeature.type>
+										<UML:Classifier xmi.idref="eaxmiid0"/>
+									</UML:StructuralFeature.type>
+									<UML:ModelElement.stereotype>
+										<UML:Stereotype name="column"/>
+									</UML:ModelElement.stereotype>
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="ordered" value="0"/>
+										<UML:TaggedValue tag="stereotype" value="column"/>
+										<UML:TaggedValue tag="collection" value="false"/>
+										<UML:TaggedValue tag="position" value="6"/>
+										<UML:TaggedValue tag="lowerBound" value="1"/>
+										<UML:TaggedValue tag="upperBound" value="1"/>
+										<UML:TaggedValue tag="duplicates" value="1"/>
+										<UML:TaggedValue tag="ea_guid" value="{87668448-1C19-4b64-9625-2771926BB875}"/>
+										<UML:TaggedValue tag="ea_localid" value="12951"/>
 									</UML:ModelElement.taggedValue>
 								</UML:Attribute>
 								<UML:Operation name="PK_MEDICINE" visibility="public" ownerScope="instance" isQuery="false" concurrency="sequential">
@@ -1942,7 +2006,7 @@
 										<UML:TaggedValue tag="returnarray" value="0"/>
 										<UML:TaggedValue tag="pure" value="0"/>
 										<UML:TaggedValue tag="ea_guid" value="{13B4515A-9D72-4aee-8654-2637129D133A}"/>
-										<UML:TaggedValue tag="ea_localid" value="14727"/>
+										<UML:TaggedValue tag="ea_localid" value="14766"/>
 									</UML:ModelElement.taggedValue>
 									<UML:BehavioralFeature.parameter>
 										<UML:Parameter kind="return" visibility="public">
@@ -1958,14 +2022,14 @@
 												<UML:Expression/>
 											</UML:Parameter.defaultValue>
 										</UML:Parameter>
-										<UML:Parameter name="MEDICINE_ID" kind="in" visibility="public">
+										<UML:Parameter name="ID" kind="in" visibility="public">
 											<UML:Parameter.type>
 												<UML:Classifier xmi.idref="eaxmiid0"/>
 											</UML:Parameter.type>
 											<UML:ModelElement.taggedValue>
 												<UML:TaggedValue tag="pos" value="0"/>
 												<UML:TaggedValue tag="const" value="0"/>
-												<UML:TaggedValue tag="ea_guid" value="{A49736C5-C703-4886-B522-1EBD66811A70}"/>
+												<UML:TaggedValue tag="ea_guid" value="{D683780C-7BFE-49ed-9FDD-788430471A9E}"/>
 											</UML:ModelElement.taggedValue>
 											<UML:Parameter.defaultValue>
 												<UML:Expression/>
@@ -1986,13 +2050,13 @@
 								<UML:TaggedValue tag="seqno" value="0"/>
 								<UML:TaggedValue tag="headStyle" value="0"/>
 								<UML:TaggedValue tag="lineStyle" value="0"/>
-								<UML:TaggedValue tag="ea_localid" value="16000"/>
+								<UML:TaggedValue tag="ea_localid" value="16013"/>
 								<UML:TaggedValue tag="ea_sourceName" value="INVENTORY_LOG"/>
 								<UML:TaggedValue tag="ea_targetName" value="MEDICINE"/>
 								<UML:TaggedValue tag="ea_sourceType" value="Class"/>
 								<UML:TaggedValue tag="ea_targetType" value="Class"/>
-								<UML:TaggedValue tag="ea_sourceID" value="17832"/>
-								<UML:TaggedValue tag="ea_targetID" value="17827"/>
+								<UML:TaggedValue tag="ea_sourceID" value="17841"/>
+								<UML:TaggedValue tag="ea_targetID" value="17840"/>
 								<UML:TaggedValue tag="virtualInheritance" value="0"/>
 								<UML:TaggedValue tag="lt" value="+MEDICINE_FK_ID"/>
 								<UML:TaggedValue tag="rt" value="+PK_MEDICINE"/>
@@ -2035,7 +2099,7 @@
 								<UML:TaggedValue tag="status" value="Proposed"/>
 								<UML:TaggedValue tag="stereotype" value="table"/>
 								<UML:TaggedValue tag="tpos" value="0"/>
-								<UML:TaggedValue tag="ea_localid" value="17832"/>
+								<UML:TaggedValue tag="ea_localid" value="17841"/>
 								<UML:TaggedValue tag="ea_eleType" value="element"/>
 								<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
 								<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={4476D2C5-494D-470a-B66E-4D785A6EB06E}$XID;$NAM=Stereotypes$NAM;$TYP=element property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=table;FQName=EAUI::table;@ENDSTEREO;$DES;$CLT={CCD7166F-E1FE-4254-A8B4-0978B218683A}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
@@ -2052,7 +2116,10 @@
 										<UML:Stereotype name="column"/>
 									</UML:ModelElement.stereotype>
 									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="length" value="0"/>
 										<UML:TaggedValue tag="ordered" value="1"/>
+										<UML:TaggedValue tag="precision" value="0"/>
+										<UML:TaggedValue tag="scale" value="0"/>
 										<UML:TaggedValue tag="stereotype" value="column"/>
 										<UML:TaggedValue tag="collection" value="false"/>
 										<UML:TaggedValue tag="position" value="0"/>
@@ -2060,10 +2127,10 @@
 										<UML:TaggedValue tag="upperBound" value="1"/>
 										<UML:TaggedValue tag="duplicates" value="1"/>
 										<UML:TaggedValue tag="ea_guid" value="{08C52351-1BFB-4566-BFA0-83377AC61545}"/>
-										<UML:TaggedValue tag="ea_localid" value="6729"/>
+										<UML:TaggedValue tag="ea_localid" value="6777"/>
 									</UML:ModelElement.taggedValue>
 								</UML:Attribute>
-								<UML:Attribute name="CREATION_TIME" changeable="none" visibility="public" ownerScope="instance" targetScope="instance">
+								<UML:Attribute name="TIME_OF_CREATION" changeable="none" visibility="public" ownerScope="instance" targetScope="instance">
 									<UML:Attribute.initialValue>
 										<UML:Expression/>
 									</UML:Attribute.initialValue>
@@ -2082,7 +2149,7 @@
 										<UML:TaggedValue tag="upperBound" value="1"/>
 										<UML:TaggedValue tag="duplicates" value="1"/>
 										<UML:TaggedValue tag="ea_guid" value="{B81A0F2D-9CA9-438d-A94C-E7082776CD60}"/>
-										<UML:TaggedValue tag="ea_localid" value="6730"/>
+										<UML:TaggedValue tag="ea_localid" value="6778"/>
 									</UML:ModelElement.taggedValue>
 								</UML:Attribute>
 								<UML:Attribute name="PATIENT_FK_ID" changeable="none" visibility="public" ownerScope="instance" targetScope="instance">
@@ -2096,7 +2163,10 @@
 										<UML:Stereotype name="column"/>
 									</UML:ModelElement.stereotype>
 									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="length" value="0"/>
 										<UML:TaggedValue tag="ordered" value="0"/>
+										<UML:TaggedValue tag="precision" value="0"/>
+										<UML:TaggedValue tag="scale" value="0"/>
 										<UML:TaggedValue tag="stereotype" value="column"/>
 										<UML:TaggedValue tag="collection" value="true"/>
 										<UML:TaggedValue tag="position" value="2"/>
@@ -2104,7 +2174,7 @@
 										<UML:TaggedValue tag="upperBound" value="1"/>
 										<UML:TaggedValue tag="duplicates" value="1"/>
 										<UML:TaggedValue tag="ea_guid" value="{B17AEB58-A986-4d1b-854B-573DDD935B80}"/>
-										<UML:TaggedValue tag="ea_localid" value="6731"/>
+										<UML:TaggedValue tag="ea_localid" value="6779"/>
 									</UML:ModelElement.taggedValue>
 								</UML:Attribute>
 								<UML:Attribute name="MEDICINE_FK_ID" changeable="none" visibility="public" ownerScope="instance" targetScope="instance">
@@ -2118,7 +2188,10 @@
 										<UML:Stereotype name="column"/>
 									</UML:ModelElement.stereotype>
 									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="length" value="0"/>
 										<UML:TaggedValue tag="ordered" value="0"/>
+										<UML:TaggedValue tag="precision" value="0"/>
+										<UML:TaggedValue tag="scale" value="0"/>
 										<UML:TaggedValue tag="stereotype" value="column"/>
 										<UML:TaggedValue tag="collection" value="true"/>
 										<UML:TaggedValue tag="position" value="3"/>
@@ -2126,7 +2199,7 @@
 										<UML:TaggedValue tag="upperBound" value="1"/>
 										<UML:TaggedValue tag="duplicates" value="1"/>
 										<UML:TaggedValue tag="ea_guid" value="{B6A1D14E-DB9C-4a71-841C-D24BB6689948}"/>
-										<UML:TaggedValue tag="ea_localid" value="6732"/>
+										<UML:TaggedValue tag="ea_localid" value="6780"/>
 									</UML:ModelElement.taggedValue>
 								</UML:Attribute>
 								<UML:Attribute name="CHANGE_QUANTITY" changeable="none" visibility="public" ownerScope="instance" targetScope="instance">
@@ -2148,10 +2221,10 @@
 										<UML:TaggedValue tag="upperBound" value="1"/>
 										<UML:TaggedValue tag="duplicates" value="1"/>
 										<UML:TaggedValue tag="ea_guid" value="{330AA934-9C60-4ebf-9105-A273CA69BD79}"/>
-										<UML:TaggedValue tag="ea_localid" value="6733"/>
+										<UML:TaggedValue tag="ea_localid" value="6781"/>
 									</UML:ModelElement.taggedValue>
 								</UML:Attribute>
-								<UML:Attribute name="UNIT_CLASS" changeable="none" visibility="public" ownerScope="instance" targetScope="instance">
+								<UML:Attribute name="UNITS" changeable="none" visibility="public" ownerScope="instance" targetScope="instance">
 									<UML:Attribute.initialValue>
 										<UML:Expression/>
 									</UML:Attribute.initialValue>
@@ -2171,7 +2244,7 @@
 										<UML:TaggedValue tag="upperBound" value="1"/>
 										<UML:TaggedValue tag="duplicates" value="1"/>
 										<UML:TaggedValue tag="ea_guid" value="{DADA40F4-FC73-4965-8F84-AF815B87F4C2}"/>
-										<UML:TaggedValue tag="ea_localid" value="6734"/>
+										<UML:TaggedValue tag="ea_localid" value="6782"/>
 									</UML:ModelElement.taggedValue>
 								</UML:Attribute>
 								<UML:Attribute name="REFERENCE" changeable="none" visibility="public" ownerScope="instance" targetScope="instance">
@@ -2186,7 +2259,10 @@
 									</UML:ModelElement.stereotype>
 									<UML:ModelElement.taggedValue>
 										<UML:TaggedValue tag="description" value="One of: INTAKE, REFILL"/>
+										<UML:TaggedValue tag="length" value="0"/>
 										<UML:TaggedValue tag="ordered" value="0"/>
+										<UML:TaggedValue tag="precision" value="0"/>
+										<UML:TaggedValue tag="scale" value="0"/>
 										<UML:TaggedValue tag="stereotype" value="column"/>
 										<UML:TaggedValue tag="collection" value="false"/>
 										<UML:TaggedValue tag="position" value="6"/>
@@ -2194,7 +2270,7 @@
 										<UML:TaggedValue tag="upperBound" value="1"/>
 										<UML:TaggedValue tag="duplicates" value="1"/>
 										<UML:TaggedValue tag="ea_guid" value="{E3CF8C83-05B9-427f-8894-F835E2A209DB}"/>
-										<UML:TaggedValue tag="ea_localid" value="6735"/>
+										<UML:TaggedValue tag="ea_localid" value="6783"/>
 									</UML:ModelElement.taggedValue>
 								</UML:Attribute>
 								<UML:Operation name="FK_MEDICINE_FK_ID" visibility="public" ownerScope="instance" isQuery="false" concurrency="sequential">
@@ -2210,7 +2286,7 @@
 										<UML:TaggedValue tag="returnarray" value="0"/>
 										<UML:TaggedValue tag="pure" value="0"/>
 										<UML:TaggedValue tag="ea_guid" value="{FF3174CB-9BFA-4b56-BC9B-4D6CA5919A39}"/>
-										<UML:TaggedValue tag="ea_localid" value="14744"/>
+										<UML:TaggedValue tag="ea_localid" value="14767"/>
 									</UML:ModelElement.taggedValue>
 									<UML:BehavioralFeature.parameter>
 										<UML:Parameter kind="return" visibility="public">
@@ -2254,7 +2330,7 @@
 										<UML:TaggedValue tag="returnarray" value="0"/>
 										<UML:TaggedValue tag="pure" value="0"/>
 										<UML:TaggedValue tag="ea_guid" value="{DDFD15A0-283D-4512-8618-DDABAB026D43}"/>
-										<UML:TaggedValue tag="ea_localid" value="14743"/>
+										<UML:TaggedValue tag="ea_localid" value="14768"/>
 									</UML:ModelElement.taggedValue>
 									<UML:BehavioralFeature.parameter>
 										<UML:Parameter kind="return" visibility="public">
@@ -2297,7 +2373,7 @@
 										<UML:TaggedValue tag="returnarray" value="0"/>
 										<UML:TaggedValue tag="pure" value="0"/>
 										<UML:TaggedValue tag="ea_guid" value="{32750FDE-66D3-41dc-9DF1-75569A906AA6}"/>
-										<UML:TaggedValue tag="ea_localid" value="14737"/>
+										<UML:TaggedValue tag="ea_localid" value="14769"/>
 									</UML:ModelElement.taggedValue>
 									<UML:BehavioralFeature.parameter>
 										<UML:Parameter kind="return" visibility="public">
@@ -2341,13 +2417,13 @@
 								<UML:TaggedValue tag="seqno" value="0"/>
 								<UML:TaggedValue tag="headStyle" value="0"/>
 								<UML:TaggedValue tag="lineStyle" value="0"/>
-								<UML:TaggedValue tag="ea_localid" value="15999"/>
+								<UML:TaggedValue tag="ea_localid" value="16012"/>
 								<UML:TaggedValue tag="ea_sourceName" value="INVENTORY_LOG"/>
 								<UML:TaggedValue tag="ea_targetName" value="PERSON"/>
 								<UML:TaggedValue tag="ea_sourceType" value="Class"/>
 								<UML:TaggedValue tag="ea_targetType" value="Class"/>
-								<UML:TaggedValue tag="ea_sourceID" value="17832"/>
-								<UML:TaggedValue tag="ea_targetID" value="17826"/>
+								<UML:TaggedValue tag="ea_sourceID" value="17841"/>
+								<UML:TaggedValue tag="ea_targetID" value="17844"/>
 								<UML:TaggedValue tag="virtualInheritance" value="0"/>
 								<UML:TaggedValue tag="lt" value="+PATIENT_FK_ID"/>
 								<UML:TaggedValue tag="rt" value="+PK_USER"/>
@@ -2390,13 +2466,13 @@
 								<UML:TaggedValue tag="status" value="Proposed"/>
 								<UML:TaggedValue tag="stereotype" value="table"/>
 								<UML:TaggedValue tag="tpos" value="0"/>
-								<UML:TaggedValue tag="ea_localid" value="17834"/>
+								<UML:TaggedValue tag="ea_localid" value="17842"/>
 								<UML:TaggedValue tag="ea_eleType" value="element"/>
 								<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
 								<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={2A689266-9832-46ad-B3E6-90C9F5649C1A}$XID;$NAM=Stereotypes$NAM;$TYP=element property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=table;FQName=EAUI::table;@ENDSTEREO;$DES;$CLT={D85CF2EA-E933-4c0b-A3BB-69C8BE2239E0}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
 							</UML:ModelElement.taggedValue>
 							<UML:Classifier.feature>
-								<UML:Attribute name="DISPENSER_ID" changeable="none" visibility="public" ownerScope="instance" targetScope="instance">
+								<UML:Attribute name="ID" changeable="none" visibility="public" ownerScope="instance" targetScope="instance">
 									<UML:Attribute.initialValue>
 										<UML:Expression/>
 									</UML:Attribute.initialValue>
@@ -2415,7 +2491,7 @@
 										<UML:TaggedValue tag="upperBound" value="1"/>
 										<UML:TaggedValue tag="duplicates" value="1"/>
 										<UML:TaggedValue tag="ea_guid" value="{F3642959-A16E-4c64-A216-6F90D46A7311}"/>
-										<UML:TaggedValue tag="ea_localid" value="6744"/>
+										<UML:TaggedValue tag="ea_localid" value="6784"/>
 									</UML:ModelElement.taggedValue>
 								</UML:Attribute>
 								<UML:Attribute name="PATIENT_FK_ID" changeable="none" visibility="public" ownerScope="instance" targetScope="instance">
@@ -2430,18 +2506,21 @@
 									</UML:ModelElement.stereotype>
 									<UML:ModelElement.taggedValue>
 										<UML:TaggedValue tag="description" value="the patient using this dispenser"/>
+										<UML:TaggedValue tag="length" value="0"/>
 										<UML:TaggedValue tag="ordered" value="0"/>
+										<UML:TaggedValue tag="precision" value="0"/>
+										<UML:TaggedValue tag="scale" value="0"/>
 										<UML:TaggedValue tag="stereotype" value="column"/>
-										<UML:TaggedValue tag="collection" value="false"/>
+										<UML:TaggedValue tag="collection" value="true"/>
 										<UML:TaggedValue tag="position" value="1"/>
 										<UML:TaggedValue tag="lowerBound" value="1"/>
 										<UML:TaggedValue tag="upperBound" value="1"/>
 										<UML:TaggedValue tag="duplicates" value="1"/>
 										<UML:TaggedValue tag="ea_guid" value="{E86F08FA-83A5-47ce-863D-47C4AF7C1C55}"/>
-										<UML:TaggedValue tag="ea_localid" value="6745"/>
+										<UML:TaggedValue tag="ea_localid" value="6785"/>
 									</UML:ModelElement.taggedValue>
 								</UML:Attribute>
-								<UML:Attribute name="DISPENSER_URI" changeable="none" visibility="public" ownerScope="instance" targetScope="instance">
+								<UML:Attribute name="NAME" changeable="none" visibility="public" ownerScope="instance" targetScope="instance">
 									<UML:Attribute.initialValue>
 										<UML:Expression/>
 									</UML:Attribute.initialValue>
@@ -2458,9 +2537,141 @@
 										<UML:TaggedValue tag="position" value="2"/>
 										<UML:TaggedValue tag="lowerBound" value="1"/>
 										<UML:TaggedValue tag="upperBound" value="1"/>
-										<UML:TaggedValue tag="duplicates" value="0"/>
+										<UML:TaggedValue tag="duplicates" value="1"/>
+										<UML:TaggedValue tag="ea_guid" value="{7D68F577-CBEA-4433-ABA7-0310B1DD3D41}"/>
+										<UML:TaggedValue tag="ea_localid" value="12952"/>
+									</UML:ModelElement.taggedValue>
+								</UML:Attribute>
+								<UML:Attribute name="DISPENSER_URI" changeable="none" visibility="public" ownerScope="instance" targetScope="instance">
+									<UML:Attribute.initialValue>
+										<UML:Expression/>
+									</UML:Attribute.initialValue>
+									<UML:StructuralFeature.type>
+										<UML:Classifier xmi.idref="eaxmiid0"/>
+									</UML:StructuralFeature.type>
+									<UML:ModelElement.stereotype>
+										<UML:Stereotype name="column"/>
+									</UML:ModelElement.stereotype>
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="ordered" value="0"/>
+										<UML:TaggedValue tag="stereotype" value="column"/>
+										<UML:TaggedValue tag="collection" value="false"/>
+										<UML:TaggedValue tag="position" value="3"/>
+										<UML:TaggedValue tag="lowerBound" value="1"/>
+										<UML:TaggedValue tag="upperBound" value="1"/>
+										<UML:TaggedValue tag="duplicates" value="1"/>
 										<UML:TaggedValue tag="ea_guid" value="{6FC1EC2F-43B1-4233-8A36-CDA78C7F030C}"/>
-										<UML:TaggedValue tag="ea_localid" value="6746"/>
+										<UML:TaggedValue tag="ea_localid" value="6786"/>
+									</UML:ModelElement.taggedValue>
+								</UML:Attribute>
+								<UML:Attribute name="INSTRUCTIONS_FILE_NAME" changeable="none" visibility="public" ownerScope="instance" targetScope="instance">
+									<UML:Attribute.initialValue>
+										<UML:Expression/>
+									</UML:Attribute.initialValue>
+									<UML:StructuralFeature.type>
+										<UML:Classifier xmi.idref="eaxmiid0"/>
+									</UML:StructuralFeature.type>
+									<UML:ModelElement.stereotype>
+										<UML:Stereotype name="column"/>
+									</UML:ModelElement.stereotype>
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="ordered" value="0"/>
+										<UML:TaggedValue tag="stereotype" value="column"/>
+										<UML:TaggedValue tag="collection" value="false"/>
+										<UML:TaggedValue tag="position" value="4"/>
+										<UML:TaggedValue tag="lowerBound" value="1"/>
+										<UML:TaggedValue tag="upperBound" value="1"/>
+										<UML:TaggedValue tag="duplicates" value="1"/>
+										<UML:TaggedValue tag="ea_guid" value="{CA8A18E0-280C-4097-9605-CF94895423F8}"/>
+										<UML:TaggedValue tag="ea_localid" value="12953"/>
+									</UML:ModelElement.taggedValue>
+								</UML:Attribute>
+								<UML:Attribute name="DUE_INTAKE_ALERT" changeable="none" visibility="public" ownerScope="instance" targetScope="instance">
+									<UML:Attribute.initialValue>
+										<UML:Expression/>
+									</UML:Attribute.initialValue>
+									<UML:StructuralFeature.type>
+										<UML:Classifier xmi.idref="eaxmiid0"/>
+									</UML:StructuralFeature.type>
+									<UML:ModelElement.stereotype>
+										<UML:Stereotype name="column"/>
+									</UML:ModelElement.stereotype>
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="ordered" value="0"/>
+										<UML:TaggedValue tag="stereotype" value="column"/>
+										<UML:TaggedValue tag="collection" value="false"/>
+										<UML:TaggedValue tag="position" value="5"/>
+										<UML:TaggedValue tag="lowerBound" value="1"/>
+										<UML:TaggedValue tag="upperBound" value="1"/>
+										<UML:TaggedValue tag="duplicates" value="1"/>
+										<UML:TaggedValue tag="ea_guid" value="{FD21A480-6E3D-416f-921B-5D099CA1372E}"/>
+										<UML:TaggedValue tag="ea_localid" value="12954"/>
+									</UML:ModelElement.taggedValue>
+								</UML:Attribute>
+								<UML:Attribute name="MISSED_INTAKE_ALERT" changeable="none" visibility="public" ownerScope="instance" targetScope="instance">
+									<UML:Attribute.initialValue>
+										<UML:Expression/>
+									</UML:Attribute.initialValue>
+									<UML:StructuralFeature.type>
+										<UML:Classifier xmi.idref="eaxmiid0"/>
+									</UML:StructuralFeature.type>
+									<UML:ModelElement.stereotype>
+										<UML:Stereotype name="column"/>
+									</UML:ModelElement.stereotype>
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="ordered" value="0"/>
+										<UML:TaggedValue tag="stereotype" value="column"/>
+										<UML:TaggedValue tag="collection" value="false"/>
+										<UML:TaggedValue tag="position" value="6"/>
+										<UML:TaggedValue tag="lowerBound" value="1"/>
+										<UML:TaggedValue tag="upperBound" value="1"/>
+										<UML:TaggedValue tag="duplicates" value="1"/>
+										<UML:TaggedValue tag="ea_guid" value="{61A403CB-0892-4574-ABEB-B446E5EA7763}"/>
+										<UML:TaggedValue tag="ea_localid" value="12955"/>
+									</UML:ModelElement.taggedValue>
+								</UML:Attribute>
+								<UML:Attribute name="SUCCESSFUL_INTAKE_ALERT" changeable="none" visibility="public" ownerScope="instance" targetScope="instance">
+									<UML:Attribute.initialValue>
+										<UML:Expression/>
+									</UML:Attribute.initialValue>
+									<UML:StructuralFeature.type>
+										<UML:Classifier xmi.idref="eaxmiid0"/>
+									</UML:StructuralFeature.type>
+									<UML:ModelElement.stereotype>
+										<UML:Stereotype name="column"/>
+									</UML:ModelElement.stereotype>
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="ordered" value="0"/>
+										<UML:TaggedValue tag="stereotype" value="column"/>
+										<UML:TaggedValue tag="collection" value="false"/>
+										<UML:TaggedValue tag="position" value="7"/>
+										<UML:TaggedValue tag="lowerBound" value="1"/>
+										<UML:TaggedValue tag="upperBound" value="1"/>
+										<UML:TaggedValue tag="duplicates" value="1"/>
+										<UML:TaggedValue tag="ea_guid" value="{2C52D3D5-5FC1-4c9a-A669-E6F553A81D6B}"/>
+										<UML:TaggedValue tag="ea_localid" value="12956"/>
+									</UML:ModelElement.taggedValue>
+								</UML:Attribute>
+								<UML:Attribute name="UPSIDE_DOWN_ALERT" changeable="none" visibility="public" ownerScope="instance" targetScope="instance">
+									<UML:Attribute.initialValue>
+										<UML:Expression/>
+									</UML:Attribute.initialValue>
+									<UML:StructuralFeature.type>
+										<UML:Classifier xmi.idref="eaxmiid0"/>
+									</UML:StructuralFeature.type>
+									<UML:ModelElement.stereotype>
+										<UML:Stereotype name="column"/>
+									</UML:ModelElement.stereotype>
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="ordered" value="0"/>
+										<UML:TaggedValue tag="stereotype" value="column"/>
+										<UML:TaggedValue tag="collection" value="false"/>
+										<UML:TaggedValue tag="position" value="8"/>
+										<UML:TaggedValue tag="lowerBound" value="1"/>
+										<UML:TaggedValue tag="upperBound" value="1"/>
+										<UML:TaggedValue tag="duplicates" value="1"/>
+										<UML:TaggedValue tag="ea_guid" value="{85269C17-7214-481e-964A-CED1B97157EE}"/>
+										<UML:TaggedValue tag="ea_localid" value="12957"/>
 									</UML:ModelElement.taggedValue>
 								</UML:Attribute>
 								<UML:Operation name="FK_PATIENT_FK_ID" visibility="public" ownerScope="instance" isQuery="false" concurrency="sequential">
@@ -2476,7 +2687,7 @@
 										<UML:TaggedValue tag="returnarray" value="0"/>
 										<UML:TaggedValue tag="pure" value="0"/>
 										<UML:TaggedValue tag="ea_guid" value="{60637C04-AEE9-494a-AF72-E8658D1E231E}"/>
-										<UML:TaggedValue tag="ea_localid" value="14750"/>
+										<UML:TaggedValue tag="ea_localid" value="14770"/>
 									</UML:ModelElement.taggedValue>
 									<UML:BehavioralFeature.parameter>
 										<UML:Parameter kind="return" visibility="public">
@@ -2519,7 +2730,7 @@
 										<UML:TaggedValue tag="returnarray" value="0"/>
 										<UML:TaggedValue tag="pure" value="0"/>
 										<UML:TaggedValue tag="ea_guid" value="{9D67A904-04AA-4ff4-A045-BE22DA4A6C44}"/>
-										<UML:TaggedValue tag="ea_localid" value="14739"/>
+										<UML:TaggedValue tag="ea_localid" value="14771"/>
 									</UML:ModelElement.taggedValue>
 									<UML:BehavioralFeature.parameter>
 										<UML:Parameter kind="return" visibility="public">
@@ -2535,14 +2746,14 @@
 												<UML:Expression/>
 											</UML:Parameter.defaultValue>
 										</UML:Parameter>
-										<UML:Parameter name="DISPENSER_ID" kind="in" visibility="public">
+										<UML:Parameter name="ID" kind="in" visibility="public">
 											<UML:Parameter.type>
 												<UML:Classifier xmi.idref="eaxmiid0"/>
 											</UML:Parameter.type>
 											<UML:ModelElement.taggedValue>
 												<UML:TaggedValue tag="pos" value="0"/>
 												<UML:TaggedValue tag="const" value="0"/>
-												<UML:TaggedValue tag="ea_guid" value="{83B7E21F-4DAC-48b0-ADAE-1315C8DAA8FE}"/>
+												<UML:TaggedValue tag="ea_guid" value="{12851113-E267-4d4d-96B9-0713BD245AB6}"/>
 											</UML:ModelElement.taggedValue>
 											<UML:Parameter.defaultValue>
 												<UML:Expression/>
@@ -2563,13 +2774,13 @@
 								<UML:TaggedValue tag="seqno" value="0"/>
 								<UML:TaggedValue tag="headStyle" value="0"/>
 								<UML:TaggedValue tag="lineStyle" value="0"/>
-								<UML:TaggedValue tag="ea_localid" value="16007"/>
+								<UML:TaggedValue tag="ea_localid" value="16011"/>
 								<UML:TaggedValue tag="ea_sourceName" value="DISPENSER"/>
 								<UML:TaggedValue tag="ea_targetName" value="PERSON"/>
 								<UML:TaggedValue tag="ea_sourceType" value="Class"/>
 								<UML:TaggedValue tag="ea_targetType" value="Class"/>
-								<UML:TaggedValue tag="ea_sourceID" value="17834"/>
-								<UML:TaggedValue tag="ea_targetID" value="17826"/>
+								<UML:TaggedValue tag="ea_sourceID" value="17842"/>
+								<UML:TaggedValue tag="ea_targetID" value="17844"/>
 								<UML:TaggedValue tag="virtualInheritance" value="0"/>
 								<UML:TaggedValue tag="lt" value="+PATIENT_FK_ID"/>
 								<UML:TaggedValue tag="rt" value="+PK_PERSON"/>
@@ -2612,13 +2823,13 @@
 								<UML:TaggedValue tag="status" value="Proposed"/>
 								<UML:TaggedValue tag="stereotype" value="table"/>
 								<UML:TaggedValue tag="tpos" value="0"/>
-								<UML:TaggedValue tag="ea_localid" value="17828"/>
+								<UML:TaggedValue tag="ea_localid" value="17843"/>
 								<UML:TaggedValue tag="ea_eleType" value="element"/>
 								<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
 								<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={3F715C14-1175-4414-A835-9A6C91E84FF5}$XID;$NAM=Stereotypes$NAM;$TYP=element property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=table;FQName=EAUI::table;@ENDSTEREO;$DES;$CLT={DC75347D-2CF7-4da3-AA62-6046C04553F3}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
 							</UML:ModelElement.taggedValue>
 							<UML:Classifier.feature>
-								<UML:Attribute name="PRESCRIPTION_ID" changeable="none" visibility="public" ownerScope="instance" targetScope="instance">
+								<UML:Attribute name="ID" changeable="none" visibility="public" ownerScope="instance" targetScope="instance">
 									<UML:Attribute.initialValue>
 										<UML:Expression/>
 									</UML:Attribute.initialValue>
@@ -2637,7 +2848,7 @@
 										<UML:TaggedValue tag="upperBound" value="1"/>
 										<UML:TaggedValue tag="duplicates" value="1"/>
 										<UML:TaggedValue tag="ea_guid" value="{378DFC3B-BDDB-42ec-986F-04240792F852}"/>
-										<UML:TaggedValue tag="ea_localid" value="6708"/>
+										<UML:TaggedValue tag="ea_localid" value="6787"/>
 									</UML:ModelElement.taggedValue>
 								</UML:Attribute>
 								<UML:Attribute name="TIME_OF_CREATION" changeable="none" visibility="public" ownerScope="instance" targetScope="instance">
@@ -2651,7 +2862,10 @@
 										<UML:Stereotype name="column"/>
 									</UML:ModelElement.stereotype>
 									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="length" value="0"/>
 										<UML:TaggedValue tag="ordered" value="0"/>
+										<UML:TaggedValue tag="precision" value="0"/>
+										<UML:TaggedValue tag="scale" value="0"/>
 										<UML:TaggedValue tag="stereotype" value="column"/>
 										<UML:TaggedValue tag="collection" value="false"/>
 										<UML:TaggedValue tag="position" value="1"/>
@@ -2659,7 +2873,7 @@
 										<UML:TaggedValue tag="upperBound" value="1"/>
 										<UML:TaggedValue tag="duplicates" value="1"/>
 										<UML:TaggedValue tag="ea_guid" value="{280DE506-1353-4fc8-8746-85D132041FA7}"/>
-										<UML:TaggedValue tag="ea_localid" value="6709"/>
+										<UML:TaggedValue tag="ea_localid" value="6788"/>
 									</UML:ModelElement.taggedValue>
 								</UML:Attribute>
 								<UML:Attribute name="PATIENT_FK_ID" changeable="none" visibility="public" ownerScope="instance" targetScope="instance">
@@ -2673,7 +2887,10 @@
 										<UML:Stereotype name="column"/>
 									</UML:ModelElement.stereotype>
 									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="length" value="0"/>
 										<UML:TaggedValue tag="ordered" value="0"/>
+										<UML:TaggedValue tag="precision" value="0"/>
+										<UML:TaggedValue tag="scale" value="0"/>
 										<UML:TaggedValue tag="stereotype" value="column"/>
 										<UML:TaggedValue tag="collection" value="true"/>
 										<UML:TaggedValue tag="position" value="2"/>
@@ -2681,7 +2898,7 @@
 										<UML:TaggedValue tag="upperBound" value="1"/>
 										<UML:TaggedValue tag="duplicates" value="1"/>
 										<UML:TaggedValue tag="ea_guid" value="{2EA1B307-8347-4f93-8BE2-476C2BA596BB}"/>
-										<UML:TaggedValue tag="ea_localid" value="6710"/>
+										<UML:TaggedValue tag="ea_localid" value="6789"/>
 									</UML:ModelElement.taggedValue>
 								</UML:Attribute>
 								<UML:Attribute name="PHYSICIAN_FK_ID" changeable="none" visibility="public" ownerScope="instance" targetScope="instance">
@@ -2695,7 +2912,10 @@
 										<UML:Stereotype name="column"/>
 									</UML:ModelElement.stereotype>
 									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="length" value="0"/>
 										<UML:TaggedValue tag="ordered" value="0"/>
+										<UML:TaggedValue tag="precision" value="0"/>
+										<UML:TaggedValue tag="scale" value="0"/>
 										<UML:TaggedValue tag="stereotype" value="column"/>
 										<UML:TaggedValue tag="collection" value="true"/>
 										<UML:TaggedValue tag="position" value="3"/>
@@ -2703,7 +2923,29 @@
 										<UML:TaggedValue tag="upperBound" value="1"/>
 										<UML:TaggedValue tag="duplicates" value="1"/>
 										<UML:TaggedValue tag="ea_guid" value="{06DDBC1E-B8C6-421f-A2E1-A1B1F8C2FEFF}"/>
-										<UML:TaggedValue tag="ea_localid" value="6711"/>
+										<UML:TaggedValue tag="ea_localid" value="6790"/>
+									</UML:ModelElement.taggedValue>
+								</UML:Attribute>
+								<UML:Attribute name="DESCRIPTION" changeable="none" visibility="public" ownerScope="instance" targetScope="instance">
+									<UML:Attribute.initialValue>
+										<UML:Expression/>
+									</UML:Attribute.initialValue>
+									<UML:StructuralFeature.type>
+										<UML:Classifier xmi.idref="eaxmiid0"/>
+									</UML:StructuralFeature.type>
+									<UML:ModelElement.stereotype>
+										<UML:Stereotype name="column"/>
+									</UML:ModelElement.stereotype>
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="ordered" value="0"/>
+										<UML:TaggedValue tag="stereotype" value="column"/>
+										<UML:TaggedValue tag="collection" value="false"/>
+										<UML:TaggedValue tag="position" value="4"/>
+										<UML:TaggedValue tag="lowerBound" value="1"/>
+										<UML:TaggedValue tag="upperBound" value="1"/>
+										<UML:TaggedValue tag="duplicates" value="1"/>
+										<UML:TaggedValue tag="ea_guid" value="{60D84BC9-4953-46a7-AF0C-3DC2AC3C4536}"/>
+										<UML:TaggedValue tag="ea_localid" value="12958"/>
 									</UML:ModelElement.taggedValue>
 								</UML:Attribute>
 								<UML:Attribute name="STATUS" changeable="none" visibility="public" ownerScope="instance" targetScope="instance">
@@ -2718,15 +2960,18 @@
 									</UML:ModelElement.stereotype>
 									<UML:ModelElement.taggedValue>
 										<UML:TaggedValue tag="description" value="one of: ACTIVE, INACTIVE"/>
+										<UML:TaggedValue tag="length" value="0"/>
 										<UML:TaggedValue tag="ordered" value="0"/>
+										<UML:TaggedValue tag="precision" value="0"/>
+										<UML:TaggedValue tag="scale" value="0"/>
 										<UML:TaggedValue tag="stereotype" value="column"/>
 										<UML:TaggedValue tag="collection" value="false"/>
-										<UML:TaggedValue tag="position" value="4"/>
+										<UML:TaggedValue tag="position" value="5"/>
 										<UML:TaggedValue tag="lowerBound" value="1"/>
 										<UML:TaggedValue tag="upperBound" value="1"/>
 										<UML:TaggedValue tag="duplicates" value="1"/>
 										<UML:TaggedValue tag="ea_guid" value="{CC51C28F-76FB-44f0-A0F4-DE859096F0D3}"/>
-										<UML:TaggedValue tag="ea_localid" value="6712"/>
+										<UML:TaggedValue tag="ea_localid" value="6791"/>
 									</UML:ModelElement.taggedValue>
 								</UML:Attribute>
 								<UML:Operation name="FK_PATIENT_FK_ID" visibility="public" ownerScope="instance" isQuery="false" concurrency="sequential">
@@ -2742,7 +2987,7 @@
 										<UML:TaggedValue tag="returnarray" value="0"/>
 										<UML:TaggedValue tag="pure" value="0"/>
 										<UML:TaggedValue tag="ea_guid" value="{B462487B-09D7-4263-A6AB-869C21854321}"/>
-										<UML:TaggedValue tag="ea_localid" value="14729"/>
+										<UML:TaggedValue tag="ea_localid" value="14772"/>
 									</UML:ModelElement.taggedValue>
 									<UML:BehavioralFeature.parameter>
 										<UML:Parameter kind="return" visibility="public">
@@ -2786,7 +3031,7 @@
 										<UML:TaggedValue tag="returnarray" value="0"/>
 										<UML:TaggedValue tag="pure" value="0"/>
 										<UML:TaggedValue tag="ea_guid" value="{A0B90C7E-A830-472a-A3D5-B1516B5C91D7}"/>
-										<UML:TaggedValue tag="ea_localid" value="14730"/>
+										<UML:TaggedValue tag="ea_localid" value="14773"/>
 									</UML:ModelElement.taggedValue>
 									<UML:BehavioralFeature.parameter>
 										<UML:Parameter kind="return" visibility="public">
@@ -2829,7 +3074,7 @@
 										<UML:TaggedValue tag="returnarray" value="0"/>
 										<UML:TaggedValue tag="pure" value="0"/>
 										<UML:TaggedValue tag="ea_guid" value="{E304C7E2-8F0C-4798-807E-E2ABE8A73754}"/>
-										<UML:TaggedValue tag="ea_localid" value="14728"/>
+										<UML:TaggedValue tag="ea_localid" value="14774"/>
 									</UML:ModelElement.taggedValue>
 									<UML:BehavioralFeature.parameter>
 										<UML:Parameter kind="return" visibility="public">
@@ -2845,14 +3090,14 @@
 												<UML:Expression/>
 											</UML:Parameter.defaultValue>
 										</UML:Parameter>
-										<UML:Parameter name="PRESCRIPTION_ID" kind="in" visibility="public">
+										<UML:Parameter name="ID" kind="in" visibility="public">
 											<UML:Parameter.type>
 												<UML:Classifier xmi.idref="eaxmiid0"/>
 											</UML:Parameter.type>
 											<UML:ModelElement.taggedValue>
 												<UML:TaggedValue tag="pos" value="0"/>
 												<UML:TaggedValue tag="const" value="0"/>
-												<UML:TaggedValue tag="ea_guid" value="{A48CECF2-0FCF-4299-A904-C29239C47AF6}"/>
+												<UML:TaggedValue tag="ea_guid" value="{085B70B5-7B78-4ed6-B27D-CB46E319408B}"/>
 											</UML:ModelElement.taggedValue>
 											<UML:Parameter.defaultValue>
 												<UML:Expression/>
@@ -2873,13 +3118,13 @@
 								<UML:TaggedValue tag="seqno" value="0"/>
 								<UML:TaggedValue tag="headStyle" value="0"/>
 								<UML:TaggedValue tag="lineStyle" value="0"/>
-								<UML:TaggedValue tag="ea_localid" value="15992"/>
+								<UML:TaggedValue tag="ea_localid" value="16010"/>
 								<UML:TaggedValue tag="ea_sourceName" value="PRESCRIPTION"/>
 								<UML:TaggedValue tag="ea_targetName" value="PERSON"/>
 								<UML:TaggedValue tag="ea_sourceType" value="Class"/>
 								<UML:TaggedValue tag="ea_targetType" value="Class"/>
-								<UML:TaggedValue tag="ea_sourceID" value="17828"/>
-								<UML:TaggedValue tag="ea_targetID" value="17826"/>
+								<UML:TaggedValue tag="ea_sourceID" value="17843"/>
+								<UML:TaggedValue tag="ea_targetID" value="17844"/>
 								<UML:TaggedValue tag="virtualInheritance" value="0"/>
 								<UML:TaggedValue tag="lt" value="+PHYSICIAN_FK_ID"/>
 								<UML:TaggedValue tag="rt" value="+PK_USER"/>
@@ -2912,13 +3157,13 @@
 								<UML:TaggedValue tag="seqno" value="0"/>
 								<UML:TaggedValue tag="headStyle" value="0"/>
 								<UML:TaggedValue tag="lineStyle" value="0"/>
-								<UML:TaggedValue tag="ea_localid" value="15991"/>
+								<UML:TaggedValue tag="ea_localid" value="16009"/>
 								<UML:TaggedValue tag="ea_sourceName" value="PRESCRIPTION"/>
 								<UML:TaggedValue tag="ea_targetName" value="PERSON"/>
 								<UML:TaggedValue tag="ea_sourceType" value="Class"/>
 								<UML:TaggedValue tag="ea_targetType" value="Class"/>
-								<UML:TaggedValue tag="ea_sourceID" value="17828"/>
-								<UML:TaggedValue tag="ea_targetID" value="17826"/>
+								<UML:TaggedValue tag="ea_sourceID" value="17843"/>
+								<UML:TaggedValue tag="ea_targetID" value="17844"/>
 								<UML:TaggedValue tag="virtualInheritance" value="0"/>
 								<UML:TaggedValue tag="lt" value="+PATIENT_FK_ID"/>
 								<UML:TaggedValue tag="rt" value="+PK_USER"/>
@@ -2961,13 +3206,13 @@
 								<UML:TaggedValue tag="status" value="Proposed"/>
 								<UML:TaggedValue tag="stereotype" value="table"/>
 								<UML:TaggedValue tag="tpos" value="0"/>
-								<UML:TaggedValue tag="ea_localid" value="17826"/>
+								<UML:TaggedValue tag="ea_localid" value="17844"/>
 								<UML:TaggedValue tag="ea_eleType" value="element"/>
 								<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
 								<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={04DF9333-2958-4915-A02B-AD90E9319314}$XID;$NAM=Stereotypes$NAM;$TYP=element property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=table;FQName=EAUI::table;@ENDSTEREO;$DES;$CLT={EFAA5D0A-DD8B-479a-8138-8ECA4136E916}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
 							</UML:ModelElement.taggedValue>
 							<UML:Classifier.feature>
-								<UML:Attribute name="PERSON_ID" changeable="none" visibility="public" ownerScope="instance" targetScope="instance">
+								<UML:Attribute name="ID" changeable="none" visibility="public" ownerScope="instance" targetScope="instance">
 									<UML:Attribute.initialValue>
 										<UML:Expression/>
 									</UML:Attribute.initialValue>
@@ -2986,7 +3231,7 @@
 										<UML:TaggedValue tag="upperBound" value="1"/>
 										<UML:TaggedValue tag="duplicates" value="1"/>
 										<UML:TaggedValue tag="ea_guid" value="{BE78C430-24A2-4cba-AD7D-0A7594B4DA3D}"/>
-										<UML:TaggedValue tag="ea_localid" value="6698"/>
+										<UML:TaggedValue tag="ea_localid" value="6792"/>
 									</UML:ModelElement.taggedValue>
 								</UML:Attribute>
 								<UML:Attribute name="NAME" changeable="none" visibility="public" ownerScope="instance" targetScope="instance">
@@ -3000,7 +3245,10 @@
 										<UML:Stereotype name="column"/>
 									</UML:ModelElement.stereotype>
 									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="length" value="0"/>
 										<UML:TaggedValue tag="ordered" value="0"/>
+										<UML:TaggedValue tag="precision" value="0"/>
+										<UML:TaggedValue tag="scale" value="0"/>
 										<UML:TaggedValue tag="stereotype" value="column"/>
 										<UML:TaggedValue tag="collection" value="false"/>
 										<UML:TaggedValue tag="position" value="1"/>
@@ -3008,7 +3256,7 @@
 										<UML:TaggedValue tag="upperBound" value="1"/>
 										<UML:TaggedValue tag="duplicates" value="1"/>
 										<UML:TaggedValue tag="ea_guid" value="{7AB0E5AF-3919-4dcb-96E6-D6081191CDF7}"/>
-										<UML:TaggedValue tag="ea_localid" value="6699"/>
+										<UML:TaggedValue tag="ea_localid" value="6793"/>
 									</UML:ModelElement.taggedValue>
 								</UML:Attribute>
 								<UML:Attribute name="PERSON_URI" changeable="none" visibility="public" ownerScope="instance" targetScope="instance">
@@ -3022,16 +3270,16 @@
 										<UML:Stereotype name="column"/>
 									</UML:ModelElement.stereotype>
 									<UML:ModelElement.taggedValue>
-										<UML:TaggedValue tag="description" value="Reference to the user profile of this person."/>
+										<UML:TaggedValue tag="description" value="Reference to the user"/>
 										<UML:TaggedValue tag="ordered" value="0"/>
 										<UML:TaggedValue tag="stereotype" value="column"/>
 										<UML:TaggedValue tag="collection" value="false"/>
 										<UML:TaggedValue tag="position" value="2"/>
 										<UML:TaggedValue tag="lowerBound" value="1"/>
 										<UML:TaggedValue tag="upperBound" value="1"/>
-										<UML:TaggedValue tag="duplicates" value="0"/>
+										<UML:TaggedValue tag="duplicates" value="1"/>
 										<UML:TaggedValue tag="ea_guid" value="{36B6C78F-0EC9-499a-94DE-E202723B5B3B}"/>
-										<UML:TaggedValue tag="ea_localid" value="6700"/>
+										<UML:TaggedValue tag="ea_localid" value="6794"/>
 									</UML:ModelElement.taggedValue>
 								</UML:Attribute>
 								<UML:Attribute name="ROLE" changeable="none" visibility="public" ownerScope="instance" targetScope="instance">
@@ -3046,7 +3294,10 @@
 									</UML:ModelElement.stereotype>
 									<UML:ModelElement.taggedValue>
 										<UML:TaggedValue tag="description" value="One of: PATIENT, PHYSICIAN, CAREGIVER"/>
+										<UML:TaggedValue tag="length" value="0"/>
 										<UML:TaggedValue tag="ordered" value="0"/>
+										<UML:TaggedValue tag="precision" value="0"/>
+										<UML:TaggedValue tag="scale" value="0"/>
 										<UML:TaggedValue tag="stereotype" value="column"/>
 										<UML:TaggedValue tag="collection" value="false"/>
 										<UML:TaggedValue tag="position" value="3"/>
@@ -3054,7 +3305,73 @@
 										<UML:TaggedValue tag="upperBound" value="1"/>
 										<UML:TaggedValue tag="duplicates" value="1"/>
 										<UML:TaggedValue tag="ea_guid" value="{0D5F0D08-E3F9-4702-86D0-746FBEC8B345}"/>
-										<UML:TaggedValue tag="ea_localid" value="6701"/>
+										<UML:TaggedValue tag="ea_localid" value="6795"/>
+									</UML:ModelElement.taggedValue>
+								</UML:Attribute>
+								<UML:Attribute name="USERNAME" changeable="none" visibility="public" ownerScope="instance" targetScope="instance">
+									<UML:Attribute.initialValue>
+										<UML:Expression/>
+									</UML:Attribute.initialValue>
+									<UML:StructuralFeature.type>
+										<UML:Classifier xmi.idref="eaxmiid0"/>
+									</UML:StructuralFeature.type>
+									<UML:ModelElement.stereotype>
+										<UML:Stereotype name="column"/>
+									</UML:ModelElement.stereotype>
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="ordered" value="0"/>
+										<UML:TaggedValue tag="stereotype" value="column"/>
+										<UML:TaggedValue tag="collection" value="false"/>
+										<UML:TaggedValue tag="position" value="4"/>
+										<UML:TaggedValue tag="lowerBound" value="1"/>
+										<UML:TaggedValue tag="upperBound" value="1"/>
+										<UML:TaggedValue tag="duplicates" value="0"/>
+										<UML:TaggedValue tag="ea_guid" value="{192D4B2F-A62F-41c0-A1A5-EA3E92487ABB}"/>
+										<UML:TaggedValue tag="ea_localid" value="12943"/>
+									</UML:ModelElement.taggedValue>
+								</UML:Attribute>
+								<UML:Attribute name="PASSWORD" changeable="none" visibility="public" ownerScope="instance" targetScope="instance">
+									<UML:Attribute.initialValue>
+										<UML:Expression/>
+									</UML:Attribute.initialValue>
+									<UML:StructuralFeature.type>
+										<UML:Classifier xmi.idref="eaxmiid0"/>
+									</UML:StructuralFeature.type>
+									<UML:ModelElement.stereotype>
+										<UML:Stereotype name="column"/>
+									</UML:ModelElement.stereotype>
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="ordered" value="0"/>
+										<UML:TaggedValue tag="stereotype" value="column"/>
+										<UML:TaggedValue tag="collection" value="false"/>
+										<UML:TaggedValue tag="position" value="5"/>
+										<UML:TaggedValue tag="lowerBound" value="1"/>
+										<UML:TaggedValue tag="upperBound" value="1"/>
+										<UML:TaggedValue tag="duplicates" value="0"/>
+										<UML:TaggedValue tag="ea_guid" value="{7B61BBBF-2B28-46c5-83C6-EBEE91C90EB3}"/>
+										<UML:TaggedValue tag="ea_localid" value="12944"/>
+									</UML:ModelElement.taggedValue>
+								</UML:Attribute>
+								<UML:Attribute name="CAREGIVER_SMS" changeable="none" visibility="public" ownerScope="instance" targetScope="instance">
+									<UML:Attribute.initialValue>
+										<UML:Expression/>
+									</UML:Attribute.initialValue>
+									<UML:StructuralFeature.type>
+										<UML:Classifier xmi.idref="eaxmiid0"/>
+									</UML:StructuralFeature.type>
+									<UML:ModelElement.stereotype>
+										<UML:Stereotype name="column"/>
+									</UML:ModelElement.stereotype>
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="ordered" value="0"/>
+										<UML:TaggedValue tag="stereotype" value="column"/>
+										<UML:TaggedValue tag="collection" value="false"/>
+										<UML:TaggedValue tag="position" value="6"/>
+										<UML:TaggedValue tag="lowerBound" value="1"/>
+										<UML:TaggedValue tag="upperBound" value="1"/>
+										<UML:TaggedValue tag="duplicates" value="0"/>
+										<UML:TaggedValue tag="ea_guid" value="{7A8110F7-A1F7-4bdb-8ECD-64E688EB8E43}"/>
+										<UML:TaggedValue tag="ea_localid" value="12945"/>
 									</UML:ModelElement.taggedValue>
 								</UML:Attribute>
 								<UML:Operation name="PK_PERSON" visibility="public" ownerScope="instance" isQuery="false" concurrency="sequential">
@@ -3069,7 +3386,7 @@
 										<UML:TaggedValue tag="returnarray" value="0"/>
 										<UML:TaggedValue tag="pure" value="0"/>
 										<UML:TaggedValue tag="ea_guid" value="{980B0B63-44D6-4fd0-BE1F-FFE148768A4C}"/>
-										<UML:TaggedValue tag="ea_localid" value="14726"/>
+										<UML:TaggedValue tag="ea_localid" value="14775"/>
 									</UML:ModelElement.taggedValue>
 									<UML:BehavioralFeature.parameter>
 										<UML:Parameter kind="return" visibility="public">
@@ -3085,14 +3402,14 @@
 												<UML:Expression/>
 											</UML:Parameter.defaultValue>
 										</UML:Parameter>
-										<UML:Parameter name="PERSON_ID" kind="in" visibility="public">
+										<UML:Parameter name="ID" kind="in" visibility="public">
 											<UML:Parameter.type>
 												<UML:Classifier xmi.idref="eaxmiid0"/>
 											</UML:Parameter.type>
 											<UML:ModelElement.taggedValue>
 												<UML:TaggedValue tag="pos" value="0"/>
 												<UML:TaggedValue tag="const" value="0"/>
-												<UML:TaggedValue tag="ea_guid" value="{AE0B6DC7-46A2-429a-8FB5-6E415D1E95EC}"/>
+												<UML:TaggedValue tag="ea_guid" value="{B5936DCF-148E-4c92-B111-FB42406C7A7D}"/>
 											</UML:ModelElement.taggedValue>
 											<UML:Parameter.defaultValue>
 												<UML:Expression/>
@@ -3110,15 +3427,18 @@
 		<UML:TaggedValue tag="DBVERSION" xmi.id="EAID_6110716C_A3D0_c5a3_AD97_E052BA148B59" modelElement="EAID_637B48B1_EAC1_48f1_BBED_DCB82081B121"/>
 		<UML:TaggedValue tag="OWNER" xmi.id="EAID_081BC26B_3B4F_c93b_B23F_20775A7691DC" modelElement="EAID_637B48B1_EAC1_48f1_BBED_DCB82081B121"/>
 		<UML:TaggedValue tag="TABLESPACE" xmi.id="EAID_D6AED194_5058_0a50_AC6E_FE6DFC29000F" modelElement="EAID_637B48B1_EAC1_48f1_BBED_DCB82081B121"/>
+		<UML:TaggedValue tag="DBVERSION" xmi.id="EAID_6110716C_A3D0_c5a3_8E3F_47B71A2BE861" modelElement="EAID_70E71B65_E7DD_469c_BD9A_224DC69D8918"/>
+		<UML:TaggedValue tag="OWNER" xmi.id="EAID_081BC26B_3B4F_c93b_94C7_974DDF281604" modelElement="EAID_70E71B65_E7DD_469c_BD9A_224DC69D8918"/>
+		<UML:TaggedValue tag="TABLESPACE" xmi.id="EAID_D6AED194_5058_0a50_92AC_70E63514DE52" modelElement="EAID_70E71B65_E7DD_469c_BD9A_224DC69D8918"/>
+		<UML:TaggedValue tag="DBVERSION" xmi.id="EAID_6110716C_A3D0_c5a3_A9B7_6FF09F9BAFEF" modelElement="EAID_74A11565_2684_4304_9BDA_84656AB1A427"/>
+		<UML:TaggedValue tag="OWNER" xmi.id="EAID_081BC26B_3B4F_c93b_A53E_D38E2DE95AB8" modelElement="EAID_74A11565_2684_4304_9BDA_84656AB1A427"/>
+		<UML:TaggedValue tag="TABLESPACE" xmi.id="EAID_D6AED194_5058_0a50_AB43_9A578A00BFD6" modelElement="EAID_74A11565_2684_4304_9BDA_84656AB1A427"/>
 		<UML:TaggedValue tag="DBVERSION" xmi.id="EAID_6110716C_A3D0_c5a3_B94D_B8D3970BCA53" modelElement="EAID_8A825D8F_520C_4aba_A9B6_DE8C7E56784A"/>
 		<UML:TaggedValue tag="OWNER" xmi.id="EAID_081BC26B_3B4F_c93b_B889_8E9E69E0C0C1" modelElement="EAID_8A825D8F_520C_4aba_A9B6_DE8C7E56784A"/>
 		<UML:TaggedValue tag="TABLESPACE" xmi.id="EAID_D6AED194_5058_0a50_A293_A270EF650A09" modelElement="EAID_8A825D8F_520C_4aba_A9B6_DE8C7E56784A"/>
 		<UML:TaggedValue tag="DBVERSION" xmi.id="EAID_6110716C_A3D0_c5a3_9FA1_6AF372FFD643" modelElement="EAID_90407E85_778D_4e4d_9BA2_44B18C6DC559"/>
 		<UML:TaggedValue tag="OWNER" xmi.id="EAID_081BC26B_3B4F_c93b_9D00_E490E4612D3D" modelElement="EAID_90407E85_778D_4e4d_9BA2_44B18C6DC559"/>
 		<UML:TaggedValue tag="TABLESPACE" xmi.id="EAID_D6AED194_5058_0a50_8AE1_B805DBEBC762" modelElement="EAID_90407E85_778D_4e4d_9BA2_44B18C6DC559"/>
-		<UML:TaggedValue tag="DBVERSION" xmi.id="EAID_6110716C_A3D0_c5a3_8053_83A472806437" modelElement="EAID_9994E9D7_3A38_46db_BEDE_C61B1E3F8AAF"/>
-		<UML:TaggedValue tag="OWNER" xmi.id="EAID_081BC26B_3B4F_c93b_B04A_890B72A44DB1" modelElement="EAID_9994E9D7_3A38_46db_BEDE_C61B1E3F8AAF"/>
-		<UML:TaggedValue tag="TABLESPACE" xmi.id="EAID_D6AED194_5058_0a50_AF1D_3FD42DC490C1" modelElement="EAID_9994E9D7_3A38_46db_BEDE_C61B1E3F8AAF"/>
 		<UML:TaggedValue tag="DBVERSION" xmi.id="EAID_6110716C_A3D0_c5a3_9BEE_C649EDAA5206" modelElement="EAID_CA018F94_595D_4386_AECB_4AF7FCB79176"/>
 		<UML:TaggedValue tag="OWNER" xmi.id="EAID_081BC26B_3B4F_c93b_9141_E947A0BB4C75" modelElement="EAID_CA018F94_595D_4386_AECB_4AF7FCB79176"/>
 		<UML:TaggedValue tag="TABLESPACE" xmi.id="EAID_D6AED194_5058_0a50_9650_675CEF40DA66" modelElement="EAID_CA018F94_595D_4386_AECB_4AF7FCB79176"/>
@@ -3134,46 +3454,45 @@
 		<UML:TaggedValue tag="DBVERSION" xmi.id="EAID_6110716C_A3D0_c5a3_A07C_4EBB188188F7" modelElement="EAID_EFAA5D0A_DD8B_479a_8138_8ECA4136E916"/>
 		<UML:TaggedValue tag="OWNER" xmi.id="EAID_081BC26B_3B4F_c93b_BD1A_FAD4450793CD" modelElement="EAID_EFAA5D0A_DD8B_479a_8138_8ECA4136E916"/>
 		<UML:TaggedValue tag="TABLESPACE" xmi.id="EAID_D6AED194_5058_0a50_8D9D_60B170FBED12" modelElement="EAID_EFAA5D0A_DD8B_479a_8138_8ECA4136E916"/>
-		<UML:Diagram name="Database" xmi.id="EAID_51B34CBC_8F8E_4fd6_BB44_6AB13FA047EC" diagramType="ClassDiagram" owner="EAPK_0DAD8747_BEEE_4d6e_AE68_EA968BB0E474" toolName="Enterprise Architect 2.5">
+		<UML:Diagram name="Medication Manager Database" xmi.id="EAID_51B34CBC_8F8E_4fd6_BB44_6AB13FA047EC" diagramType="ClassDiagram" owner="EAPK_0DAD8747_BEEE_4d6e_AE68_EA968BB0E474" toolName="Enterprise Architect 2.5">
 			<UML:ModelElement.taggedValue>
 				<UML:TaggedValue tag="version" value="1.0"/>
 				<UML:TaggedValue tag="author" value="Venelin"/>
 				<UML:TaggedValue tag="created_date" value="2012-12-30 17:00:03"/>
-				<UML:TaggedValue tag="modified_date" value="2013-01-10 12:51:53"/>
+				<UML:TaggedValue tag="modified_date" value="2013-11-07 14:25:06"/>
 				<UML:TaggedValue tag="package" value="EAPK_0DAD8747_BEEE_4d6e_AE68_EA968BB0E474"/>
 				<UML:TaggedValue tag="type" value="Logical"/>
 				<UML:TaggedValue tag="swimlanes" value="locked=false;orientation=0;width=0;inbar=false;names=false;color=0;bold=false;fcol=0;;cls=0;"/>
 				<UML:TaggedValue tag="matrixitems" value="locked=false;matrixactive=false;swimlanesactive=true;width=1;"/>
-				<UML:TaggedValue tag="ea_localid" value="1989"/>
+				<UML:TaggedValue tag="ea_localid" value="1990"/>
 				<UML:TaggedValue tag="EAStyle" value="ShowPrivate=1;ShowProtected=1;ShowPublic=1;HideRelationships=0;Locked=0;Border=1;HighlightForeign=1;PackageContents=1;SequenceNotes=0;ScalePrintImage=0;PPgs.cx=1;PPgs.cy=1;DocSize.cx=780;DocSize.cy=1138;ShowDetails=0;Orientation=P;Zoom=100;ShowTags=0;OpParams=1;VisibleAttributeDetail=0;ShowOpRetType=1;ShowIcons=1;CollabNums=0;HideProps=0;ShowReqs=0;ShowCons=0;PaperSize=9;HideParents=0;UseAlias=0;HideAtts=0;HideOps=0;HideStereo=0;HideElemStereo=0;ShowTests=0;ShowMaint=0;ConnectorNotation=Information Engineering;ExplicitNavigability=0;AdvancedElementProps=1;AdvancedFeatureProps=1;AdvancedConnectorProps=1;ShowNotes=0;SuppressBrackets=0;SuppConnectorLabels=0;PrintPageHeadFoot=0;ShowAsList=0;"/>
 				<UML:TaggedValue tag="styleex" value="ExcludeRTF=0;DocAll=0;HideQuals=0;AttPkg=1;ShowTests=0;ShowMaint=0;SuppressFOC=1;MatrixActive=0;SwimlanesActive=1;MatrixLineWidth=1;MatrixLocked=0;TConnectorNotation=Information Engineering;TExplicitNavigability=0;AdvancedElementProps=1;AdvancedFeatureProps=1;AdvancedConnectorProps=1;ProfileData=;MDGDgm=Extended::Data Modeling;STBLDgm=;ShowNotes=0;VisibleAttributeDetail=0;ShowOpRetType=1;SuppressBrackets=0;SuppConnectorLabels=0;PrintPageHeadFoot=0;ShowAsList=0;"/>
 			</UML:ModelElement.taggedValue>
 			<UML:Diagram.element>
-				<UML:DiagramElement geometry="Left=329;Top=670;Right=467;Bottom=832;" subject="EAID_D85CF2EA_E933_4c0b_A3BB_69C8BE2239E0" seqno="1" style="DUID=FF70F102;HideIcon=0;"/>
-				<UML:DiagramElement geometry="Left=18;Top=606;Right=170;Bottom=859;" subject="EAID_8A825D8F_520C_4aba_A9B6_DE8C7E56784A" seqno="2" style="DUID=B0F9A84E;HideIcon=0;"/>
-				<UML:DiagramElement geometry="Left=16;Top=7;Right=163;Bottom=234;" subject="EAID_CCD7166F_E1FE_4254_A8B4_0978B218683A" seqno="3" style="DUID=A3B1304C;HideIcon=0;"/>
-				<UML:DiagramElement geometry="Left=13;Top=291;Right=188;Bottom=505;" subject="EAID_90407E85_778D_4e4d_9BA2_44B18C6DC559" seqno="4" style="DUID=24982C06;HideIcon=0;"/>
-				<UML:DiagramElement geometry="Left=580;Top=642;Right=761;Bottom=843;" subject="EAID_9994E9D7_3A38_46db_BEDE_C61B1E3F8AAF" seqno="5" style="DUID=EB908852;HideIcon=0;"/>
-				<UML:DiagramElement geometry="Left=579;Top=319;Right=727;Bottom=546;" subject="EAID_637B48B1_EAC1_48f1_BBED_DCB82081B121" seqno="6" style="DUID=6BABAA0C;HideIcon=0;"/>
-				<UML:DiagramElement geometry="Left=583;Top=28;Right=758;Bottom=229;" subject="EAID_DC75347D_2CF7_4da3_AA62_6046C04553F3" seqno="7" style="DUID=BE08D466;HideIcon=0;"/>
-				<UML:DiagramElement geometry="Left=319;Top=433;Right=438;Bottom=604;" subject="EAID_CA018F94_595D_4386_AECB_4AF7FCB79176" seqno="8" style="DUID=5CCD4738;HideIcon=0;"/>
-				<UML:DiagramElement geometry="Left=325;Top=190;Right=464;Bottom=335;" subject="EAID_EFAA5D0A_DD8B_479a_8138_8ECA4136E916" seqno="9" style="DUID=C1FEE78E;HideIcon=0;"/>
-				<UML:DiagramElement geometry="SX=0;SY=0;EX=0;EY=0;EDGE=4;$LLB=CX=122:CY=13:OX=0:OY=0:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:DIR=0:ROT=0;LLT=CX=91:CY=13:OX=17:OY=27:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:DIR=0:ROT=0;LMT=;LMB=;LRT=CX=76:CY=13:OX=2:OY=21:HDN=1:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:DIR=0:ROT=0;LRB=CX=122:CY=13:OX=0:OY=0:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:DIR=0:ROT=0;IRHS=;ILHS=;Path=;" subject="EAID_0C0ECE62_9964_4722_B569_4A6AB1F519D0" style="Mode=3;EOID=5CCD4738;SOID=6BABAA0C;Color=-1;LWidth=0;Hidden=0;"/>
-				<UML:DiagramElement geometry="SX=32;SY=43;EX=32;EY=43;EDGE=4;$LLB=CX=122:CY=13:OX=0:OY=0:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:DIR=0:ROT=0;LLT=CX=96:CY=13:OX=0:OY=0:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:DIR=0:ROT=0;LMT=;LMB=;LRT=CX=54:CY=13:OX=0:OY=0:HDN=1:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:DIR=0:ROT=0;LRB=CX=122:CY=13:OX=0:OY=0:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:DIR=0:ROT=0;IRHS=;ILHS=;Path=;" subject="EAID_B2CFBE33_5C7B_4390_A015_515A24F02118" style="Mode=3;EOID=C1FEE78E;SOID=BE08D466;Color=-1;LWidth=0;Hidden=0;"/>
-				<UML:DiagramElement geometry="SX=-74;SY=76;EX=68;EY=-10;EDGE=4;$LLB=CX=122:CY=13:OX=0:OY=0:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:DIR=0:ROT=0;LLT=CX=86:CY=13:OX=12:OY=-21:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:DIR=0:ROT=0;LMT=;LMB=;LRT=CX=54:CY=13:OX=0:OY=0:HDN=1:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:DIR=0:ROT=0;LRB=CX=122:CY=13:OX=0:OY=0:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:DIR=0:ROT=0;IRHS=;ILHS=;Path=;" subject="EAID_400A0A99_9313_490b_8CA6_850B74B4C7A2" style="Mode=3;EOID=C1FEE78E;SOID=6BABAA0C;Color=-1;LWidth=0;Hidden=0;"/>
-				<UML:DiagramElement geometry="SX=0;SY=0;EX=0;EY=0;EDGE=2;$LLB=CX=122:CY=13:OX=0:OY=0:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:DIR=0:ROT=0;LLT=CX=86:CY=13:OX=-1:OY=-46:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:DIR=0:ROT=0;LMT=;LMB=;LRT=CX=54:CY=13:OX=0:OY=0:HDN=1:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:DIR=0:ROT=0;LRB=CX=122:CY=13:OX=0:OY=0:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:DIR=0:ROT=0;IRHS=;ILHS=;Path=;" subject="EAID_29191150_73E5_4800_A268_5CB599FADE70" style="Mode=3;EOID=C1FEE78E;SOID=B0F9A84E;Color=-1;LWidth=0;Hidden=0;"/>
-				<UML:DiagramElement geometry="SX=0;SY=24;EX=0;EY=24;EDGE=2;$LLB=CX=122:CY=13:OX=0:OY=0:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:DIR=0:ROT=0;LLT=CX=86:CY=13:OX=0:OY=0:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:DIR=0:ROT=0;LMT=;LMB=;LRT=CX=54:CY=13:OX=0:OY=0:HDN=1:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:DIR=0:ROT=0;LRB=CX=122:CY=13:OX=0:OY=0:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:DIR=0:ROT=0;IRHS=;ILHS=;Path=;" subject="EAID_475163B2_CD99_442d_9899_2C5FCF11A436" style="Mode=3;EOID=C1FEE78E;SOID=A3B1304C;Color=-1;LWidth=0;Hidden=0;"/>
-				<UML:DiagramElement geometry="SX=24;SY=18;EX=19;EY=41;EDGE=4;$LLB=CX=122:CY=13:OX=0:OY=0:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:DIR=0:ROT=0;LLT=CX=96:CY=13:OX=42:OY=-39:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:DIR=0:ROT=0;LMT=;LMB=;LRT=CX=54:CY=13:OX=11:OY=-1:HDN=1:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:DIR=0:ROT=0;LRB=CX=122:CY=13:OX=0:OY=0:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:DIR=0:ROT=0;IRHS=;ILHS=;Path=;" subject="EAID_50E4FC06_E427_436c_952A_063ECF2618C6" style="Mode=3;EOID=C1FEE78E;SOID=6BABAA0C;Color=-1;LWidth=0;Hidden=0;"/>
-				<UML:DiagramElement geometry="SX=0;SY=0;EX=0;EY=0;EDGE=2;$LLB=CX=122:CY=13:OX=0:OY=0:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:DIR=0:ROT=0;LLT=CX=86:CY=13:OX=-18:OY=22:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:DIR=0:ROT=0;LMT=;LMB=;LRT=CX=54:CY=13:OX=0:OY=0:HDN=1:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:DIR=0:ROT=0;LRB=CX=122:CY=13:OX=0:OY=0:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:DIR=0:ROT=0;IRHS=;ILHS=;Path=;" subject="EAID_17B7CFFF_1A87_45d2_9A2B_B31BCBF746AA" style="Mode=3;EOID=C1FEE78E;SOID=24982C06;Color=-1;LWidth=0;Hidden=0;"/>
-				<UML:DiagramElement geometry="SX=16;SY=11;EX=16;EY=11;EDGE=4;$LLB=CX=122:CY=13:OX=0:OY=0:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:DIR=0:ROT=0;LLT=CX=86:CY=13:OX=0:OY=0:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:DIR=0:ROT=0;LMT=;LMB=;LRT=CX=54:CY=13:OX=0:OY=0:HDN=1:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:DIR=0:ROT=0;LRB=CX=122:CY=13:OX=0:OY=0:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:DIR=0:ROT=0;IRHS=;ILHS=;Path=;" subject="EAID_B9170EB5_ABAA_41aa_898D_503071163217" style="Mode=3;EOID=C1FEE78E;SOID=BE08D466;Color=-1;LWidth=0;Hidden=0;"/>
-				<UML:DiagramElement geometry="SX=0;SY=0;EX=0;EY=0;EDGE=2;$LLB=CX=122:CY=13:OX=0:OY=0:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:DIR=0:ROT=0;LLT=CX=100:CY=13:OX=8:OY=20:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:DIR=0:ROT=0;LMT=;LMB=;LRT=CX=92:CY=13:OX=0:OY=0:HDN=1:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:DIR=0:ROT=0;LRB=CX=122:CY=13:OX=0:OY=0:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:DIR=0:ROT=0;IRHS=;ILHS=;Path=;" subject="EAID_4690CB6A_A18F_42e5_9166_3057F7AFA31B" style="Mode=3;EOID=FF70F102;SOID=B0F9A84E;Color=-1;LWidth=0;Hidden=0;"/>
-				<UML:DiagramElement geometry="SX=58;SY=-19;EX=27;EY=-19;EDGE=4;$LLB=CX=122:CY=13:OX=0:OY=0:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:DIR=0:ROT=0;LLT=CX=91:CY=13:OX=10:OY=-2:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:DIR=0:ROT=0;LMT=;LMB=;LRT=CX=76:CY=13:OX=18:OY=19:HDN=1:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:DIR=0:ROT=0;LRB=CX=122:CY=13:OX=0:OY=0:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:DIR=0:ROT=0;IRHS=;ILHS=;Path=;" subject="EAID_4EBC20AE_5952_405b_B4CC_8110ADAF41EE" style="Mode=3;EOID=5CCD4738;SOID=EB908852;Color=-1;LWidth=0;Hidden=0;"/>
+				<UML:DiagramElement geometry="Left=597;Top=771;Right=760;Bottom=942;" subject="EAID_74A11565_2684_4304_9BDA_84656AB1A427" seqno="1" style="DUID=3909BBCF;NSL=0;BCol=-1;BFol=-1;LCol=-1;LWth=-1;fontsz=0;bold=0;italic=0;ul=0;charset=0;pitch=0;"/>
+				<UML:DiagramElement geometry="Left=606;Top=34;Right=763;Bottom=240;" subject="EAID_70E71B65_E7DD_469c_BD9A_224DC69D8918" seqno="2" style="DUID=5E2E0500;HideIcon=0;"/>
+				<UML:DiagramElement geometry="Left=299;Top=544;Right=484;Bottom=780;" subject="EAID_D85CF2EA_E933_4c0b_A3BB_69C8BE2239E0" seqno="3" style="DUID=FF70F102;HideIcon=0;"/>
+				<UML:DiagramElement geometry="Left=611;Top=543;Right=763;Bottom=757;" subject="EAID_8A825D8F_520C_4aba_A9B6_DE8C7E56784A" seqno="4" style="DUID=B0F9A84E;HideIcon=0;"/>
+				<UML:DiagramElement geometry="Left=616;Top=286;Right=763;Bottom=513;" subject="EAID_CCD7166F_E1FE_4254_A8B4_0978B218683A" seqno="5" style="DUID=A3B1304C;HideIcon=0;"/>
+				<UML:DiagramElement geometry="Left=13;Top=291;Right=188;Bottom=505;" subject="EAID_90407E85_778D_4e4d_9BA2_44B18C6DC559" seqno="6" style="DUID=24982C06;HideIcon=0;"/>
+				<UML:DiagramElement geometry="Left=13;Top=565;Right=170;Bottom=805;" subject="EAID_637B48B1_EAC1_48f1_BBED_DCB82081B121" seqno="7" style="DUID=6BABAA0C;HideIcon=0;"/>
+				<UML:DiagramElement geometry="Left=13;Top=20;Right=181;Bottom=234;" subject="EAID_DC75347D_2CF7_4da3_AA62_6046C04553F3" seqno="8" style="DUID=BE08D466;HideIcon=0;"/>
+				<UML:DiagramElement geometry="Left=300;Top=307;Right=445;Bottom=491;" subject="EAID_CA018F94_595D_4386_AECB_4AF7FCB79176" seqno="9" style="DUID=5CCD4738;HideIcon=0;"/>
+				<UML:DiagramElement geometry="Left=297;Top=31;Right=441;Bottom=222;" subject="EAID_EFAA5D0A_DD8B_479a_8138_8ECA4136E916" seqno="10" style="DUID=C1FEE78E;HideIcon=0;"/>
+				<UML:DiagramElement geometry="SX=32;SY=43;EX=32;EY=43;EDGE=2;$LLB=CX=122:CY=13:OX=0:OY=0:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:DIR=0:ROT=0;LLT=CX=96:CY=13:OX=-6:OY=0:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:DIR=0:ROT=0;LMT=;LMB=;LRT=CX=54:CY=13:OX=0:OY=0:HDN=1:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:DIR=0:ROT=0;LRB=CX=122:CY=13:OX=0:OY=0:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:DIR=0:ROT=0;IRHS=;ILHS=;Path=;" subject="EAID_B2CFBE33_5C7B_4390_A015_515A24F02118" style="Mode=3;EOID=C1FEE78E;SOID=BE08D466;Color=-1;LWidth=0;Hidden=0;"/>
+				<UML:DiagramElement geometry="SX=16;SY=11;EX=16;EY=11;EDGE=2;$LLB=CX=122:CY=13:OX=0:OY=0:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:DIR=0:ROT=0;LLT=CX=86:CY=13:OX=0:OY=0:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:DIR=0:ROT=0;LMT=;LMB=;LRT=CX=54:CY=13:OX=0:OY=0:HDN=1:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:DIR=0:ROT=0;LRB=CX=122:CY=13:OX=0:OY=0:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:DIR=0:ROT=0;IRHS=;ILHS=;Path=;" subject="EAID_B9170EB5_ABAA_41aa_898D_503071163217" style="Mode=3;EOID=C1FEE78E;SOID=BE08D466;Color=-1;LWidth=0;Hidden=0;"/>
+				<UML:DiagramElement geometry="SX=-16;SY=-26;EX=-16;EY=-26;EDGE=2;$LLB=CX=122:CY=13:OX=0:OY=0:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:DIR=0:ROT=0;LLT=CX=91:CY=13:OX=-31:OY=-55:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:DIR=0:ROT=0;LMT=;LMB=;LRT=CX=76:CY=13:OX=2:OY=21:HDN=1:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:DIR=0:ROT=0;LRB=CX=122:CY=13:OX=0:OY=0:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:DIR=0:ROT=0;IRHS=;ILHS=;Path=;" subject="EAID_0C0ECE62_9964_4722_B569_4A6AB1F519D0" style="Mode=3;EOID=5CCD4738;SOID=6BABAA0C;Color=-1;LWidth=0;Hidden=0;"/>
+				<UML:DiagramElement geometry="SX=-11;SY=-18;EX=-11;EY=-18;EDGE=2;$LLB=CX=122:CY=13:OX=0:OY=0:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:DIR=0:ROT=0;LLT=CX=86:CY=13:OX=-18:OY=22:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:DIR=0:ROT=0;LMT=;LMB=;LRT=CX=54:CY=13:OX=0:OY=0:HDN=1:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:DIR=0:ROT=0;LRB=CX=122:CY=13:OX=0:OY=0:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:DIR=0:ROT=0;IRHS=;ILHS=;Path=;" subject="EAID_17B7CFFF_1A87_45d2_9A2B_B31BCBF746AA" style="Mode=3;EOID=C1FEE78E;SOID=24982C06;Color=-1;LWidth=0;Hidden=0;"/>
 				<UML:DiagramElement geometry="SX=0;SY=0;EX=0;EY=0;EDGE=2;$LLB=CX=122:CY=13:OX=0:OY=0:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:DIR=0:ROT=0;LLT=CX=91:CY=13:OX=-16:OY=3:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:DIR=0:ROT=0;LMT=;LMB=;LRT=CX=76:CY=13:OX=0:OY=0:HDN=1:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:DIR=0:ROT=0;LRB=CX=122:CY=13:OX=0:OY=0:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:DIR=0:ROT=0;IRHS=;ILHS=;Path=;" subject="EAID_AD574D4B_C24D_49c7_8887_BBA8DBBB6617" style="Mode=3;EOID=5CCD4738;SOID=24982C06;Color=-1;LWidth=0;Hidden=0;"/>
-				<UML:DiagramElement geometry="SX=4;SY=-5;EX=4;EY=-5;EDGE=2;$LLB=CX=122:CY=13:OX=0:OY=0:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:DIR=0:ROT=0;LLT=CX=91:CY=13:OX=11:OY=28:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:DIR=0:ROT=0;LMT=;LMB=;LRT=CX=76:CY=13:OX=0:OY=0:HDN=1:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:DIR=0:ROT=0;LRB=CX=122:CY=13:OX=0:OY=0:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:DIR=0:ROT=0;IRHS=;ILHS=;Path=;" subject="EAID_0129E526_3CD6_4f80_BAA4_9CEDB4A8DC8C" style="Mode=3;EOID=5CCD4738;SOID=A3B1304C;Color=-1;LWidth=0;Hidden=0;"/>
-				<UML:DiagramElement geometry="SX=0;SY=0;EX=0;EY=0;EDGE=2;$LLB=CX=122:CY=13:OX=0:OY=0:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:DIR=0:ROT=0;LLT=CX=91:CY=13:OX=23:OY=-35:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:DIR=0:ROT=0;LMT=;LMB=;LRT=CX=76:CY=13:OX=0:OY=0:HDN=1:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:DIR=0:ROT=0;LRB=CX=122:CY=13:OX=0:OY=0:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:DIR=0:ROT=0;IRHS=;ILHS=;Path=;" subject="EAID_6D60ED2F_7371_4dac_A254_01EF21EB32F5" style="Mode=3;EOID=5CCD4738;SOID=B0F9A84E;Color=-1;LWidth=0;Hidden=0;"/>
-				<UML:DiagramElement geometry="SX=74;SY=68;EX=74;EY=68;EDGE=1;$LLB=CX=122:CY=13:OX=0:OY=0:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:DIR=0:ROT=0;LLT=CX=118:CY=13:OX=0:OY=0:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:DIR=0:ROT=0;LMT=;LMB=;LRT=CX=103:CY=13:OX=0:OY=0:HDN=1:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:DIR=0:ROT=0;LRB=CX=122:CY=13:OX=0:OY=0:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:DIR=0:ROT=0;IRHS=;ILHS=;Path=;" subject="EAID_9EF3BDBB_3E17_4ed8_AB80_DC79EE9244A9" style="Mode=3;EOID=BE08D466;SOID=EB908852;Color=-1;LWidth=0;Hidden=0;"/>
-				<UML:DiagramElement geometry="SX=-67;SY=90;EX=-50;EY=-92;EDGE=1;$LLB=CX=122:CY=13:OX=0:OY=0:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:DIR=0:ROT=0;LLT=CX=106:CY=13:OX=0:OY=0:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:DIR=0:ROT=0;LMT=;LMB=;LRT=CX=91:CY=13:OX=0:OY=0:HDN=1:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:DIR=0:ROT=0;LRB=CX=122:CY=13:OX=0:OY=0:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:DIR=0:ROT=0;IRHS=;ILHS=;Path=;" subject="EAID_6674B50E_FDD0_42cc_9198_5425707F5B9A" style="Mode=3;EOID=6BABAA0C;SOID=EB908852;Color=-1;LWidth=0;Hidden=0;"/>
-				<UML:DiagramElement geometry="SX=57;SY=-8;EX=61;EY=-8;EDGE=1;$LLB=CX=122:CY=13:OX=0:OY=0:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:DIR=0:ROT=0;LLT=CX=105:CY=13:OX=0:OY=0:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:DIR=0:ROT=0;LMT=;LMB=;LRT=CX=69:CY=13:OX=0:OY=0:HDN=1:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:DIR=0:ROT=0;LRB=CX=122:CY=13:OX=0:OY=0:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:DIR=0:ROT=0;IRHS=;ILHS=;Path=;" subject="EAID_14A4663E_DA95_4f93_AFC2_8F86684AC609" style="Mode=3;EOID=C1FEE78E;SOID=FF70F102;Color=-1;LWidth=0;Hidden=0;"/>
+				<UML:DiagramElement geometry="SX=0;SY=24;EX=0;EY=24;EDGE=4;$LLB=CX=122:CY=13:OX=0:OY=0:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:DIR=0:ROT=0;LLT=CX=86:CY=13:OX=31:OY=-35:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:DIR=0:ROT=0;LMT=;LMB=;LRT=CX=54:CY=13:OX=0:OY=0:HDN=1:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:DIR=0:ROT=0;LRB=CX=122:CY=13:OX=0:OY=0:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:DIR=0:ROT=0;IRHS=;ILHS=;Path=;" subject="EAID_475163B2_CD99_442d_9899_2C5FCF11A436" style="Mode=3;EOID=C1FEE78E;SOID=A3B1304C;Color=-1;LWidth=0;Hidden=0;"/>
+				<UML:DiagramElement geometry="SX=4;SY=-5;EX=4;EY=-5;EDGE=4;$LLB=CX=122:CY=13:OX=0:OY=0:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:DIR=0:ROT=0;LLT=CX=91:CY=13:OX=9:OY=2:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:DIR=0:ROT=0;LMT=;LMB=;LRT=CX=76:CY=13:OX=0:OY=0:HDN=1:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:DIR=0:ROT=0;LRB=CX=122:CY=13:OX=0:OY=0:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:DIR=0:ROT=0;IRHS=;ILHS=;Path=;" subject="EAID_0129E526_3CD6_4f80_BAA4_9CEDB4A8DC8C" style="Mode=3;EOID=5CCD4738;SOID=A3B1304C;Color=-1;LWidth=0;Hidden=0;"/>
+				<UML:DiagramElement geometry="SX=-1;SY=-50;EX=72;EY=-88;EDGE=4;$LLB=CX=122:CY=13:OX=0:OY=0:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:DIR=0:ROT=0;LLT=CX=86:CY=13:OX=-31:OY=-70:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:DIR=0:ROT=0;LMT=;LMB=;LRT=CX=54:CY=13:OX=0:OY=0:HDN=1:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:DIR=0:ROT=0;LRB=CX=122:CY=13:OX=0:OY=0:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:DIR=0:ROT=0;IRHS=;ILHS=;Path=;" subject="EAID_29191150_73E5_4800_A268_5CB599FADE70" style="Mode=3;EOID=C1FEE78E;SOID=B0F9A84E;Color=-1;LWidth=0;Hidden=0;"/>
+				<UML:DiagramElement geometry="SX=-1;SY=-23;EX=-1;EY=-23;EDGE=4;$LLB=CX=122:CY=13:OX=0:OY=0:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:DIR=0:ROT=0;LLT=CX=91:CY=13:OX=-3:OY=-2:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:DIR=0:ROT=0;LMT=;LMB=;LRT=CX=76:CY=13:OX=0:OY=0:HDN=1:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:DIR=0:ROT=0;LRB=CX=122:CY=13:OX=0:OY=0:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:DIR=0:ROT=0;IRHS=;ILHS=;Path=;" subject="EAID_6D60ED2F_7371_4dac_A254_01EF21EB32F5" style="Mode=3;EOID=5CCD4738;SOID=B0F9A84E;Color=-1;LWidth=0;Hidden=0;"/>
+				<UML:DiagramElement geometry="SX=-75;SY=-12;EX=0;EY=0;EDGE=4;$LLB=CX=122:CY=13:OX=0:OY=0:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:DIR=0:ROT=0;LLT=CX=100:CY=13:OX=9:OY=26:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:DIR=0:ROT=0;LMT=;LMB=;LRT=CX=92:CY=13:OX=0:OY=0:HDN=1:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:DIR=0:ROT=0;LRB=CX=122:CY=13:OX=0:OY=0:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:DIR=0:ROT=0;IRHS=;ILHS=;Path=;" subject="EAID_4690CB6A_A18F_42e5_9166_3057F7AFA31B" style="Mode=3;EOID=FF70F102;SOID=B0F9A84E;Color=-1;LWidth=0;Hidden=0;"/>
+				<UML:DiagramElement geometry="SX=-92;SY=-17;EX=-71;EY=-90;EDGE=4;$LLB=CX=122:CY=13:OX=0:OY=0:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:DIR=0:ROT=0;LLT=CX=86:CY=13:OX=15:OY=24:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:DIR=0:ROT=0;LMT=;LMB=;LRT=CX=69:CY=13:OX=0:OY=0:HDN=1:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:DIR=0:ROT=0;LRB=CX=122:CY=13:OX=0:OY=0:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:DIR=0:ROT=0;IRHS=;ILHS=;Path=281:-229$;" subject="EAID_14A4663E_DA95_4f93_AFC2_8F86684AC609" style="Mode=3;EOID=C1FEE78E;SOID=FF70F102;Color=-1;LWidth=0;Hidden=0;"/>
+				<UML:DiagramElement geometry="SX=-77;SY=13;EX=-3;EY=2;EDGE=4;$LLB=CX=122:CY=13:OX=0:OY=0:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:DIR=0:ROT=0;LLT=CX=120:CY=13:OX=16:OY=0:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:DIR=0:ROT=0;LMT=;LMB=;LRT=CX=69:CY=13:OX=0:OY=0:HDN=1:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:DIR=0:ROT=0;LRB=CX=122:CY=13:OX=0:OY=0:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:DIR=0:ROT=0;IRHS=;ILHS=;Path=;" subject="EAID_A0FFA5D2_D1D4_4e03_AD96_B6D340BE480E" style="Mode=3;EOID=C1FEE78E;SOID=5E2E0500;Color=-1;LWidth=0;Hidden=0;"/>
+				<UML:DiagramElement geometry="SX=-77;SY=43;EX=10;EY=32;EDGE=4;$LLB=CX=122:CY=13:OX=0:OY=0:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:DIR=0:ROT=0;LLT=CX=105:CY=13:OX=0:OY=0:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:DIR=0:ROT=0;LMT=;LMB=;LRT=CX=69:CY=13:OX=0:OY=0:HDN=1:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:DIR=0:ROT=0;LRB=CX=122:CY=13:OX=0:OY=0:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:DIR=0:ROT=0;IRHS=;ILHS=;Path=;" subject="EAID_E76BE468_CBB3_458f_98B7_EF4750F31E0A" style="Mode=3;EOID=C1FEE78E;SOID=5E2E0500;Color=-1;LWidth=0;Hidden=0;"/>
+				<UML:DiagramElement geometry="SX=-77;SY=74;EX=24;EY=63;EDGE=4;$LLB=CX=122:CY=13:OX=0:OY=0:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:DIR=0:ROT=0;LLT=CX=104:CY=13:OX=8:OY=4:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:DIR=0:ROT=0;LMT=;LMB=;LRT=CX=69:CY=13:OX=0:OY=0:HDN=1:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:DIR=0:ROT=0;LRB=CX=122:CY=13:OX=0:OY=0:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:DIR=0:ROT=0;IRHS=;ILHS=;Path=;" subject="EAID_ECF0C606_5FB4_4c73_87D4_7C41D7626997" style="Mode=3;EOID=C1FEE78E;SOID=5E2E0500;Color=-1;LWidth=0;Hidden=0;"/>
 			</UML:Diagram.element>
 		</UML:Diagram>
 	</XMI.content>
